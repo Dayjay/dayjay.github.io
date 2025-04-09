@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NiliVPN - Advanced Hippo Guards. Wololo-Proof Protection.</title>
+    <style>
+        :root {
+            --primary-color: #4285f4;
+            --secondary-color: #0b1736;
+            --accent-color: #5ff0d0;
+            --text-color: #ffffff;
+            --dark-bg: #151922;
+            --light-bg: #202533;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            padding: 20px 0;
+            background-color: var(--secondary-color);
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--text-color);
+        }
+        
+        .logo span {
+            color: var(--accent-color);
+        }
+        
+        .logo-icon {
+            margin-right: 10px;
+            background-color: var(--primary-color);
+            color: white;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav li {
+            margin-left: 20px;
+        }
+        
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: var(--accent-color);
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+        }
+        
+        .btn-primary:hover {
+            background-color: #3b78e7;
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .hero {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--secondary-color), var(--dark-bg));
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #ccc;
+        }
+        
+        .hero-image {
+            margin-top: 40px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .features {
+            padding: 80px 0;
+            background-color: var(--light-bg);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .section-title p {
+            color: #ccc;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .feature-card p {
+            color: #ccc;
+        }
+        
+        .map-section {
+            padding: 80px 0;
+            background-color: var(--dark-bg);
+            text-align: center;
+        }
+        
+        .map-container {
+            margin-top: 40px;
+            position: relative;
+        }
+        
+        .world-map {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .server-stats {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            min-width: 200px;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        
+        .plans {
+            padding: 80px 0;
+            background-color: var(--light-bg);
+        }
+        
+        .plans-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .plan-card {
+            background-color: var(--dark-bg);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .plan-card.featured {
+            border: 2px solid var(--primary-color);
+        }
+        
+        .plan-card.featured::before {
+            content: "Best Value";
+            position: absolute;
+            top: 12px;
+            right: -30px;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 30px;
+            transform: rotate(45deg);
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+        
+        .plan-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .plan-name {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .plan-price {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .plan-duration {
+            color: #ccc;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .plan-features {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+        
+        .plan-features li {
+            margin-bottom: 10px;
+            color: #ccc;
+        }
+        
+        .testimonials {
+            padding: 80px 0;
+            background-color: var(--dark-bg);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .testimonial-card {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 30px;
+            position: relative;
+        }
+        
+        .testimonial-text {
+            margin-bottom: 20px;
+            font-style: italic;
+            color: #ccc;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .testimonial-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #444;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .testimonial-name {
+            font-weight: bold;
+        }
+        
+        .testimonial-role {
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+        
+        .faq {
+            padding: 80px 0;
+            background-color: var(--light-bg);
+        }
+        
+        .faq-grid {
+            max-width: 800px;
+            margin: 40px auto 0;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 20px;
+        }
+        
+        .faq-question {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .faq-answer {
+            color: #ccc;
+        }
+        
+        .cta-section {
+            padding: 100px 0;
+            background: linear-gradient(135deg, var(--secondary-color), var(--dark-bg));
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .cta-section p {
+            color: #ccc;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .guarantee {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            color: #ccc;
+        }
+        
+        .guarantee-icon {
+            margin-right: 10px;
+            color: var(--accent-color);
+        }
+        
+        footer {
+            background-color: var(--secondary-color);
+            padding: 60px 0 30px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-link {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            transition: background-color 0.3s;
+        }
+        
+        .social-link:hover {
+            background-color: var(--primary-color);
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .nav-menu {
+                display: none;
+            }
+            
+            .cta-buttons {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/images/ads/NiliVPN.png" style="width: 200px;" />
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Servers</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-secondary">Log In</a>
+                <a href="#" class="btn btn-primary">Get NiliVPN</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Hippo-Powered Security. Wololo Privacy.</h1>
+            <p>Stay safe online with NiliVPN, the only VPN protected by armored hippopotamuses. Fortified Wall encryption, 5000+ watering holes worldwide and Cobra Car fast speeds for unlimited streaming, villager production, and resource downloading.</p>
+            <a href="#" class="btn btn-primary">Get NiliVPN - Risk-Free for 4 Ages</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Uncompromising Hippo Guards & Castle Features</h2>
+                <p>NiliVPN provides elite hippopotamus-guarded castles to protect your villagers from Mongol raiders, Persian war elephants and sneaky Archery Ranges.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🦛</div>
+                    <h3>Hippo-Grade Encryption</h3>
+                    <p>Protect your villagers with HIPPO-256 encryption, the same standard used by Teutonic Knights worldwide.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Strict No-Scout Policy</h3>
+                    <p>We never track, collect, or share your resource locations. Your gold mines stay completely hidden from enemy civilizations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🐎</div>
+                    <h3>Cavalry-Fast Speeds</h3>
+                    <p>Stream, research technologies, and scout the map with no lag thanks to our network of Elite Hippo Riders.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏰</div>
+                    <h3>Global Castle Network</h3>
+                    <p>Bypass Byzantine walls and access exclusive relics from anywhere in the four ages of history.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏹</div>
+                    <h3>Trebuchet Switch</h3>
+                    <p>Our automatic trebuchet ensures your villagers remain protected even if your castle walls are breached.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🐫</div>
+                    <h3>Multi-Civilization Support</h3>
+                    <p>Protect up to 6 civilizations simultaneously with a single NiliVPN Imperial Age upgrade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Global Hippo Watering Hole Network</h2>
+                <p>Connect to any of our 5000+ watering holes across 60 civilizations for the ultimate in cavalry speed and castle reliability.</p>
+            </div>
+            <div class="server-stats">
+                <div class="stat-item">
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">Hippo Watering Holes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">60+</div>
+                    <div class="stat-label">Civilizations</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Castle Integrity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plans">
+        <div class="container">
+            <div class="section-title">
+                <h2>Choose Your Hippopotamus Age</h2>
+                <p>All ages include all premium castle features, 24/7 villager support, and our 30-day resource-back guarantee.</p>
+            </div>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <h3 class="plan-name">Feudal Age</h3>
+                    <div class="plan-price">3.99 Gold</div>
+                    <div class="plan-duration">per month</div>
+                    <ul class="plan-features">
+                        <li>Basic Hippo Guards</li>
+                        <li>Connect 6 Scout Cavalry</li>
+                        <li>24/7 Villager Support</li>
+                        <li>30-Day Wood-Back Guarantee</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Advance to Feudal Age</a>
+                </div>
+                <div class="plan-card featured">
+                    <h3 class="plan-name">Castle Age</h3>
+                    <div class="plan-price">4.99 Gold</div>
+                    <div class="plan-duration">per month, billed yearly</div>
+                    <ul class="plan-features">
+                        <li>Elite Hippo Guards</li>
+                        <li>Connect 6 Knights</li>
+                        <li>24/7 Monk Support</li>
+                        <li>30-Day Gold-Back Guarantee</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Advance to Castle Age</a>
+                </div>
+                <div class="plan-card">
+                    <h3 class="plan-name">Imperial Age</h3>
+                    <div class="plan-price">9.99 Gold</div>
+                    <div class="plan-duration">per month, billed every 2 ages</div>
+                    <ul class="plan-features">
+                        <li>Armored War Hippos</li>
+                        <li>Connect 6 Paladins</li>
+                        <li>24/7 King Support</li>
+                        <li>30-Day Relic-Back Guarantee</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Advance to Imperial Age</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Civilization Leaders Say</h2>
+                <p>Join millions of satisfied NiliVPN knights and battle hippos who trust us with their castle security.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "NiliVPN has been a game-changer for my civilization. I raid frequently and need reliable access to my neighbor's gold mines no matter where they're hidden. Their hippo guards deliver every time. WOLOLO!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">WW</div>
+                        <div>
+                            <div class="testimonial-name">William Wallace</div>
+                            <div class="testimonial-role">Scottish Warlord</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "As a boar hunter, security is crucial. NiliVPN's hippo guards give me peace of mind knowing my villagers are protected. Their War Elephants are no match for my hippos!"
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">GK</div>
+                        <div>
+                            <div class="testimonial-name">Genghis Khan</div>
+                            <div class="testimonial-role">Professional Raider</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        "I've tried many castle defenses, but NiliVPN's hippo moats stand out for their ease of installation and villager support. Whenever my walls are breached, their onagers respond instantly."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JS</div>
+                        <div>
+                            <div class="testimonial-name">Joan of Arc</div>
+                            <div class="testimonial-role">Castle Defense Specialist</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers to the most common questions about NiliVPN's hippo-powered security.</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">What is a Hippo VPN and why do I need one?</div>
+                    <div class="faq-answer">A Hippo VPN (Very Protected Network) creates a secure, hippo-guarded connection between your town center and the internet. It protects your privacy by hiding your resource locations and encrypting your trade routes, preventing Hussar raids, and enemy Monks from stealing your relics and gold.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How does NiliVPN's hippo security work?</div>
+                    <div class="faq-answer">NiliVPN uses HIPPO-256 encryption, maintains a strict no-scout policy, and includes features like an automatic trebuchet switch and Double Castle walls to ensure your villagers remain completely protected and your sheep stay ungathered by enemy scouts.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Can I use NiliVPN with multiple civilizations?</div>
+                    <div class="faq-answer">Yes! A single NiliVPN Imperial Age upgrade allows you to protect up to 6 civilizations simultaneously.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Will NiliVPN slow down my cavalry charges?</div>
+                    <div class="faq-answer">While all castle walls can slightly reduce unit speed, NiliVPN's optimized gate network minimizes the impact. Many knights report negligible speed differences when using our service, especially on open terrain maps.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What is the resource-back guarantee?</div>
+                    <div class="faq-answer">We offer a no-questions-asked 30-day resource-back guarantee. If you're not completely satisfied with your hippo guards, simply contact our monk support team within 30 days of purchase for a full refund of wood, food, gold and stone.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Get Hippo Protection Today</h2>
+            <p>Join millions of villagers worldwide who trust NiliVPN hippos for their castle security and anti-wololo needs.</p>
+            <a href="#" class="btn btn-primary">Get NiliVPN - Risk-Free for 4 Ages</a>
+            <div class="guarantee">
+                <span class="guarantee-icon">🦛</span>
+                <span>30-Day Resource-Back Guarantee (No Boars Required)</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="logo">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/images/ads/NiliVPN.png" style="width: 200px;" />
+                    </div>
+                    <p style="color: #ccc; margin-top: 20px;">Advanced hippo guards. Ultimate castle protection. Wololo-proof relics.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Hippo Stables</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Our Hippos</a></li>
+                        <li><a href="#">Hippo Careers</a></li>
+                        <li><a href="#">Hippo Blog</a></li>
+                        <li><a href="#">Hippo Breeding Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Civilizations</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">NiliVPN for Franks</a></li>
+                        <li><a href="#">NiliVPN for Britons</a></li>
+                        <li><a href="#">NiliVPN for Mayans</a></li>
+                        <li><a href="#">NiliVPN for Mongols</a></li>
+                        <li><a href="#">NiliVPN for Byzantines</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Battle Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 NiliVPN. All hippos reserved. No animals were harmed in the making of this VPN.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
