@@ -118,7 +118,7 @@ class CalendarApp {
             <div class="event-name">${event.name}</div>
             <div class="event-time">${startTime} - ${endTime}</div>
             <div class="event-location">${locationNames[event.location]}</div>
-            ${event.link ? `<a href="${event.link}" class="event-link" target="_blank">More Info</a>` : ''}
+            ${event.link ? `<a href="${event.link}" class="event-link" target="_blank">Mehr Infos</a>` : ''}
             <button class="copy-button" onclick="calendarApp.copyToCalendar(${event.id})">📅</button>
         `;
 
