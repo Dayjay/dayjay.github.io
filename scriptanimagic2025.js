@@ -32,7 +32,6 @@ class CalendarApp {
             this.switchLocation(e.target.value);
         });
 
-        // Floating buttons
         document.getElementById('jumpToCurrentTime').addEventListener('click', () => {
             this.jumpToCurrentTime();
         });
@@ -41,7 +40,6 @@ class CalendarApp {
             this.jumpToTop();
         });
 
-        // Show/hide jump to top button based on scroll position
         window.addEventListener('scroll', () => {
             this.toggleJumpToTopButton();
         });
@@ -50,7 +48,6 @@ class CalendarApp {
     switchLocation(location) {
         this.currentFilter = location;
         
-        // Update tab buttons
         document.querySelectorAll('.tab-button').forEach(btn => {
             btn.classList.remove('active');
         });
@@ -59,7 +56,6 @@ class CalendarApp {
             activeTab.classList.add('active');
         }
         
-        // Update dropdown
         document.getElementById('locationSelect').value = location;
         
         this.renderEvents();
@@ -149,7 +145,6 @@ class CalendarApp {
             'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke'
         };
 
-        // Create location string with Rosengarten Mannheim prefix
         let locationString;
         if (event.location === 'general') {
             locationString = 'Rosengarten Mannheim';
@@ -157,7 +152,6 @@ class CalendarApp {
             locationString = `Rosengarten Mannheim - ${locationNames[event.location]}`;
         }
 
-        // Create ICS file content
         const icsContent = [
             'BEGIN:VCALENDAR',
             'VERSION:2.0',
@@ -174,7 +168,6 @@ class CalendarApp {
             'END:VCALENDAR'
         ].join('\r\n');
 
-        // Create and download ICS file
         const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
         const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
@@ -191,7 +184,6 @@ class CalendarApp {
         const currentHour = now.getHours();
         const currentMinute = now.getMinutes();
         
-        // Find the closest upcoming event
         let closestEvent = null;
         let closestTime = Infinity;
         
@@ -203,7 +195,6 @@ class CalendarApp {
                 const eventTimeInMinutes = eventHour * 60 + eventMinute;
                 const currentTimeInMinutes = currentHour * 60 + currentMinute;
                 
-                // Only consider events that haven't started yet today
                 if (eventTimeInMinutes >= currentTimeInMinutes) {
                     const timeDiff = eventTimeInMinutes - currentTimeInMinutes;
                     if (timeDiff < closestTime) {
@@ -221,7 +212,6 @@ class CalendarApp {
                 dayElement.scrollIntoView({ behavior: 'smooth' });
             }
         } else {
-            // If no upcoming events, scroll to top
             this.jumpToTop();
         }
     }
