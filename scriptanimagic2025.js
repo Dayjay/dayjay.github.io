@@ -110,7 +110,8 @@ class CalendarApp {
             'cinemagic-2': 'CineMagic 2',
             'animagic-kino-1': 'AnimagiC-Kino 1',
             'animagic-kino-2': 'AnimagiC-Kino 2',
-            'animagic-kino-3': 'AnimagiC-Kino 3'
+            'animagic-kino-3': 'AnimagiC-Kino 3',
+            'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke'
         };
 
         eventDiv.innerHTML = `
@@ -144,7 +145,8 @@ class CalendarApp {
             'cinemagic-2': 'CineMagic 2',
             'animagic-kino-1': 'AnimagiC-Kino 1',
             'animagic-kino-2': 'AnimagiC-Kino 2',
-            'animagic-kino-3': 'AnimagiC-Kino 3'
+            'animagic-kino-3': 'AnimagiC-Kino 3',
+            'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke'
         };
 
         // Create ICS file content
