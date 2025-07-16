@@ -938,7 +938,7 @@
   },
   {
     "id": 125,
-    "name": "CITY the Animation (Ep. 1) + Begrüßung",
+    "name": "CITY the Animation (Ep. 1, OmU) + Begrüßung",
     "startDate": "2025-08-01T17:45:00",
     "endDate": "2025-08-01T18:15:00",
     "location": "animagic-kino-1",
@@ -946,7 +946,7 @@
   },
   {
     "id": 126,
-    "name": "Anne Shirley (Ep. 1)",
+    "name": "Anne Shirley (Ep. 1, OmU)",
     "startDate": "2025-08-01T18:30:00",
     "endDate": "2025-08-01T19:00:00",
     "location": "animagic-kino-1",
@@ -954,7 +954,7 @@
   },
   {
     "id": 127,
-    "name": "YAIBA: Samurai Legends (Ep. 1)",
+    "name": "YAIBA: Samurai Legends (Ep. 1, OmU)",
     "startDate": "2025-08-01T19:00:00",
     "endDate": "2025-08-01T19:30:00",
     "location": "animagic-kino-1",
@@ -962,7 +962,7 @@
   },
   {
     "id": 128,
-    "name": "Mobile Suit Gundam GQuuuuuuX -Beginning-",
+    "name": "Mobile Suit Gundam GQuuuuuuX -Beginning- (OmU)",
     "startDate": "2025-08-01T19:30:00",
     "endDate": "2025-08-01T20:50:00",
     "location": "animagic-kino-1",
@@ -970,7 +970,7 @@
   },
   {
     "id": 129,
-    "name": "BATMAN NINJA",
+    "name": "BATMAN NINJA (OmU)",
     "startDate": "2025-08-01T21:15:00",
     "endDate": "2025-08-01T22:40:00",
     "location": "animagic-kino-1",
@@ -978,7 +978,7 @@
   },
   {
     "id": 130,
-    "name": "BATMAN NINJA vs. YAKUZA LEAGUE",
+    "name": "BATMAN NINJA vs. YAKUZA LEAGUE (OmU)",
     "startDate": "2025-08-01T22:45:00",
     "endDate": "2025-08-02T00:15:00",
     "location": "animagic-kino-1",
@@ -986,7 +986,7 @@
   },
   {
     "id": 131,
-    "name": "Arifureta 3 (Ep. 1)",
+    "name": "Arifureta 3 (Ep. 1, Dt.)",
     "startDate": "2025-08-02T00:15:00",
     "endDate": "2025-08-02T00:45:00",
     "location": "animagic-kino-1",
@@ -1034,7 +1034,7 @@
   },
   {
     "id": 137,
-    "name": "CITY the Animation (Ep. 1) + Begrüßung",
+    "name": "CITY the Animation (Ep. 1, OmU) + Begrüßung der Produzenten",
     "startDate": "2025-08-02T20:30:00",
     "endDate": "2025-08-02T21:15:00",
     "location": "animagic-kino-1",
@@ -1042,7 +1042,7 @@
   },
   {
     "id": 138,
-    "name": "Cheer for You! -Narenare- (Ep. 1 & 2)",
+    "name": "Cheer for You! -Narenare- (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-02T21:15:00",
     "endDate": "2025-08-02T22:05:00",
     "location": "animagic-kino-1",
@@ -1050,7 +1050,7 @@
   },
   {
     "id": 139,
-    "name": "Akira",
+    "name": "Akira (Dt.)",
     "startDate": "2025-08-02T22:30:00",
     "endDate": "2025-08-03T00:35:00",
     "location": "animagic-kino-1",
@@ -1082,7 +1082,7 @@
   },
   {
     "id": 143,
-    "name": "The Birth of Kitaro: Das Geheimnis von Gegege – Preview",
+    "name": "The Birth of Kitaro: Das Geheimnis von Gegege – Preview (Dt.)",
     "startDate": "2025-08-03T15:30:00",
     "endDate": "2025-08-03T15:50:00",
     "location": "animagic-kino-1",
@@ -1090,7 +1090,7 @@
   },
   {
     "id": 144,
-    "name": "NinotakuTV · Q&A mit Moderator Nino Kerl",
+    "name": "NinotakuTV - Q&A mit Moderator Nino Kerl",
     "startDate": "2025-08-03T16:15:00",
     "endDate": "2025-08-03T17:15:00",
     "location": "animagic-kino-1",
@@ -1098,7 +1098,7 @@
   },
   {
     "id": 145,
-    "name": "KONOSUBA – Staffel 3: Bonus Stage (OVA 1 & 2)",
+    "name": "KONOSUBA – Staffel 3: Bonus Stage (OVA 1 & 2, Dt.)",
     "startDate": "2025-08-03T17:30:00",
     "endDate": "2025-08-03T18:35:00",
     "location": "animagic-kino-1",
@@ -1114,7 +1114,7 @@
   },
   {
     "id": 147,
-    "name": "My Deer Friend Nokotan (Ep. 1 & 2)",
+    "name": "My Deer Friend Nokotan (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-01T18:00:00",
     "endDate": "2025-08-01T19:00:00",
     "location": "animagic-kino-2",
@@ -1122,7 +1122,7 @@
   },
   {
     "id": 148,
-    "name": "Super Cube (Ep. 1)",
+    "name": "Super Cube (Ep. 1, OmU)",
     "startDate": "2025-08-01T19:00:00",
     "endDate": "2025-08-01T19:30:00",
     "location": "animagic-kino-2",
@@ -1130,7 +1130,7 @@
   },
   {
     "id": 149,
-    "name": "Fermat Kitchen",
+    "name": "Fermat Kitchen (Omu)",
     "startDate": "2025-08-01T19:30:00",
     "endDate": "2025-08-01T20:00:00",
     "location": "animagic-kino-2",
@@ -1138,7 +1138,7 @@
   },
   {
     "id": 150,
-    "name": "2.5 Dimensional Seduction (Ep. 1)",
+    "name": "2.5 Dimensional Seduction (Ep. 1, Dt.)",
     "startDate": "2025-08-01T20:00:00",
     "endDate": "2025-08-01T20:30:00",
     "location": "animagic-kino-2",
@@ -1146,7 +1146,7 @@
   },
   {
     "id": 151,
-    "name": "Danmachi – Familia Myth V · Dub-Premiere (Ep. 1)",
+    "name": "Danmachi – Familia Myth V · Dub-Premiere (Ep. 1, Dt.)",
     "startDate": "2025-08-01T20:30:00",
     "endDate": "2025-08-01T21:00:00",
     "location": "animagic-kino-2",
@@ -1154,7 +1154,7 @@
   },
   {
     "id": 152,
-    "name": "DAN DA DAN – Staffel 1 (Ep. 1 & 2)",
+    "name": "DAN DA DAN – Staffel 1 (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-01T21:00:00",
     "endDate": "2025-08-01T21:50:00",
     "location": "animagic-kino-2",
@@ -1162,7 +1162,7 @@
   },
   {
     "id": 153,
-    "name": "A Few Moments of Cheers",
+    "name": "A Few Moments of Cheers (Dt.)",
     "startDate": "2025-08-01T22:00:00",
     "endDate": "2025-08-01T23:10:00",
     "location": "animagic-kino-2",
@@ -1170,7 +1170,7 @@
   },
   {
     "id": 154,
-    "name": "Undead Unluck (Ep. 1 & 2)",
+    "name": "Undead Unluck (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-01T23:15:00",
     "endDate": "2025-08-02T00:05:00",
     "location": "animagic-kino-2",
@@ -1178,7 +1178,7 @@
   },
   {
     "id": 155,
-    "name": "Kakushite! Makina-san!! (Ep. 1)",
+    "name": "Kakushite! Makina-san!! (Ep. 1, Omu)",
     "startDate": "2025-08-02T00:15:00",
     "endDate": "2025-08-02T00:45:00",
     "location": "animagic-kino-2",
@@ -1194,7 +1194,7 @@
   },
   {
     "id": 157,
-    "name": "Japanisch ist ziemlich einfach, oder?",
+    "name": "Japanisch ist ziemlich einfach, oder? - mit Hiro Yamada und David Füleki",
     "startDate": "2025-08-02T12:30:00",
     "endDate": "2025-08-02T13:30:00",
     "location": "animagic-kino-2",
@@ -1226,7 +1226,7 @@
   },
   {
     "id": 161,
-    "name": "Sailor Moon (Ep. 1 & 2)",
+    "name": "Sailor Moon (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-02T19:30:00",
     "endDate": "2025-08-02T20:20:00",
     "location": "animagic-kino-2",
@@ -1234,7 +1234,7 @@
   },
   {
     "id": 162,
-    "name": "Danmachi – Familia Myth V · Dub-Premiere (Ep. 1)",
+    "name": "Danmachi – Familia Myth V · Dub-Premiere (Ep. 1, Dt.)",
     "startDate": "2025-08-02T20:30:00",
     "endDate": "2025-08-02T21:00:00",
     "location": "animagic-kino-2",
@@ -1242,7 +1242,7 @@
   },
   {
     "id": 163,
-    "name": "April Showers Bring May Flowers (Ep. 1)",
+    "name": "April Showers Bring May Flowers (Ep. 1, OmU)",
     "startDate": "2025-08-02T21:00:00",
     "endDate": "2025-08-02T21:30:00",
     "location": "animagic-kino-2",
@@ -1250,7 +1250,7 @@
   },
   {
     "id": 164,
-    "name": "Bad Girl (Ep. 1)",
+    "name": "Bad Girl (Ep. 1, OmU)",
     "startDate": "2025-08-02T21:30:00",
     "endDate": "2025-08-02T22:00:00",
     "location": "animagic-kino-2",
@@ -1258,7 +1258,7 @@
   },
   {
     "id": 165,
-    "name": "Witch Watch: Watch Party",
+    "name": "Witch Watch: Watch Party (Dt.)",
     "startDate": "2025-08-02T22:00:00",
     "endDate": "2025-08-02T23:10:00",
     "location": "animagic-kino-2",
@@ -1266,7 +1266,7 @@
   },
   {
     "id": 166,
-    "name": "Undead Unluck (Ep. 1 & 2)",
+    "name": "Undead Unluck (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-02T23:15:00",
     "endDate": "2025-08-03T00:05:00",
     "location": "animagic-kino-2",
@@ -1274,7 +1274,7 @@
   },
   {
     "id": 167,
-    "name": "Kakushite! Makina-san!! (Ep. 1)",
+    "name": "Kakushite! Makina-san!! (Ep. 1, OmU)",
     "startDate": "2025-08-03T00:15:00",
     "endDate": "2025-08-03T00:45:00",
     "location": "animagic-kino-2",
@@ -1306,7 +1306,7 @@
   },
   {
     "id": 171,
-    "name": "Super Cube (Ep. 1)",
+    "name": "Super Cube (Ep. 1, Omu)",
     "startDate": "2025-08-03T17:15:00",
     "endDate": "2025-08-03T17:45:00",
     "location": "animagic-kino-2",
@@ -1314,7 +1314,7 @@
   },
   {
     "id": 172,
-    "name": "Pokémon Horizonte (Ep. 1 & 2)",
+    "name": "Pokémon Horizonte (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-03T17:45:00",
     "endDate": "2025-08-03T18:35:00",
     "location": "animagic-kino-2",
@@ -1330,7 +1330,7 @@
   },
   {
     "id": 174,
-    "name": "Angelina Paustian · Workshop: Foodtourismus in Japan",
+    "name": "Angelina Paustian - Workshop: Foodtourismus in Japan",
     "startDate": "2025-08-01T15:30:00",
     "endDate": "2025-08-01T16:30:00",
     "location": "animagic-kino-3",
@@ -1450,7 +1450,7 @@
   },
   {
     "id": 189,
-    "name": "7th Time Loop · Dub-Premiere (Ep. 1, Dt.)",
+    "name": "7th Time Loop - Dub-Premiere (Ep. 1, Dt.)",
     "startDate": "2025-08-02T21:00:00",
     "endDate": "2025-08-02T21:30:00",
     "location": "animagic-kino-3",
@@ -1490,7 +1490,7 @@
   },
   {
     "id": 194,
-    "name": "Beheneko (Ep. 1, Dt.) · Dub-Premiere",
+    "name": "Beheneko (Ep. 1, Dt.) - Dub-Premiere",
     "startDate": "2025-08-03T00:15:00",
     "endDate": "2025-08-03T00:45:00",
     "location": "animagic-kino-3",
@@ -1536,14 +1536,6 @@
     "location": "animagic-kino-3",
     "link": ""
   },
-    {
-    "id": 200,
-    "name": "Ramen-Wok-Wok-Karaoke powered by Cup Noodles",
-    "startDate": "2025-08-01T18:30:00",
-    "endDate": "2025-08-02T00:30:00",
-    "location": "ramen-wok-wok",
-    "link": ""
-  },
   {
     "id": 201,
     "name": "Kashitaro Ito: Signierstunde & Merchandise-Verkauf",
@@ -1557,6 +1549,14 @@
     "name": "Ryota Kikuchi x Budo: Signierstunde",
     "startDate": "2025-08-01T16:30:00",
     "endDate": "2025-08-01T17:30:00",
+    "location": "ramen-wok-wok",
+    "link": ""
+  },
+  {
+    "id": 200,
+    "name": "Ramen-Wok-Wok-Karaoke powered by Cup Noodles",
+    "startDate": "2025-08-01T18:30:00",
+    "endDate": "2025-08-02T00:03:00",
     "location": "ramen-wok-wok",
     "link": ""
   },
