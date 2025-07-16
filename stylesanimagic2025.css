@@ -32,6 +32,23 @@ header p {
     font-size: 1.2em;
 }
 
+.disclaimer {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disclaimer p {
+    color: #6c757d;
+    font-size: 0.9em;
+    margin: 0;
+}
+
 .location-tabs {
     display: flex;
     flex-wrap: wrap;
