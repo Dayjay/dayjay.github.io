@@ -105,7 +105,7 @@
   },
   {
     "id": 14,
-    "name": "Anime in Concert · Anime-Orchesterkonzert",
+    "name": "Anime in Concert · Anime-Orchesterkonzert mit dem Musikverein Siershahn e.V",
     "startDate": "2025-08-02T15:45:00",
     "endDate": "2025-08-02T17:00:00",
     "location": "mozartsaal",
@@ -153,7 +153,7 @@
   },
   {
     "id": 20,
-    "name": "Anime in Concert · Anime-Orchesterkonzert",
+    "name": "Anime in Concert · Anime-Orchesterkonzert mit dem Musikverein Siershahn e.V",
     "startDate": "2025-08-03T12:30:00",
     "endDate": "2025-08-03T13:45:00",
     "location": "mozartsaal",
@@ -242,7 +242,7 @@
   },
   {
     "id": 38,
-    "name": "COLORFUL STAGE! The Movie: A Miku Who Can‘t Sing (OmU, ca. 111 Min., FSK 6)",
+    "name": "COLORFUL STAGE! The Movie: A Miku Who Can‘t Sing (OmU)",
     "startDate": "2025-08-01T18:30:00",
     "endDate": "2025-08-01T20:20:00",
     "location": "musensaal",
@@ -386,7 +386,7 @@
   },
   {
     "id": 56,
-    "name": "The Rising of the Shield Hero S4 · Deutschlandpremiere (Ep. 5, Dt., ca. 25 Min., FSK: 12)",
+    "name": "The Rising of the Shield Hero S4 · Deutschlandpremiere (Ep. 5, Dt.)",
     "startDate": "2025-08-01T18:00:00",
     "endDate": "2025-08-01T18:30:00",
     "location": "crunchyroll-cinema",
@@ -394,7 +394,7 @@
   },
   {
     "id": 57,
-    "name": "Die Tagebücher der Apothekerin S2 (Ep. 1, Dt., ca. 25 Min., FSK: 12)",
+    "name": "Die Tagebücher der Apothekerin S2 (Ep. 1, Dt.)",
     "startDate": "2025-08-01T18:45:00",
     "endDate": "2025-08-01T19:15:00",
     "location": "crunchyroll-cinema",
@@ -402,7 +402,7 @@
   },
   {
     "id": 58,
-    "name": "One-Punch Man – Season 2 (Ep. 1, OmU, ca. 25 Min., FSK: 12)",
+    "name": "One-Punch Man – Season 2 (Ep. 1, OmU)",
     "startDate": "2025-08-01T19:15:00",
     "endDate": "2025-08-01T19:45:00",
     "location": "crunchyroll-cinema",
@@ -410,7 +410,7 @@
   },
   {
     "id": 59,
-    "name": "Let’s Play · EU-Premiere (Ep. 1, OmU, ca. 25 Min., FSK: 12)",
+    "name": "Let’s Play · EU-Premiere (Ep. 1, OmU)",
     "startDate": "2025-08-01T20:45:00",
     "endDate": "2025-08-01T21:15:00",
     "location": "crunchyroll-cinema",
@@ -418,7 +418,7 @@
   },
   {
     "id": 60,
-    "name": "Gachiakuta (Ep. 1, OmU, ca. 25 Min., FSK: 16) – Aoi Ichikawa begrüßt euch persönlich zum Screening",
+    "name": "Gachiakuta (Ep. 1, OmU) – Aoi Ichikawa begrüßt euch persönlich zum Screening",
     "startDate": "2025-08-01T21:30:00",
     "endDate": "2025-08-01T22:00:00",
     "location": "crunchyroll-cinema",
@@ -426,7 +426,7 @@
   },
   {
     "id": 61,
-    "name": "Demon Slayer: Hashira Training Arc (Ep. 8, Dt., ca. 41 Min., FSK: 16)",
+    "name": "Demon Slayer: Hashira Training Arc (Ep. 8, Dt.)",
     "startDate": "2025-08-01T22:00:00",
     "endDate": "2025-08-01T22:45:00",
     "location": "crunchyroll-cinema",
@@ -434,7 +434,7 @@
   },
   {
     "id": 62,
-    "name": "Kaiju No. 8 – Season 2 (Ep. 1, OmU, ca. 25 Min., FSK: 16)",
+    "name": "Kaiju No. 8 – Season 2 (Ep. 1, OmU)",
     "startDate": "2025-08-01T22:45:00",
     "endDate": "2025-08-01T23:15:00",
     "location": "crunchyroll-cinema",
@@ -442,7 +442,7 @@
   },
   {
     "id": 63,
-    "name": "Solo Leveling – Season 2 (Ep. 1 & 2, Dt., ca. 50 Min., FSK: 16)",
+    "name": "Solo Leveling – Season 2 (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-01T23:15:00",
     "endDate": "2025-08-02T00:15:00",
     "location": "crunchyroll-cinema",
@@ -450,7 +450,7 @@
   },
   {
     "id": 64,
-    "name": "Fire Force – Season 3 (Ep. 1, Dt., ca. 25 Min., FSK: 16)",
+    "name": "Fire Force – Season 3 (Ep. 1, Dt.)",
     "startDate": "2025-08-02T00:15:00",
     "endDate": "2025-08-02T00:45:00",
     "location": "crunchyroll-cinema",
@@ -466,7 +466,7 @@
   },
   {
     "id": 66,
-    "name": "Die Tagebücher der Apothekerin S2 (Ep. 1, Dt., ca. 25 Min., FSK: 12)",
+    "name": "Die Tagebücher der Apothekerin S2 (Ep. 1, Dt.)",
     "startDate": "2025-08-02T12:30:00",
     "endDate": "2025-08-02T13:00:00",
     "location": "crunchyroll-cinema",
@@ -482,7 +482,7 @@
   },
   {
     "id": 68,
-    "name": "Detektiv Conan Film 28: Der Flashback des Einäugigen – Exklusive Preview (OmU, ca. 13 Min., FSK: 12)",
+    "name": "Detektiv Conan Film 28: Der Flashback des Einäugigen – Exklusive Preview (OmU)",
     "startDate": "2025-08-02T14:45:00",
     "endDate": "2025-08-02T15:00:00",
     "location": "crunchyroll-cinema",
@@ -506,7 +506,7 @@
   },
   {
     "id": 71,
-    "name": "Haikyu!! Das Play-Off der Müllhalde (Dt., ca. 86 Min., FSK: 12) – Susumu Mitsunaka begrüßt euch persönlich",
+    "name": "Haikyu!! Das Play-Off der Müllhalde (Dt.) – Susumu Mitsunaka begrüßt euch persönlich",
     "startDate": "2025-08-02T19:45:00",
     "endDate": "2025-08-02T21:15:00",
     "location": "crunchyroll-cinema",
@@ -514,7 +514,7 @@
   },
   {
     "id": 72,
-    "name": "Let’s Play · EU-Premiere (Ep. 1, OmU, ca. 25 Min., FSK: 12)",
+    "name": "Let’s Play · EU-Premiere (Ep. 1, OmU)",
     "startDate": "2025-08-02T21:30:00",
     "endDate": "2025-08-02T22:00:00",
     "location": "crunchyroll-cinema",
@@ -522,7 +522,7 @@
   },
   {
     "id": 73,
-    "name": "Gachiakuta (Ep. 1, OmU, ca. 25 Min., FSK: 16)",
+    "name": "Gachiakuta (Ep. 1, OmU)",
     "startDate": "2025-08-02T22:00:00",
     "endDate": "2025-08-02T22:30:00",
     "location": "crunchyroll-cinema",
@@ -530,7 +530,7 @@
   },
   {
     "id": 74,
-    "name": "Sentenced to Be a Hero · Europapremiere (Ep. 1, OmU, ca. 45 Min., FSK: 12)",
+    "name": "Sentenced to Be a Hero · Europapremiere (Ep. 1, OmU)",
     "startDate": "2025-08-02T22:30:00",
     "endDate": "2025-08-02T23:15:00",
     "location": "crunchyroll-cinema",
@@ -538,7 +538,7 @@
   },
   {
     "id": 75,
-    "name": "Fire Force – Season 3 (Ep. 1, Dt., ca. 25 Min., FSK: 16)",
+    "name": "Fire Force – Season 3 (Ep. 1, Dt.)",
     "startDate": "2025-08-02T23:15:00",
     "endDate": "2025-08-02T23:45:00",
     "location": "crunchyroll-cinema",
@@ -546,7 +546,7 @@
   },
   {
     "id": 76,
-    "name": "Solo Leveling – Season 2 (Ep. 1 & 2, Dt., ca. 50 Min., FSK: 16)",
+    "name": "Solo Leveling – Season 2 (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-02T23:45:00",
     "endDate": "2025-08-03T00:35:00",
     "location": "crunchyroll-cinema",
@@ -578,7 +578,7 @@
   },
   {
     "id": 80,
-    "name": "The Rising of the Shield Hero S4 · Deutschlandpremiere (Ep. 5, Dt., ca. 25 Min., FSK: 12)",
+    "name": "The Rising of the Shield Hero S4 · Deutschlandpremiere (Ep. 5, Dt.)",
     "startDate": "2025-08-03T15:30:00",
     "endDate": "2025-08-03T16:00:00",
     "location": "crunchyroll-cinema",
@@ -602,7 +602,7 @@
   },
   {
     "id": 83,
-    "name": "[Oshi No Ko] – [Mein*Star] Season 2",
+    "name": "[Oshi No Ko] – [Mein*Star] Season 2 (Ep. 1 & 2, Dt)",
     "startDate": "2025-08-01T17:45:00",
     "endDate": "2025-08-01T18:50:00",
     "location": "cinemagic-1",
@@ -610,7 +610,7 @@
   },
   {
     "id": 84,
-    "name": "Honey Lemon Soda",
+    "name": "Honey Lemon Soda (Ep. 1, Dt.)",
     "startDate": "2025-08-01T19:00:00",
     "endDate": "2025-08-01T19:30:00",
     "location": "cinemagic-1",
@@ -618,7 +618,7 @@
   },
   {
     "id": 85,
-    "name": "Godzilla Minus One",
+    "name": "Godzilla Minus One (Dt.)",
     "startDate": "2025-08-01T19:45:00",
     "endDate": "2025-08-01T21:50:00",
     "location": "cinemagic-1",
@@ -626,7 +626,7 @@
   },
   {
     "id": 86,
-    "name": "OVERLORD: The Sacred Kingdom",
+    "name": "OVERLORD: The Sacred Kingdom (Dt.)",
     "startDate": "2025-08-01T22:00:00",
     "endDate": "2025-08-02T00:15:00",
     "location": "cinemagic-1",
@@ -634,7 +634,7 @@
   },
   {
     "id": 87,
-    "name": "Berserk",
+    "name": "Berserk (Dt.)",
     "startDate": "2025-08-02T00:15:00",
     "endDate": "2025-08-02T00:45:00",
     "location": "cinemagic-1",
@@ -642,7 +642,7 @@
   },
   {
     "id": 88,
-    "name": "HAIKYU!!: FLY & CONNECT",
+    "name": "HAIKYU!!: FLY & CONNECT - Special-Talk mit Regisseur und Produzenten",
     "startDate": "2025-08-02T12:00:00",
     "endDate": "2025-08-02T13:00:00",
     "location": "cinemagic-1",
@@ -650,7 +650,7 @@
   },
   {
     "id": 89,
-    "name": "My Dress-Up Darling – Season 2",
+    "name": "My Dress-Up Darling – Season 2 (Ep. 1, OmU)",
     "startDate": "2025-08-02T13:30:00",
     "endDate": "2025-08-02T14:00:00",
     "location": "cinemagic-1",
@@ -658,7 +658,7 @@
   },
   {
     "id": 90,
-    "name": "Turkey! -Time to Strike-",
+    "name": "Turkey! -Time to Strike- (Ep. 1, OmU)",
     "startDate": "2025-08-02T14:00:00",
     "endDate": "2025-08-02T14:30:00",
     "location": "cinemagic-1",
@@ -666,7 +666,7 @@
   },
   {
     "id": 91,
-    "name": "Tsuyokute New Saga",
+    "name": "Tsuyokute New Saga (Ep. 1, Dt.)",
     "startDate": "2025-08-02T14:30:00",
     "endDate": "2025-08-02T15:00:00",
     "location": "cinemagic-1",
@@ -674,7 +674,7 @@
   },
   {
     "id": 92,
-    "name": "Toei Animation – Digimon Panel AnimagiC 2025",
+    "name": "Toei Animation – Digimon Panel",
     "startDate": "2025-08-02T15:30:00",
     "endDate": "2025-08-02T16:30:00",
     "location": "cinemagic-1",
@@ -682,7 +682,7 @@
   },
   {
     "id": 93,
-    "name": "Eureka Seven – Anniversary Special Panel",
+    "name": "Eureka Seven – Anniversary Special Panel mit Masahiko Minami und Dai Sato",
     "startDate": "2025-08-02T17:00:00",
     "endDate": "2025-08-02T18:00:00",
     "location": "cinemagic-1",
@@ -690,7 +690,7 @@
   },
   {
     "id": 94,
-    "name": "To Be Hero X",
+    "name": "To Be Hero X (Ep. 1, Dt.)",
     "startDate": "2025-08-02T18:30:00",
     "endDate": "2025-08-02T19:00:00",
     "location": "cinemagic-1",
@@ -698,7 +698,7 @@
   },
   {
     "id": 95,
-    "name": "OVERLORD: The Sacred Kingdom",
+    "name": "OVERLORD: The Sacred Kingdom (Dt.)",
     "startDate": "2025-08-02T19:15:00",
     "endDate": "2025-08-02T21:30:00",
     "location": "cinemagic-1",
@@ -706,7 +706,7 @@
   },
   {
     "id": 96,
-    "name": "DAN DA DAN: EVIL EYE",
+    "name": "DAN DA DAN: EVIL EYE (Dt.)",
     "startDate": "2025-08-02T21:45:00",
     "endDate": "2025-08-02T23:15:00",
     "location": "cinemagic-1",
@@ -714,7 +714,7 @@
   },
   {
     "id": 97,
-    "name": "Berserk",
+    "name": "Berserk (Ep. 1, Dt.)",
     "startDate": "2025-08-02T23:30:00",
     "endDate": "2025-08-03T00:00:00",
     "location": "cinemagic-1",
@@ -722,7 +722,7 @@
   },
   {
     "id": 98,
-    "name": "Demon Slayer: Hashira Training Arc",
+    "name": "Demon Slayer: Hashira Training Arc (Ep. 8, Dt.)",
     "startDate": "2025-08-03T00:00:00",
     "endDate": "2025-08-03T00:45:00",
     "location": "cinemagic-1",
@@ -738,7 +738,7 @@
   },
   {
     "id": 100,
-    "name": "25th+1: Bones Special Panel",
+    "name": "25th+1: Bones Special Panel mit Masahiko Minami",
     "startDate": "2025-08-03T13:00:00",
     "endDate": "2025-08-03T14:00:00",
     "location": "cinemagic-1",
@@ -746,7 +746,7 @@
   },
   {
     "id": 101,
-    "name": "Cheer for You! -Narenare-",
+    "name": "Cheer for You! -Narenare- (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-03T14:30:00",
     "endDate": "2025-08-03T15:30:00",
     "location": "cinemagic-1",
@@ -754,7 +754,7 @@
   },
   {
     "id": 102,
-    "name": "The Beginning After the End",
+    "name": "The Beginning After the End (Ep. 1, OmU)",
     "startDate": "2025-08-03T15:30:00",
     "endDate": "2025-08-03T16:00:00",
     "location": "cinemagic-1",
@@ -762,7 +762,7 @@
   },
   {
     "id": 103,
-    "name": "Call of the Night – Season 2",
+    "name": "Call of the Night – Season 2 (Ep. 1, OmU)",
     "startDate": "2025-08-03T16:00:00",
     "endDate": "2025-08-03T16:30:00",
     "location": "cinemagic-1",
@@ -770,7 +770,7 @@
   },
   {
     "id": 104,
-    "name": "Isekai Quartet – Staffel 1",
+    "name": "Isekai Quartet – Staffel 1 (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-03T16:30:00",
     "endDate": "2025-08-03T17:00:00",
     "location": "cinemagic-1",
@@ -778,7 +778,7 @@
   },
   {
     "id": 105,
-    "name": "The Colors Within",
+    "name": "The Colors Within (Dt.)",
     "startDate": "2025-08-03T17:00:00",
     "endDate": "2025-08-03T18:40:00",
     "location": "cinemagic-1",
@@ -786,7 +786,7 @@
   },
     {
     "id": 106,
-    "name": "7th Time Loop · Dub-Premiere",
+    "name": "7th Time Loop · Dub-Premiere (Ep. 1, Dt.)",
     "startDate": "2025-08-01T14:15:00",
     "endDate": "2025-08-01T14:45:00",
     "location": "cinemagic-2",
@@ -802,7 +802,7 @@
   },
   {
     "id": 108,
-    "name": "TOUGEN ANKI Special Panel + Ep. 4 & 5 Weltpremiere",
+    "name": "TOUGEN ANKI Special Panel + Ep. 4 & 5",
     "startDate": "2025-08-01T16:30:00",
     "endDate": "2025-08-01T18:00:00",
     "location": "cinemagic-2",
@@ -810,7 +810,7 @@
   },
   {
     "id": 109,
-    "name": "SPY x FAMILY CODE: White",
+    "name": "SPY x FAMILY CODE: White (Dt.)",
     "startDate": "2025-08-01T18:30:00",
     "endDate": "2025-08-01T20:20:00",
     "location": "cinemagic-2",
@@ -818,7 +818,7 @@
   },
   {
     "id": 110,
-    "name": "My Deer Friend Nokotan – LIVE und mit Geweih",
+    "name": "My Deer Friend Nokotan – LIVE und mit Geweih mit den dt. Sprecherinnen",
     "startDate": "2025-08-01T21:00:00",
     "endDate": "2025-08-01T22:45:00",
     "location": "cinemagic-2",
@@ -826,7 +826,7 @@
   },
   {
     "id": 111,
-    "name": "DAN DA DAN: EVIL EYE",
+    "name": "DAN DA DAN: EVIL EYE (Dt.)",
     "startDate": "2025-08-01T23:00:00",
     "endDate": "2025-08-02T00:35:00",
     "location": "cinemagic-2",
@@ -842,7 +842,7 @@
   },
   {
     "id": 113,
-    "name": "Cheer for You! -Narenare-",
+    "name": "Cheer for You! -Narenare- (Ep. 1 & 2, Dt.)",
     "startDate": "2025-08-02T13:00:00",
     "endDate": "2025-08-02T14:00:00",
     "location": "cinemagic-2",
@@ -850,7 +850,7 @@
   },
   {
     "id": 114,
-    "name": "[Oshi No Ko] – Tokyo Blade Insider",
+    "name": "[Oshi No Ko] – [Mein*Star] Season 2 – Tokyo Blade Insider - Behind-the-Scenes mit dem [Oshi No Ko]-Team",
     "startDate": "2025-08-02T15:00:00",
     "endDate": "2025-08-02T16:20:00",
     "location": "cinemagic-2",
@@ -858,7 +858,7 @@
   },
   {
     "id": 115,
-    "name": "Violet Evergarden: Der Film",
+    "name": "Violet Evergarden: Der Film (Dt.)",
     "startDate": "2025-08-02T17:00:00",
     "endDate": "2025-08-02T19:20:00",
     "location": "cinemagic-2",
@@ -866,7 +866,7 @@
   },
   {
     "id": 116,
-    "name": "[Oshi No Ko] – [Mein*Star] Season 2",
+    "name": "[Oshi No Ko] – [Mein*Star] Season 2 (Ep. 1 & 2, Dt.) mit Begrüßung des Teams",
     "startDate": "2025-08-02T19:45:00",
     "endDate": "2025-08-02T20:50:00",
     "location": "cinemagic-2",
@@ -874,7 +874,7 @@
   },
   {
     "id": 117,
-    "name": "Kaiju No. 8: Mission Recon",
+    "name": "Kaiju No. 8: Mission Recon (Dt.)",
     "startDate": "2025-08-02T21:00:00",
     "endDate": "2025-08-02T23:10:00",
     "location": "cinemagic-2",
@@ -882,7 +882,7 @@
   },
   {
     "id": 118,
-    "name": "Kaiju No. 8 – Season 2",
+    "name": "Kaiju No. 8 – Season 2 (Ep. 1, OmU)",
     "startDate": "2025-08-02T23:15:00",
     "endDate": "2025-08-02T23:45:00",
     "location": "cinemagic-2",
@@ -890,7 +890,7 @@
   },
   {
     "id": 119,
-    "name": "Evangelion: 1.11 You Are (Not) Alone",
+    "name": "Evangelion: 1.11 You Are (Not) Alone (Dt.)",
     "startDate": "2025-08-03T10:45:00",
     "endDate": "2025-08-03T12:30:00",
     "location": "cinemagic-2",
@@ -906,7 +906,7 @@
   },
   {
     "id": 121,
-    "name": "[Oshi No Ko] – Tokyo Blade Insider",
+    "name": "[Oshi No Ko] – [Mein*Star] Season 2 (Ep. 1 & 2, Dt.) mit Begrüßung des Teams",
     "startDate": "2025-08-03T15:00:00",
     "endDate": "2025-08-03T16:20:00",
     "location": "cinemagic-2",
@@ -914,7 +914,7 @@
   },
   {
     "id": 122,
-    "name": "The Rose of Versailles",
+    "name": "The Rose of Versailles (Dt.)",
     "startDate": "2025-08-03T16:45:00",
     "endDate": "2025-08-03T18:30:00",
     "location": "cinemagic-2",
@@ -1657,14 +1657,6 @@
     "link": ""
   },
   {
-    "id": 223,
-    "name": "Info-Counter (Linkes Eingangsportal)",
-    "startDate": "2025-08-01T09:00:00",
-    "endDate": "2025-08-02T01:00:00",
-    "location": "general",
-    "link": ""
-  },
-  {
     "id": 224,
     "name": "Info-Counter (Linkes Eingangsportal)",
     "startDate": "2025-08-02T08:00:00",
@@ -1725,6 +1717,14 @@
     "name": "Tageskasse (Linkes Eingangsportal)",
     "startDate": "2025-08-01T09:00:00",
     "endDate": "2025-08-01T21:00:00",
+    "location": "general",
+    "link": ""
+  },
+  {
+    "id": 223,
+    "name": "Info-Counter (Linkes Eingangsportal)",
+    "startDate": "2025-08-01T09:00:00",
+    "endDate": "2025-08-02T01:00:00",
     "location": "general",
     "link": ""
   },
