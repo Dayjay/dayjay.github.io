@@ -1767,5 +1767,29 @@
     "endDate": "2025-08-02T01:00:00",
     "location": "general",
     "link": ""
+  },
+  {
+    "id": 226,
+    "name": "Maid-Café (Rosengarten Lounge)",
+    "startDate": "2025-08-01T13:00:00",
+    "endDate": "2025-08-01T22:00:00",
+    "location": "general",
+    "link": ""
+  },
+  {
+    "id": 227,
+    "name": "Maid-Café (Rosengarten Lounge)",
+    "startDate": "2025-08-02T09:30:00",
+    "endDate": "2025-08-02T22:00:00",
+    "location": "general",
+    "link": ""
+  },
+  {
+    "id": 228,
+    "name": "Maid-Café (Rosengarten Lounge)",
+    "startDate": "2025-08-03T10:00:00",
+    "endDate": "2025-08-03T18:00:00",
+    "location": "general",
+    "link": ""
   }
 ]
