@@ -67,17 +67,19 @@ class CalendarApp {
         
         const startTime = new Date(event.startDate).toLocaleTimeString('en-US', { 
             hour: '2-digit', 
-            minute: '2-digit' 
+            minute: '2-digit',
+            hour12: false
         });
         const endTime = new Date(event.endDate).toLocaleTimeString('en-US', { 
             hour: '2-digit', 
-            minute: '2-digit' 
+            minute: '2-digit',
+            hour12: false
         });
 
         const locationNames = {
             'mozartsaal': 'Mozartsaal',
             'museensaal': 'Museensaal',
-            'general': 'General',
+            'general': 'Allgemein',
             'crunchyroll-cinema': 'Crunchyroll Cinema',
             'cinemagic-1': 'CineMagic 1',
             'cinemagic-2': 'CineMagic 2',
@@ -91,7 +93,7 @@ class CalendarApp {
             <div class="event-time">${startTime} - ${endTime}</div>
             <div class="event-location">${locationNames[event.location]}</div>
             ${event.link ? `<a href="${event.link}" class="event-link" target="_blank">More Info</a>` : ''}
-            <button class="copy-button" onclick="calendarApp.copyToCalendar(${event.id})">Copy to Calendar</button>
+            <button class="copy-button" onclick="calendarApp.copyToCalendar(${event.id})">📅</button>
         `;
 
         return eventDiv;
@@ -105,31 +107,48 @@ class CalendarApp {
         const endDate = new Date(event.endDate);
         
         const formatDate = (date) => {
-            return date.toISOString().replace(/[-:]/g, '').split('.')[0];
+            return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
         };
 
-        const calendarData = {
-            title: event.name,
-            start: formatDate(startDate),
-            end: formatDate(endDate),
-            location: event.location,
-            description: event.link ? `More info: ${event.link}` : ''
+        const locationNames = {
+            'mozartsaal': 'Mozartsaal',
+            'museensaal': 'Museensaal',
+            'general': 'Allgemein',
+            'crunchyroll-cinema': 'Crunchyroll Cinema',
+            'cinemagic-1': 'CineMagic 1',
+            'cinemagic-2': 'CineMagic 2',
+            'animagic-kino-1': 'AnimagiC-Kino 1',
+            'animagic-kino-2': 'AnimagiC-Kino 2',
+            'animagic-kino-3': 'AnimagiC-Kino 3'
         };
 
-        const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(calendarData.title)}&dates=${calendarData.start}/${calendarData.end}&details=${encodeURIComponent(calendarData.description)}&location=${encodeURIComponent(calendarData.location)}`;
+        // Create ICS file content
+        const icsContent = [
+            'BEGIN:VCALENDAR',
+            'VERSION:2.0',
+            'PRODID:-//AnimagiC//Festival Calendar//EN',
+            'BEGIN:VEVENT',
+            `UID:${event.id}@animagic2025`,
+            `DTSTART:${formatDate(startDate)}`,
+            `DTEND:${formatDate(endDate)}`,
+            `SUMMARY:${event.name}`,
+            `LOCATION:${locationNames[event.location]}`,
+            event.link ? `DESCRIPTION:More info: ${event.link}` : 'DESCRIPTION:',
+            `DTSTAMP:${formatDate(new Date())}`,
+            'END:VEVENT',
+            'END:VCALENDAR'
+        ].join('\r\n');
 
-        const textToCopy = `${event.name}\n${startDate.toLocaleString()} - ${endDate.toLocaleString()}\nLocation: ${event.location}${event.link ? '\nMore info: ' + event.link : ''}`;
-        
-        if (navigator.clipboard) {
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                alert('Event copied to clipboard!\n\nYou can also add it to Google Calendar by clicking OK.');
-                window.open(googleCalendarUrl, '_blank');
-            }).catch(() => {
-                window.open(googleCalendarUrl, '_blank');
-            });
-        } else {
-            window.open(googleCalendarUrl, '_blank');
-        }
+        // Create and download ICS file
+        const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `${event.name.replace(/[^a-zA-Z0-9]/g, '_')}.ics`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
     }
 }
 
