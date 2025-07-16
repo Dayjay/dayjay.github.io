@@ -31,6 +31,20 @@ class CalendarApp {
         document.getElementById('locationSelect').addEventListener('change', (e) => {
             this.switchLocation(e.target.value);
         });
+
+        // Floating buttons
+        document.getElementById('jumpToCurrentTime').addEventListener('click', () => {
+            this.jumpToCurrentTime();
+        });
+
+        document.getElementById('jumpToTop').addEventListener('click', () => {
+            this.jumpToTop();
+        });
+
+        // Show/hide jump to top button based on scroll position
+        window.addEventListener('scroll', () => {
+            this.toggleJumpToTopButton();
+        });
     }
 
     switchLocation(location) {
@@ -160,6 +174,59 @@ class CalendarApp {
         link.click();
         document.body.removeChild(link);
         URL.revokeObjectURL(url);
+    }
+
+    jumpToCurrentTime() {
+        const now = new Date();
+        const currentHour = now.getHours();
+        const currentMinute = now.getMinutes();
+        
+        // Find the closest upcoming event
+        let closestEvent = null;
+        let closestTime = Infinity;
+        
+        this.events.forEach(event => {
+            if (event.location === this.currentFilter) {
+                const eventStart = new Date(event.startDate);
+                const eventHour = eventStart.getHours();
+                const eventMinute = eventStart.getMinutes();
+                const eventTimeInMinutes = eventHour * 60 + eventMinute;
+                const currentTimeInMinutes = currentHour * 60 + currentMinute;
+                
+                // Only consider events that haven't started yet today
+                if (eventTimeInMinutes >= currentTimeInMinutes) {
+                    const timeDiff = eventTimeInMinutes - currentTimeInMinutes;
+                    if (timeDiff < closestTime) {
+                        closestTime = timeDiff;
+                        closestEvent = event;
+                    }
+                }
+            }
+        });
+        
+        if (closestEvent) {
+            const eventDate = new Date(closestEvent.startDate).toISOString().split('T')[0];
+            const dayElement = document.getElementById(`day-${eventDate}`);
+            if (dayElement) {
+                dayElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        } else {
+            // If no upcoming events, scroll to top
+            this.jumpToTop();
+        }
+    }
+
+    jumpToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    toggleJumpToTopButton() {
+        const jumpToTopBtn = document.getElementById('jumpToTop');
+        if (window.scrollY > 200) {
+            jumpToTopBtn.style.display = 'flex';
+        } else {
+            jumpToTopBtn.style.display = 'none';
+        }
     }
 }
 
