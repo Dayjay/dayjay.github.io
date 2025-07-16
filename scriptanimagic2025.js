@@ -103,7 +103,7 @@ class CalendarApp {
 
         const locationNames = {
             'mozartsaal': 'Mozartsaal',
-            'museensaal': 'Museensaal',
+            'musensaal': 'Musensaal',
             'general': 'Allgemein',
             'crunchyroll-cinema': 'Crunchyroll Cinema',
             'cinemagic-1': 'CineMagic 1',
@@ -137,7 +137,7 @@ class CalendarApp {
 
         const locationNames = {
             'mozartsaal': 'Mozartsaal',
-            'museensaal': 'Museensaal',
+            'musensaal': 'Museesaal',
             'general': 'Allgemein',
             'crunchyroll-cinema': 'Crunchyroll Cinema',
             'cinemagic-1': 'CineMagic 1',
