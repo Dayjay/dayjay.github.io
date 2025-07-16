@@ -81,7 +81,7 @@ header p {
 }
 
 .date-cell {
-    flex: 1;
+    height: 200px;
     padding: 20px;
     border-bottom: 1px solid #2c3e50;
     display: flex;
@@ -101,10 +101,11 @@ header p {
 }
 
 .day-events {
-    flex: 1;
+    height: 200px;
     padding: 20px;
     border-bottom: 1px solid #ecf0f1;
     position: relative;
+    overflow-y: auto;
 }
 
 .day-events:last-child {
@@ -274,6 +275,21 @@ header p {
 .location-animagic-kino-2 { border-left: 4px solid #95a5a6; }
 .location-animagic-kino-3 { border-left: 4px solid #34495e; }
 
+.location-dropdown {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.location-dropdown select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: #2c3e50;
+}
+
 @media (max-width: 768px) {
     .timeline-header {
         grid-template-columns: 1fr;
@@ -284,13 +300,11 @@ header p {
     }
     
     .location-tabs {
-        flex-direction: column;
-        align-items: center;
+        display: none;
     }
     
-    .tab-button {
-        width: 100%;
-        max-width: 300px;
+    .location-dropdown {
+        display: block;
     }
     
     .add-event-form form {

@@ -27,15 +27,26 @@ class CalendarApp {
                 this.switchLocation(e.target.dataset.location);
             });
         });
+
+        document.getElementById('locationSelect').addEventListener('change', (e) => {
+            this.switchLocation(e.target.value);
+        });
     }
 
     switchLocation(location) {
         this.currentFilter = location;
         
+        // Update tab buttons
         document.querySelectorAll('.tab-button').forEach(btn => {
             btn.classList.remove('active');
         });
-        document.querySelector(`[data-location="${location}"]`).classList.add('active');
+        const activeTab = document.querySelector(`[data-location="${location}"]`);
+        if (activeTab) {
+            activeTab.classList.add('active');
+        }
+        
+        // Update dropdown
+        document.getElementById('locationSelect').value = location;
         
         this.renderEvents();
     }
