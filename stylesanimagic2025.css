@@ -267,6 +267,14 @@ header p {
     margin-bottom: 30px;
 }
 
+.location-dropdown label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
 .location-dropdown select {
     width: 100%;
     padding: 12px;

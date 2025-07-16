@@ -149,6 +149,14 @@ class CalendarApp {
             'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke'
         };
 
+        // Create location string with Rosengarten Mannheim prefix
+        let locationString;
+        if (event.location === 'general') {
+            locationString = 'Rosengarten Mannheim';
+        } else {
+            locationString = `Rosengarten Mannheim - ${locationNames[event.location]}`;
+        }
+
         // Create ICS file content
         const icsContent = [
             'BEGIN:VCALENDAR',
@@ -158,9 +166,9 @@ class CalendarApp {
             `UID:${event.id}@animagic2025`,
             `DTSTART:${formatDate(startDate)}`,
             `DTEND:${formatDate(endDate)}`,
-            `SUMMARY:${event.name}`,
-            `LOCATION:${locationNames[event.location]}`,
-            event.link ? `DESCRIPTION:More info: ${event.link}` : 'DESCRIPTION:',
+            `SUMMARY:${event.name} - AnimagiC 2025`,
+            `LOCATION:${locationString}`,
+            event.link ? `DESCRIPTION:Mehr Infos: ${event.link}` : 'DESCRIPTION:',
             `DTSTAMP:${formatDate(new Date())}`,
             'END:VEVENT',
             'END:VCALENDAR'
