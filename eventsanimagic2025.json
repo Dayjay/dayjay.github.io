@@ -367,5 +367,421 @@
     "endDate": "2025-08-03T17:00:00",
     "location": "musensaal",
     "link": ""
+  },
+  {
+    "id": 54,
+    "name": "Gachiakuta – Into the Pit! Q&A-Panel mit dem Gachiakuta-Team",
+    "startDate": "2025-08-01T15:00:00",
+    "endDate": "2025-08-01T16:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 55,
+    "name": "The Rising of the Shield Hero S4: Draw Your Shields! Exklusive Live-Drawing-Session mit Team-Q&A",
+    "startDate": "2025-08-01T17:00:00",
+    "endDate": "2025-08-01T18:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 56,
+    "name": "The Rising of the Shield Hero S4 · Deutschlandpremiere (Ep. 5, Dt., ca. 25 Min., FSK: 12)",
+    "startDate": "2025-08-01T18:00:00",
+    "endDate": "2025-08-01T18:30:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 57,
+    "name": "Die Tagebücher der Apothekerin S2 (Ep. 1, Dt., ca. 25 Min., FSK: 12)",
+    "startDate": "2025-08-01T18:45:00",
+    "endDate": "2025-08-01T19:15:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 58,
+    "name": "One-Punch Man – Season 2 (Ep. 1, OmU, ca. 25 Min., FSK: 12)",
+    "startDate": "2025-08-01T19:15:00",
+    "endDate": "2025-08-01T19:45:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 59,
+    "name": "Let’s Play · EU-Premiere (Ep. 1, OmU, ca. 25 Min., FSK: 12)",
+    "startDate": "2025-08-01T20:45:00",
+    "endDate": "2025-08-01T21:15:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 60,
+    "name": "Gachiakuta (Ep. 1, OmU, ca. 25 Min., FSK: 16) – Aoi Ichikawa begrüßt euch persönlich zum Screening",
+    "startDate": "2025-08-01T21:30:00",
+    "endDate": "2025-08-01T22:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 61,
+    "name": "Demon Slayer: Hashira Training Arc (Ep. 8, Dt., ca. 41 Min., FSK: 16)",
+    "startDate": "2025-08-01T22:00:00",
+    "endDate": "2025-08-01T22:45:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 62,
+    "name": "Kaiju No. 8 – Season 2 (Ep. 1, OmU, ca. 25 Min., FSK: 16)",
+    "startDate": "2025-08-01T22:45:00",
+    "endDate": "2025-08-01T23:15:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 63,
+    "name": "Solo Leveling – Season 2 (Ep. 1 & 2, Dt., ca. 50 Min., FSK: 16)",
+    "startDate": "2025-08-01T23:15:00",
+    "endDate": "2025-08-02T00:15:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 64,
+    "name": "Fire Force – Season 3 (Ep. 1, Dt., ca. 25 Min., FSK: 16)",
+    "startDate": "2025-08-02T00:15:00",
+    "endDate": "2025-08-02T00:45:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 65,
+    "name": "Gachiakuta – Into the Pit! Q&A-Panel mit dem Gachiakuta-Team",
+    "startDate": "2025-08-02T11:00:00",
+    "endDate": "2025-08-02T12:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 66,
+    "name": "Die Tagebücher der Apothekerin S2 (Ep. 1, Dt., ca. 25 Min., FSK: 12)",
+    "startDate": "2025-08-02T12:30:00",
+    "endDate": "2025-08-02T13:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 67,
+    "name": "Crunchyroll-Panel – Panel-Präsentation von und mit Crunchyroll",
+    "startDate": "2025-08-02T14:00:00",
+    "endDate": "2025-08-02T14:45:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 68,
+    "name": "Detektiv Conan Film 28: Der Flashback des Einäugigen – Exklusive Preview (OmU, ca. 13 Min., FSK: 12)",
+    "startDate": "2025-08-02T14:45:00",
+    "endDate": "2025-08-02T15:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 69,
+    "name": "Kaiju No. 8 featuring Japanese Voice Cast – Live-Dubbing-Session & Q&A",
+    "startDate": "2025-08-02T16:15:00",
+    "endDate": "2025-08-02T17:15:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 70,
+    "name": "Behind the Scenes of Miss Kobayashi‘s Dragon Maid – Q&A-Panel",
+    "startDate": "2025-08-02T18:00:00",
+    "endDate": "2025-08-02T19:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 71,
+    "name": "Haikyu!! Das Play-Off der Müllhalde (Dt., ca. 86 Min., FSK: 12) – Susumu Mitsunaka begrüßt euch persönlich",
+    "startDate": "2025-08-02T19:45:00",
+    "endDate": "2025-08-02T21:15:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 72,
+    "name": "Let’s Play · EU-Premiere (Ep. 1, OmU, ca. 25 Min., FSK: 12)",
+    "startDate": "2025-08-02T21:30:00",
+    "endDate": "2025-08-02T22:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 73,
+    "name": "Gachiakuta (Ep. 1, OmU, ca. 25 Min., FSK: 16)",
+    "startDate": "2025-08-02T22:00:00",
+    "endDate": "2025-08-02T22:30:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 74,
+    "name": "Sentenced to Be a Hero · Europapremiere (Ep. 1, OmU, ca. 45 Min., FSK: 12)",
+    "startDate": "2025-08-02T22:30:00",
+    "endDate": "2025-08-02T23:15:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 75,
+    "name": "Fire Force – Season 3 (Ep. 1, Dt., ca. 25 Min., FSK: 16)",
+    "startDate": "2025-08-02T23:15:00",
+    "endDate": "2025-08-02T23:45:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 76,
+    "name": "Solo Leveling – Season 2 (Ep. 1 & 2, Dt., ca. 50 Min., FSK: 16)",
+    "startDate": "2025-08-02T23:45:00",
+    "endDate": "2025-08-03T00:35:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 77,
+    "name": "One-Punch Man Special Panel – Q&A-Panel mit dem One-Punch Man Team",
+    "startDate": "2025-08-03T11:00:00",
+    "endDate": "2025-08-03T12:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 78,
+    "name": "Kaiju No. 8 featuring Japanese Voice Cast – Live-Dubbing-Session & Q&A",
+    "startDate": "2025-08-03T12:45:00",
+    "endDate": "2025-08-03T13:45:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 79,
+    "name": "The Rising of the Shield Hero S4: Draw Your Shields! Exklusive Live-Drawing-Session mit Team-Q&A",
+    "startDate": "2025-08-03T14:30:00",
+    "endDate": "2025-08-03T15:30:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+  {
+    "id": 80,
+    "name": "The Rising of the Shield Hero S4 · Deutschlandpremiere (Ep. 5, Dt., ca. 25 Min., FSK: 12)",
+    "startDate": "2025-08-03T15:30:00",
+    "endDate": "2025-08-03T16:00:00",
+    "location": "crunchyroll-cinema",
+    "link": ""
+  },
+    {
+    "id": 81,
+    "name": "Große Charity-Auktion",
+    "startDate": "2025-08-01T14:45:00",
+    "endDate": "2025-08-01T16:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 82,
+    "name": "Dice Actors-Synchronstars im Q&A",
+    "startDate": "2025-08-01T16:30:00",
+    "endDate": "2025-08-01T17:30:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 83,
+    "name": "[Oshi No Ko] – [Mein*Star] Season 2",
+    "startDate": "2025-08-01T17:45:00",
+    "endDate": "2025-08-01T18:50:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 84,
+    "name": "Honey Lemon Soda",
+    "startDate": "2025-08-01T19:00:00",
+    "endDate": "2025-08-01T19:30:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 85,
+    "name": "Godzilla Minus One",
+    "startDate": "2025-08-01T19:45:00",
+    "endDate": "2025-08-01T21:50:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 86,
+    "name": "OVERLORD: The Sacred Kingdom",
+    "startDate": "2025-08-01T22:00:00",
+    "endDate": "2025-08-02T00:15:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 87,
+    "name": "Berserk",
+    "startDate": "2025-08-02T00:15:00",
+    "endDate": "2025-08-02T00:45:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 88,
+    "name": "HAIKYU!!: FLY & CONNECT",
+    "startDate": "2025-08-02T12:00:00",
+    "endDate": "2025-08-02T13:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 89,
+    "name": "My Dress-Up Darling – Season 2",
+    "startDate": "2025-08-02T13:30:00",
+    "endDate": "2025-08-02T14:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 90,
+    "name": "Turkey! -Time to Strike-",
+    "startDate": "2025-08-02T14:00:00",
+    "endDate": "2025-08-02T14:30:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 91,
+    "name": "Tsuyokute New Saga",
+    "startDate": "2025-08-02T14:30:00",
+    "endDate": "2025-08-02T15:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 92,
+    "name": "Toei Animation – Digimon Panel AnimagiC 2025",
+    "startDate": "2025-08-02T15:30:00",
+    "endDate": "2025-08-02T16:30:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 93,
+    "name": "Eureka Seven – Anniversary Special Panel",
+    "startDate": "2025-08-02T17:00:00",
+    "endDate": "2025-08-02T18:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 94,
+    "name": "To Be Hero X",
+    "startDate": "2025-08-02T18:30:00",
+    "endDate": "2025-08-02T19:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 95,
+    "name": "OVERLORD: The Sacred Kingdom",
+    "startDate": "2025-08-02T19:15:00",
+    "endDate": "2025-08-02T21:30:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 96,
+    "name": "DAN DA DAN: EVIL EYE",
+    "startDate": "2025-08-02T21:45:00",
+    "endDate": "2025-08-02T23:15:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 97,
+    "name": "Berserk",
+    "startDate": "2025-08-02T23:30:00",
+    "endDate": "2025-08-03T00:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 98,
+    "name": "Demon Slayer: Hashira Training Arc",
+    "startDate": "2025-08-03T00:00:00",
+    "endDate": "2025-08-03T00:45:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 99,
+    "name": "Dice Actors-Synchronstars im Q&A",
+    "startDate": "2025-08-03T11:15:00",
+    "endDate": "2025-08-03T12:15:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 100,
+    "name": "25th+1: Bones Special Panel",
+    "startDate": "2025-08-03T13:00:00",
+    "endDate": "2025-08-03T14:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 101,
+    "name": "Cheer for You! -Narenare-",
+    "startDate": "2025-08-03T14:30:00",
+    "endDate": "2025-08-03T15:30:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 102,
+    "name": "The Beginning After the End",
+    "startDate": "2025-08-03T15:30:00",
+    "endDate": "2025-08-03T16:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 103,
+    "name": "Call of the Night – Season 2",
+    "startDate": "2025-08-03T16:00:00",
+    "endDate": "2025-08-03T16:30:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 104,
+    "name": "Isekai Quartet – Staffel 1",
+    "startDate": "2025-08-03T16:30:00",
+    "endDate": "2025-08-03T17:00:00",
+    "location": "cinemagic-1",
+    "link": ""
+  },
+  {
+    "id": 105,
+    "name": "The Colors Within",
+    "startDate": "2025-08-03T17:00:00",
+    "endDate": "2025-08-03T18:40:00",
+    "location": "cinemagic-1",
+    "link": ""
   }
 ]

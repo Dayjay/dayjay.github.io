@@ -1,7 +1,7 @@
 class CalendarApp {
     constructor() {
         this.events = [];
-        this.currentFilter = 'mozartsaal';
+        this.currentFilter = 'general';
         this.init();
     }
 
@@ -102,9 +102,9 @@ class CalendarApp {
         });
 
         const locationNames = {
+            'general': 'Allgemein',
             'mozartsaal': 'Mozartsaal',
             'musensaal': 'Musensaal',
-            'general': 'Allgemein',
             'crunchyroll-cinema': 'Crunchyroll Cinema',
             'cinemagic-1': 'CineMagic 1',
             'cinemagic-2': 'CineMagic 2',
@@ -136,9 +136,9 @@ class CalendarApp {
         };
 
         const locationNames = {
+            'general': 'Allgemein',
             'mozartsaal': 'Mozartsaal',
             'musensaal': 'Museesaal',
-            'general': 'Allgemein',
             'crunchyroll-cinema': 'Crunchyroll Cinema',
             'cinemagic-1': 'CineMagic 1',
             'cinemagic-2': 'CineMagic 2',
