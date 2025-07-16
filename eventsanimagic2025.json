@@ -9,35 +9,35 @@
   },
   {
     "id": 2,
-    "name": "Taiko Heidelberg · Taiko-Performance",
+    "name": "Taiko Heidelberg - Taiko-Performance",
     "startDate": "2025-08-01T15:30:00",
     "endDate": "2025-08-01T15:45:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/taiko-heidelberg-2025/"
   },
   {
     "id": 3,
-    "name": "Sangatsu no Phantasia · Europapremiere",
+    "name": "Sangatsu no Phantasia - Europapremiere",
     "startDate": "2025-08-01T16:00:00",
     "endDate": "2025-08-01T16:30:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/sangatsu-no-phantasia/"
   },
   {
     "id": 4,
-    "name": "Rei Yasuda · Europapremiere",
+    "name": "Rei Yasuda - Europapremiere",
     "startDate": "2025-08-01T17:00:00",
     "endDate": "2025-08-01T17:30:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/rei-yasuda/"
   },
   {
     "id": 5,
-    "name": "Kashitaro Ito · Anisong- / J-Rock-Konzert",
+    "name": "Kashitaro Ito - Anisong- / J-Rock-Konzert",
     "startDate": "2025-08-01T18:00:00",
     "endDate": "2025-08-01T18:30:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/kashitaro-ito-2025/"
   },
   {
     "id": 6,
@@ -49,19 +49,19 @@
   },
   {
     "id": 7,
-    "name": "Hiroshi Kitadani · Deutschlandpremiere",
+    "name": "Hiroshi Kitadani - Deutschlandpremiere",
     "startDate": "2025-08-01T21:00:00",
     "endDate": "2025-08-01T21:30:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/hiroshi-kitadani/"
   },
   {
     "id": 8,
-    "name": "ClariS · Deutschlandpremiere",
+    "name": "ClariS - Deutschlandpremiere",
     "startDate": "2025-08-01T22:00:00",
     "endDate": "2025-08-01T22:30:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/claris-2025/"
   },
   {
     "id": 9,
@@ -73,15 +73,15 @@
   },
   {
     "id": 10,
-    "name": "Taiko Heidelberg · Taiko-Performance",
+    "name": "Taiko Heidelberg - Taiko-Performance",
     "startDate": "2025-08-02T11:45:00",
     "endDate": "2025-08-02T12:00:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/taiko-heidelberg-2025/"
   },
   {
     "id": 11,
-    "name": "AnimagiC-Bühnencosplay · Wettbewerb",
+    "name": "AnimagiC-Bühnencosplay - Wettbewerb",
     "startDate": "2025-08-02T12:15:00",
     "endDate": "2025-08-02T13:30:00",
     "location": "mozartsaal",
@@ -89,15 +89,15 @@
   },
   {
     "id": 12,
-    "name": "Kashitaro Ito · Anisong- & J-Rock-Konzert",
+    "name": "Kashitaro Ito - Anisong- & J-Rock-Konzert",
     "startDate": "2025-08-02T13:45:00",
     "endDate": "2025-08-02T14:15:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/kashitaro-ito-2025/"
   },
   {
     "id": 13,
-    "name": "AnimagiC-Bühnencosplay · Siegerehrung",
+    "name": "AnimagiC-Bühnencosplay - Siegerehrung",
     "startDate": "2025-08-02T14:30:00",
     "endDate": "2025-08-02T15:00:00",
     "location": "mozartsaal",
@@ -105,27 +105,27 @@
   },
   {
     "id": 14,
-    "name": "Anime in Concert · Anime-Orchesterkonzert mit dem Musikverein Siershahn e.V",
+    "name": "Anime in Concert - Anime-Orchesterkonzert mit dem Musikverein Siershahn e.V",
     "startDate": "2025-08-02T15:45:00",
     "endDate": "2025-08-02T17:00:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/anime-in-concert-2025/"
   },
   {
     "id": 15,
-    "name": "TnS – Tsuki no Senshi · Showgruppe „Hetalia 3 – Das Ende der Welt“",
+    "name": "TnS – Tsuki no Senshi - Showgruppe „Hetalia 3 – Das Ende der Welt“",
     "startDate": "2025-08-02T17:30:00",
     "endDate": "2025-08-02T19:00:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/animagic-2025-showgruppen/tns-tsuki-no-senshi-2025/"
   },
   {
     "id": 16,
-    "name": "Yoko Takahashi · Deutschlandpremiere",
+    "name": "Yoko Takahashi - Deutschlandpremiere",
     "startDate": "2025-08-02T19:30:00",
     "endDate": "2025-08-02T20:00:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/yoko-takahashi/"
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "startDate": "2025-08-02T20:30:00",
     "endDate": "2025-08-02T23:00:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://sacramusic.jp/information/"
   },
   {
     "id": 18,
@@ -145,59 +145,59 @@
   },
   {
     "id": 19,
-    "name": "Kashitaro Ito · Anisong- & J-Rock-Konzert",
+    "name": "Kashitaro Ito - Anisong- & J-Rock-Konzert",
     "startDate": "2025-08-03T11:15:00",
     "endDate": "2025-08-03T11:45:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/kashitaro-ito-2025/"
   },
   {
     "id": 20,
-    "name": "Anime in Concert · Anime-Orchesterkonzert mit dem Musikverein Siershahn e.V",
+    "name": "Anime in Concert - Anime-Orchesterkonzert mit dem Musikverein Siershahn e.V",
     "startDate": "2025-08-03T12:30:00",
     "endDate": "2025-08-03T13:45:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/anime-in-concert-2025/"
   },
   {
     "id": 21,
-    "name": "Hiroshi Kitadani · Deutschlandpremiere",
+    "name": "Hiroshi Kitadani - Deutschlandpremiere",
     "startDate": "2025-08-03T14:15:00",
     "endDate": "2025-08-03T14:45:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/hiroshi-kitadani/"
   },
   {
     "id": 22,
-    "name": "Who-ya Extended · Anisong- & J-Pop-Konzert",
+    "name": "Who-ya Extended - Anisong- & J-Pop-Konzert",
     "startDate": "2025-08-03T15:00:00",
     "endDate": "2025-08-03T15:30:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/who-ya-extended-2025/"
   },
   {
     "id": 23,
-    "name": "ASCA · Anisong- & J-Pop-Konzert",
+    "name": "ASCA - Anisong- & J-Pop-Konzert",
     "startDate": "2025-08-03T15:45:00",
     "endDate": "2025-08-03T16:15:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/asca-2025/"
   },
   {
     "id": 24,
-    "name": "Yoko Takahashi · Deutschlandpremiere",
+    "name": "Yoko Takahashi - Deutschlandpremiere",
     "startDate": "2025-08-03T16:30:00",
     "endDate": "2025-08-03T17:00:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/yoko-takahashi/"
   },
   {
     "id": 25,
-    "name": "Taiko Heidelberg · Taiko-Performance",
+    "name": "Taiko Heidelberg - Taiko-Performance",
     "startDate": "2025-08-03T17:15:00",
     "endDate": "2025-08-03T17:30:00",
     "location": "mozartsaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/taiko-heidelberg-2025/"
   },
   {
     "id": 26,
@@ -218,27 +218,27 @@
   },
   {
     "id": 35,
-    "name": "Ryota Kikuchi x Budo · Deutschlandpremiere",
+    "name": "Ryota Kikuchi x Budo - Deutschlandpremiere",
     "startDate": "2025-08-01T15:15:00",
     "endDate": "2025-08-01T16:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/ryota-kikuchi-budo/"
   },
   {
     "id": 36,
-    "name": "VK Blanka · Deutschlandpremiere",
+    "name": "VK Blanka - Deutschlandpremiere",
     "startDate": "2025-08-01T16:30:00",
     "endDate": "2025-08-01T17:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/vk-blanka/"
   },
   {
     "id": 37,
-    "name": "Chiai Fujikawa · Deutschlandpremiere",
+    "name": "Chiai Fujikawa - Deutschlandpremiere",
     "startDate": "2025-08-01T17:30:00",
     "endDate": "2025-08-01T18:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/chiai-fujikawa/"
   },
   {
     "id": 38,
@@ -250,19 +250,19 @@
   },
   {
     "id": 39,
-    "name": "Violet Evergarden x Cellotic Soundtrack Ensemble mit Anisong-Sängerin Aira Yuuki · Weltpremiere",
+    "name": "Violet Evergarden x Cellotic Soundtrack Ensemble mit Anisong-Sängerin Aira Yuuki - Weltpremiere",
     "startDate": "2025-08-01T21:00:00",
     "endDate": "2025-08-01T22:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/aira-yuuki-2025/"
   },
   {
     "id": 40,
-    "name": "ASTERISM · Deutschlandpremiere",
+    "name": "ASTERISM - Deutschlandpremiere",
     "startDate": "2025-08-01T22:30:00",
     "endDate": "2025-08-01T23:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/asterism/"
   },
   {
     "id": 41,
@@ -274,51 +274,51 @@
   },
   {
     "id": 42,
-    "name": "Daijoubu · Showgruppe „Black Butler – Eine schrecklich totgeglaubte Familie“",
+    "name": "Daijoubu - Showgruppe „Black Butler – Eine schrecklich totgeglaubte Familie“",
     "startDate": "2025-08-02T11:15:00",
     "endDate": "2025-08-02T12:30:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/daijoubu-2025/"
   },
   {
     "id": 43,
-    "name": "Chiai Fujikawa · Deutschlandpremiere",
+    "name": "Chiai Fujikawa - Deutschlandpremiere",
     "startDate": "2025-08-02T13:00:00",
     "endDate": "2025-08-02T13:30:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/chiai-fujikawa/"
   },
   {
     "id": 44,
-    "name": "Ryota Kikuchi x Budo · Deutschlandpremiere",
+    "name": "Ryota Kikuchi x Budo - Deutschlandpremiere",
     "startDate": "2025-08-02T14:00:00",
     "endDate": "2025-08-02T14:45:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/ryota-kikuchi-budo/"
   },
   {
     "id": 45,
-    "name": "Violet Evergarden x Cellotic Soundtrack Ensemble mit Anisong-Sängerin Aira Yuuki · Weltpremiere",
+    "name": "Violet Evergarden x Cellotic Soundtrack Ensemble mit Anisong-Sängerin Aira Yuuki - Weltpremiere",
     "startDate": "2025-08-02T15:30:00",
     "endDate": "2025-08-02T16:30:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/aira-yuuki-2025/"
   },
   {
     "id": 46,
-    "name": "ASTERISM · Deutschlandpremiere",
+    "name": "ASTERISM - Deutschlandpremiere",
     "startDate": "2025-08-02T17:15:00",
     "endDate": "2025-08-02T17:45:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/asterism/"
   },
   {
     "id": 47,
-    "name": "Dice Actors · Synchronschauspiel x D&D – live",
+    "name": "Dice Actors - Synchronschauspiel x D&D – live",
     "startDate": "2025-08-02T20:00:00",
     "endDate": "2025-08-02T23:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/dice-actors-2025/"
   },
   {
     "id": 48,
@@ -330,43 +330,43 @@
   },
   {
     "id": 49,
-    "name": "Violet Evergarden x Cellotic Soundtrack Ensemble mit Anisong-Sängerin Aira Yuuki · Weltpremiere",
+    "name": "Violet Evergarden x Cellotic Soundtrack Ensemble mit Anisong-Sängerin Aira Yuuki - Weltpremiere",
     "startDate": "2025-08-03T11:30:00",
     "endDate": "2025-08-03T12:30:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/aira-yuuki-2025/"
   },
   {
     "id": 50,
-    "name": "Ryota Kikuchi x Budo · Deutschlandpremiere",
+    "name": "Ryota Kikuchi x Budo - Deutschlandpremiere",
     "startDate": "2025-08-03T13:15:00",
     "endDate": "2025-08-03T14:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/ryota-kikuchi-budo/"
   },
   {
     "id": 51,
-    "name": "VK Blanka · Deutschlandpremiere",
+    "name": "VK Blanka - Deutschlandpremiere",
     "startDate": "2025-08-03T14:30:00",
     "endDate": "2025-08-03T15:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/vk-blanka/"
   },
   {
     "id": 52,
-    "name": "Chiai Fujikawa · Deutschlandpremiere",
+    "name": "Chiai Fujikawa - Deutschlandpremiere",
     "startDate": "2025-08-03T15:30:00",
     "endDate": "2025-08-03T16:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/chiai-fujikawa/"
   },
   {
     "id": 53,
-    "name": "ASTERISM · Deutschlandpremiere",
+    "name": "ASTERISM - Deutschlandpremiere",
     "startDate": "2025-08-03T16:30:00",
     "endDate": "2025-08-03T17:00:00",
     "location": "musensaal",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/asterism/"
   },
   {
     "id": 54,
@@ -386,7 +386,7 @@
   },
   {
     "id": 56,
-    "name": "The Rising of the Shield Hero S4 · Deutschlandpremiere (Ep. 5, Dt.)",
+    "name": "The Rising of the Shield Hero S4 - Deutschlandpremiere (Ep. 5, Dt.)",
     "startDate": "2025-08-01T18:00:00",
     "endDate": "2025-08-01T18:30:00",
     "location": "crunchyroll-cinema",
@@ -410,7 +410,7 @@
   },
   {
     "id": 59,
-    "name": "Let’s Play · EU-Premiere (Ep. 1, OmU)",
+    "name": "Let’s Play - EU-Premiere (Ep. 1, OmU)",
     "startDate": "2025-08-01T20:45:00",
     "endDate": "2025-08-01T21:15:00",
     "location": "crunchyroll-cinema",
@@ -514,7 +514,7 @@
   },
   {
     "id": 72,
-    "name": "Let’s Play · EU-Premiere (Ep. 1, OmU)",
+    "name": "Let’s Play - EU-Premiere (Ep. 1, OmU)",
     "startDate": "2025-08-02T21:30:00",
     "endDate": "2025-08-02T22:00:00",
     "location": "crunchyroll-cinema",
@@ -530,7 +530,7 @@
   },
   {
     "id": 74,
-    "name": "Sentenced to Be a Hero · Europapremiere (Ep. 1, OmU)",
+    "name": "Sentenced to Be a Hero - Europapremiere (Ep. 1, OmU)",
     "startDate": "2025-08-02T22:30:00",
     "endDate": "2025-08-02T23:15:00",
     "location": "crunchyroll-cinema",
@@ -578,7 +578,7 @@
   },
   {
     "id": 80,
-    "name": "The Rising of the Shield Hero S4 · Deutschlandpremiere (Ep. 5, Dt.)",
+    "name": "The Rising of the Shield Hero S4 - Deutschlandpremiere (Ep. 5, Dt.)",
     "startDate": "2025-08-03T15:30:00",
     "endDate": "2025-08-03T16:00:00",
     "location": "crunchyroll-cinema",
@@ -598,7 +598,7 @@
     "startDate": "2025-08-01T16:30:00",
     "endDate": "2025-08-01T17:30:00",
     "location": "cinemagic-1",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/dice-actors-2025/"
   },
   {
     "id": 83,
@@ -734,7 +734,7 @@
     "startDate": "2025-08-03T11:15:00",
     "endDate": "2025-08-03T12:15:00",
     "location": "cinemagic-1",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/dice-actors-2025/"
   },
   {
     "id": 100,
@@ -786,7 +786,7 @@
   },
     {
     "id": 106,
-    "name": "7th Time Loop · Dub-Premiere (Ep. 1, Dt.)",
+    "name": "7th Time Loop - Dub-Premiere (Ep. 1, Dt.)",
     "startDate": "2025-08-01T14:15:00",
     "endDate": "2025-08-01T14:45:00",
     "location": "cinemagic-2",
@@ -1110,7 +1110,7 @@
     "startDate": "2025-08-01T14:30:00",
     "endDate": "2025-08-01T15:30:00",
     "location": "animagic-kino-2",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/dice-actors-2025/"
   },
   {
     "id": 147,
@@ -1146,7 +1146,7 @@
   },
   {
     "id": 151,
-    "name": "Danmachi – Familia Myth V · Dub-Premiere (Ep. 1, Dt.)",
+    "name": "Danmachi – Familia Myth V - Dub-Premiere (Ep. 1, Dt.)",
     "startDate": "2025-08-01T20:30:00",
     "endDate": "2025-08-01T21:00:00",
     "location": "animagic-kino-2",
@@ -1206,7 +1206,7 @@
     "startDate": "2025-08-02T14:00:00",
     "endDate": "2025-08-02T15:00:00",
     "location": "animagic-kino-2",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/chiai-fujikawa/"
   },
   {
     "id": 159,
@@ -1234,7 +1234,7 @@
   },
   {
     "id": 162,
-    "name": "Danmachi – Familia Myth V · Dub-Premiere (Ep. 1, Dt.)",
+    "name": "Danmachi – Familia Myth V - Dub-Premiere (Ep. 1, Dt.)",
     "startDate": "2025-08-02T20:30:00",
     "endDate": "2025-08-02T21:00:00",
     "location": "animagic-kino-2",
@@ -1286,7 +1286,7 @@
     "startDate": "2025-08-03T11:30:00",
     "endDate": "2025-08-03T12:30:00",
     "location": "animagic-kino-2",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/chiai-fujikawa/"
   },
   {
     "id": 169,
@@ -1302,7 +1302,7 @@
     "startDate": "2025-08-03T16:00:00",
     "endDate": "2025-08-03T17:00:00",
     "location": "animagic-kino-2",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/dice-actors-2025/"
   },
   {
     "id": 171,
@@ -1394,7 +1394,7 @@
   },
   {
     "id": 182,
-    "name": "Ragnarök Online: 20 Jahre Spiel des Lächelns · Workshop",
+    "name": "Ragnarök Online: 20 Jahre Spiel des Lächelns - Workshop",
     "startDate": "2025-08-02T11:00:00",
     "endDate": "2025-08-02T11:45:00",
     "location": "animagic-kino-3",
@@ -1402,7 +1402,7 @@
   },
   {
     "id": 183,
-    "name": "Angelina Paustian · Workshop: Bento! Japanische Lebensfreude in der Box",
+    "name": "Angelina Paustian - Workshop: Bento! Japanische Lebensfreude in der Box",
     "startDate": "2025-08-02T12:00:00",
     "endDate": "2025-08-02T13:00:00",
     "location": "animagic-kino-3",
@@ -1542,7 +1542,7 @@
     "startDate": "2025-08-01T14:30:00",
     "endDate": "2025-08-01T15:30:00",
     "location": "ramen-wok-wok",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/kashitaro-ito-2025/"
   },
   {
     "id": 202,
@@ -1550,7 +1550,7 @@
     "startDate": "2025-08-01T16:30:00",
     "endDate": "2025-08-01T17:30:00",
     "location": "ramen-wok-wok",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/ryota-kikuchi-budo/"
   },
   {
     "id": 200,
@@ -1574,7 +1574,7 @@
     "startDate": "2025-08-02T13:00:00",
     "endDate": "2025-08-02T14:00:00",
     "location": "ramen-wok-wok",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/dice-actors-2025/"
   },
   {
     "id": 205,
@@ -1582,7 +1582,7 @@
     "startDate": "2025-08-02T15:00:00",
     "endDate": "2025-08-02T16:00:00",
     "location": "ramen-wok-wok",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/kashitaro-ito-2025/"
   },
   {
     "id": 206,
@@ -1598,7 +1598,7 @@
     "startDate": "2025-08-02T18:30:00",
     "endDate": "2025-08-02T19:30:00",
     "location": "ramen-wok-wok",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/ryota-kikuchi-budo/"
   },
   {
     "id": 208,
@@ -1622,7 +1622,7 @@
     "startDate": "2025-08-03T12:30:00",
     "endDate": "2025-08-03T13:30:00",
     "location": "ramen-wok-wok",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/kashitaro-ito-2025/"
   },
   {
     "id": 211,
@@ -1630,7 +1630,7 @@
     "startDate": "2025-08-03T14:30:00",
     "endDate": "2025-08-03T15:30:00",
     "location": "ramen-wok-wok",
-    "link": ""
+    "link": "https://animagic.de/animagic-2025/ryota-kikuchi-budo/"
   },
   {
     "id": 212,
