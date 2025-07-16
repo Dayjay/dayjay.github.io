@@ -1649,8 +1649,24 @@
     "link": ""
   },
     {
+    "id": 222,
+    "name": "Tageskasse (Linkes Eingangsportal)",
+    "startDate": "2025-08-03T08:00:00",
+    "endDate": "2025-08-03T17:00:00",
+    "location": "general",
+    "link": ""
+  },
+  {
+    "id": 223,
+    "name": "Info-Counter (Linkes Eingangsportal)",
+    "startDate": "2025-08-01T09:00:00",
+    "endDate": "2025-08-02T01:00:00",
+    "location": "general",
+    "link": ""
+  },
+  {
     "id": 224,
-    "name": "Info-Counter",
+    "name": "Info-Counter (Linkes Eingangsportal)",
     "startDate": "2025-08-02T08:00:00",
     "endDate": "2025-08-03T01:00:00",
     "location": "general",
@@ -1658,7 +1674,7 @@
   },
   {
     "id": 225,
-    "name": "Info-Counter",
+    "name": "Info-Counter (Linkes Eingangsportal)",
     "startDate": "2025-08-03T08:00:00",
     "endDate": "2025-08-03T18:30:00",
     "location": "general",
@@ -1666,7 +1682,7 @@
   },
   {
     "id": 217,
-    "name": "Armbandanlage",
+    "name": "Armbandanlage (Raum Bruno Schmitz)",
     "startDate": "2025-08-01T08:30:00",
     "endDate": "2025-08-01T19:00:00",
     "location": "general",
@@ -1674,23 +1690,15 @@
   },
   {
     "id": 218,
-    "name": "Armbandanlage",
+    "name": "Armbandanlage (Raum Bruno Schmitz)",
     "startDate": "2025-08-02T08:00:00",
     "endDate": "2025-08-02T15:00:00",
     "location": "general",
     "link": ""
   },
   {
-    "id": 219,
-    "name": "Armbandanlage",
-    "startDate": "2025-08-03T09:00:00",
-    "endDate": "2025-08-03T13:00:00",
-    "location": "general",
-    "link": ""
-  },
-  {
     "id": 223,
-    "name": "Cosplay-Garderobe",
+    "name": "Cosplay-Garderobe (Eingangsportal des Rosengarten)",
     "startDate": "2025-08-01T08:30:00",
     "endDate": "2025-08-01T22:00:00",
     "location": "general",
@@ -1698,7 +1706,7 @@
   },
   {
     "id": 224,
-    "name": "Cosplay-Garderobe",
+    "name": "Cosplay-Garderobe (Eingangsportal des Rosengarten)",
     "startDate": "2025-08-02T08:00:00",
     "endDate": "2025-08-02T22:00:00",
     "location": "general",
@@ -1706,17 +1714,33 @@
   },
   {
     "id": 225,
-    "name": "Cosplay-Garderobe",
+    "name": "Cosplay-Garderobe (Eingangsportal des Rosengarten)",
     "startDate": "2025-08-03T08:00:00",
     "endDate": "2025-08-03T19:15:00",
     "location": "general",
     "link": ""
   },
   {
-    "id": 214,
-    "name": "Einlass Rosengarten",
-    "startDate": "2025-08-01T13:00:00",
-    "endDate": "2025-08-02T01:00:00",
+    "id": 220,
+    "name": "Tageskasse (Linkes Eingangsportal)",
+    "startDate": "2025-08-01T09:00:00",
+    "endDate": "2025-08-01T21:00:00",
+    "location": "general",
+    "link": ""
+  },
+  {
+    "id": 221,
+    "name": "Tageskasse (Linkes Eingangsportal)",
+    "startDate": "2025-08-02T08:00:00",
+    "endDate": "2025-08-02T19:00:00",
+    "location": "general",
+    "link": ""
+  },
+  {
+    "id": 219,
+    "name": "Armbandanlage (Raum Bruno Schmitz)",
+    "startDate": "2025-08-03T09:00:00",
+    "endDate": "2025-08-03T13:00:00",
     "location": "general",
     "link": ""
   },
@@ -1737,33 +1761,9 @@
     "link": ""
   },
   {
-    "id": 220,
-    "name": "Tageskasse",
-    "startDate": "2025-08-01T09:00:00",
-    "endDate": "2025-08-01T21:00:00",
-    "location": "general",
-    "link": ""
-  },
-  {
-    "id": 221,
-    "name": "Tageskasse",
-    "startDate": "2025-08-02T08:00:00",
-    "endDate": "2025-08-02T19:00:00",
-    "location": "general",
-    "link": ""
-  },
-  {
-    "id": 222,
-    "name": "Tageskasse",
-    "startDate": "2025-08-03T08:00:00",
-    "endDate": "2025-08-03T17:00:00",
-    "location": "general",
-    "link": ""
-  },
-  {
-    "id": 223,
-    "name": "Info-Counter",
-    "startDate": "2025-08-01T09:00:00",
+    "id": 214,
+    "name": "Einlass Rosengarten",
+    "startDate": "2025-08-01T13:00:00",
     "endDate": "2025-08-02T01:00:00",
     "location": "general",
     "link": ""
