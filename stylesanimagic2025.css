@@ -219,7 +219,7 @@ header p {
 
 .event-buttons {
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     right: 10px;
     display: flex;
     gap: 5px;
@@ -383,16 +383,16 @@ header p {
 .tab-button[data-location="animagic-kino-2"].active { background-color: #95a5a6; }
 .tab-button[data-location="animagic-kino-3"].active { background-color: #34495e; }
 .tab-button[data-location="ramen-wok-wok"].active { background-color: #e74c3c; }
-.tab-button[data-location="games-area"].active { background-color: #ffff00; color: #000; }
+.tab-button[data-location="games-area"].active { background-color: #ffff00; color: #000000; }
 .tab-button[data-location="altraverse"].active { background-color: #00adef; }
 .tab-button[data-location="animehouse"].active { background-color: #e30614; }
 .tab-button[data-location="animoon"].active { background-color: #000000; }
 .tab-button[data-location="blackscreenrecords"].active { background-color: #000000; }
 .tab-button[data-location="carlsen"].active { background-color: #869afd; }
 .tab-button[data-location="crunchyroll"].active { background-color: #f39c12; }
-.tab-button[data-location="dokico"].active { background-color: #c5e1f1; color: #000; }
+.tab-button[data-location="dokico"].active { background-color: #c5e1f1; color: #000000; }
 .tab-button[data-location="leonine"].active { background-color: #000000; }
-.tab-button[data-location="peppermint"].active { background-color: #e9e600; color: #000; }
+.tab-button[data-location="peppermint"].active { background-color: #e9e600; color: #000000; }
 .tab-button[data-location="toei"].active { background-color: #d0021b; }
 
 .search-container {

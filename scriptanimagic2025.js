@@ -534,6 +534,8 @@ class CalendarApp {
             noFavoritesMessage.className = 'no-favorites-message';
             noFavoritesMessage.innerHTML = '<p>Keine Favoriten vorhanden. Klicke auf 🤍 bei Events, um sie als Favoriten zu markieren.</p>';
             document.querySelector('[data-date="2025-08-01"]').appendChild(noFavoritesMessage);
+            document.querySelector('[data-date="2025-08-02"]').appendChild(noFavoritesMessage);
+            document.querySelector('[data-date="2025-08-03"]').appendChild(noFavoritesMessage);
             return;
         }
 
