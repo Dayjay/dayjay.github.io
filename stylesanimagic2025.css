@@ -49,6 +49,58 @@ header p {
     margin: 0;
 }
 
+.view-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.view-button {
+    padding: 12px 24px;
+    border: 2px solid #3498db;
+    background-color: white;
+    color: #3498db;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.view-button:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.view-button.active {
+    background-color: #3498db;
+    color: white;
+}
+
+.date-filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.date-filter-container label {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.date-filter-container select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
 .location-tabs {
     display: flex;
     flex-wrap: wrap;
@@ -433,6 +485,136 @@ header p {
     transform: translateY(0);
 }
 
+.timeline-view-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.timeline-grid {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.timeline-locations-header {
+    display: grid;
+    grid-template-columns: 80px repeat(21, 1fr);
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.timeline-time-column {
+    padding: 12px 8px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e9ecef;
+    border-right: 1px solid #dee2e6;
+    font-size: 14px;
+}
+
+.timeline-location-column {
+    padding: 12px 8px;
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px solid #dee2e6;
+    font-size: 12px;
+    background-color: #f8f9fa;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-location-column:last-child {
+    border-right: none;
+}
+
+.timeline-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.timeline-row {
+    display: grid;
+    grid-template-columns: 80px repeat(21, 1fr);
+    border-bottom: 1px solid #e9ecef;
+    min-height: 60px;
+}
+
+.timeline-time-cell {
+    padding: 8px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-event-cell {
+    padding: 4px;
+    border-right: 1px solid #e9ecef;
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline-event-cell:last-child {
+    border-right: none;
+}
+
+.timeline-event {
+    background-color: #3498db;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 1.2;
+    margin-bottom: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.timeline-event:hover {
+    background-color: #2980b9;
+    transform: scale(1.02);
+}
+
+.timeline-event.location-general { background-color: #9b59b6; }
+.timeline-event.location-mozartsaal { background-color: #e74c3c; }
+.timeline-event.location-musensaal { background-color: #f39c12; }
+.timeline-event.location-crunchyroll-cinema { background-color: #e67e22; }
+.timeline-event.location-cinemagic-1 { background-color: #2ecc71; }
+.timeline-event.location-cinemagic-2 { background-color: #27ae60; }
+.timeline-event.location-animagic-kino-1 { background-color: #3498db; }
+.timeline-event.location-animagic-kino-2 { background-color: #2980b9; }
+.timeline-event.location-animagic-kino-3 { background-color: #1abc9c; }
+.timeline-event.location-ramen-wok-wok { background-color: #f1c40f; }
+.timeline-event.location-games-area { background-color: #e91e63; }
+.timeline-event.location-altraverse { background-color: #9c27b0; }
+.timeline-event.location-animehouse { background-color: #673ab7; }
+.timeline-event.location-animoon { background-color: #3f51b5; }
+.timeline-event.location-blackscreenrecords { background-color: #34495e; }
+.timeline-event.location-carlsen { background-color: #795548; }
+.timeline-event.location-crunchyroll { background-color: #ff9800; }
+.timeline-event.location-dokico { background-color: #607d8b; }
+.timeline-event.location-leonine { background-color: #8bc34a; }
+.timeline-event.location-peppermint { background-color: #cddc39; }
+.timeline-event.location-toei { background-color: #ffeb3b; }
+
 @media (max-width: 768px) {
     .location-tabs {
         display: none;
@@ -455,5 +637,39 @@ header p {
         width: 45px;
         height: 45px;
         font-size: 18px;
+    }
+    
+    .timeline-locations-header {
+        grid-template-columns: 60px repeat(21, 1fr);
+        font-size: 10px;
+    }
+    
+    .timeline-row {
+        grid-template-columns: 60px repeat(21, 1fr);
+    }
+    
+    .timeline-time-column,
+    .timeline-time-cell {
+        font-size: 10px;
+        padding: 8px 4px;
+    }
+    
+    .timeline-location-column {
+        font-size: 10px;
+        padding: 8px 2px;
+    }
+    
+    .timeline-event {
+        font-size: 9px;
+        padding: 4px 6px;
+    }
+    
+    .view-toggle {
+        flex-direction: column;
+    }
+    
+    .view-button {
+        padding: 10px 20px;
+        font-size: 14px;
     }
 }

@@ -21,6 +21,11 @@
             </div>
         </header>
 
+        <div class="view-toggle">
+            <button id="locationViewBtn" class="view-button active">Orte-Ansicht</button>
+            <button id="timelineViewBtn" class="view-button">Zeitlinien-Ansicht</button>
+        </div>
+
         <nav class="location-tabs">
             <button class="tab-button active" data-location="general">Allgemein</button>
             <button class="tab-button" data-location="mozartsaal">Mozartsaal</button>
@@ -72,6 +77,16 @@
             </select>
         </div>
 
+        <div class="date-filter-container" style="display: none;">
+            <label for="dateFilter">Tag wählen:</label>
+            <select id="dateFilter">
+                <option value="all">Alle Tage</option>
+                <option value="2025-08-01">Freitag, 1. August</option>
+                <option value="2025-08-02">Samstag, 2. August</option>
+                <option value="2025-08-03">Sonntag, 3. August</option>
+            </select>
+        </div>
+
         <div class="search-container">
             <div class="search-input-wrapper">
                 <input type="text" id="searchInput" placeholder="Events durchsuchen...">
@@ -92,6 +107,38 @@
                 <div class="day-events" id="day-2025-08-03">
                     <h3>Sonntag, 3. August</h3>
                     <div class="events-list" data-date="2025-08-03"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeline-view-container" style="display: none;">
+            <div class="timeline-grid">
+                <div class="timeline-locations-header">
+                    <div class="timeline-time-column">Zeit</div>
+                    <div class="timeline-location-column">Allgemein</div>
+                    <div class="timeline-location-column">Mozartsaal</div>
+                    <div class="timeline-location-column">Musensaal</div>
+                    <div class="timeline-location-column">Crunchyroll Cinema</div>
+                    <div class="timeline-location-column">CineMagic 1</div>
+                    <div class="timeline-location-column">CineMagic 2</div>
+                    <div class="timeline-location-column">AnimagiC-Kino 1</div>
+                    <div class="timeline-location-column">AnimagiC-Kino 2</div>
+                    <div class="timeline-location-column">AnimagiC-Kino 3</div>
+                    <div class="timeline-location-column">Ramen-Wok-Wok-Karaoke</div>
+                    <div class="timeline-location-column">Games-Area</div>
+                    <div class="timeline-location-column">Altraverse</div>
+                    <div class="timeline-location-column">Anime House</div>
+                    <div class="timeline-location-column">AniMoon</div>
+                    <div class="timeline-location-column">Black Screen Records</div>
+                    <div class="timeline-location-column">Carlsen Manga</div>
+                    <div class="timeline-location-column">Crunchyroll</div>
+                    <div class="timeline-location-column">Dokico</div>
+                    <div class="timeline-location-column">LEONINE Anime</div>
+                    <div class="timeline-location-column">peppermint anime</div>
+                    <div class="timeline-location-column">Tōei Animation</div>
+                </div>
+                <div class="timeline-content" id="timelineContent">
+                    <!-- Timeline content will be populated by JavaScript -->
                 </div>
             </div>
         </div>

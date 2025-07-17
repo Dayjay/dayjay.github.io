@@ -3,6 +3,8 @@ class CalendarApp {
         this.events = [];
         this.currentFilter = 'general';
         this.searchTerm = '';
+        this.currentView = 'location';
+        this.currentDate = 'all';
         this.init();
     }
 
@@ -47,7 +49,11 @@ class CalendarApp {
 
         document.getElementById('searchInput').addEventListener('input', (e) => {
             this.searchTerm = e.target.value.toLowerCase();
-            this.renderEvents();
+            if (this.currentView === 'location') {
+                this.renderEvents();
+            } else {
+                this.renderTimelineView();
+            }
             this.toggleFloatingButtons();
         });
 
@@ -58,6 +64,19 @@ class CalendarApp {
         document.getElementById('clearSearchFloat').addEventListener('click', () => {
             this.clearSearch();
             this.jumpToTop();
+        });
+
+        document.getElementById('locationViewBtn').addEventListener('click', () => {
+            this.switchView('location');
+        });
+
+        document.getElementById('timelineViewBtn').addEventListener('click', () => {
+            this.switchView('timeline');
+        });
+
+        document.getElementById('dateFilter').addEventListener('change', (e) => {
+            this.currentDate = e.target.value;
+            this.renderTimelineView();
         });
     }
 
@@ -75,6 +94,32 @@ class CalendarApp {
         document.getElementById('locationSelect').value = location;
         
         this.renderEvents();
+    }
+
+    switchView(view) {
+        this.currentView = view;
+        
+        document.querySelectorAll('.view-button').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        
+        if (view === 'location') {
+            document.getElementById('locationViewBtn').classList.add('active');
+            document.querySelector('.location-tabs').style.display = 'flex';
+            document.querySelector('.location-dropdown').style.display = 'none';
+            document.querySelector('.date-filter-container').style.display = 'none';
+            document.querySelector('.calendar-container').style.display = 'block';
+            document.querySelector('.timeline-view-container').style.display = 'none';
+            this.renderEvents();
+        } else if (view === 'timeline') {
+            document.getElementById('timelineViewBtn').classList.add('active');
+            document.querySelector('.location-tabs').style.display = 'none';
+            document.querySelector('.location-dropdown').style.display = 'none';
+            document.querySelector('.date-filter-container').style.display = 'flex';
+            document.querySelector('.calendar-container').style.display = 'none';
+            document.querySelector('.timeline-view-container').style.display = 'block';
+            this.renderTimelineView();
+        }
     }
 
     renderEvents() {
@@ -289,8 +334,99 @@ class CalendarApp {
     clearSearch() {
         this.searchTerm = '';
         document.getElementById('searchInput').value = '';
-        this.renderEvents();
+        if (this.currentView === 'location') {
+            this.renderEvents();
+        } else {
+            this.renderTimelineView();
+        }
         this.toggleFloatingButtons();
+    }
+
+    renderTimelineView() {
+        const timelineContent = document.getElementById('timelineContent');
+        timelineContent.innerHTML = '';
+        
+        const locationKeys = ['general', 'mozartsaal', 'musensaal', 'crunchyroll-cinema', 
+                             'cinemagic-1', 'cinemagic-2', 'animagic-kino-1', 'animagic-kino-2', 
+                             'animagic-kino-3', 'ramen-wok-wok', 'games-area', 'altraverse', 
+                             'animehouse', 'animoon', 'blackscreenrecords', 'carlsen', 
+                             'crunchyroll', 'dokico', 'leonine', 'peppermint', 'toei'];
+        
+        let filteredEvents = this.events;
+        
+        if (this.currentDate !== 'all') {
+            filteredEvents = this.events.filter(event => {
+                const eventDate = new Date(event.startDate).toISOString().split('T')[0];
+                return eventDate === this.currentDate;
+            });
+        }
+        
+        if (this.searchTerm !== '') {
+            filteredEvents = filteredEvents.filter(event => 
+                event.name.toLowerCase().includes(this.searchTerm));
+        }
+        
+        const timeSlots = this.generateTimeSlots(filteredEvents);
+        
+        timeSlots.forEach(timeSlot => {
+            const row = document.createElement('div');
+            row.className = 'timeline-row';
+            
+            const timeCell = document.createElement('div');
+            timeCell.className = 'timeline-time-cell';
+            timeCell.textContent = timeSlot.time;
+            row.appendChild(timeCell);
+            
+            locationKeys.forEach(locationKey => {
+                const cell = document.createElement('div');
+                cell.className = 'timeline-event-cell';
+                
+                const eventsAtTime = timeSlot.events.filter(event => event.location === locationKey);
+                eventsAtTime.forEach(event => {
+                    const eventDiv = document.createElement('div');
+                    eventDiv.className = `timeline-event location-${event.location}`;
+                    eventDiv.textContent = event.name;
+                    eventDiv.title = `${event.name} (${this.formatTime(event.startDate)} - ${this.formatTime(event.endDate)})`;
+                    eventDiv.addEventListener('click', () => {
+                        this.copyToCalendar(event.id);
+                    });
+                    cell.appendChild(eventDiv);
+                });
+                
+                row.appendChild(cell);
+            });
+            
+            timelineContent.appendChild(row);
+        });
+    }
+
+    generateTimeSlots(events) {
+        const timeSlots = new Map();
+        
+        events.forEach(event => {
+            const startTime = new Date(event.startDate);
+            const timeKey = `${startTime.getHours().toString().padStart(2, '0')}:${startTime.getMinutes().toString().padStart(2, '0')}`;
+            
+            if (!timeSlots.has(timeKey)) {
+                timeSlots.set(timeKey, {
+                    time: timeKey,
+                    events: []
+                });
+            }
+            
+            timeSlots.get(timeKey).events.push(event);
+        });
+        
+        return Array.from(timeSlots.values()).sort((a, b) => a.time.localeCompare(b.time));
+    }
+
+    formatTime(dateString) {
+        const date = new Date(dateString);
+        return date.toLocaleTimeString('en-US', { 
+            hour: '2-digit', 
+            minute: '2-digit',
+            hour12: false
+        });
     }
 }
 
