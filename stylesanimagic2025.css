@@ -273,6 +273,50 @@ header p {
 .location-peppermint { border-left: 4px solid #e9e600; }
 .location-toei { border-left: 4px solid #d0021b; }
 
+.tab-button[data-location="general"] { border-left: 3px solid #3498db; }
+.tab-button[data-location="mozartsaal"] { border-left: 3px solid #e74c3c; }
+.tab-button[data-location="musensaal"] { border-left: 3px solid #9b59b6; }
+.tab-button[data-location="crunchyroll-cinema"] { border-left: 3px solid #f39c12; }
+.tab-button[data-location="cinemagic-1"] { border-left: 3px solid #1abc9c; }
+.tab-button[data-location="cinemagic-2"] { border-left: 3px solid #2ecc71; }
+.tab-button[data-location="animagic-kino-1"] { border-left: 3px solid #e67e22; }
+.tab-button[data-location="animagic-kino-2"] { border-left: 3px solid #95a5a6; }
+.tab-button[data-location="animagic-kino-3"] { border-left: 3px solid #34495e; }
+.tab-button[data-location="ramen-wok-wok"] { border-left: 3px solid #e74c3c; }
+.tab-button[data-location="games-area"] { border-left: 3px solid #ffff00; }
+.tab-button[data-location="altraverse"] { border-left: 3px solid #00adef; }
+.tab-button[data-location="animehouse"] { border-left: 3px solid #e30614; }
+.tab-button[data-location="animoon"] { border-left: 3px solid #000000; }
+.tab-button[data-location="blackscreenrecords"] { border-left: 3px solid #000000; }
+.tab-button[data-location="carlsen"] { border-left: 3px solid #869afd; }
+.tab-button[data-location="crunchyroll"] { border-left: 3px solid #f39c12; }
+.tab-button[data-location="dokico"] { border-left: 3px solid #c5e1f1; }
+.tab-button[data-location="leonine"] { border-left: 3px solid #000000; }
+.tab-button[data-location="peppermint"] { border-left: 3px solid #e9e600; }
+.tab-button[data-location="toei"] { border-left: 3px solid #d0021b; }
+
+.tab-button[data-location="general"].active { background-color: #3498db; }
+.tab-button[data-location="mozartsaal"].active { background-color: #e74c3c; }
+.tab-button[data-location="musensaal"].active { background-color: #9b59b6; }
+.tab-button[data-location="crunchyroll-cinema"].active { background-color: #f39c12; }
+.tab-button[data-location="cinemagic-1"].active { background-color: #1abc9c; }
+.tab-button[data-location="cinemagic-2"].active { background-color: #2ecc71; }
+.tab-button[data-location="animagic-kino-1"].active { background-color: #e67e22; }
+.tab-button[data-location="animagic-kino-2"].active { background-color: #95a5a6; }
+.tab-button[data-location="animagic-kino-3"].active { background-color: #34495e; }
+.tab-button[data-location="ramen-wok-wok"].active { background-color: #e74c3c; }
+.tab-button[data-location="games-area"].active { background-color: #ffff00; color: #000; }
+.tab-button[data-location="altraverse"].active { background-color: #00adef; }
+.tab-button[data-location="animehouse"].active { background-color: #e30614; }
+.tab-button[data-location="animoon"].active { background-color: #000000; }
+.tab-button[data-location="blackscreenrecords"].active { background-color: #000000; }
+.tab-button[data-location="carlsen"].active { background-color: #869afd; }
+.tab-button[data-location="crunchyroll"].active { background-color: #f39c12; }
+.tab-button[data-location="dokico"].active { background-color: #c5e1f1; color: #000; }
+.tab-button[data-location="leonine"].active { background-color: #000000; }
+.tab-button[data-location="peppermint"].active { background-color: #e9e600; color: #000; }
+.tab-button[data-location="toei"].active { background-color: #d0021b; }
+
 .location-dropdown {
     display: none;
     margin-bottom: 30px;
