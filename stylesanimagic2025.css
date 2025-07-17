@@ -574,7 +574,6 @@ header p {
 }
 
 .timeline-event {
-    background-color: #3498db;
     color: white;
     padding: 8px 10px;
     border-radius: 4px;
@@ -586,10 +585,11 @@ header p {
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
+    border: none;
 }
 
 .timeline-event:hover {
-    background-color: #2980b9;
+    opacity: 0.8;
     transform: scale(1.02);
 }
 
