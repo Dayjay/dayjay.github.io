@@ -232,7 +232,7 @@ class CalendarApp {
             <div class="event-location">${locationNames[event.location]}</div>
             ${event.link ? `<a href="${event.link}" class="event-link" target="_blank">Mehr Infos</a>` : ''}
             <div class="event-buttons">
-                <button class="favorite-button" data-event-id="${event.id}" onclick="calendarApp.toggleFavorite(${event.id})" title="Zu Favoriten hinzufügen">☆</button>
+                <button class="favorite-button" data-event-id="${event.id}" onclick="calendarApp.toggleFavorite(${event.id})" title="Zu Favoriten hinzufügen">🤍</button>
                 <button class="copy-button" onclick="calendarApp.copyToCalendar(${event.id})">📅</button>
             </div>
         `;
@@ -532,7 +532,7 @@ class CalendarApp {
         if (favoriteEvents.length === 0) {
             const noFavoritesMessage = document.createElement('div');
             noFavoritesMessage.className = 'no-favorites-message';
-            noFavoritesMessage.innerHTML = '<p>Keine Favoriten vorhanden. Klicke auf ☆ bei Events, um sie als Favoriten zu markieren.</p>';
+            noFavoritesMessage.innerHTML = '<p>Keine Favoriten vorhanden. Klicke auf 🤍 bei Events, um sie als Favoriten zu markieren.</p>';
             document.querySelector('[data-date="2025-08-01"]').appendChild(noFavoritesMessage);
             return;
         }
@@ -585,7 +585,7 @@ class CalendarApp {
     updateFavoriteButtons() {
         document.querySelectorAll('.favorite-button').forEach(button => {
             const eventId = parseInt(button.dataset.eventId);
-            button.textContent = this.isFavorite(eventId) ? '★' : '☆';
+            button.textContent = this.isFavorite(eventId) ? '❤️' : '🤍';
             button.title = this.isFavorite(eventId) ? 'Aus Favoriten entfernen' : 'Zu Favoriten hinzufügen';
         });
     }
