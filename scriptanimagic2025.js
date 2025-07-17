@@ -110,8 +110,10 @@ class CalendarApp {
             'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke',
             'games-area': 'Games-Area',
             'altraverse': 'Altraverse',
+            'blackscreenrecords': 'Black Screen Records',
             'crunchyroll': 'Crunchyroll',
             'dokico': 'Dokico',
+            'leonine': 'LEONINE Anime',
             'peppermint': 'peppermint anime',
             'toei': 'Tōei Animation'
         };
@@ -151,8 +153,10 @@ class CalendarApp {
             'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke',
             'games-area': 'Games-Area',
             'altraverse': 'Altraverse',
+            'blackscreenrecords': 'Black Screen Records',
             'crunchyroll': 'Crunchyroll',
             'dokico': 'Dokico',
+            'leonine': 'LEONINE Anime',
             'peppermint': 'peppermint anime',
             'toei': 'Tōei Animation'
         };
