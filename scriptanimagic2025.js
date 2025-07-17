@@ -408,8 +408,7 @@ class CalendarApp {
         };
         
         timeSlots.forEach((timeSlot, index) => {
-            // Add location header every 10 rows
-            if (index % 10 === 0) {
+            if (index > 0 && index % 7 === 0) {
                 const headerRow = document.createElement('div');
                 headerRow.className = 'timeline-row location-header';
                 
