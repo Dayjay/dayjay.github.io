@@ -111,7 +111,9 @@ class CalendarApp {
             'games-area': 'Games-Area',
             'altraverse': 'Altraverse',
             'crunchyroll': 'Crunchyroll',
-            'dokico': 'Dokico'
+            'dokico': 'Dokico',
+            'peppermint': 'peppermint anime',
+            'toei': 'Tōei Animation'
         };
 
         eventDiv.innerHTML = `
@@ -150,7 +152,9 @@ class CalendarApp {
             'games-area': 'Games-Area',
             'altraverse': 'Altraverse',
             'crunchyroll': 'Crunchyroll',
-            'dokico': 'Dokico'
+            'dokico': 'Dokico',
+            'peppermint': 'peppermint anime',
+            'toei': 'Tōei Animation'
         };
 
         let locationString;
