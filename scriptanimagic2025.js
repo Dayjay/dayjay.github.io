@@ -5,6 +5,7 @@ class CalendarApp {
         this.searchTerm = '';
         this.currentView = 'location';
         this.currentDate = this.getDefaultDate();
+        this.favorites = this.loadFavorites();
         this.init();
     }
 
@@ -70,8 +71,10 @@ class CalendarApp {
             this.searchTerm = e.target.value.toLowerCase();
             if (this.currentView === 'location') {
                 this.renderEvents();
-            } else {
+            } else if (this.currentView === 'timeline') {
                 this.renderTimelineView();
+            } else if (this.currentView === 'favorites') {
+                this.renderFavoritesView();
             }
             this.toggleFloatingButtons();
         });
@@ -91,6 +94,10 @@ class CalendarApp {
 
         document.getElementById('timelineViewBtn').addEventListener('click', () => {
             this.switchView('timeline');
+        });
+
+        document.getElementById('favoritesViewBtn').addEventListener('click', () => {
+            this.switchView('favorites');
         });
 
         document.getElementById('dateFilter').addEventListener('change', (e) => {
@@ -136,8 +143,16 @@ class CalendarApp {
             document.querySelector('.location-dropdown').style.display = 'none';
             document.querySelector('.date-filter-container').style.display = 'flex';
             document.querySelector('.calendar-container').style.display = 'none';
-            document.querySelector('.timeline-view-container').style.display = 'block';
+            document.querySelector('.timeline-view-container').style.display = 'none';
             this.renderTimelineView();
+        } else if (view === 'favorites') {
+            document.getElementById('favoritesViewBtn').classList.add('active');
+            document.querySelector('.location-tabs').style.display = 'none';
+            document.querySelector('.location-dropdown').style.display = 'none';
+            document.querySelector('.date-filter-container').style.display = 'none';
+            document.querySelector('.calendar-container').style.display = 'block';
+            document.querySelector('.timeline-view-container').style.display = 'none';
+            this.renderFavoritesView();
         }
     }
 
@@ -156,6 +171,8 @@ class CalendarApp {
                 eventsList.appendChild(eventElement);
             }
         });
+        
+        this.updateFavoriteButtons();
     }
 
     shouldShowEvent(event) {
@@ -214,6 +231,7 @@ class CalendarApp {
             <div class="event-time">${startTime} - ${endTime}</div>
             <div class="event-location">${locationNames[event.location]}</div>
             ${event.link ? `<a href="${event.link}" class="event-link" target="_blank">Mehr Infos</a>` : ''}
+            <button class="favorite-button" data-event-id="${event.id}" onclick="calendarApp.toggleFavorite(${event.id})" title="Zu Favoriten hinzufügen">♡</button>
             <button class="copy-button" onclick="calendarApp.copyToCalendar(${event.id})">📅</button>
         `;
 
@@ -355,8 +373,10 @@ class CalendarApp {
         document.getElementById('searchInput').value = '';
         if (this.currentView === 'location') {
             this.renderEvents();
-        } else {
+        } else if (this.currentView === 'timeline') {
             this.renderTimelineView();
+        } else if (this.currentView === 'favorites') {
+            this.renderFavoritesView();
         }
         this.toggleFloatingButtons();
     }
@@ -496,6 +516,75 @@ class CalendarApp {
             hour: '2-digit', 
             minute: '2-digit',
             hour12: false
+        });
+    }
+
+    renderFavoritesView() {
+        const eventsLists = document.querySelectorAll('.events-list');
+        eventsLists.forEach(list => {
+            list.innerHTML = '';
+        });
+
+        const favoriteEvents = this.events.filter(event => this.isFavorite(event.id));
+        
+        if (favoriteEvents.length === 0) {
+            const noFavoritesMessage = document.createElement('div');
+            noFavoritesMessage.className = 'no-favorites-message';
+            noFavoritesMessage.innerHTML = '<p>Keine Favoriten vorhanden. Klicke auf ♡ bei Events, um sie als Favoriten zu markieren.</p>';
+            document.querySelector('[data-date="2025-08-01"]').appendChild(noFavoritesMessage);
+            return;
+        }
+
+        favoriteEvents.forEach(event => {
+            const eventDate = event.startDate.split('T')[0];
+            const eventsList = document.querySelector(`[data-date="${eventDate}"]`);
+            
+            if (eventsList && this.shouldShowFavoriteEvent(event)) {
+                const eventElement = this.createEventElement(event);
+                eventsList.appendChild(eventElement);
+            }
+        });
+        
+        this.updateFavoriteButtons();
+    }
+
+    shouldShowFavoriteEvent(event) {
+        return this.searchTerm === '' || 
+               event.name.toLowerCase().includes(this.searchTerm);
+    }
+
+    loadFavorites() {
+        const stored = localStorage.getItem('animagic-favorites');
+        return stored ? JSON.parse(stored) : [];
+    }
+
+    saveFavorites() {
+        localStorage.setItem('animagic-favorites', JSON.stringify(this.favorites));
+    }
+
+    toggleFavorite(eventId) {
+        const index = this.favorites.indexOf(eventId);
+        if (index === -1) {
+            this.favorites.push(eventId);
+        } else {
+            this.favorites.splice(index, 1);
+        }
+        this.saveFavorites();
+        this.updateFavoriteButtons();
+        if (this.currentView === 'favorites') {
+            this.renderFavoritesView();
+        }
+    }
+
+    isFavorite(eventId) {
+        return this.favorites.includes(eventId);
+    }
+
+    updateFavoriteButtons() {
+        document.querySelectorAll('.favorite-button').forEach(button => {
+            const eventId = parseInt(button.dataset.eventId);
+            button.textContent = this.isFavorite(eventId) ? '❤️' : '♡';
+            button.title = this.isFavorite(eventId) ? 'Aus Favoriten entfernen' : 'Zu Favoriten hinzufügen';
         });
     }
 }
