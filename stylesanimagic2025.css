@@ -683,6 +683,26 @@ header p {
     background-color: #e74c3c;
 }
 
+.favorites-empty-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: #7f8c8d;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.favorites-empty-state p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.favorites-empty-state p:last-child {
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
 @media (max-width: 768px) {
     .location-tabs {
         display: none;

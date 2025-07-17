@@ -129,6 +129,8 @@ class CalendarApp {
             btn.classList.remove('active');
         });
         
+        const emptyState = document.getElementById('favorites-empty-state');
+        
         if (view === 'location') {
             document.getElementById('locationViewBtn').classList.add('active');
             document.querySelector('.location-tabs').style.display = 'flex';
@@ -136,6 +138,7 @@ class CalendarApp {
             document.querySelector('.date-filter-container').style.display = 'none';
             document.querySelector('.calendar-container').style.display = 'block';
             document.querySelector('.timeline-view-container').style.display = 'none';
+            emptyState.style.display = 'none';
             this.renderEvents();
         } else if (view === 'timeline') {
             document.getElementById('timelineViewBtn').classList.add('active');
@@ -144,6 +147,7 @@ class CalendarApp {
             document.querySelector('.date-filter-container').style.display = 'flex';
             document.querySelector('.calendar-container').style.display = 'none';
             document.querySelector('.timeline-view-container').style.display = 'block';
+            emptyState.style.display = 'none';
             this.renderTimelineView();
         } else if (view === 'favorites') {
             document.getElementById('favoritesViewBtn').classList.add('active');
@@ -528,16 +532,23 @@ class CalendarApp {
         });
 
         const favoriteEvents = this.events.filter(event => this.isFavorite(event.id));
+        const emptyState = document.getElementById('favorites-empty-state');
         
-        favoriteEvents.forEach(event => {
-            const eventDate = event.startDate.split('T')[0];
-            const eventsList = document.querySelector(`[data-date="${eventDate}"]`);
+        if (favoriteEvents.length === 0) {
+            emptyState.style.display = 'block';
+        } else {
+            emptyState.style.display = 'none';
             
-            if (eventsList && this.shouldShowFavoriteEvent(event)) {
-                const eventElement = this.createEventElement(event);
-                eventsList.appendChild(eventElement);
-            }
-        });
+            favoriteEvents.forEach(event => {
+                const eventDate = event.startDate.split('T')[0];
+                const eventsList = document.querySelector(`[data-date="${eventDate}"]`);
+                
+                if (eventsList && this.shouldShowFavoriteEvent(event)) {
+                    const eventElement = this.createEventElement(event);
+                    eventsList.appendChild(eventElement);
+                }
+            });
+        }
         
         this.updateFavoriteButtons();
     }
