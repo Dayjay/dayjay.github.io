@@ -240,7 +240,7 @@ header p {
 }
 
 .favorite-button {
-    background-color: #f39c12;
+    background-color: #7b68ee;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -250,7 +250,7 @@ header p {
 }
 
 .favorite-button:hover {
-    background-color: #e67e22;
+    background-color: #ff0000;
 }
 
 .add-event-form {
