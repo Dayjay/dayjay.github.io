@@ -2,6 +2,7 @@ class CalendarApp {
     constructor() {
         this.events = [];
         this.currentFilter = 'general';
+        this.searchTerm = '';
         this.init();
     }
 
@@ -43,6 +44,15 @@ class CalendarApp {
         window.addEventListener('scroll', () => {
             this.toggleJumpToTopButton();
         });
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            this.searchTerm = e.target.value.toLowerCase();
+            this.renderEvents();
+        });
+
+        document.getElementById('clearSearch').addEventListener('click', () => {
+            this.clearSearch();
+        });
     }
 
     switchLocation(location) {
@@ -79,7 +89,11 @@ class CalendarApp {
     }
 
     shouldShowEvent(event) {
-        return event.location === this.currentFilter;
+        const locationMatch = event.location === this.currentFilter;
+        const searchMatch = this.searchTerm === '' || 
+                          event.name.toLowerCase().includes(this.searchTerm);
+        
+        return locationMatch && searchMatch;
     }
 
     createEventElement(event) {
@@ -249,6 +263,12 @@ class CalendarApp {
         } else {
             jumpToTopBtn.style.display = 'none';
         }
+    }
+
+    clearSearch() {
+        this.searchTerm = '';
+        document.getElementById('searchInput').value = '';
+        this.renderEvents();
     }
 }
 

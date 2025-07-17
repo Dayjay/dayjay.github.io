@@ -317,6 +317,63 @@ header p {
 .tab-button[data-location="peppermint"].active { background-color: #e9e600; color: #000; }
 .tab-button[data-location="toei"].active { background-color: #d0021b; }
 
+.search-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-input-wrapper input {
+    width: 100%;
+    padding: 12px 50px 12px 20px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: white;
+    color: #2c3e50;
+    transition: border-color 0.3s ease;
+}
+
+.search-input-wrapper input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.clear-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #95a5a6;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.clear-button:hover {
+    background-color: #ecf0f1;
+    color: #e74c3c;
+}
+
+.clear-button:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
 .location-dropdown {
     display: none;
     margin-bottom: 30px;
