@@ -4,7 +4,7 @@ class CalendarApp {
         this.currentFilter = 'general';
         this.searchTerm = '';
         this.currentView = 'location';
-        this.currentDate = 'all';
+        this.currentDate = '2025-08-01';
         this.init();
     }
 
@@ -352,14 +352,10 @@ class CalendarApp {
                              'animehouse', 'animoon', 'blackscreenrecords', 'carlsen', 
                              'crunchyroll', 'dokico', 'leonine', 'peppermint', 'toei'];
         
-        let filteredEvents = this.events;
-        
-        if (this.currentDate !== 'all') {
-            filteredEvents = this.events.filter(event => {
-                const eventDate = new Date(event.startDate).toISOString().split('T')[0];
-                return eventDate === this.currentDate;
-            });
-        }
+        let filteredEvents = this.events.filter(event => {
+            const eventDate = new Date(event.startDate).toISOString().split('T')[0];
+            return eventDate === this.currentDate;
+        });
         
         if (this.searchTerm !== '') {
             filteredEvents = filteredEvents.filter(event => 
