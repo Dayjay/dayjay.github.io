@@ -716,7 +716,7 @@ header p {
     }
     
     .day-events {
-        padding: 20px;
+        padding: 20px 15px;
     }
     
     .floating-buttons {
@@ -757,13 +757,16 @@ header p {
     }
     
     .view-toggle {
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
     }
     
     .view-toggle-label {
         margin-right: 0;
         text-align: center;
+        width: 100%;
     }
     
     .view-button {
@@ -782,5 +785,6 @@ header p {
         margin-left: 15px;
         margin-right: 15px;
         max-width: none;
+        padding: 15px;
     }
 }
