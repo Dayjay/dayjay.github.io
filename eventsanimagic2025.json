@@ -2406,5 +2406,157 @@
     "endDate": "2025-08-03T14:00:00",
     "location": "leonine",
     "link": ""
+  },
+  {
+    "id": 309,
+    "name": "Sara Wegner & Lisa Cardinale Signierstunde (Danmachi)",
+    "startDate": "2025-08-01T14:00:00",
+    "endDate": "2025-08-01T15:00:00",
+    "location": "animehouse",
+    "link": ""
+  },
+  {
+    "id": 310,
+    "name": "Sara Wegner & Lisa Cardinale Signierstunde (Danmachi)",
+    "startDate": "2025-08-01T17:00:00",
+    "endDate": "2025-08-01T18:00:00",
+    "location": "animehouse",
+    "link": ""
+  },
+  {
+    "id": 311,
+    "name": "Sara Wegner & Lisa Cardinale Signierstunde (Danmachi)",
+    "startDate": "2025-08-02T12:00:00",
+    "endDate": "2025-08-02T13:30:00",
+    "location": "animehouse",
+    "link": ""
+  },
+  {
+    "id": 312,
+    "name": "Sara Wegner & Lisa Cardinale Signierstunde (Danmachi)",
+    "startDate": "2025-08-02T16:00:00",
+    "endDate": "2025-08-02T17:30:00",
+    "location": "animehouse",
+    "link": ""
+  },
+  {
+    "id": 313,
+    "name": "Sara Wegner & Lisa Cardinale Signierstunde (Danmachi)",
+    "startDate": "2025-08-03T12:00:00",
+    "endDate": "2025-08-03T13:30:00",
+    "location": "animehouse",
+    "link": ""
+  },
+  {
+    "id": 314,
+    "name": "Daniela Molina Signierstunde (Konosuba)",
+    "startDate": "2025-08-02T14:30:00",
+    "endDate": "2025-08-02T15:45:00",
+    "location": "animoon",
+    "link": ""
+  },
+  {
+    "id": 315,
+    "name": "Esra Vural Signierstunde (Date a Live)",
+    "startDate": "2025-08-02T16:30:00",
+    "endDate": "2025-08-02T17:45:00",
+    "location": "animoon",
+    "link": ""
+  },
+  {
+    "id": 316,
+    "name": "Esra Vural Signierstunde (Date a Live)",
+    "startDate": "2025-08-03T12:30:00",
+    "endDate": "2025-08-03T13:45:00",
+    "location": "animoon",
+    "link": ""
+  },
+  {
+    "id": 317,
+    "name": "Daniela Molina Signierstunde (Konosuba)",
+    "startDate": "2025-08-03T14:30:00",
+    "endDate": "2025-08-03T15:45:00",
+    "location": "animoon",
+    "link": ""
+  },
+  {
+    "id": 318,
+    "name": "Jenny Jinya Signierstunde",
+    "startDate": "2025-08-01T14:00:00",
+    "endDate": "2025-08-01T16:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 319,
+    "name": "Jenny Jinya Signierstunde",
+    "startDate": "2025-08-02T10:00:00",
+    "endDate": "2025-08-02T13:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 320,
+    "name": "Zofia Garden Signierstunde",
+    "startDate": "2025-08-02T12:00:00",
+    "endDate": "2025-08-02T12:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 321,
+    "name": "Dominik Jell Signierstunde",
+    "startDate": "2025-08-02T13:00:00",
+    "endDate": "2025-08-02T13:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 322,
+    "name": "manus Signierstunde",
+    "startDate": "2025-08-02T14:00:00",
+    "endDate": "2025-08-02T14:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 323,
+    "name": "Jenny Jinya Signierstunde",
+    "startDate": "2025-08-02T16:00:00",
+    "endDate": "2025-08-02T17:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 324,
+    "name": "Jenny Jinya Signierstunde",
+    "startDate": "2025-08-03T12:00:00",
+    "endDate": "2025-08-03T14:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 325,
+    "name": "Zofia Garden Signierstunde",
+    "startDate": "2025-08-03T13:00:00",
+    "endDate": "2025-08-03T13:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 326,
+    "name": "Dominik Jell Signierstunde",
+    "startDate": "2025-08-03T14:00:00",
+    "endDate": "2025-08-03T14:00:00",
+    "location": "carlsen",
+    "link": ""
+  },
+  {
+    "id": 327,
+    "name": "manus Signierstunde",
+    "startDate": "2025-08-03T15:00:00",
+    "endDate": "2025-08-03T15:00:00",
+    "location": "carlsen",
+    "link": ""
   }
 ]
