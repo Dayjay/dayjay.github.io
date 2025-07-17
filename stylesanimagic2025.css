@@ -489,16 +489,13 @@ header p {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
     margin-top: 20px;
 }
 
 .timeline-grid {
     display: flex;
     flex-direction: column;
-    height: 70vh;
     overflow-x: auto;
-    overflow-y: auto;
 }
 
 .timeline-locations-header {
@@ -542,7 +539,6 @@ header p {
 
 .timeline-content {
     flex: 1;
-    overflow-y: auto;
     min-width: fit-content;
 }
 

@@ -148,7 +148,7 @@ class CalendarApp {
         });
 
         this.events.forEach(event => {
-            const eventDate = new Date(event.startDate).toISOString().split('T')[0];
+            const eventDate = event.startDate.split('T')[0];
             const eventsList = document.querySelector(`[data-date="${eventDate}"]`);
             
             if (eventsList && this.shouldShowEvent(event)) {
@@ -372,7 +372,7 @@ class CalendarApp {
                              'crunchyroll', 'dokico', 'leonine', 'peppermint', 'toei'];
         
         let filteredEvents = this.events.filter(event => {
-            const eventDate = new Date(event.startDate).toISOString().split('T')[0];
+            const eventDate = event.startDate.split('T')[0];
             return eventDate === this.currentDate;
         });
         
