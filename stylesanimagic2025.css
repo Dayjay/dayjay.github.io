@@ -217,10 +217,15 @@ header p {
     text-decoration: underline;
 }
 
-.copy-button {
+.event-buttons {
     position: absolute;
     top: 10px;
     right: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.copy-button {
     background-color: #2ecc71;
     color: white;
     border: none;
@@ -232,6 +237,20 @@ header p {
 
 .copy-button:hover {
     background-color: #27ae60;
+}
+
+.favorite-button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.favorite-button:hover {
+    background-color: #e67e22;
 }
 
 .add-event-form {

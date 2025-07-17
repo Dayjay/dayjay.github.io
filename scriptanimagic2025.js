@@ -143,7 +143,7 @@ class CalendarApp {
             document.querySelector('.location-dropdown').style.display = 'none';
             document.querySelector('.date-filter-container').style.display = 'flex';
             document.querySelector('.calendar-container').style.display = 'none';
-            document.querySelector('.timeline-view-container').style.display = 'none';
+            document.querySelector('.timeline-view-container').style.display = 'block';
             this.renderTimelineView();
         } else if (view === 'favorites') {
             document.getElementById('favoritesViewBtn').classList.add('active');
@@ -231,8 +231,10 @@ class CalendarApp {
             <div class="event-time">${startTime} - ${endTime}</div>
             <div class="event-location">${locationNames[event.location]}</div>
             ${event.link ? `<a href="${event.link}" class="event-link" target="_blank">Mehr Infos</a>` : ''}
-            <button class="favorite-button" data-event-id="${event.id}" onclick="calendarApp.toggleFavorite(${event.id})" title="Zu Favoriten hinzufügen">☆</button>
-            <button class="copy-button" onclick="calendarApp.copyToCalendar(${event.id})">📅</button>
+            <div class="event-buttons">
+                <button class="favorite-button" data-event-id="${event.id}" onclick="calendarApp.toggleFavorite(${event.id})" title="Zu Favoriten hinzufügen">☆</button>
+                <button class="copy-button" onclick="calendarApp.copyToCalendar(${event.id})">📅</button>
+            </div>
         `;
 
         return eventDiv;
