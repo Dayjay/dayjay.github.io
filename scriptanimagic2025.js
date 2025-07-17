@@ -529,16 +529,6 @@ class CalendarApp {
 
         const favoriteEvents = this.events.filter(event => this.isFavorite(event.id));
         
-        if (favoriteEvents.length === 0) {
-            const noFavoritesMessage = document.createElement('div');
-            noFavoritesMessage.className = 'no-favorites-message';
-            noFavoritesMessage.innerHTML = '<p>Keine Favoriten vorhanden. Klicke auf 🤍 bei Events, um sie als Favoriten zu markieren.</p>';
-            document.querySelector('[data-date="2025-08-01"]').appendChild(noFavoritesMessage);
-            document.querySelector('[data-date="2025-08-02"]').appendChild(noFavoritesMessage);
-            document.querySelector('[data-date="2025-08-03"]').appendChild(noFavoritesMessage);
-            return;
-        }
-
         favoriteEvents.forEach(event => {
             const eventDate = event.startDate.split('T')[0];
             const eventsList = document.querySelector(`[data-date="${eventDate}"]`);
