@@ -4,14 +4,33 @@ class CalendarApp {
         this.currentFilter = 'general';
         this.searchTerm = '';
         this.currentView = 'location';
-        this.currentDate = '2025-08-01';
+        this.currentDate = this.getDefaultDate();
         this.init();
+    }
+
+    getDefaultDate() {
+        const today = new Date();
+        const currentDateStr = today.toISOString().split('T')[0];
+        
+        if (currentDateStr === '2025-08-02' || currentDateStr === '2025-08-03') {
+            return currentDateStr;
+        }
+        
+        return '2025-08-01';
     }
 
     async init() {
         await this.loadEvents();
         this.setupEventListeners();
+        this.setDefaultDateFilter();
         this.renderEvents();
+    }
+
+    setDefaultDateFilter() {
+        const dateFilter = document.getElementById('dateFilter');
+        if (dateFilter) {
+            dateFilter.value = this.currentDate;
+        }
     }
 
     async loadEvents() {
