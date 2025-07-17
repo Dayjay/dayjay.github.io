@@ -42,15 +42,20 @@ class CalendarApp {
         });
 
         window.addEventListener('scroll', () => {
-            this.toggleJumpToTopButton();
+            this.toggleFloatingButtons();
         });
 
         document.getElementById('searchInput').addEventListener('input', (e) => {
             this.searchTerm = e.target.value.toLowerCase();
             this.renderEvents();
+            this.toggleFloatingButtons();
         });
 
         document.getElementById('clearSearch').addEventListener('click', () => {
+            this.clearSearch();
+        });
+
+        document.getElementById('clearSearchFloat').addEventListener('click', () => {
             this.clearSearch();
         });
     }
@@ -89,11 +94,15 @@ class CalendarApp {
     }
 
     shouldShowEvent(event) {
-        const locationMatch = event.location === this.currentFilter;
         const searchMatch = this.searchTerm === '' || 
                           event.name.toLowerCase().includes(this.searchTerm);
         
-        return locationMatch && searchMatch;
+        if (this.searchTerm !== '') {
+            return searchMatch;
+        }
+        
+        const locationMatch = event.location === this.currentFilter;
+        return locationMatch;
     }
 
     createEventElement(event) {
@@ -256,12 +265,23 @@ class CalendarApp {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    toggleJumpToTopButton() {
+    toggleFloatingButtons() {
         const jumpToTopBtn = document.getElementById('jumpToTop');
-        if (window.scrollY > 200) {
+        const clearSearchBtn = document.getElementById('clearSearchFloat');
+        
+        const isScrolled = window.scrollY > 200;
+        const hasSearchTerm = this.searchTerm !== '';
+        
+        if (isScrolled) {
             jumpToTopBtn.style.display = 'flex';
         } else {
             jumpToTopBtn.style.display = 'none';
+        }
+        
+        if (isScrolled && hasSearchTerm) {
+            clearSearchBtn.style.display = 'flex';
+        } else {
+            clearSearchBtn.style.display = 'none';
         }
     }
 
@@ -269,6 +289,7 @@ class CalendarApp {
         this.searchTerm = '';
         document.getElementById('searchInput').value = '';
         this.renderEvents();
+        this.toggleFloatingButtons();
     }
 }
 
