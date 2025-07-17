@@ -400,7 +400,18 @@ class CalendarApp {
                 eventsAtTime.forEach(event => {
                     const eventDiv = document.createElement('div');
                     eventDiv.className = `timeline-event location-${event.location}`;
-                    eventDiv.textContent = event.name;
+                    
+                    const eventName = document.createElement('div');
+                    eventName.className = 'timeline-event-name';
+                    eventName.textContent = event.name;
+                    
+                    const eventTime = document.createElement('div');
+                    eventTime.className = 'timeline-event-time';
+                    eventTime.textContent = `${this.formatTime(event.startDate)} - ${this.formatTime(event.endDate)}`;
+                    
+                    eventDiv.appendChild(eventName);
+                    eventDiv.appendChild(eventTime);
+                    
                     eventDiv.title = `${event.name} (${this.formatTime(event.startDate)} - ${this.formatTime(event.endDate)})`;
                     eventDiv.addEventListener('click', () => {
                         this.copyToCalendar(event.id);
