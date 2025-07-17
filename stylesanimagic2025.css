@@ -655,6 +655,34 @@ header p {
 .timeline-event.location-peppermint { background-color: #cddc39; }
 .timeline-event.location-toei { background-color: #ffeb3b; }
 
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #2ecc71;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 250px;
+    text-align: center;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toast.remove {
+    background-color: #e74c3c;
+}
+
 @media (max-width: 768px) {
     .location-tabs {
         display: none;
@@ -718,5 +746,12 @@ header p {
     .view-button {
         padding: 10px 20px;
         font-size: 14px;
+    }
+
+    .toast {
+        top: 15px;
+        right: 15px;
+        left: 15px;
+        min-width: unset;
     }
 }

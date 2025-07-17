@@ -558,10 +558,14 @@ class CalendarApp {
 
     toggleFavorite(eventId) {
         const index = this.favorites.indexOf(eventId);
+        const event = this.events.find(e => e.id === eventId);
+        
         if (index === -1) {
             this.favorites.push(eventId);
+            this.showToast(`"${event.name}" zu Favoriten hinzugefügt`, 'add');
         } else {
             this.favorites.splice(index, 1);
+            this.showToast(`"${event.name}" aus Favoriten entfernt`, 'remove');
         }
         this.saveFavorites();
         this.updateFavoriteButtons();
@@ -580,6 +584,27 @@ class CalendarApp {
             button.textContent = this.isFavorite(eventId) ? '❤️' : '🤍';
             button.title = this.isFavorite(eventId) ? 'Aus Favoriten entfernen' : 'Zu Favoriten hinzufügen';
         });
+    }
+
+    showToast(message, type = 'add') {
+        const toast = document.createElement('div');
+        toast.className = `toast ${type === 'remove' ? 'remove' : ''}`;
+        toast.textContent = message;
+        
+        document.body.appendChild(toast);
+        
+        setTimeout(() => {
+            toast.classList.add('show');
+        }, 100);
+        
+        setTimeout(() => {
+            toast.classList.remove('show');
+            setTimeout(() => {
+                if (toast.parentNode) {
+                    toast.parentNode.removeChild(toast);
+                }
+            }, 300);
+        }, 2000);
     }
 }
 
