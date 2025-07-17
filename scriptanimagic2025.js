@@ -413,9 +413,6 @@ class CalendarApp {
                     eventDiv.appendChild(eventTime);
                     
                     eventDiv.title = `${event.name} (${this.formatTime(event.startDate)} - ${this.formatTime(event.endDate)})`;
-                    eventDiv.addEventListener('click', () => {
-                        this.copyToCalendar(event.id);
-                    });
                     cell.appendChild(eventDiv);
                 });
                 
