@@ -497,17 +497,19 @@ header p {
     display: flex;
     flex-direction: column;
     height: 70vh;
+    overflow-x: auto;
     overflow-y: auto;
 }
 
 .timeline-locations-header {
     display: grid;
-    grid-template-columns: 80px repeat(21, 1fr);
+    grid-template-columns: 80px repeat(21, minmax(150px, 1fr));
     background-color: #f8f9fa;
     border-bottom: 2px solid #e9ecef;
     position: sticky;
     top: 0;
     z-index: 100;
+    min-width: fit-content;
 }
 
 .timeline-time-column {
@@ -526,12 +528,12 @@ header p {
     border-right: 1px solid #dee2e6;
     font-size: 12px;
     background-color: #f8f9fa;
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
     min-height: 60px;
+    min-width: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    word-wrap: break-word;
 }
 
 .timeline-location-column:last-child {
@@ -541,13 +543,15 @@ header p {
 .timeline-content {
     flex: 1;
     overflow-y: auto;
+    min-width: fit-content;
 }
 
 .timeline-row {
     display: grid;
-    grid-template-columns: 80px repeat(21, 1fr);
+    grid-template-columns: 80px repeat(21, minmax(150px, 1fr));
     border-bottom: 1px solid #e9ecef;
     min-height: 80px;
+    min-width: fit-content;
 }
 
 .timeline-time-cell {
@@ -640,12 +644,12 @@ header p {
     }
     
     .timeline-locations-header {
-        grid-template-columns: 60px repeat(21, 1fr);
+        grid-template-columns: 60px repeat(21, minmax(120px, 1fr));
         font-size: 10px;
     }
     
     .timeline-row {
-        grid-template-columns: 60px repeat(21, 1fr);
+        grid-template-columns: 60px repeat(21, minmax(120px, 1fr));
     }
     
     .timeline-time-column,
@@ -657,6 +661,7 @@ header p {
     .timeline-location-column {
         font-size: 10px;
         padding: 8px 2px;
+        min-width: 120px;
     }
     
     .timeline-event {
