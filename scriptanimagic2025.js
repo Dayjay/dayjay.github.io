@@ -57,6 +57,7 @@ class CalendarApp {
 
         document.getElementById('clearSearchFloat').addEventListener('click', () => {
             this.clearSearch();
+            this.jumpToTop();
         });
     }
 
