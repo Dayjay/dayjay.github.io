@@ -383,7 +383,55 @@ class CalendarApp {
         
         const timeSlots = this.generateTimeSlots(filteredEvents);
         
-        timeSlots.forEach(timeSlot => {
+        const locationNames = {
+            'general': 'Allgemein',
+            'mozartsaal': 'Mozartsaal',
+            'musensaal': 'Musensaal',
+            'crunchyroll-cinema': 'Crunchyroll Cinema',
+            'cinemagic-1': 'CineMagic 1',
+            'cinemagic-2': 'CineMagic 2',
+            'animagic-kino-1': 'AnimagiC-Kino 1',
+            'animagic-kino-2': 'AnimagiC-Kino 2',
+            'animagic-kino-3': 'AnimagiC-Kino 3',
+            'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke',
+            'games-area': 'Games-Area',
+            'altraverse': 'Altraverse',
+            'animehouse': 'Anime House',
+            'animoon': 'AniMoon',
+            'blackscreenrecords': 'Black Screen Records',
+            'carlsen': 'Carlsen Manga',
+            'crunchyroll': 'Crunchyroll',
+            'dokico': 'Dokico',
+            'leonine': 'LEONINE Anime',
+            'peppermint': 'peppermint anime',
+            'toei': 'Tōei Animation'
+        };
+        
+        timeSlots.forEach((timeSlot, index) => {
+            // Add location header every 10 rows
+            if (index % 10 === 0) {
+                const headerRow = document.createElement('div');
+                headerRow.className = 'timeline-row location-header';
+                
+                const headerTimeCell = document.createElement('div');
+                headerTimeCell.className = 'timeline-time-cell';
+                headerTimeCell.textContent = '';
+                headerRow.appendChild(headerTimeCell);
+                
+                locationKeys.forEach(locationKey => {
+                    const headerCell = document.createElement('div');
+                    headerCell.className = 'timeline-event-cell';
+                    headerCell.style.textAlign = 'center';
+                    headerCell.style.fontSize = '11px';
+                    headerCell.style.fontWeight = 'bold';
+                    headerCell.style.color = '#666';
+                    headerCell.textContent = locationNames[locationKey];
+                    headerRow.appendChild(headerCell);
+                });
+                
+                timelineContent.appendChild(headerRow);
+            }
+            
             const row = document.createElement('div');
             row.className = 'timeline-row';
             

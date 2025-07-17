@@ -503,10 +503,6 @@ header p {
     grid-template-columns: 80px repeat(21, minmax(150px, 1fr));
     background-color: #f8f9fa;
     border-bottom: 2px solid #e9ecef;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     min-width: fit-content;
 }
 
@@ -549,6 +545,13 @@ header p {
     border-bottom: 1px solid #e9ecef;
     min-height: 80px;
     min-width: fit-content;
+}
+
+.timeline-row.location-header {
+    background-color: #f8f9fa;
+    border-top: 2px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: bold;
 }
 
 .timeline-time-cell {
