@@ -108,7 +108,8 @@ class CalendarApp {
             'animagic-kino-2': 'AnimagiC-Kino 2',
             'animagic-kino-3': 'AnimagiC-Kino 3',
             'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke',
-            'games-area': "Games-Area"
+            'games-area': "Games-Area",
+            'altraverse': "Altraverse"
         };
 
         eventDiv.innerHTML = `
@@ -144,7 +145,8 @@ class CalendarApp {
             'animagic-kino-2': 'AnimagiC-Kino 2',
             'animagic-kino-3': 'AnimagiC-Kino 3',
             'ramen-wok-wok': 'Ramen-Wok-Wok-Karaoke',
-            'games-area': "Games-Area"
+            'games-area': "Games-Area",
+            'altraverse': "Altraverse"
         };
 
         let locationString;
