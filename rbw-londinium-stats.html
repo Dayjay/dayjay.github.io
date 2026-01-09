@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull Wololo: Londinium Ladder Qualifier Statistics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1d4d 0%, #1e2870 50%, #1a1d4d 100%);
+            color: #333;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(221, 18, 52, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1d4d 0%, #1e2870 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #DD1234;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+            text-shadow: 0 0 10px rgba(221, 18, 52, 0.5);
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+            color: #FDB913;
+        }
+
+        .stats-overview {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .stat-box {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #DD1234;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #1a1d4d;
+            margin-top: 5px;
+            font-weight: 600;
+        }
+
+        .controls {
+            padding: 20px;
+            background: #fff;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .filter-toggle {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 60px;
+            height: 30px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 30px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 22px;
+            width: 22px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #DD1234;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(30px);
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .map-section {
+            margin-bottom: 40px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .map-header {
+            background: linear-gradient(135deg, #1a1d4d 0%, #1e2870 100%);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-left: 5px solid #DD1234;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .map-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            object-fit: cover;
+        }
+
+        .map-info {
+            padding: 10px 20px;
+            background: #f8f9fa;
+            font-size: 0.9em;
+            color: #555;
+            border-left: 5px solid #FDB913;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f8f9fa;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th:hover {
+            background: #e9ecef;
+        }
+
+        th.sortable::after {
+            content: ' ⇅';
+            opacity: 0.5;
+        }
+
+        th.sort-asc::after {
+            content: ' ▲';
+            opacity: 1;
+        }
+
+        th.sort-desc::after {
+            content: ' ▼';
+            opacity: 1;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .civ-name {
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .civ-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 3px;
+            object-fit: cover;
+        }
+
+        .winrate {
+            font-weight: bold;
+        }
+
+        .winrate.high {
+            color: #28a745;
+        }
+
+        .winrate.medium {
+            color: #ffc107;
+        }
+
+        .winrate.low {
+            color: #dc3545;
+        }
+
+        .show-more-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #DD1234 0%, #c01030 100%);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .show-more-btn:hover {
+            background: linear-gradient(135deg, #c01030 0%, #a00c28 100%);
+            box-shadow: 0 4px 8px rgba(221, 18, 52, 0.3);
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 50px auto;
+            padding: 0;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 1000px;
+            max-height: 80vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, #1a1d4d 0%, #1e2870 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid #DD1234;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .close {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        .close:hover {
+            opacity: 0.7;
+        }
+
+        .modal-body {
+            padding: 20px;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .disclaimer {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #dee2e6;
+            font-size: 0.8em;
+            color: #999;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+    </style>
+    <script defer data-domain="dayjay.github.io" src="https://plausible.dayjay.de/js/script.js"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Red Bull Wololo: Londinium Ladder Qualifier</h1>
+        <p class="subtitle">2-18 January 2026</p>
+    </header>
+
+    <div class="stats-overview">
+        <div class="stat-box">
+            <div class="stat-value" id="totalMatches">-</div>
+            <div class="stat-label">Total Matches</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="totalPlayers">-</div>
+            <div class="stat-label">Total Players</div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="filter-toggle">
+            <label for="playerFilter">Show Top 200 Players Only</label>
+            <label class="toggle-switch">
+                <input type="checkbox" id="playerFilter">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="content" id="mapContent">
+        <div class="loading">Loading tournament data...</div>
+    </div>
+
+    <footer>
+        Generated on <span id="footerDate">-</span>
+        <div class="disclaimer">
+            This website was created under "<a href="https://www.xbox.com/en-us/developers/rules">Microsoft's "Game Content Usage Rules</a>" using assets from Age of Empires II and Age of Empires II: Definitive Edition and it is not endorsed by or affiliated with Microsoft. Age of Empires II: Definitive Edition © Microsoft Corporation.
+        </div>
+    </footer>
+</div>
+
+<!-- Modal -->
+<div id="civModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="modalTitle">All Civilizations</h2>
+            <button class="close" onclick="closeModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <table id="modalTable">
+                <thead>
+                <tr>
+                    <th class="sortable" onclick="sortTable(0)">Civilization</th>
+                    <th class="sortable" onclick="sortTable(1)">Games Played</th>
+                    <th class="sortable" onclick="sortTable(2)">Wins</th>
+                    <th class="sortable" onclick="sortTable(3)">Losses</th>
+                    <th class="sortable" onclick="sortTable(4)">Win Rate</th>
+                </tr>
+                </thead>
+                <tbody id="modalTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    let tournamentData = null;
+    let currentModalMap = null;
+
+    let globalSortColumn = 1; // Default: Games Played
+    let globalSortDirection = 'desc';
+
+    const CIV_ICON_BASE = 'https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/';
+    const MAP_ICON_BASE = 'https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/maps/ingame/';
+
+    function mapNameToCamelCase(mapName) {
+        return mapName.split(' ').map((word, index) => {
+            if (index === 0) return word;
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        }).join('');
+    }
+
+    // Load data
+    fetch('rbw-londinium-data.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Data loaded successfully:', data);
+            tournamentData = data;
+            displayStats();
+            displayMaps();
+        })
+        .catch(error => {
+            console.error('Error loading data:', error);
+            const errorMsg = `Error loading data: ${error.message}. Make sure the JSON file exists in the same directory.`;
+            document.getElementById('mapContent').innerHTML = `<div class="loading" style="color: red;">${errorMsg}</div>`;
+        });
+
+    function displayStats() {
+        document.getElementById('totalMatches').textContent = tournamentData.TotalMatches.toLocaleString();
+        document.getElementById('totalPlayers').textContent = tournamentData.TotalPlayers.toLocaleString();
+
+        const date = new Date(tournamentData.GeneratedAt);
+
+        document.getElementById('footerDate').textContent = date.toLocaleString();
+    }
+
+    function displayMaps() {
+        const isTop200 = document.getElementById('playerFilter').checked;
+        const mapStats = isTop200 ? tournamentData.MapStatsTop200 : tournamentData.MapStats;
+
+        const content = document.getElementById('mapContent');
+        content.innerHTML = '';
+
+        mapStats.forEach(map => {
+            const mapSection = createMapSection(map);
+            content.appendChild(mapSection);
+        });
+    }
+
+    function createMapSection(map) {
+        const section = document.createElement('div');
+        section.className = 'map-section';
+        section.dataset.mapName = map.MapName;
+
+        const header = document.createElement('div');
+        header.className = 'map-header';
+
+        const mapIcon = document.createElement('img');
+        mapIcon.className = 'map-icon';
+        const mapIconName = mapNameToCamelCase(map.MapName);
+        mapIcon.src = MAP_ICON_BASE + mapIconName + '.png';
+        mapIcon.alt = map.MapName;
+        mapIcon.onerror = function() { this.style.display = 'none'; };
+
+        header.appendChild(mapIcon);
+        header.appendChild(document.createTextNode(map.MapName));
+        section.appendChild(header);
+
+        const info = document.createElement('div');
+        info.className = 'map-info';
+        info.textContent = `${map.TotalGames} matches played`;
+        section.appendChild(info);
+
+        const sortedCivs = getSortedCivs(map.CivStats);
+
+        const top5 = sortedCivs.slice(0, 5);
+        const table = createCivTable(top5, map);
+        section.appendChild(table);
+        
+        const btn = document.createElement('button');
+        btn.className = 'show-more-btn';
+        btn.textContent = `Show All ${map.CivStats.length} Civilizations`;
+        btn.onclick = () => showAllCivs(map);
+        section.appendChild(btn);
+
+        return section;
+    }
+
+    function getSortedCivs(civs) {
+        return [...civs].sort((a, b) => {
+            let valA, valB;
+
+            switch(globalSortColumn) {
+                case 0: valA = a.CivName; valB = b.CivName; break;
+                case 1: valA = a.GamesPlayed; valB = b.GamesPlayed; break;
+                case 2: valA = a.Wins; valB = b.Wins; break;
+                case 3: valA = a.Losses; valB = b.Losses; break;
+                case 4: valA = a.WinRate; valB = b.WinRate; break;
+            }
+
+            if (typeof valA === 'string') {
+                return globalSortDirection === 'asc'
+                    ? valA.localeCompare(valB)
+                    : valB.localeCompare(valA);
+            } else {
+                return globalSortDirection === 'asc'
+                    ? valA - valB
+                    : valB - valA;
+            }
+        });
+    }
+
+    function createCivTable(civs, map) {
+        const table = document.createElement('table');
+        table.dataset.mapName = map.MapName;
+
+        const thead = document.createElement('thead');
+        const headerRow = document.createElement('tr');
+        const headers = ['Civilization', 'Games Played', 'Wins', 'Losses', 'Win Rate'];
+
+        headers.forEach((headerText, index) => {
+            const th = document.createElement('th');
+            th.textContent = headerText;
+            th.className = 'sortable';
+            th.onclick = () => sortTable(index);
+            headerRow.appendChild(th);
+        });
+
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+
+        const tbody = document.createElement('tbody');
+        civs.forEach(civ => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>
+                    <div class="civ-name">
+                        <img class="civ-icon" src="${CIV_ICON_BASE}${civ.CivName}.png" alt="${civ.CivName}" onerror="this.style.display='none'">
+                        <span>${civ.CivName}</span>
+                    </div>
+                </td>
+                <td>${civ.GamesPlayed}</td>
+                <td>${civ.Wins}</td>
+                <td>${civ.Losses}</td>
+                <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
+            `;
+            tbody.appendChild(tr);
+        });
+        table.appendChild(tbody);
+
+        updateSortIndicators(table);
+
+        return table;
+    }
+
+    function sortTable(column) {
+        // Toggle direction if same column
+        if (globalSortColumn === column) {
+            globalSortDirection = globalSortDirection === 'asc' ? 'desc' : 'asc';
+        } else {
+            globalSortColumn = column;
+            globalSortDirection = 'desc';
+        }
+
+        displayMaps();
+
+        if (currentModalMap) {
+            updateModalTable();
+        }
+    }
+
+    function updateSortIndicators(table) {
+        const headers = table.querySelectorAll('th');
+        headers.forEach((th, index) => {
+            th.classList.remove('sort-asc', 'sort-desc');
+            if (index === globalSortColumn) {
+                th.classList.add(globalSortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
+            }
+        });
+    }
+
+    function getWinRateClass(winRate) {
+        if (winRate >= 55) return 'high';
+        if (winRate >= 45) return 'medium';
+        return 'low';
+    }
+
+    function showAllCivs(map) {
+        currentModalMap = map;
+        document.getElementById('modalTitle').textContent = `${map.MapName} - All Civilizations`;
+        updateModalTable();
+        document.getElementById('civModal').style.display = 'block';
+    }
+
+    function updateModalTable() {
+        const tbody = document.getElementById('modalTableBody');
+        tbody.innerHTML = '';
+
+        const sortedCivs = getSortedCivs(currentModalMap.CivStats);
+
+        sortedCivs.forEach(civ => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>
+                    <div class="civ-name">
+                        <img class="civ-icon" src="${CIV_ICON_BASE}${civ.CivName}.png" alt="${civ.CivName}" onerror="this.style.display='none'">
+                        <span>${civ.CivName}</span>
+                    </div>
+                </td>
+                <td>${civ.GamesPlayed}</td>
+                <td>${civ.Wins}</td>
+                <td>${civ.Losses}</td>
+                <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
+            `;
+            tbody.appendChild(tr);
+        });
+
+        const modalTable = document.getElementById('modalTable');
+        updateSortIndicators(modalTable);
+    }
+
+    function closeModal() {
+        document.getElementById('civModal').style.display = 'none';
+        currentModalMap = null;
+    }
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('civModal');
+        if (event.target === modal) {
+            closeModal();
+        }
+    }
+
+    document.getElementById('playerFilter').addEventListener('change', displayMaps);
+</script>
+</body>
+</html>
