@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Red Bull Wololo Legacy - Tournament Statistics</title>
+    <title>Red Bull Wololo: Londinium Ladder Qualifier Statistics</title>
     <style>
         * {
             margin: 0;
@@ -353,8 +353,8 @@
 <body>
 <div class="container">
     <header>
-        <h1>🏆 Red Bull Wololo - Legacy Tournament</h1>
-        <p class="subtitle">January 2-18, 2026</p>
+        <h1>Red Bull Wololo - Londinium Ladder Qualifier</h1>
+        <p class="subtitle">2-18 January 2026</p>
     </header>
 
     <div class="stats-overview">
@@ -387,14 +387,14 @@
     </div>
 
     <footer>
-        Generated on <span id="footerDate">-</span> | Data source: aoe2companion.com
+        Generated on <span id="footerDate">-</span> |
         <div class="disclaimer">
-            This website was created under Microsoft's "Game Content Usage Rules" using assets from Age of Empires II and Age of Empires II: Definitive Edition and it is not endorsed by or affiliated with Microsoft. Age of Empires II: Definitive Edition © Microsoft Corporation.
+            This website was created under "<a href="https://www.xbox.com/en-us/developers/rules">Microsoft's "Game Content Usage Rules</a>" using assets from Age of Empires II and Age of Empires II: Definitive Edition and it is not endorsed by or affiliated with Microsoft. Age of Empires II: Definitive Edition © Microsoft Corporation.
         </div>
     </footer>
 </div>
 
-<!-- Modal for all civilizations -->
+<!-- Modal -->
 <div id="civModal" class="modal">
     <div class="modal-content">
         <div class="modal-header">
@@ -423,14 +423,12 @@
     let tournamentData = null;
     let currentModalMap = null;
 
-    // Global sort state shared by all tables
     let globalSortColumn = 1; // Default: Games Played
     let globalSortDirection = 'desc';
 
     const CIV_ICON_BASE = 'https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/';
     const MAP_ICON_BASE = 'https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/maps/ingame/';
 
-    // Helper to convert map name to camelCase for icon URL
     function mapNameToCamelCase(mapName) {
         return mapName.split(' ').map((word, index) => {
             if (index === 0) return word;
@@ -463,14 +461,8 @@
         document.getElementById('totalPlayers').textContent = tournamentData.TotalPlayers.toLocaleString();
 
         const date = new Date(tournamentData.GeneratedAt);
-        const formattedDate = date.toLocaleDateString('en-US', {
-            month: 'short',
-            day: 'numeric'
-        }) + ' ' + date.toLocaleTimeString('en-GB', {
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-        document.getElementById('lastUpdated').textContent = formattedDate;
+
+        document.getElementById('lastUpdated').textContent = date.toLocaleString();
         document.getElementById('footerDate').textContent = date.toLocaleString();
     }
 
@@ -495,7 +487,6 @@
         const header = document.createElement('div');
         header.className = 'map-header';
 
-        // Add map icon
         const mapIcon = document.createElement('img');
         mapIcon.className = 'map-icon';
         const mapIconName = mapNameToCamelCase(map.MapName);
@@ -512,22 +503,17 @@
         info.textContent = `${map.TotalGames} matches played`;
         section.appendChild(info);
 
-        // Sort civs according to global sort state
         const sortedCivs = getSortedCivs(map.CivStats);
 
-        // Show top 5 civs
         const top5 = sortedCivs.slice(0, 5);
         const table = createCivTable(top5, map);
         section.appendChild(table);
-
-        // Show more button if there are more than 5 civs
-        if (map.CivStats.length > 5) {
-            const btn = document.createElement('button');
-            btn.className = 'show-more-btn';
-            btn.textContent = `Show All ${map.CivStats.length} Civilizations`;
-            btn.onclick = () => showAllCivs(map);
-            section.appendChild(btn);
-        }
+        
+        const btn = document.createElement('button');
+        btn.className = 'show-more-btn';
+        btn.textContent = `Show All ${map.CivStats.length} Civilizations`;
+        btn.onclick = () => showAllCivs(map);
+        section.appendChild(btn);
 
         return section;
     }
@@ -594,7 +580,6 @@
         });
         table.appendChild(tbody);
 
-        // Update sort indicators
         updateSortIndicators(table);
 
         return table;
@@ -609,10 +594,8 @@
             globalSortDirection = 'desc';
         }
 
-        // Refresh all tables
         displayMaps();
 
-        // If modal is open, update it too
         if (currentModalMap) {
             updateModalTable();
         }
@@ -664,7 +647,6 @@
             tbody.appendChild(tr);
         });
 
-        // Update sort indicators in modal
         const modalTable = document.getElementById('modalTable');
         updateSortIndicators(modalTable);
     }
