@@ -23,8 +23,6 @@
             max-width: 1400px;
             margin: 0 auto;
             background: white;
-            border-radius: 10px;
-            box-shadow: 0 10px 40px rgba(221, 18, 52, 0.3);
             overflow: hidden;
         }
 
@@ -186,11 +184,14 @@
             font-weight: 600;
             color: #495057;
             border-bottom: 2px solid #dee2e6;
-            cursor: pointer;
             user-select: none;
         }
 
-        th:hover {
+        th.sortable {
+            cursor: pointer;
+        }
+
+        th.sortable:hover {
             background: #e9ecef;
         }
 
@@ -230,6 +231,11 @@
             height: 24px;
             border-radius: 3px;
             object-fit: cover;
+        }
+
+        .mirror-rate {
+            color: #6c757d;
+            font-size: 0.9em;
         }
 
         .winrate {
@@ -283,7 +289,7 @@
             padding: 0;
             border-radius: 10px;
             width: 90%;
-            max-width: 1000px;
+            max-width: 1100px;
             max-height: 80vh;
             overflow: hidden;
             display: flex;
@@ -404,6 +410,7 @@
                 <tr>
                     <th class="sortable" onclick="sortTable(0)">Civilization</th>
                     <th class="sortable" onclick="sortTable(1)">Games Played</th>
+                    <th>Mirror %</th>
                     <th class="sortable" onclick="sortTable(2)">Wins</th>
                     <th class="sortable" onclick="sortTable(3)">Losses</th>
                     <th class="sortable" onclick="sortTable(4)">Win Rate</th>
@@ -458,7 +465,6 @@
         document.getElementById('totalPlayers').textContent = tournamentData.TotalPlayers.toLocaleString();
 
         const date = new Date(tournamentData.GeneratedAt);
-
         document.getElementById('footerDate').textContent = date.toLocaleString();
     }
 
@@ -544,13 +550,20 @@
 
         const thead = document.createElement('thead');
         const headerRow = document.createElement('tr');
-        const headers = ['Civilization', 'Games Played', 'Wins', 'Losses', 'Win Rate'];
+        const headers = ['Civilization', 'Games Played', 'Mirror %', 'Wins', 'Losses', 'Win Rate'];
+        const sortableIndices = [0, 1, 3, 4, 5]; // Mirror % (index 2) is not sortable
 
         headers.forEach((headerText, index) => {
             const th = document.createElement('th');
             th.textContent = headerText;
-            th.className = 'sortable';
-            th.onclick = () => sortTable(index);
+            
+            if (sortableIndices.includes(index)) {
+                th.className = 'sortable';
+                // Adjust column index for sorting (skip Mirror % column)
+                const sortColumn = index > 2 ? index - 1 : index;
+                th.onclick = () => sortTable(sortColumn);
+            }
+            
             headerRow.appendChild(th);
         });
 
@@ -568,6 +581,7 @@
                     </div>
                 </td>
                 <td>${civ.GamesPlayed}</td>
+                <td class="mirror-rate">${civ.MirrorMatches} / ${civ.MirrorRate.toFixed(1)}%</td>
                 <td>${civ.Wins}</td>
                 <td>${civ.Losses}</td>
                 <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
@@ -598,10 +612,15 @@
     }
 
     function updateSortIndicators(table) {
-        const headers = table.querySelectorAll('th');
-        headers.forEach((th, index) => {
+        const headers = table.querySelectorAll('th.sortable');
+        const sortableIndices = [0, 1, 3, 4, 5]; // Mirror % is not sortable
+        
+        headers.forEach((th, sortableIndex) => {
             th.classList.remove('sort-asc', 'sort-desc');
-            if (index === globalSortColumn) {
+            const actualIndex = sortableIndices[sortableIndex];
+            const sortColumn = actualIndex > 2 ? actualIndex - 1 : actualIndex;
+            
+            if (sortColumn === globalSortColumn) {
                 th.classList.add(globalSortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
             }
         });
@@ -636,6 +655,7 @@
                     </div>
                 </td>
                 <td>${civ.GamesPlayed}</td>
+                <td class="mirror-rate">${civ.MirrorMatches} / ${civ.MirrorRate.toFixed(1)}%</td>
                 <td>${civ.Wins}</td>
                 <td>${civ.Losses}</td>
                 <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
