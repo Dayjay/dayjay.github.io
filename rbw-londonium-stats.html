@@ -405,11 +405,11 @@
             <table id="modalTable">
                 <thead>
                 <tr>
-                    <th class="sortable" onclick="sortModalTable(0)">Civilization</th>
-                    <th class="sortable" onclick="sortModalTable(1)">Games Played</th>
-                    <th class="sortable" onclick="sortModalTable(2)">Wins</th>
-                    <th class="sortable" onclick="sortModalTable(3)">Losses</th>
-                    <th class="sortable" onclick="sortModalTable(4)">Win Rate</th>
+                    <th class="sortable" onclick="sortTable(0)">Civilization</th>
+                    <th class="sortable" onclick="sortTable(1)">Games Played</th>
+                    <th class="sortable" onclick="sortTable(2)">Wins</th>
+                    <th class="sortable" onclick="sortTable(3)">Losses</th>
+                    <th class="sortable" onclick="sortTable(4)">Win Rate</th>
                 </tr>
                 </thead>
                 <tbody id="modalTableBody">
@@ -421,11 +421,11 @@
 
 <script>
     let tournamentData = null;
-    let currentModalData = [];
-    let modalSortColumn = 1;
-    let modalSortDirection = 'desc';
-    let mapTableSortStates = {};
-    let originalMapData = {}; // Store original unsorted data
+    let currentModalMap = null;
+
+    // Global sort state shared by all tables
+    let globalSortColumn = 1; // Default: Games Played
+    let globalSortDirection = 'desc';
 
     const CIV_ICON_BASE = 'https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/';
     const MAP_ICON_BASE = 'https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/maps/ingame/';
@@ -449,15 +449,6 @@
         .then(data => {
             console.log('Data loaded successfully:', data);
             tournamentData = data;
-
-            // Store original data for each map
-            tournamentData.MapStats.forEach(map => {
-                originalMapData[map.MapName] = [...map.CivStats];
-            });
-            tournamentData.MapStatsTop200.forEach(map => {
-                originalMapData[map.MapName + '_top200'] = [...map.CivStats];
-            });
-
             displayStats();
             displayMaps();
         })
@@ -521,13 +512,11 @@
         info.textContent = `${map.TotalGames} matches played`;
         section.appendChild(info);
 
-        // Initialize sort state for this map
-        if (!mapTableSortStates[map.MapName]) {
-            mapTableSortStates[map.MapName] = { column: 1, direction: 'desc' };
-        }
+        // Sort civs according to global sort state
+        const sortedCivs = getSortedCivs(map.CivStats);
 
         // Show top 5 civs
-        const top5 = map.CivStats.slice(0, 5);
+        const top5 = sortedCivs.slice(0, 5);
         const table = createCivTable(top5, map);
         section.appendChild(table);
 
@@ -543,6 +532,30 @@
         return section;
     }
 
+    function getSortedCivs(civs) {
+        return [...civs].sort((a, b) => {
+            let valA, valB;
+
+            switch(globalSortColumn) {
+                case 0: valA = a.CivName; valB = b.CivName; break;
+                case 1: valA = a.GamesPlayed; valB = b.GamesPlayed; break;
+                case 2: valA = a.Wins; valB = b.Wins; break;
+                case 3: valA = a.Losses; valB = b.Losses; break;
+                case 4: valA = a.WinRate; valB = b.WinRate; break;
+            }
+
+            if (typeof valA === 'string') {
+                return globalSortDirection === 'asc'
+                    ? valA.localeCompare(valB)
+                    : valB.localeCompare(valA);
+            } else {
+                return globalSortDirection === 'asc'
+                    ? valA - valB
+                    : valB - valA;
+            }
+        });
+    }
+
     function createCivTable(civs, map) {
         const table = document.createElement('table');
         table.dataset.mapName = map.MapName;
@@ -555,7 +568,7 @@
             const th = document.createElement('th');
             th.textContent = headerText;
             th.className = 'sortable';
-            th.onclick = () => sortMainTable(map, index);
+            th.onclick = () => sortTable(index);
             headerRow.appendChild(th);
         });
 
@@ -582,85 +595,35 @@
         table.appendChild(tbody);
 
         // Update sort indicators
-        updateMainTableSortIndicators(table, mapTableSortStates[map.MapName].column);
+        updateSortIndicators(table);
 
         return table;
     }
 
-    function sortMainTable(map, column) {
-        const state = mapTableSortStates[map.MapName];
-
+    function sortTable(column) {
         // Toggle direction if same column
-        if (state.column === column) {
-            state.direction = state.direction === 'asc' ? 'desc' : 'asc';
+        if (globalSortColumn === column) {
+            globalSortDirection = globalSortDirection === 'asc' ? 'desc' : 'asc';
         } else {
-            state.column = column;
-            state.direction = 'desc';
+            globalSortColumn = column;
+            globalSortDirection = 'desc';
         }
 
-        // Sort the data
-        const sortedCivs = [...map.CivStats].sort((a, b) => {
-            let valA, valB;
+        // Refresh all tables
+        displayMaps();
 
-            switch(column) {
-                case 0: valA = a.CivName; valB = b.CivName; break;
-                case 1: valA = a.GamesPlayed; valB = b.GamesPlayed; break;
-                case 2: valA = a.Wins; valB = b.Wins; break;
-                case 3: valA = a.Losses; valB = b.Losses; break;
-                case 4: valA = a.WinRate; valB = b.WinRate; break;
-            }
-
-            if (typeof valA === 'string') {
-                return state.direction === 'asc'
-                    ? valA.localeCompare(valB)
-                    : valB.localeCompare(valA);
-            } else {
-                return state.direction === 'asc'
-                    ? valA - valB
-                    : valB - valA;
-            }
-        });
-
-        // Update the table
-        const section = document.querySelector(`.map-section[data-map-name="${map.MapName}"]`);
-        const table = section.querySelector('table');
-        const tbody = table.querySelector('tbody');
-        tbody.innerHTML = '';
-
-        const top5 = sortedCivs.slice(0, 5);
-        top5.forEach(civ => {
-            const tr = document.createElement('tr');
-            tr.innerHTML = `
-                <td>
-                    <div class="civ-name">
-                        <img class="civ-icon" src="${CIV_ICON_BASE}${civ.CivName}.png" alt="${civ.CivName}" onerror="this.style.display='none'">
-                        <span>${civ.CivName}</span>
-                    </div>
-                </td>
-                <td>${civ.GamesPlayed}</td>
-                <td>${civ.Wins}</td>
-                <td>${civ.Losses}</td>
-                <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
-            `;
-            tbody.appendChild(tr);
-        });
-
-        // Update map.CivStats to keep sorted order
-        map.CivStats = sortedCivs;
-
-        // Update sort indicators
-        updateMainTableSortIndicators(table, column);
+        // If modal is open, update it too
+        if (currentModalMap) {
+            updateModalTable();
+        }
     }
 
-    function updateMainTableSortIndicators(table, column) {
-        const mapName = table.dataset.mapName;
-        const state = mapTableSortStates[mapName];
+    function updateSortIndicators(table) {
         const headers = table.querySelectorAll('th');
-
         headers.forEach((th, index) => {
             th.classList.remove('sort-asc', 'sort-desc');
-            if (index === column) {
-                th.classList.add(state.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+            if (index === globalSortColumn) {
+                th.classList.add(globalSortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
             }
         });
     }
@@ -672,60 +635,19 @@
     }
 
     function showAllCivs(map) {
-        // Use original data to avoid sorting conflicts
-        const isTop200 = document.getElementById('playerFilter').checked;
-        const originalKey = map.MapName + (isTop200 ? '_top200' : '');
-        currentModalData = [...(originalMapData[originalKey] || map.CivStats)];
-
+        currentModalMap = map;
         document.getElementById('modalTitle').textContent = `${map.MapName} - All Civilizations`;
-
-        // Reset to default sort (games played, descending)
-        modalSortColumn = 1;
-        modalSortDirection = 'desc';
-        sortModalTable(1);
-
-        document.getElementById('civModal').style.display = 'block';
-    }
-
-    function sortModalTable(column) {
-        if (modalSortColumn === column) {
-            modalSortDirection = modalSortDirection === 'asc' ? 'desc' : 'asc';
-        } else {
-            modalSortColumn = column;
-            modalSortDirection = 'desc';
-        }
-
-        currentModalData.sort((a, b) => {
-            let valA, valB;
-
-            switch(column) {
-                case 0: valA = a.CivName; valB = b.CivName; break;
-                case 1: valA = a.GamesPlayed; valB = b.GamesPlayed; break;
-                case 2: valA = a.Wins; valB = b.Wins; break;
-                case 3: valA = a.Losses; valB = b.Losses; break;
-                case 4: valA = a.WinRate; valB = b.WinRate; break;
-            }
-
-            if (typeof valA === 'string') {
-                return modalSortDirection === 'asc'
-                    ? valA.localeCompare(valB)
-                    : valB.localeCompare(valA);
-            } else {
-                return modalSortDirection === 'asc'
-                    ? valA - valB
-                    : valB - valA;
-            }
-        });
-
         updateModalTable();
-        updateModalSortIndicators(column);
+        document.getElementById('civModal').style.display = 'block';
     }
 
     function updateModalTable() {
         const tbody = document.getElementById('modalTableBody');
         tbody.innerHTML = '';
 
-        currentModalData.forEach(civ => {
+        const sortedCivs = getSortedCivs(currentModalMap.CivStats);
+
+        sortedCivs.forEach(civ => {
             const tr = document.createElement('tr');
             tr.innerHTML = `
                 <td>
@@ -741,20 +663,15 @@
             `;
             tbody.appendChild(tr);
         });
-    }
 
-    function updateModalSortIndicators(column) {
-        const headers = document.querySelectorAll('#modalTable th');
-        headers.forEach((th, index) => {
-            th.classList.remove('sort-asc', 'sort-desc');
-            if (index === column) {
-                th.classList.add(modalSortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
-            }
-        });
+        // Update sort indicators in modal
+        const modalTable = document.getElementById('modalTable');
+        updateSortIndicators(modalTable);
     }
 
     function closeModal() {
         document.getElementById('civModal').style.display = 'none';
+        currentModalMap = null;
     }
 
     window.onclick = function(event) {
