@@ -1,5 +1,5 @@
 {
-  "GeneratedAt": "2026-01-09T15:28:07.3391146Z",
+  "GeneratedAt": "2026-01-09T15:40:15.3194131Z",
   "TotalMatches": 36258,
   "TotalPlayers": 6816,
   "MapStats": [
@@ -10,8 +10,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 940,
-          "MirrorMatches": 198,
-          "MirrorRate": 21.06,
+          "MirrorMatches": 99,
+          "MirrorRate": 10.53,
           "Wins": 450,
           "Losses": 292,
           "WinRate": 60.65
@@ -19,8 +19,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 549,
-          "MirrorMatches": 98,
-          "MirrorRate": 17.85,
+          "MirrorMatches": 49,
+          "MirrorRate": 8.93,
           "Wins": 258,
           "Losses": 193,
           "WinRate": 57.21
@@ -28,8 +28,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 439,
-          "MirrorMatches": 62,
-          "MirrorRate": 14.12,
+          "MirrorMatches": 31,
+          "MirrorRate": 7.06,
           "Wins": 214,
           "Losses": 163,
           "WinRate": 56.76
@@ -37,8 +37,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 392,
-          "MirrorMatches": 30,
-          "MirrorRate": 7.65,
+          "MirrorMatches": 15,
+          "MirrorRate": 3.83,
           "Wins": 166,
           "Losses": 196,
           "WinRate": 45.86
@@ -46,8 +46,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 362,
-          "MirrorMatches": 28,
-          "MirrorRate": 7.73,
+          "MirrorMatches": 14,
+          "MirrorRate": 3.87,
           "Wins": 186,
           "Losses": 148,
           "WinRate": 55.69
@@ -55,8 +55,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 353,
-          "MirrorMatches": 26,
-          "MirrorRate": 7.37,
+          "MirrorMatches": 13,
+          "MirrorRate": 3.68,
           "Wins": 165,
           "Losses": 162,
           "WinRate": 50.46
@@ -64,8 +64,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 331,
-          "MirrorMatches": 26,
-          "MirrorRate": 7.85,
+          "MirrorMatches": 13,
+          "MirrorRate": 3.93,
           "Wins": 152,
           "Losses": 153,
           "WinRate": 49.84
@@ -73,8 +73,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 324,
-          "MirrorMatches": 26,
-          "MirrorRate": 8.02,
+          "MirrorMatches": 13,
+          "MirrorRate": 4.01,
           "Wins": 159,
           "Losses": 139,
           "WinRate": 53.36
@@ -82,8 +82,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 305,
-          "MirrorMatches": 30,
-          "MirrorRate": 9.84,
+          "MirrorMatches": 15,
+          "MirrorRate": 4.92,
           "Wins": 137,
           "Losses": 138,
           "WinRate": 49.82
@@ -91,8 +91,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 301,
-          "MirrorMatches": 6,
-          "MirrorRate": 1.99,
+          "MirrorMatches": 3,
+          "MirrorRate": 1,
           "Wins": 154,
           "Losses": 141,
           "WinRate": 52.2
@@ -100,8 +100,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 282,
-          "MirrorMatches": 20,
-          "MirrorRate": 7.09,
+          "MirrorMatches": 10,
+          "MirrorRate": 3.55,
           "Wins": 144,
           "Losses": 118,
           "WinRate": 54.96
@@ -109,8 +109,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 268,
-          "MirrorMatches": 24,
-          "MirrorRate": 8.96,
+          "MirrorMatches": 12,
+          "MirrorRate": 4.48,
           "Wins": 108,
           "Losses": 136,
           "WinRate": 44.26
@@ -118,8 +118,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 255,
-          "MirrorMatches": 18,
-          "MirrorRate": 7.06,
+          "MirrorMatches": 9,
+          "MirrorRate": 3.53,
           "Wins": 120,
           "Losses": 117,
           "WinRate": 50.63
@@ -127,8 +127,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 254,
-          "MirrorMatches": 14,
-          "MirrorRate": 5.51,
+          "MirrorMatches": 7,
+          "MirrorRate": 2.76,
           "Wins": 107,
           "Losses": 133,
           "WinRate": 44.58
@@ -136,8 +136,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 247,
-          "MirrorMatches": 14,
-          "MirrorRate": 5.67,
+          "MirrorMatches": 7,
+          "MirrorRate": 2.83,
           "Wins": 107,
           "Losses": 126,
           "WinRate": 45.92
@@ -145,8 +145,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 246,
-          "MirrorMatches": 14,
-          "MirrorRate": 5.69,
+          "MirrorMatches": 7,
+          "MirrorRate": 2.85,
           "Wins": 108,
           "Losses": 124,
           "WinRate": 46.55
@@ -154,8 +154,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 236,
-          "MirrorMatches": 16,
-          "MirrorRate": 6.78,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.39,
           "Wins": 108,
           "Losses": 112,
           "WinRate": 49.09
@@ -163,8 +163,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 234,
-          "MirrorMatches": 20,
-          "MirrorRate": 8.55,
+          "MirrorMatches": 10,
+          "MirrorRate": 4.27,
           "Wins": 95,
           "Losses": 119,
           "WinRate": 44.39
@@ -172,8 +172,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 232,
-          "MirrorMatches": 14,
-          "MirrorRate": 6.03,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.02,
           "Wins": 94,
           "Losses": 124,
           "WinRate": 43.12
@@ -181,8 +181,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 225,
-          "MirrorMatches": 26,
-          "MirrorRate": 11.56,
+          "MirrorMatches": 13,
+          "MirrorRate": 5.78,
           "Wins": 110,
           "Losses": 89,
           "WinRate": 55.28
@@ -199,8 +199,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 221,
-          "MirrorMatches": 6,
-          "MirrorRate": 2.71,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.36,
           "Wins": 91,
           "Losses": 124,
           "WinRate": 42.33
@@ -208,8 +208,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 219,
-          "MirrorMatches": 18,
-          "MirrorRate": 8.22,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.11,
           "Wins": 107,
           "Losses": 94,
           "WinRate": 53.23
@@ -217,8 +217,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 218,
-          "MirrorMatches": 18,
-          "MirrorRate": 8.26,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.13,
           "Wins": 102,
           "Losses": 98,
           "WinRate": 51
@@ -226,8 +226,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 217,
-          "MirrorMatches": 28,
-          "MirrorRate": 12.9,
+          "MirrorMatches": 14,
+          "MirrorRate": 6.45,
           "Wins": 101,
           "Losses": 88,
           "WinRate": 53.44
@@ -235,8 +235,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 217,
-          "MirrorMatches": 20,
-          "MirrorRate": 9.22,
+          "MirrorMatches": 10,
+          "MirrorRate": 4.61,
           "Wins": 94,
           "Losses": 103,
           "WinRate": 47.72
@@ -244,8 +244,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 207,
-          "MirrorMatches": 14,
-          "MirrorRate": 6.76,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.38,
           "Wins": 100,
           "Losses": 93,
           "WinRate": 51.81
@@ -253,8 +253,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 199,
-          "MirrorMatches": 16,
-          "MirrorRate": 8.04,
+          "MirrorMatches": 8,
+          "MirrorRate": 4.02,
           "Wins": 95,
           "Losses": 88,
           "WinRate": 51.91
@@ -262,8 +262,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 195,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.13,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.56,
           "Wins": 94,
           "Losses": 91,
           "WinRate": 50.81
@@ -271,8 +271,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 192,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.21,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.6,
           "Wins": 97,
           "Losses": 85,
           "WinRate": 53.3
@@ -280,8 +280,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 191,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.05,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.52,
           "Wins": 91,
           "Losses": 98,
           "WinRate": 48.15
@@ -289,8 +289,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 186,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.45,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.23,
           "Wins": 93,
           "Losses": 81,
           "WinRate": 53.45
@@ -298,8 +298,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 177,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.52,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.26,
           "Wins": 66,
           "Losses": 103,
           "WinRate": 39.05
@@ -307,8 +307,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 176,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.41,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.7,
           "Wins": 87,
           "Losses": 83,
           "WinRate": 51.18
@@ -316,8 +316,8 @@
         {
           "CivName": "Goths",
           "GamesPlayed": 176,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.55,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.27,
           "Wins": 64,
           "Losses": 104,
           "WinRate": 38.1
@@ -325,8 +325,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 172,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.98,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.49,
           "Wins": 69,
           "Losses": 91,
           "WinRate": 43.12
@@ -334,8 +334,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 167,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.79,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.4,
           "Wins": 80,
           "Losses": 79,
           "WinRate": 50.31
@@ -343,8 +343,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 167,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.99,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.99,
           "Wins": 92,
           "Losses": 65,
           "WinRate": 58.6
@@ -352,8 +352,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 166,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.2,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.6,
           "Wins": 79,
           "Losses": 85,
           "WinRate": 48.17
@@ -361,8 +361,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 165,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.42,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.21,
           "Wins": 75,
           "Losses": 86,
           "WinRate": 46.58
@@ -370,8 +370,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 165,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.21,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.61,
           "Wins": 83,
           "Losses": 80,
           "WinRate": 50.92
@@ -379,8 +379,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 159,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.03,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.52,
           "Wins": 69,
           "Losses": 82,
           "WinRate": 45.7
@@ -397,8 +397,8 @@
         {
           "CivName": "Slavs",
           "GamesPlayed": 153,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.92,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.96,
           "Wins": 65,
           "Losses": 82,
           "WinRate": 44.22
@@ -406,8 +406,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 143,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.59,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.8,
           "Wins": 55,
           "Losses": 80,
           "WinRate": 40.74
@@ -424,8 +424,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 136,
-          "MirrorMatches": 12,
-          "MirrorRate": 8.82,
+          "MirrorMatches": 6,
+          "MirrorRate": 4.41,
           "Wins": 53,
           "Losses": 71,
           "WinRate": 42.74
@@ -433,8 +433,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 132,
-          "MirrorMatches": 10,
-          "MirrorRate": 7.58,
+          "MirrorMatches": 5,
+          "MirrorRate": 3.79,
           "Wins": 51,
           "Losses": 71,
           "WinRate": 41.8
@@ -442,8 +442,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 123,
-          "MirrorMatches": 10,
-          "MirrorRate": 8.13,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.07,
           "Wins": 52,
           "Losses": 61,
           "WinRate": 46.02
@@ -451,8 +451,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 122,
-          "MirrorMatches": 10,
-          "MirrorRate": 8.2,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.1,
           "Wins": 61,
           "Losses": 51,
           "WinRate": 54.46
@@ -466,8 +466,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 224,
-          "MirrorMatches": 20,
-          "MirrorRate": 8.93,
+          "MirrorMatches": 10,
+          "MirrorRate": 4.46,
           "Wins": 111,
           "Losses": 93,
           "WinRate": 54.41
@@ -475,8 +475,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 180,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.44,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.22,
           "Wins": 78,
           "Losses": 94,
           "WinRate": 45.35
@@ -484,8 +484,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 160,
-          "MirrorMatches": 8,
-          "MirrorRate": 5,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.5,
           "Wins": 78,
           "Losses": 74,
           "WinRate": 51.32
@@ -493,8 +493,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 135,
-          "MirrorMatches": 12,
-          "MirrorRate": 8.89,
+          "MirrorMatches": 6,
+          "MirrorRate": 4.44,
           "Wins": 85,
           "Losses": 38,
           "WinRate": 69.11
@@ -502,8 +502,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 135,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.93,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.96,
           "Wins": 66,
           "Losses": 61,
           "WinRate": 51.97
@@ -511,8 +511,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 125,
-          "MirrorMatches": 12,
-          "MirrorRate": 9.6,
+          "MirrorMatches": 6,
+          "MirrorRate": 4.8,
           "Wins": 62,
           "Losses": 51,
           "WinRate": 54.87
@@ -520,8 +520,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 124,
-          "MirrorMatches": 10,
-          "MirrorRate": 8.06,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.03,
           "Wins": 62,
           "Losses": 52,
           "WinRate": 54.39
@@ -538,8 +538,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 121,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.96,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.48,
           "Wins": 44,
           "Losses": 71,
           "WinRate": 38.26
@@ -547,8 +547,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 119,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.36,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.68,
           "Wins": 64,
           "Losses": 51,
           "WinRate": 55.65
@@ -556,8 +556,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 116,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.9,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.45,
           "Wins": 57,
           "Losses": 51,
           "WinRate": 52.78
@@ -565,8 +565,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 113,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.54,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.77,
           "Wins": 56,
           "Losses": 53,
           "WinRate": 51.38
@@ -574,8 +574,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 112,
-          "MirrorMatches": 16,
-          "MirrorRate": 14.29,
+          "MirrorMatches": 8,
+          "MirrorRate": 7.14,
           "Wins": 40,
           "Losses": 56,
           "WinRate": 41.67
@@ -583,8 +583,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 110,
-          "MirrorMatches": 10,
-          "MirrorRate": 9.09,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.55,
           "Wins": 63,
           "Losses": 37,
           "WinRate": 63
@@ -592,8 +592,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 108,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.7,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.85,
           "Wins": 52,
           "Losses": 52,
           "WinRate": 50
@@ -601,8 +601,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 106,
-          "MirrorMatches": 10,
-          "MirrorRate": 9.43,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.72,
           "Wins": 45,
           "Losses": 51,
           "WinRate": 46.88
@@ -610,8 +610,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 102,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.96,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.98,
           "Wins": 47,
           "Losses": 53,
           "WinRate": 47
@@ -619,8 +619,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 100,
-          "MirrorMatches": 10,
-          "MirrorRate": 10,
+          "MirrorMatches": 5,
+          "MirrorRate": 5,
           "Wins": 47,
           "Losses": 43,
           "WinRate": 52.22
@@ -637,8 +637,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 100,
-          "MirrorMatches": 4,
-          "MirrorRate": 4,
+          "MirrorMatches": 2,
+          "MirrorRate": 2,
           "Wins": 50,
           "Losses": 46,
           "WinRate": 52.08
@@ -646,8 +646,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 99,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.02,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.01,
           "Wins": 48,
           "Losses": 49,
           "WinRate": 49.48
@@ -655,8 +655,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 97,
-          "MirrorMatches": 6,
-          "MirrorRate": 6.19,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.09,
           "Wins": 41,
           "Losses": 50,
           "WinRate": 45.05
@@ -664,8 +664,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 96,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.08,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.04,
           "Wins": 59,
           "Losses": 35,
           "WinRate": 62.77
@@ -673,8 +673,8 @@
         {
           "CivName": "Sicilians",
           "GamesPlayed": 96,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.08,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.04,
           "Wins": 48,
           "Losses": 46,
           "WinRate": 51.06
@@ -682,8 +682,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 93,
-          "MirrorMatches": 8,
-          "MirrorRate": 8.6,
+          "MirrorMatches": 4,
+          "MirrorRate": 4.3,
           "Wins": 47,
           "Losses": 38,
           "WinRate": 55.29
@@ -691,8 +691,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 92,
-          "MirrorMatches": 6,
-          "MirrorRate": 6.52,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.26,
           "Wins": 38,
           "Losses": 48,
           "WinRate": 44.19
@@ -700,8 +700,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 90,
-          "MirrorMatches": 8,
-          "MirrorRate": 8.89,
+          "MirrorMatches": 4,
+          "MirrorRate": 4.44,
           "Wins": 45,
           "Losses": 37,
           "WinRate": 54.88
@@ -709,8 +709,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 90,
-          "MirrorMatches": 4,
-          "MirrorRate": 4.44,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.22,
           "Wins": 41,
           "Losses": 45,
           "WinRate": 47.67
@@ -727,8 +727,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 86,
-          "MirrorMatches": 6,
-          "MirrorRate": 6.98,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.49,
           "Wins": 37,
           "Losses": 43,
           "WinRate": 46.25
@@ -736,8 +736,8 @@
         {
           "CivName": "Goths",
           "GamesPlayed": 81,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.47,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.23,
           "Wins": 33,
           "Losses": 46,
           "WinRate": 41.77
@@ -754,8 +754,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 77,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.6,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.3,
           "Wins": 39,
           "Losses": 36,
           "WinRate": 52
@@ -763,8 +763,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 75,
-          "MirrorMatches": 6,
-          "MirrorRate": 8,
+          "MirrorMatches": 3,
+          "MirrorRate": 4,
           "Wins": 37,
           "Losses": 32,
           "WinRate": 53.62
@@ -772,8 +772,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 72,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.78,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.39,
           "Wins": 37,
           "Losses": 33,
           "WinRate": 52.86
@@ -781,8 +781,8 @@
         {
           "CivName": "Chinese",
           "GamesPlayed": 71,
-          "MirrorMatches": 4,
-          "MirrorRate": 5.63,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.82,
           "Wins": 26,
           "Losses": 41,
           "WinRate": 38.81
@@ -799,8 +799,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 67,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.99,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.49,
           "Wins": 22,
           "Losses": 43,
           "WinRate": 33.85
@@ -808,8 +808,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 66,
-          "MirrorMatches": 4,
-          "MirrorRate": 6.06,
+          "MirrorMatches": 2,
+          "MirrorRate": 3.03,
           "Wins": 37,
           "Losses": 25,
           "WinRate": 59.68
@@ -817,8 +817,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 63,
-          "MirrorMatches": 6,
-          "MirrorRate": 9.52,
+          "MirrorMatches": 3,
+          "MirrorRate": 4.76,
           "Wins": 25,
           "Losses": 32,
           "WinRate": 43.86
@@ -826,8 +826,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 63,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.17,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.59,
           "Wins": 26,
           "Losses": 35,
           "WinRate": 42.62
@@ -835,8 +835,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 61,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.28,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.64,
           "Wins": 23,
           "Losses": 36,
           "WinRate": 38.98
@@ -844,8 +844,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 56,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.57,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.79,
           "Wins": 32,
           "Losses": 22,
           "WinRate": 59.26
@@ -862,8 +862,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 54,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.7,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.85,
           "Wins": 21,
           "Losses": 31,
           "WinRate": 40.38
@@ -880,8 +880,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 52,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.85,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.92,
           "Wins": 20,
           "Losses": 30,
           "WinRate": 40
@@ -889,8 +889,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 50,
-          "MirrorMatches": 2,
-          "MirrorRate": 4,
+          "MirrorMatches": 1,
+          "MirrorRate": 2,
           "Wins": 28,
           "Losses": 20,
           "WinRate": 58.33
@@ -898,8 +898,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 49,
-          "MirrorMatches": 4,
-          "MirrorRate": 8.16,
+          "MirrorMatches": 2,
+          "MirrorRate": 4.08,
           "Wins": 23,
           "Losses": 22,
           "WinRate": 51.11
@@ -907,8 +907,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 40,
-          "MirrorMatches": 2,
-          "MirrorRate": 5,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.5,
           "Wins": 18,
           "Losses": 20,
           "WinRate": 47.37
@@ -922,8 +922,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 384,
-          "MirrorMatches": 32,
-          "MirrorRate": 8.33,
+          "MirrorMatches": 16,
+          "MirrorRate": 4.17,
           "Wins": 191,
           "Losses": 161,
           "WinRate": 54.26
@@ -931,8 +931,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 316,
-          "MirrorMatches": 38,
-          "MirrorRate": 12.03,
+          "MirrorMatches": 19,
+          "MirrorRate": 6.01,
           "Wins": 159,
           "Losses": 119,
           "WinRate": 57.19
@@ -940,8 +940,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 257,
-          "MirrorMatches": 18,
-          "MirrorRate": 7,
+          "MirrorMatches": 9,
+          "MirrorRate": 3.5,
           "Wins": 109,
           "Losses": 130,
           "WinRate": 45.61
@@ -949,8 +949,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 249,
-          "MirrorMatches": 10,
-          "MirrorRate": 4.02,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.01,
           "Wins": 135,
           "Losses": 104,
           "WinRate": 56.49
@@ -958,8 +958,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 241,
-          "MirrorMatches": 14,
-          "MirrorRate": 5.81,
+          "MirrorMatches": 7,
+          "MirrorRate": 2.9,
           "Wins": 112,
           "Losses": 115,
           "WinRate": 49.34
@@ -967,8 +967,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 237,
-          "MirrorMatches": 46,
-          "MirrorRate": 19.41,
+          "MirrorMatches": 23,
+          "MirrorRate": 9.7,
           "Wins": 103,
           "Losses": 88,
           "WinRate": 53.93
@@ -976,8 +976,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 229,
-          "MirrorMatches": 12,
-          "MirrorRate": 5.24,
+          "MirrorMatches": 6,
+          "MirrorRate": 2.62,
           "Wins": 127,
           "Losses": 90,
           "WinRate": 58.53
@@ -985,8 +985,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 227,
-          "MirrorMatches": 12,
-          "MirrorRate": 5.29,
+          "MirrorMatches": 6,
+          "MirrorRate": 2.64,
           "Wins": 108,
           "Losses": 107,
           "WinRate": 50.23
@@ -994,8 +994,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 222,
-          "MirrorMatches": 24,
-          "MirrorRate": 10.81,
+          "MirrorMatches": 12,
+          "MirrorRate": 5.41,
           "Wins": 108,
           "Losses": 90,
           "WinRate": 54.55
@@ -1003,8 +1003,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 221,
-          "MirrorMatches": 12,
-          "MirrorRate": 5.43,
+          "MirrorMatches": 6,
+          "MirrorRate": 2.71,
           "Wins": 104,
           "Losses": 105,
           "WinRate": 49.76
@@ -1012,8 +1012,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 221,
-          "MirrorMatches": 16,
-          "MirrorRate": 7.24,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.62,
           "Wins": 91,
           "Losses": 114,
           "WinRate": 44.39
@@ -1021,8 +1021,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 218,
-          "MirrorMatches": 12,
-          "MirrorRate": 5.5,
+          "MirrorMatches": 6,
+          "MirrorRate": 2.75,
           "Wins": 98,
           "Losses": 108,
           "WinRate": 47.57
@@ -1030,8 +1030,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 214,
-          "MirrorMatches": 22,
-          "MirrorRate": 10.28,
+          "MirrorMatches": 11,
+          "MirrorRate": 5.14,
           "Wins": 86,
           "Losses": 106,
           "WinRate": 44.79
@@ -1039,8 +1039,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 208,
-          "MirrorMatches": 28,
-          "MirrorRate": 13.46,
+          "MirrorMatches": 14,
+          "MirrorRate": 6.73,
           "Wins": 111,
           "Losses": 69,
           "WinRate": 61.67
@@ -1048,8 +1048,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 202,
-          "MirrorMatches": 16,
-          "MirrorRate": 7.92,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.96,
           "Wins": 104,
           "Losses": 82,
           "WinRate": 55.91
@@ -1057,8 +1057,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 192,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.12,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.56,
           "Wins": 76,
           "Losses": 110,
           "WinRate": 40.86
@@ -1066,8 +1066,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 189,
-          "MirrorMatches": 22,
-          "MirrorRate": 11.64,
+          "MirrorMatches": 11,
+          "MirrorRate": 5.82,
           "Wins": 88,
           "Losses": 79,
           "WinRate": 52.69
@@ -1075,8 +1075,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 186,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.45,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.23,
           "Wins": 77,
           "Losses": 97,
           "WinRate": 44.25
@@ -1084,8 +1084,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 177,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.52,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.26,
           "Wins": 74,
           "Losses": 95,
           "WinRate": 43.79
@@ -1093,8 +1093,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 171,
-          "MirrorMatches": 12,
-          "MirrorRate": 7.02,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.51,
           "Wins": 77,
           "Losses": 82,
           "WinRate": 48.43
@@ -1102,8 +1102,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 171,
-          "MirrorMatches": 16,
-          "MirrorRate": 9.36,
+          "MirrorMatches": 8,
+          "MirrorRate": 4.68,
           "Wins": 76,
           "Losses": 79,
           "WinRate": 49.03
@@ -1111,8 +1111,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 170,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.71,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.35,
           "Wins": 87,
           "Losses": 75,
           "WinRate": 53.7
@@ -1129,8 +1129,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 164,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.66,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.83,
           "Wins": 70,
           "Losses": 88,
           "WinRate": 44.3
@@ -1138,8 +1138,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 163,
-          "MirrorMatches": 20,
-          "MirrorRate": 12.27,
+          "MirrorMatches": 10,
+          "MirrorRate": 6.13,
           "Wins": 89,
           "Losses": 54,
           "WinRate": 62.24
@@ -1147,8 +1147,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 160,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.75,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.88,
           "Wins": 85,
           "Losses": 69,
           "WinRate": 55.19
@@ -1156,8 +1156,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 156,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.56,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.28,
           "Wins": 77,
           "Losses": 75,
           "WinRate": 50.66
@@ -1165,8 +1165,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 151,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.65,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.32,
           "Wins": 62,
           "Losses": 85,
           "WinRate": 42.18
@@ -1174,8 +1174,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 146,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.74,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.37,
           "Wins": 65,
           "Losses": 77,
           "WinRate": 45.77
@@ -1183,8 +1183,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 142,
-          "MirrorMatches": 10,
-          "MirrorRate": 7.04,
+          "MirrorMatches": 5,
+          "MirrorRate": 3.52,
           "Wins": 61,
           "Losses": 71,
           "WinRate": 46.21
@@ -1192,8 +1192,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 133,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.5,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.75,
           "Wins": 59,
           "Losses": 72,
           "WinRate": 45.04
@@ -1201,8 +1201,8 @@
         {
           "CivName": "Goths",
           "GamesPlayed": 130,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.62,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.31,
           "Wins": 54,
           "Losses": 70,
           "WinRate": 43.55
@@ -1210,8 +1210,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 125,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.8,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.4,
           "Wins": 69,
           "Losses": 50,
           "WinRate": 57.98
@@ -1219,8 +1219,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 120,
-          "MirrorMatches": 12,
-          "MirrorRate": 10,
+          "MirrorMatches": 6,
+          "MirrorRate": 5,
           "Wins": 68,
           "Losses": 40,
           "WinRate": 62.96
@@ -1228,8 +1228,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 118,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.08,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.54,
           "Wins": 50,
           "Losses": 62,
           "WinRate": 44.64
@@ -1246,8 +1246,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 112,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.36,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.68,
           "Wins": 51,
           "Losses": 55,
           "WinRate": 48.11
@@ -1264,8 +1264,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 110,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.82,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.91,
           "Wins": 54,
           "Losses": 54,
           "WinRate": 50
@@ -1273,8 +1273,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 109,
-          "MirrorMatches": 8,
-          "MirrorRate": 7.34,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.67,
           "Wins": 53,
           "Losses": 48,
           "WinRate": 52.48
@@ -1282,8 +1282,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 106,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.89,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.94,
           "Wins": 51,
           "Losses": 53,
           "WinRate": 49.04
@@ -1291,8 +1291,8 @@
         {
           "CivName": "Chinese",
           "GamesPlayed": 105,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.81,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.9,
           "Wins": 42,
           "Losses": 59,
           "WinRate": 41.58
@@ -1300,8 +1300,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 97,
-          "MirrorMatches": 4,
-          "MirrorRate": 4.12,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.06,
           "Wins": 43,
           "Losses": 50,
           "WinRate": 46.24
@@ -1309,8 +1309,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 95,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.11,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.05,
           "Wins": 54,
           "Losses": 39,
           "WinRate": 58.06
@@ -1318,8 +1318,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 95,
-          "MirrorMatches": 6,
-          "MirrorRate": 6.32,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.16,
           "Wins": 43,
           "Losses": 46,
           "WinRate": 48.31
@@ -1327,8 +1327,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 91,
-          "MirrorMatches": 6,
-          "MirrorRate": 6.59,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.3,
           "Wins": 39,
           "Losses": 46,
           "WinRate": 45.88
@@ -1345,8 +1345,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 78,
-          "MirrorMatches": 8,
-          "MirrorRate": 10.26,
+          "MirrorMatches": 4,
+          "MirrorRate": 5.13,
           "Wins": 37,
           "Losses": 33,
           "WinRate": 52.86
@@ -1354,8 +1354,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 65,
-          "MirrorMatches": 6,
-          "MirrorRate": 9.23,
+          "MirrorMatches": 3,
+          "MirrorRate": 4.62,
           "Wins": 26,
           "Losses": 33,
           "WinRate": 44.07
@@ -1378,8 +1378,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 490,
-          "MirrorMatches": 66,
-          "MirrorRate": 13.47,
+          "MirrorMatches": 33,
+          "MirrorRate": 6.73,
           "Wins": 217,
           "Losses": 207,
           "WinRate": 51.18
@@ -1387,8 +1387,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 445,
-          "MirrorMatches": 44,
-          "MirrorRate": 9.89,
+          "MirrorMatches": 22,
+          "MirrorRate": 4.94,
           "Wins": 215,
           "Losses": 186,
           "WinRate": 53.62
@@ -1396,8 +1396,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 403,
-          "MirrorMatches": 74,
-          "MirrorRate": 18.36,
+          "MirrorMatches": 37,
+          "MirrorRate": 9.18,
           "Wins": 199,
           "Losses": 130,
           "WinRate": 60.49
@@ -1405,8 +1405,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 369,
-          "MirrorMatches": 58,
-          "MirrorRate": 15.72,
+          "MirrorMatches": 29,
+          "MirrorRate": 7.86,
           "Wins": 175,
           "Losses": 136,
           "WinRate": 56.27
@@ -1414,8 +1414,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 361,
-          "MirrorMatches": 36,
-          "MirrorRate": 9.97,
+          "MirrorMatches": 18,
+          "MirrorRate": 4.99,
           "Wins": 172,
           "Losses": 153,
           "WinRate": 52.92
@@ -1423,8 +1423,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 351,
-          "MirrorMatches": 32,
-          "MirrorRate": 9.12,
+          "MirrorMatches": 16,
+          "MirrorRate": 4.56,
           "Wins": 158,
           "Losses": 161,
           "WinRate": 49.53
@@ -1432,8 +1432,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 307,
-          "MirrorMatches": 38,
-          "MirrorRate": 12.38,
+          "MirrorMatches": 19,
+          "MirrorRate": 6.19,
           "Wins": 132,
           "Losses": 137,
           "WinRate": 49.07
@@ -1441,8 +1441,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 283,
-          "MirrorMatches": 16,
-          "MirrorRate": 5.65,
+          "MirrorMatches": 8,
+          "MirrorRate": 2.83,
           "Wins": 133,
           "Losses": 134,
           "WinRate": 49.81
@@ -1450,8 +1450,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 252,
-          "MirrorMatches": 20,
-          "MirrorRate": 7.94,
+          "MirrorMatches": 10,
+          "MirrorRate": 3.97,
           "Wins": 116,
           "Losses": 116,
           "WinRate": 50
@@ -1459,8 +1459,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 238,
-          "MirrorMatches": 14,
-          "MirrorRate": 5.88,
+          "MirrorMatches": 7,
+          "MirrorRate": 2.94,
           "Wins": 114,
           "Losses": 110,
           "WinRate": 50.89
@@ -1468,8 +1468,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 234,
-          "MirrorMatches": 24,
-          "MirrorRate": 10.26,
+          "MirrorMatches": 12,
+          "MirrorRate": 5.13,
           "Wins": 123,
           "Losses": 87,
           "WinRate": 58.57
@@ -1477,8 +1477,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 225,
-          "MirrorMatches": 10,
-          "MirrorRate": 4.44,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.22,
           "Wins": 108,
           "Losses": 107,
           "WinRate": 50.23
@@ -1486,8 +1486,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 225,
-          "MirrorMatches": 10,
-          "MirrorRate": 4.44,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.22,
           "Wins": 105,
           "Losses": 110,
           "WinRate": 48.84
@@ -1495,8 +1495,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 218,
-          "MirrorMatches": 8,
-          "MirrorRate": 3.67,
+          "MirrorMatches": 4,
+          "MirrorRate": 1.83,
           "Wins": 102,
           "Losses": 108,
           "WinRate": 48.57
@@ -1504,8 +1504,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 213,
-          "MirrorMatches": 18,
-          "MirrorRate": 8.45,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.23,
           "Wins": 110,
           "Losses": 85,
           "WinRate": 56.41
@@ -1513,8 +1513,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 207,
-          "MirrorMatches": 28,
-          "MirrorRate": 13.53,
+          "MirrorMatches": 14,
+          "MirrorRate": 6.76,
           "Wins": 94,
           "Losses": 85,
           "WinRate": 52.51
@@ -1522,8 +1522,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 198,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.04,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.02,
           "Wins": 82,
           "Losses": 108,
           "WinRate": 43.16
@@ -1531,8 +1531,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 196,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.1,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.55,
           "Wins": 89,
           "Losses": 97,
           "WinRate": 47.85
@@ -1540,8 +1540,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 193,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.11,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.55,
           "Wins": 69,
           "Losses": 118,
           "WinRate": 36.9
@@ -1549,8 +1549,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 186,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.23,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.61,
           "Wins": 97,
           "Losses": 83,
           "WinRate": 53.89
@@ -1558,8 +1558,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 185,
-          "MirrorMatches": 20,
-          "MirrorRate": 10.81,
+          "MirrorMatches": 10,
+          "MirrorRate": 5.41,
           "Wins": 85,
           "Losses": 80,
           "WinRate": 51.52
@@ -1567,8 +1567,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 184,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.43,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.72,
           "Wins": 90,
           "Losses": 84,
           "WinRate": 51.72
@@ -1576,8 +1576,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 172,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.33,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.16,
           "Wins": 74,
           "Losses": 94,
           "WinRate": 44.05
@@ -1585,8 +1585,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 170,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.71,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.35,
           "Wins": 66,
           "Losses": 96,
           "WinRate": 40.74
@@ -1594,8 +1594,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 169,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.37,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.18,
           "Wins": 67,
           "Losses": 98,
           "WinRate": 40.61
@@ -1603,8 +1603,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 164,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.88,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.44,
           "Wins": 77,
           "Losses": 79,
           "WinRate": 49.36
@@ -1612,8 +1612,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 159,
-          "MirrorMatches": 14,
-          "MirrorRate": 8.81,
+          "MirrorMatches": 7,
+          "MirrorRate": 4.4,
           "Wins": 77,
           "Losses": 68,
           "WinRate": 53.1
@@ -1621,8 +1621,8 @@
         {
           "CivName": "Sicilians",
           "GamesPlayed": 155,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.29,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.65,
           "Wins": 82,
           "Losses": 71,
           "WinRate": 53.59
@@ -1630,8 +1630,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 150,
-          "MirrorMatches": 6,
-          "MirrorRate": 4,
+          "MirrorMatches": 3,
+          "MirrorRate": 2,
           "Wins": 72,
           "Losses": 72,
           "WinRate": 50
@@ -1639,8 +1639,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 146,
-          "MirrorMatches": 10,
-          "MirrorRate": 6.85,
+          "MirrorMatches": 5,
+          "MirrorRate": 3.42,
           "Wins": 73,
           "Losses": 63,
           "WinRate": 53.68
@@ -1657,8 +1657,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 138,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.35,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.17,
           "Wins": 68,
           "Losses": 64,
           "WinRate": 51.52
@@ -1666,8 +1666,8 @@
         {
           "CivName": "Goths",
           "GamesPlayed": 136,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.41,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.21,
           "Wins": 53,
           "Losses": 77,
           "WinRate": 40.77
@@ -1675,8 +1675,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 135,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.93,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.96,
           "Wins": 52,
           "Losses": 75,
           "WinRate": 40.94
@@ -1684,8 +1684,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 132,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.52,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.76,
           "Wins": 70,
           "Losses": 60,
           "WinRate": 53.85
@@ -1693,8 +1693,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 129,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.1,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.55,
           "Wins": 70,
           "Losses": 55,
           "WinRate": 56
@@ -1702,8 +1702,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 127,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.15,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.57,
           "Wins": 61,
           "Losses": 62,
           "WinRate": 49.59
@@ -1711,8 +1711,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 126,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.17,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.59,
           "Wins": 63,
           "Losses": 59,
           "WinRate": 51.64
@@ -1720,8 +1720,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 125,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.2,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.6,
           "Wins": 45,
           "Losses": 76,
           "WinRate": 37.19
@@ -1729,8 +1729,8 @@
         {
           "CivName": "Chinese",
           "GamesPlayed": 122,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.28,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.64,
           "Wins": 52,
           "Losses": 66,
           "WinRate": 44.07
@@ -1738,8 +1738,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 121,
-          "MirrorMatches": 10,
-          "MirrorRate": 8.26,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.13,
           "Wins": 47,
           "Losses": 64,
           "WinRate": 42.34
@@ -1747,8 +1747,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 119,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.36,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.68,
           "Wins": 53,
           "Losses": 62,
           "WinRate": 46.09
@@ -1756,8 +1756,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 117,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.71,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.85,
           "Wins": 49,
           "Losses": 66,
           "WinRate": 42.61
@@ -1765,8 +1765,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 117,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.84,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.42,
           "Wins": 62,
           "Losses": 47,
           "WinRate": 56.88
@@ -1774,8 +1774,8 @@
         {
           "CivName": "Slavs",
           "GamesPlayed": 114,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.26,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.63,
           "Wins": 59,
           "Losses": 49,
           "WinRate": 54.63
@@ -1783,8 +1783,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 110,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.64,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.82,
           "Wins": 45,
           "Losses": 61,
           "WinRate": 42.45
@@ -1792,8 +1792,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 108,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.56,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.78,
           "Wins": 49,
           "Losses": 53,
           "WinRate": 48.04
@@ -1801,8 +1801,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 108,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.56,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.78,
           "Wins": 58,
           "Losses": 44,
           "WinRate": 56.86
@@ -1810,8 +1810,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 103,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.88,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.94,
           "Wins": 51,
           "Losses": 48,
           "WinRate": 51.52
@@ -1819,8 +1819,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 96,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.08,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.04,
           "Wins": 43,
           "Losses": 51,
           "WinRate": 45.74
@@ -1834,8 +1834,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 217,
-          "MirrorMatches": 20,
-          "MirrorRate": 9.22,
+          "MirrorMatches": 10,
+          "MirrorRate": 4.61,
           "Wins": 106,
           "Losses": 91,
           "WinRate": 53.81
@@ -1843,8 +1843,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 215,
-          "MirrorMatches": 48,
-          "MirrorRate": 22.33,
+          "MirrorMatches": 24,
+          "MirrorRate": 11.16,
           "Wins": 82,
           "Losses": 85,
           "WinRate": 49.1
@@ -1852,8 +1852,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 210,
-          "MirrorMatches": 20,
-          "MirrorRate": 9.52,
+          "MirrorMatches": 10,
+          "MirrorRate": 4.76,
           "Wins": 109,
           "Losses": 81,
           "WinRate": 57.37
@@ -1861,8 +1861,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 197,
-          "MirrorMatches": 22,
-          "MirrorRate": 11.17,
+          "MirrorMatches": 11,
+          "MirrorRate": 5.58,
           "Wins": 90,
           "Losses": 85,
           "WinRate": 51.43
@@ -1870,8 +1870,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 195,
-          "MirrorMatches": 18,
-          "MirrorRate": 9.23,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.62,
           "Wins": 79,
           "Losses": 98,
           "WinRate": 44.63
@@ -1879,8 +1879,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 192,
-          "MirrorMatches": 24,
-          "MirrorRate": 12.5,
+          "MirrorMatches": 12,
+          "MirrorRate": 6.25,
           "Wins": 100,
           "Losses": 68,
           "WinRate": 59.52
@@ -1888,8 +1888,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 172,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.81,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.91,
           "Wins": 85,
           "Losses": 77,
           "WinRate": 52.47
@@ -1897,8 +1897,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 171,
-          "MirrorMatches": 18,
-          "MirrorRate": 10.53,
+          "MirrorMatches": 9,
+          "MirrorRate": 5.26,
           "Wins": 61,
           "Losses": 92,
           "WinRate": 39.87
@@ -1906,8 +1906,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 164,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.66,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.83,
           "Wins": 77,
           "Losses": 81,
           "WinRate": 48.73
@@ -1915,8 +1915,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 156,
-          "MirrorMatches": 16,
-          "MirrorRate": 10.26,
+          "MirrorMatches": 8,
+          "MirrorRate": 5.13,
           "Wins": 86,
           "Losses": 54,
           "WinRate": 61.43
@@ -1924,8 +1924,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 145,
-          "MirrorMatches": 26,
-          "MirrorRate": 17.93,
+          "MirrorMatches": 13,
+          "MirrorRate": 8.97,
           "Wins": 59,
           "Losses": 60,
           "WinRate": 49.58
@@ -1933,8 +1933,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 140,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.29,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.14,
           "Wins": 72,
           "Losses": 62,
           "WinRate": 53.73
@@ -1942,8 +1942,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 132,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.03,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.52,
           "Wins": 66,
           "Losses": 62,
           "WinRate": 51.56
@@ -1951,8 +1951,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 132,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.06,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.03,
           "Wins": 69,
           "Losses": 55,
           "WinRate": 55.65
@@ -1960,8 +1960,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 131,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.58,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.29,
           "Wins": 48,
           "Losses": 77,
           "WinRate": 38.4
@@ -1969,8 +1969,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 121,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.65,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.83,
           "Wins": 47,
           "Losses": 72,
           "WinRate": 39.5
@@ -1978,8 +1978,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 121,
-          "MirrorMatches": 10,
-          "MirrorRate": 8.26,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.13,
           "Wins": 50,
           "Losses": 61,
           "WinRate": 45.05
@@ -1987,8 +1987,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 120,
-          "MirrorMatches": 6,
-          "MirrorRate": 5,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.5,
           "Wins": 51,
           "Losses": 63,
           "WinRate": 44.74
@@ -1996,8 +1996,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 116,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.17,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.59,
           "Wins": 58,
           "Losses": 52,
           "WinRate": 52.73
@@ -2005,8 +2005,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 116,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.17,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.59,
           "Wins": 56,
           "Losses": 54,
           "WinRate": 50.91
@@ -2023,8 +2023,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 113,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.31,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.65,
           "Wins": 37,
           "Losses": 70,
           "WinRate": 34.58
@@ -2032,8 +2032,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 112,
-          "MirrorMatches": 8,
-          "MirrorRate": 7.14,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.57,
           "Wins": 60,
           "Losses": 44,
           "WinRate": 57.69
@@ -2041,8 +2041,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 111,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.8,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.9,
           "Wins": 51,
           "Losses": 58,
           "WinRate": 46.79
@@ -2050,8 +2050,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 110,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.82,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.91,
           "Wins": 65,
           "Losses": 43,
           "WinRate": 60.19
@@ -2059,8 +2059,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 105,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.81,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.9,
           "Wins": 48,
           "Losses": 53,
           "WinRate": 47.52
@@ -2068,8 +2068,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 101,
-          "MirrorMatches": 10,
-          "MirrorRate": 9.9,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.95,
           "Wins": 43,
           "Losses": 48,
           "WinRate": 47.25
@@ -2077,8 +2077,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 97,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.06,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.03,
           "Wins": 51,
           "Losses": 44,
           "WinRate": 53.68
@@ -2086,8 +2086,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 89,
-          "MirrorMatches": 4,
-          "MirrorRate": 4.49,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.25,
           "Wins": 36,
           "Losses": 49,
           "WinRate": 42.35
@@ -2095,8 +2095,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 88,
-          "MirrorMatches": 6,
-          "MirrorRate": 6.82,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.41,
           "Wins": 42,
           "Losses": 40,
           "WinRate": 51.22
@@ -2104,8 +2104,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 83,
-          "MirrorMatches": 4,
-          "MirrorRate": 4.82,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.41,
           "Wins": 37,
           "Losses": 42,
           "WinRate": 46.84
@@ -2113,8 +2113,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 81,
-          "MirrorMatches": 6,
-          "MirrorRate": 7.41,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.7,
           "Wins": 44,
           "Losses": 31,
           "WinRate": 58.67
@@ -2131,8 +2131,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 78,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.56,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.28,
           "Wins": 38,
           "Losses": 38,
           "WinRate": 50
@@ -2149,8 +2149,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 75,
-          "MirrorMatches": 4,
-          "MirrorRate": 5.33,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.67,
           "Wins": 39,
           "Losses": 32,
           "WinRate": 54.93
@@ -2158,8 +2158,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 74,
-          "MirrorMatches": 6,
-          "MirrorRate": 8.11,
+          "MirrorMatches": 3,
+          "MirrorRate": 4.05,
           "Wins": 39,
           "Losses": 29,
           "WinRate": 57.35
@@ -2167,8 +2167,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 73,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.74,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.37,
           "Wins": 40,
           "Losses": 31,
           "WinRate": 56.34
@@ -2185,8 +2185,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 66,
-          "MirrorMatches": 4,
-          "MirrorRate": 6.06,
+          "MirrorMatches": 2,
+          "MirrorRate": 3.03,
           "Wins": 33,
           "Losses": 29,
           "WinRate": 53.23
@@ -2194,8 +2194,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 65,
-          "MirrorMatches": 6,
-          "MirrorRate": 9.23,
+          "MirrorMatches": 3,
+          "MirrorRate": 4.62,
           "Wins": 33,
           "Losses": 26,
           "WinRate": 55.93
@@ -2203,8 +2203,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 60,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.33,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.67,
           "Wins": 30,
           "Losses": 28,
           "WinRate": 51.72
@@ -2221,8 +2221,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 52,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.85,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.92,
           "Wins": 26,
           "Losses": 24,
           "WinRate": 52
@@ -2290,8 +2290,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 398,
-          "MirrorMatches": 56,
-          "MirrorRate": 14.07,
+          "MirrorMatches": 28,
+          "MirrorRate": 7.04,
           "Wins": 192,
           "Losses": 150,
           "WinRate": 56.14
@@ -2299,8 +2299,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 381,
-          "MirrorMatches": 92,
-          "MirrorRate": 24.15,
+          "MirrorMatches": 46,
+          "MirrorRate": 12.07,
           "Wins": 176,
           "Losses": 113,
           "WinRate": 60.9
@@ -2308,8 +2308,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 354,
-          "MirrorMatches": 56,
-          "MirrorRate": 15.82,
+          "MirrorMatches": 28,
+          "MirrorRate": 7.91,
           "Wins": 142,
           "Losses": 156,
           "WinRate": 47.65
@@ -2317,8 +2317,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 262,
-          "MirrorMatches": 40,
-          "MirrorRate": 15.27,
+          "MirrorMatches": 20,
+          "MirrorRate": 7.63,
           "Wins": 118,
           "Losses": 104,
           "WinRate": 53.15
@@ -2326,8 +2326,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 221,
-          "MirrorMatches": 24,
-          "MirrorRate": 10.86,
+          "MirrorMatches": 12,
+          "MirrorRate": 5.43,
           "Wins": 111,
           "Losses": 86,
           "WinRate": 56.35
@@ -2335,8 +2335,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 207,
-          "MirrorMatches": 16,
-          "MirrorRate": 7.73,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.86,
           "Wins": 101,
           "Losses": 90,
           "WinRate": 52.88
@@ -2344,8 +2344,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 206,
-          "MirrorMatches": 16,
-          "MirrorRate": 7.77,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.88,
           "Wins": 96,
           "Losses": 94,
           "WinRate": 50.53
@@ -2353,8 +2353,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 204,
-          "MirrorMatches": 38,
-          "MirrorRate": 18.63,
+          "MirrorMatches": 19,
+          "MirrorRate": 9.31,
           "Wins": 75,
           "Losses": 91,
           "WinRate": 45.18
@@ -2362,8 +2362,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 201,
-          "MirrorMatches": 14,
-          "MirrorRate": 6.97,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.48,
           "Wins": 81,
           "Losses": 106,
           "WinRate": 43.32
@@ -2371,8 +2371,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 199,
-          "MirrorMatches": 24,
-          "MirrorRate": 12.06,
+          "MirrorMatches": 12,
+          "MirrorRate": 6.03,
           "Wins": 86,
           "Losses": 89,
           "WinRate": 49.14
@@ -2380,8 +2380,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 195,
-          "MirrorMatches": 20,
-          "MirrorRate": 10.26,
+          "MirrorMatches": 10,
+          "MirrorRate": 5.13,
           "Wins": 102,
           "Losses": 73,
           "WinRate": 58.29
@@ -2389,8 +2389,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 191,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.28,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.14,
           "Wins": 100,
           "Losses": 79,
           "WinRate": 55.87
@@ -2398,8 +2398,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 187,
-          "MirrorMatches": 18,
-          "MirrorRate": 9.63,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.81,
           "Wins": 89,
           "Losses": 80,
           "WinRate": 52.66
@@ -2407,8 +2407,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 182,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.59,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.3,
           "Wins": 84,
           "Losses": 86,
           "WinRate": 49.41
@@ -2416,8 +2416,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 181,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.63,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.31,
           "Wins": 77,
           "Losses": 92,
           "WinRate": 45.56
@@ -2425,8 +2425,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 178,
-          "MirrorMatches": 18,
-          "MirrorRate": 10.11,
+          "MirrorMatches": 9,
+          "MirrorRate": 5.06,
           "Wins": 80,
           "Losses": 80,
           "WinRate": 50
@@ -2434,8 +2434,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 178,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.74,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.37,
           "Wins": 59,
           "Losses": 107,
           "WinRate": 35.54
@@ -2443,8 +2443,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 176,
-          "MirrorMatches": 16,
-          "MirrorRate": 9.09,
+          "MirrorMatches": 8,
+          "MirrorRate": 4.55,
           "Wins": 75,
           "Losses": 85,
           "WinRate": 46.88
@@ -2452,8 +2452,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 168,
-          "MirrorMatches": 14,
-          "MirrorRate": 8.33,
+          "MirrorMatches": 7,
+          "MirrorRate": 4.17,
           "Wins": 73,
           "Losses": 81,
           "WinRate": 47.4
@@ -2461,8 +2461,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 168,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.19,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.6,
           "Wins": 67,
           "Losses": 99,
           "WinRate": 40.36
@@ -2470,8 +2470,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 167,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.79,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.4,
           "Wins": 89,
           "Losses": 70,
           "WinRate": 55.97
@@ -2479,8 +2479,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 151,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.3,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.65,
           "Wins": 89,
           "Losses": 54,
           "WinRate": 62.24
@@ -2488,8 +2488,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 149,
-          "MirrorMatches": 12,
-          "MirrorRate": 8.05,
+          "MirrorMatches": 6,
+          "MirrorRate": 4.03,
           "Wins": 70,
           "Losses": 67,
           "WinRate": 51.09
@@ -2497,8 +2497,8 @@
         {
           "CivName": "Sicilians",
           "GamesPlayed": 145,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.38,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.69,
           "Wins": 55,
           "Losses": 88,
           "WinRate": 38.46
@@ -2506,8 +2506,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 144,
-          "MirrorMatches": 20,
-          "MirrorRate": 13.89,
+          "MirrorMatches": 10,
+          "MirrorRate": 6.94,
           "Wins": 69,
           "Losses": 55,
           "WinRate": 55.65
@@ -2515,8 +2515,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 142,
-          "MirrorMatches": 16,
-          "MirrorRate": 11.27,
+          "MirrorMatches": 8,
+          "MirrorRate": 5.63,
           "Wins": 58,
           "Losses": 68,
           "WinRate": 46.03
@@ -2524,8 +2524,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 139,
-          "MirrorMatches": 14,
-          "MirrorRate": 10.07,
+          "MirrorMatches": 7,
+          "MirrorRate": 5.04,
           "Wins": 69,
           "Losses": 56,
           "WinRate": 55.2
@@ -2533,8 +2533,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 129,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.65,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.33,
           "Wins": 56,
           "Losses": 67,
           "WinRate": 45.53
@@ -2542,8 +2542,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 127,
-          "MirrorMatches": 14,
-          "MirrorRate": 11.02,
+          "MirrorMatches": 7,
+          "MirrorRate": 5.51,
           "Wins": 59,
           "Losses": 54,
           "WinRate": 52.21
@@ -2551,8 +2551,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 126,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.59,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.79,
           "Wins": 55,
           "Losses": 69,
           "WinRate": 44.35
@@ -2560,8 +2560,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 123,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.63,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.81,
           "Wins": 72,
           "Losses": 49,
           "WinRate": 59.5
@@ -2569,8 +2569,8 @@
         {
           "CivName": "Goths",
           "GamesPlayed": 122,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.64,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.82,
           "Wins": 45,
           "Losses": 75,
           "WinRate": 37.5
@@ -2578,8 +2578,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 122,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.64,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.82,
           "Wins": 68,
           "Losses": 52,
           "WinRate": 56.67
@@ -2587,8 +2587,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 120,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.67,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.33,
           "Wins": 48,
           "Losses": 64,
           "WinRate": 42.86
@@ -2596,8 +2596,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 120,
-          "MirrorMatches": 6,
-          "MirrorRate": 5,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.5,
           "Wins": 49,
           "Losses": 65,
           "WinRate": 42.98
@@ -2605,8 +2605,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 117,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.71,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.85,
           "Wins": 58,
           "Losses": 57,
           "WinRate": 50.43
@@ -2614,8 +2614,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 111,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.6,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.8,
           "Wins": 61,
           "Losses": 46,
           "WinRate": 57.01
@@ -2623,8 +2623,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 110,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.45,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.73,
           "Wins": 52,
           "Losses": 52,
           "WinRate": 50
@@ -2632,8 +2632,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 109,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.5,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.75,
           "Wins": 48,
           "Losses": 55,
           "WinRate": 46.6
@@ -2641,8 +2641,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 108,
-          "MirrorMatches": 8,
-          "MirrorRate": 7.41,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.7,
           "Wins": 53,
           "Losses": 47,
           "WinRate": 53
@@ -2650,8 +2650,8 @@
         {
           "CivName": "Slavs",
           "GamesPlayed": 107,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.61,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.8,
           "Wins": 47,
           "Losses": 54,
           "WinRate": 46.53
@@ -2659,8 +2659,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 104,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.85,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.92,
           "Wins": 42,
           "Losses": 58,
           "WinRate": 42
@@ -2668,8 +2668,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 102,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.92,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.96,
           "Wins": 45,
           "Losses": 53,
           "WinRate": 45.92
@@ -2677,8 +2677,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 99,
-          "MirrorMatches": 4,
-          "MirrorRate": 4.04,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.02,
           "Wins": 50,
           "Losses": 45,
           "WinRate": 52.63
@@ -2695,8 +2695,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 88,
-          "MirrorMatches": 12,
-          "MirrorRate": 13.64,
+          "MirrorMatches": 6,
+          "MirrorRate": 6.82,
           "Wins": 41,
           "Losses": 35,
           "WinRate": 53.95
@@ -2704,8 +2704,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 87,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.3,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.15,
           "Wins": 42,
           "Losses": 43,
           "WinRate": 49.41
@@ -2713,8 +2713,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 75,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.67,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.33,
           "Wins": 44,
           "Losses": 29,
           "WinRate": 60.27
@@ -2722,8 +2722,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 73,
-          "MirrorMatches": 4,
-          "MirrorRate": 5.48,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.74,
           "Wins": 31,
           "Losses": 38,
           "WinRate": 44.93
@@ -2746,8 +2746,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 535,
-          "MirrorMatches": 70,
-          "MirrorRate": 13.08,
+          "MirrorMatches": 35,
+          "MirrorRate": 6.54,
           "Wins": 274,
           "Losses": 191,
           "WinRate": 58.92
@@ -2755,8 +2755,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 329,
-          "MirrorMatches": 42,
-          "MirrorRate": 12.77,
+          "MirrorMatches": 21,
+          "MirrorRate": 6.38,
           "Wins": 156,
           "Losses": 131,
           "WinRate": 54.36
@@ -2764,8 +2764,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 305,
-          "MirrorMatches": 54,
-          "MirrorRate": 17.7,
+          "MirrorMatches": 27,
+          "MirrorRate": 8.85,
           "Wins": 144,
           "Losses": 107,
           "WinRate": 57.37
@@ -2773,8 +2773,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 289,
-          "MirrorMatches": 36,
-          "MirrorRate": 12.46,
+          "MirrorMatches": 18,
+          "MirrorRate": 6.23,
           "Wins": 126,
           "Losses": 127,
           "WinRate": 49.8
@@ -2782,8 +2782,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 266,
-          "MirrorMatches": 10,
-          "MirrorRate": 3.76,
+          "MirrorMatches": 5,
+          "MirrorRate": 1.88,
           "Wins": 135,
           "Losses": 121,
           "WinRate": 52.73
@@ -2791,8 +2791,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 241,
-          "MirrorMatches": 22,
-          "MirrorRate": 9.13,
+          "MirrorMatches": 11,
+          "MirrorRate": 4.56,
           "Wins": 95,
           "Losses": 124,
           "WinRate": 43.38
@@ -2800,8 +2800,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 240,
-          "MirrorMatches": 14,
-          "MirrorRate": 5.83,
+          "MirrorMatches": 7,
+          "MirrorRate": 2.92,
           "Wins": 126,
           "Losses": 100,
           "WinRate": 55.75
@@ -2809,8 +2809,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 238,
-          "MirrorMatches": 24,
-          "MirrorRate": 10.08,
+          "MirrorMatches": 12,
+          "MirrorRate": 5.04,
           "Wins": 97,
           "Losses": 117,
           "WinRate": 45.33
@@ -2818,8 +2818,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 221,
-          "MirrorMatches": 26,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 13,
+          "MirrorRate": 5.88,
           "Wins": 106,
           "Losses": 89,
           "WinRate": 54.36
@@ -2827,8 +2827,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 211,
-          "MirrorMatches": 20,
-          "MirrorRate": 9.48,
+          "MirrorMatches": 10,
+          "MirrorRate": 4.74,
           "Wins": 105,
           "Losses": 86,
           "WinRate": 54.97
@@ -2836,8 +2836,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 205,
-          "MirrorMatches": 12,
-          "MirrorRate": 5.85,
+          "MirrorMatches": 6,
+          "MirrorRate": 2.93,
           "Wins": 85,
           "Losses": 108,
           "WinRate": 44.04
@@ -2845,8 +2845,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 201,
-          "MirrorMatches": 26,
-          "MirrorRate": 12.94,
+          "MirrorMatches": 13,
+          "MirrorRate": 6.47,
           "Wins": 100,
           "Losses": 75,
           "WinRate": 57.14
@@ -2854,8 +2854,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 201,
-          "MirrorMatches": 14,
-          "MirrorRate": 6.97,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.48,
           "Wins": 93,
           "Losses": 94,
           "WinRate": 49.73
@@ -2863,8 +2863,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 200,
-          "MirrorMatches": 16,
-          "MirrorRate": 8,
+          "MirrorMatches": 8,
+          "MirrorRate": 4,
           "Wins": 91,
           "Losses": 93,
           "WinRate": 49.46
@@ -2872,8 +2872,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 199,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.02,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.01,
           "Wins": 97,
           "Losses": 94,
           "WinRate": 50.79
@@ -2881,8 +2881,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 198,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.06,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.03,
           "Wins": 95,
           "Losses": 91,
           "WinRate": 51.08
@@ -2890,8 +2890,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 191,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.19,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.09,
           "Wins": 100,
           "Losses": 83,
           "WinRate": 54.64
@@ -2899,8 +2899,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 191,
-          "MirrorMatches": 18,
-          "MirrorRate": 9.42,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.71,
           "Wins": 91,
           "Losses": 82,
           "WinRate": 52.6
@@ -2908,8 +2908,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 191,
-          "MirrorMatches": 14,
-          "MirrorRate": 7.33,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.66,
           "Wins": 78,
           "Losses": 99,
           "WinRate": 44.07
@@ -2917,8 +2917,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 190,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.32,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.16,
           "Wins": 83,
           "Losses": 95,
           "WinRate": 46.63
@@ -2926,8 +2926,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 182,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.49,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.75,
           "Wins": 87,
           "Losses": 85,
           "WinRate": 50.58
@@ -2935,8 +2935,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 174,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.15,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.57,
           "Wins": 87,
           "Losses": 85,
           "WinRate": 50.58
@@ -2944,8 +2944,8 @@
         {
           "CivName": "Sicilians",
           "GamesPlayed": 174,
-          "MirrorMatches": 20,
-          "MirrorRate": 11.49,
+          "MirrorMatches": 10,
+          "MirrorRate": 5.75,
           "Wins": 66,
           "Losses": 88,
           "WinRate": 42.86
@@ -2953,8 +2953,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 174,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.9,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.45,
           "Wins": 76,
           "Losses": 86,
           "WinRate": 46.91
@@ -2962,8 +2962,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 171,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.68,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.34,
           "Wins": 75,
           "Losses": 88,
           "WinRate": 46.01
@@ -2971,8 +2971,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 170,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.88,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.94,
           "Wins": 80,
           "Losses": 80,
           "WinRate": 50
@@ -2980,8 +2980,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 157,
-          "MirrorMatches": 12,
-          "MirrorRate": 7.64,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.82,
           "Wins": 71,
           "Losses": 74,
           "WinRate": 48.97
@@ -2989,8 +2989,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 152,
-          "MirrorMatches": 20,
-          "MirrorRate": 13.16,
+          "MirrorMatches": 10,
+          "MirrorRate": 6.58,
           "Wins": 58,
           "Losses": 74,
           "WinRate": 43.94
@@ -2998,8 +2998,8 @@
         {
           "CivName": "Slavs",
           "GamesPlayed": 151,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.3,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.65,
           "Wins": 70,
           "Losses": 73,
           "WinRate": 48.95
@@ -3007,8 +3007,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 148,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.05,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.03,
           "Wins": 64,
           "Losses": 78,
           "WinRate": 45.07
@@ -3016,8 +3016,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 144,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.17,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.08,
           "Wins": 71,
           "Losses": 67,
           "WinRate": 51.45
@@ -3025,8 +3025,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 143,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.2,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.1,
           "Wins": 53,
           "Losses": 84,
           "WinRate": 38.69
@@ -3034,8 +3034,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 142,
-          "MirrorMatches": 10,
-          "MirrorRate": 7.04,
+          "MirrorMatches": 5,
+          "MirrorRate": 3.52,
           "Wins": 68,
           "Losses": 64,
           "WinRate": 51.52
@@ -3043,8 +3043,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 139,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.76,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.88,
           "Wins": 59,
           "Losses": 72,
           "WinRate": 45.04
@@ -3052,8 +3052,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 138,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.35,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.17,
           "Wins": 60,
           "Losses": 72,
           "WinRate": 45.45
@@ -3061,8 +3061,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 137,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.46,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.73,
           "Wins": 51,
           "Losses": 84,
           "WinRate": 37.78
@@ -3070,8 +3070,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 121,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.96,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.48,
           "Wins": 45,
           "Losses": 70,
           "WinRate": 39.13
@@ -3079,8 +3079,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 120,
-          "MirrorMatches": 6,
-          "MirrorRate": 5,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.5,
           "Wins": 54,
           "Losses": 60,
           "WinRate": 47.37
@@ -3088,8 +3088,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 119,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.04,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.52,
           "Wins": 67,
           "Losses": 46,
           "WinRate": 59.29
@@ -3097,8 +3097,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 118,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.39,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.69,
           "Wins": 66,
           "Losses": 48,
           "WinRate": 57.89
@@ -3106,8 +3106,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 115,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.96,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.48,
           "Wins": 55,
           "Losses": 52,
           "WinRate": 51.4
@@ -3115,8 +3115,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 112,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.57,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.79,
           "Wins": 55,
           "Losses": 53,
           "WinRate": 50.93
@@ -3124,8 +3124,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 110,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.64,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.82,
           "Wins": 60,
           "Losses": 46,
           "WinRate": 56.6
@@ -3160,8 +3160,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 99,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.02,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.01,
           "Wins": 47,
           "Losses": 50,
           "WinRate": 48.45
@@ -3169,8 +3169,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 89,
-          "MirrorMatches": 4,
-          "MirrorRate": 4.49,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.25,
           "Wins": 40,
           "Losses": 45,
           "WinRate": 47.06
@@ -3178,8 +3178,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 81,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.47,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.23,
           "Wins": 35,
           "Losses": 44,
           "WinRate": 44.3
@@ -3187,8 +3187,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 78,
-          "MirrorMatches": 4,
-          "MirrorRate": 5.13,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.56,
           "Wins": 38,
           "Losses": 36,
           "WinRate": 51.35
@@ -3202,8 +3202,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 487,
-          "MirrorMatches": 58,
-          "MirrorRate": 11.91,
+          "MirrorMatches": 29,
+          "MirrorRate": 5.95,
           "Wins": 241,
           "Losses": 188,
           "WinRate": 56.18
@@ -3211,8 +3211,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 468,
-          "MirrorMatches": 104,
-          "MirrorRate": 22.22,
+          "MirrorMatches": 52,
+          "MirrorRate": 11.11,
           "Wins": 227,
           "Losses": 137,
           "WinRate": 62.36
@@ -3220,8 +3220,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 344,
-          "MirrorMatches": 66,
-          "MirrorRate": 19.19,
+          "MirrorMatches": 33,
+          "MirrorRate": 9.59,
           "Wins": 148,
           "Losses": 130,
           "WinRate": 53.24
@@ -3229,8 +3229,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 275,
-          "MirrorMatches": 26,
-          "MirrorRate": 9.45,
+          "MirrorMatches": 13,
+          "MirrorRate": 4.73,
           "Wins": 130,
           "Losses": 119,
           "WinRate": 52.21
@@ -3238,8 +3238,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 270,
-          "MirrorMatches": 22,
-          "MirrorRate": 8.15,
+          "MirrorMatches": 11,
+          "MirrorRate": 4.07,
           "Wins": 111,
           "Losses": 137,
           "WinRate": 44.76
@@ -3247,8 +3247,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 270,
-          "MirrorMatches": 38,
-          "MirrorRate": 14.07,
+          "MirrorMatches": 19,
+          "MirrorRate": 7.04,
           "Wins": 136,
           "Losses": 96,
           "WinRate": 58.62
@@ -3256,8 +3256,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 261,
-          "MirrorMatches": 24,
-          "MirrorRate": 9.2,
+          "MirrorMatches": 12,
+          "MirrorRate": 4.6,
           "Wins": 119,
           "Losses": 118,
           "WinRate": 50.21
@@ -3265,8 +3265,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 255,
-          "MirrorMatches": 30,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 15,
+          "MirrorRate": 5.88,
           "Wins": 114,
           "Losses": 111,
           "WinRate": 50.67
@@ -3274,8 +3274,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 244,
-          "MirrorMatches": 10,
-          "MirrorRate": 4.1,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.05,
           "Wins": 127,
           "Losses": 107,
           "WinRate": 54.27
@@ -3283,8 +3283,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 229,
-          "MirrorMatches": 16,
-          "MirrorRate": 6.99,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.49,
           "Wins": 92,
           "Losses": 121,
           "WinRate": 43.19
@@ -3292,8 +3292,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 228,
-          "MirrorMatches": 16,
-          "MirrorRate": 7.02,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.51,
           "Wins": 108,
           "Losses": 104,
           "WinRate": 50.94
@@ -3301,8 +3301,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 225,
-          "MirrorMatches": 16,
-          "MirrorRate": 7.11,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.56,
           "Wins": 106,
           "Losses": 103,
           "WinRate": 50.72
@@ -3310,8 +3310,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 225,
-          "MirrorMatches": 22,
-          "MirrorRate": 9.78,
+          "MirrorMatches": 11,
+          "MirrorRate": 4.89,
           "Wins": 85,
           "Losses": 118,
           "WinRate": 41.87
@@ -3319,8 +3319,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 210,
-          "MirrorMatches": 14,
-          "MirrorRate": 6.67,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.33,
           "Wins": 70,
           "Losses": 126,
           "WinRate": 35.71
@@ -3328,8 +3328,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 204,
-          "MirrorMatches": 6,
-          "MirrorRate": 2.94,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.47,
           "Wins": 86,
           "Losses": 112,
           "WinRate": 43.43
@@ -3337,8 +3337,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 196,
-          "MirrorMatches": 14,
-          "MirrorRate": 7.14,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.57,
           "Wins": 90,
           "Losses": 92,
           "WinRate": 49.45
@@ -3346,8 +3346,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 194,
-          "MirrorMatches": 18,
-          "MirrorRate": 9.28,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.64,
           "Wins": 100,
           "Losses": 76,
           "WinRate": 56.82
@@ -3355,8 +3355,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 186,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.3,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.15,
           "Wins": 95,
           "Losses": 83,
           "WinRate": 53.37
@@ -3364,8 +3364,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 182,
-          "MirrorMatches": 14,
-          "MirrorRate": 7.69,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.85,
           "Wins": 78,
           "Losses": 90,
           "WinRate": 46.43
@@ -3373,8 +3373,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 180,
-          "MirrorMatches": 16,
-          "MirrorRate": 8.89,
+          "MirrorMatches": 8,
+          "MirrorRate": 4.44,
           "Wins": 81,
           "Losses": 83,
           "WinRate": 49.39
@@ -3382,8 +3382,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 178,
-          "MirrorMatches": 14,
-          "MirrorRate": 7.87,
+          "MirrorMatches": 7,
+          "MirrorRate": 3.93,
           "Wins": 84,
           "Losses": 80,
           "WinRate": 51.22
@@ -3391,8 +3391,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 174,
-          "MirrorMatches": 14,
-          "MirrorRate": 8.05,
+          "MirrorMatches": 7,
+          "MirrorRate": 4.02,
           "Wins": 86,
           "Losses": 74,
           "WinRate": 53.75
@@ -3400,8 +3400,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 174,
-          "MirrorMatches": 10,
-          "MirrorRate": 5.75,
+          "MirrorMatches": 5,
+          "MirrorRate": 2.87,
           "Wins": 75,
           "Losses": 89,
           "WinRate": 45.73
@@ -3409,8 +3409,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 170,
-          "MirrorMatches": 20,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 10,
+          "MirrorRate": 5.88,
           "Wins": 67,
           "Losses": 83,
           "WinRate": 44.67
@@ -3418,8 +3418,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 166,
-          "MirrorMatches": 8,
-          "MirrorRate": 4.82,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.41,
           "Wins": 60,
           "Losses": 98,
           "WinRate": 37.97
@@ -3427,8 +3427,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 161,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.73,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.86,
           "Wins": 73,
           "Losses": 82,
           "WinRate": 47.1
@@ -3436,8 +3436,8 @@
         {
           "CivName": "Sicilians",
           "GamesPlayed": 153,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.92,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.96,
           "Wins": 76,
           "Losses": 71,
           "WinRate": 51.7
@@ -3445,8 +3445,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 151,
-          "MirrorMatches": 6,
-          "MirrorRate": 3.97,
+          "MirrorMatches": 3,
+          "MirrorRate": 1.99,
           "Wins": 59,
           "Losses": 86,
           "WinRate": 40.69
@@ -3454,8 +3454,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 149,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.37,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.68,
           "Wins": 76,
           "Losses": 65,
           "WinRate": 53.9
@@ -3463,8 +3463,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 145,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.14,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.07,
           "Wins": 78,
           "Losses": 61,
           "WinRate": 56.12
@@ -3472,8 +3472,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 145,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.76,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.38,
           "Wins": 76,
           "Losses": 65,
           "WinRate": 53.9
@@ -3481,8 +3481,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 144,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.39,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.69,
           "Wins": 79,
           "Losses": 63,
           "WinRate": 55.63
@@ -3490,8 +3490,8 @@
         {
           "CivName": "Goths",
           "GamesPlayed": 140,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.29,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.14,
           "Wins": 61,
           "Losses": 73,
           "WinRate": 45.52
@@ -3499,8 +3499,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 139,
-          "MirrorMatches": 16,
-          "MirrorRate": 11.51,
+          "MirrorMatches": 8,
+          "MirrorRate": 5.76,
           "Wins": 58,
           "Losses": 65,
           "WinRate": 47.15
@@ -3508,8 +3508,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 139,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.76,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.88,
           "Wins": 58,
           "Losses": 73,
           "WinRate": 44.27
@@ -3517,8 +3517,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 137,
-          "MirrorMatches": 12,
-          "MirrorRate": 8.76,
+          "MirrorMatches": 6,
+          "MirrorRate": 4.38,
           "Wins": 67,
           "Losses": 58,
           "WinRate": 53.6
@@ -3526,8 +3526,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 133,
-          "MirrorMatches": 10,
-          "MirrorRate": 7.52,
+          "MirrorMatches": 5,
+          "MirrorRate": 3.76,
           "Wins": 50,
           "Losses": 73,
           "WinRate": 40.65
@@ -3535,8 +3535,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 132,
-          "MirrorMatches": 16,
-          "MirrorRate": 12.12,
+          "MirrorMatches": 8,
+          "MirrorRate": 6.06,
           "Wins": 61,
           "Losses": 55,
           "WinRate": 52.59
@@ -3544,8 +3544,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 130,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.62,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.31,
           "Wins": 61,
           "Losses": 63,
           "WinRate": 49.19
@@ -3553,8 +3553,8 @@
         {
           "CivName": "Chinese",
           "GamesPlayed": 128,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.69,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.34,
           "Wins": 55,
           "Losses": 67,
           "WinRate": 45.08
@@ -3562,8 +3562,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 128,
-          "MirrorMatches": 16,
-          "MirrorRate": 12.5,
+          "MirrorMatches": 8,
+          "MirrorRate": 6.25,
           "Wins": 68,
           "Losses": 44,
           "WinRate": 60.71
@@ -3571,8 +3571,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 127,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.57,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.79,
           "Wins": 66,
           "Losses": 59,
           "WinRate": 52.8
@@ -3580,8 +3580,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 117,
-          "MirrorMatches": 4,
-          "MirrorRate": 3.42,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.71,
           "Wins": 54,
           "Losses": 59,
           "WinRate": 47.79
@@ -3589,8 +3589,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 116,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.9,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.45,
           "Wins": 59,
           "Losses": 49,
           "WinRate": 54.63
@@ -3598,8 +3598,8 @@
         {
           "CivName": "Slavs",
           "GamesPlayed": 115,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.22,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.61,
           "Wins": 51,
           "Losses": 58,
           "WinRate": 46.79
@@ -3607,8 +3607,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 106,
-          "MirrorMatches": 8,
-          "MirrorRate": 7.55,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.77,
           "Wins": 45,
           "Losses": 53,
           "WinRate": 45.92
@@ -3616,8 +3616,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 102,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.96,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.98,
           "Wins": 52,
           "Losses": 48,
           "WinRate": 52
@@ -3625,8 +3625,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 100,
-          "MirrorMatches": 12,
-          "MirrorRate": 12,
+          "MirrorMatches": 6,
+          "MirrorRate": 6,
           "Wins": 38,
           "Losses": 50,
           "WinRate": 43.18
@@ -3634,8 +3634,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 89,
-          "MirrorMatches": 8,
-          "MirrorRate": 8.99,
+          "MirrorMatches": 4,
+          "MirrorRate": 4.49,
           "Wins": 38,
           "Losses": 43,
           "WinRate": 46.91
@@ -3643,8 +3643,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 87,
-          "MirrorMatches": 6,
-          "MirrorRate": 6.9,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.45,
           "Wins": 32,
           "Losses": 49,
           "WinRate": 39.51
@@ -3658,8 +3658,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 401,
-          "MirrorMatches": 52,
-          "MirrorRate": 12.97,
+          "MirrorMatches": 26,
+          "MirrorRate": 6.48,
           "Wins": 204,
           "Losses": 145,
           "WinRate": 58.45
@@ -3667,8 +3667,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 239,
-          "MirrorMatches": 42,
-          "MirrorRate": 17.57,
+          "MirrorMatches": 21,
+          "MirrorRate": 8.79,
           "Wins": 119,
           "Losses": 78,
           "WinRate": 60.41
@@ -3676,8 +3676,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 220,
-          "MirrorMatches": 24,
-          "MirrorRate": 10.91,
+          "MirrorMatches": 12,
+          "MirrorRate": 5.45,
           "Wins": 107,
           "Losses": 89,
           "WinRate": 54.59
@@ -3685,8 +3685,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 219,
-          "MirrorMatches": 18,
-          "MirrorRate": 8.22,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.11,
           "Wins": 92,
           "Losses": 109,
           "WinRate": 45.77
@@ -3694,8 +3694,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 218,
-          "MirrorMatches": 18,
-          "MirrorRate": 8.26,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.13,
           "Wins": 116,
           "Losses": 84,
           "WinRate": 58
@@ -3703,8 +3703,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 210,
-          "MirrorMatches": 16,
-          "MirrorRate": 7.62,
+          "MirrorMatches": 8,
+          "MirrorRate": 3.81,
           "Wins": 81,
           "Losses": 113,
           "WinRate": 41.75
@@ -3712,8 +3712,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 201,
-          "MirrorMatches": 18,
-          "MirrorRate": 8.96,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.48,
           "Wins": 89,
           "Losses": 94,
           "WinRate": 48.63
@@ -3721,8 +3721,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 193,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.22,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.11,
           "Wins": 99,
           "Losses": 82,
           "WinRate": 54.7
@@ -3730,8 +3730,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 182,
-          "MirrorMatches": 18,
-          "MirrorRate": 9.89,
+          "MirrorMatches": 9,
+          "MirrorRate": 4.95,
           "Wins": 88,
           "Losses": 76,
           "WinRate": 53.66
@@ -3739,8 +3739,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 181,
-          "MirrorMatches": 12,
-          "MirrorRate": 6.63,
+          "MirrorMatches": 6,
+          "MirrorRate": 3.31,
           "Wins": 78,
           "Losses": 91,
           "WinRate": 46.15
@@ -3748,8 +3748,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 176,
-          "MirrorMatches": 16,
-          "MirrorRate": 9.09,
+          "MirrorMatches": 8,
+          "MirrorRate": 4.55,
           "Wins": 88,
           "Losses": 72,
           "WinRate": 55
@@ -3757,8 +3757,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 153,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.23,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.61,
           "Wins": 66,
           "Losses": 79,
           "WinRate": 45.52
@@ -3766,8 +3766,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 148,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.7,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.35,
           "Wins": 68,
           "Losses": 76,
           "WinRate": 47.22
@@ -3775,8 +3775,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 140,
-          "MirrorMatches": 4,
-          "MirrorRate": 2.86,
+          "MirrorMatches": 2,
+          "MirrorRate": 1.43,
           "Wins": 72,
           "Losses": 64,
           "WinRate": 52.94
@@ -3784,8 +3784,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 140,
-          "MirrorMatches": 6,
-          "MirrorRate": 4.29,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.14,
           "Wins": 52,
           "Losses": 82,
           "WinRate": 38.81
@@ -3793,8 +3793,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 139,
-          "MirrorMatches": 8,
-          "MirrorRate": 5.76,
+          "MirrorMatches": 4,
+          "MirrorRate": 2.88,
           "Wins": 70,
           "Losses": 61,
           "WinRate": 53.44
@@ -3802,8 +3802,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 137,
-          "MirrorMatches": 10,
-          "MirrorRate": 7.3,
+          "MirrorMatches": 5,
+          "MirrorRate": 3.65,
           "Wins": 62,
           "Losses": 65,
           "WinRate": 48.82
@@ -3820,8 +3820,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 131,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.11,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.05,
           "Wins": 45,
           "Losses": 78,
           "WinRate": 36.59
@@ -3829,8 +3829,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 127,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.3,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.15,
           "Wins": 64,
           "Losses": 55,
           "WinRate": 53.78
@@ -3838,8 +3838,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 122,
-          "MirrorMatches": 12,
-          "MirrorRate": 9.84,
+          "MirrorMatches": 6,
+          "MirrorRate": 4.92,
           "Wins": 57,
           "Losses": 53,
           "WinRate": 51.82
@@ -3847,8 +3847,8 @@
         {
           "CivName": "Sicilians",
           "GamesPlayed": 122,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.64,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.82,
           "Wins": 49,
           "Losses": 71,
           "WinRate": 40.83
@@ -3856,8 +3856,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 119,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.72,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.36,
           "Wins": 53,
           "Losses": 58,
           "WinRate": 47.75
@@ -3865,8 +3865,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 119,
-          "MirrorMatches": 10,
-          "MirrorRate": 8.4,
+          "MirrorMatches": 5,
+          "MirrorRate": 4.2,
           "Wins": 59,
           "Losses": 50,
           "WinRate": 54.13
@@ -3874,8 +3874,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 118,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.78,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.39,
           "Wins": 50,
           "Losses": 60,
           "WinRate": 45.45
@@ -3883,8 +3883,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 118,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.08,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.54,
           "Wins": 45,
           "Losses": 67,
           "WinRate": 40.18
@@ -3892,8 +3892,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 117,
-          "MirrorMatches": 8,
-          "MirrorRate": 6.84,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.42,
           "Wins": 53,
           "Losses": 56,
           "WinRate": 48.62
@@ -3901,8 +3901,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 110,
-          "MirrorMatches": 8,
-          "MirrorRate": 7.27,
+          "MirrorMatches": 4,
+          "MirrorRate": 3.64,
           "Wins": 50,
           "Losses": 52,
           "WinRate": 49.02
@@ -3910,8 +3910,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 108,
-          "MirrorMatches": 2,
-          "MirrorRate": 1.85,
+          "MirrorMatches": 1,
+          "MirrorRate": 0.93,
           "Wins": 59,
           "Losses": 47,
           "WinRate": 55.66
@@ -3919,8 +3919,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 105,
-          "MirrorMatches": 6,
-          "MirrorRate": 5.71,
+          "MirrorMatches": 3,
+          "MirrorRate": 2.86,
           "Wins": 57,
           "Losses": 42,
           "WinRate": 57.58
@@ -3928,8 +3928,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 99,
-          "MirrorMatches": 8,
-          "MirrorRate": 8.08,
+          "MirrorMatches": 4,
+          "MirrorRate": 4.04,
           "Wins": 38,
           "Losses": 53,
           "WinRate": 41.76
@@ -3937,8 +3937,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 98,
-          "MirrorMatches": 10,
-          "MirrorRate": 10.2,
+          "MirrorMatches": 5,
+          "MirrorRate": 5.1,
           "Wins": 52,
           "Losses": 36,
           "WinRate": 59.09
@@ -3955,8 +3955,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 96,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.08,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.04,
           "Wins": 51,
           "Losses": 43,
           "WinRate": 54.26
@@ -3964,8 +3964,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 93,
-          "MirrorMatches": 4,
-          "MirrorRate": 4.3,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.15,
           "Wins": 48,
           "Losses": 41,
           "WinRate": 53.93
@@ -3973,8 +3973,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 91,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.2,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.1,
           "Wins": 36,
           "Losses": 53,
           "WinRate": 40.45
@@ -3982,8 +3982,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 90,
-          "MirrorMatches": 6,
-          "MirrorRate": 6.67,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.33,
           "Wins": 40,
           "Losses": 44,
           "WinRate": 47.62
@@ -3991,8 +3991,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 84,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.38,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.19,
           "Wins": 36,
           "Losses": 46,
           "WinRate": 43.9
@@ -4000,8 +4000,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 83,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.41,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.2,
           "Wins": 40,
           "Losses": 41,
           "WinRate": 49.38
@@ -4009,8 +4009,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 81,
-          "MirrorMatches": 6,
-          "MirrorRate": 7.41,
+          "MirrorMatches": 3,
+          "MirrorRate": 3.7,
           "Wins": 37,
           "Losses": 38,
           "WinRate": 49.33
@@ -4027,8 +4027,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 79,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.53,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.27,
           "Wins": 36,
           "Losses": 41,
           "WinRate": 46.75
@@ -4063,8 +4063,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 67,
-          "MirrorMatches": 2,
-          "MirrorRate": 2.99,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.49,
           "Wins": 33,
           "Losses": 32,
           "WinRate": 50.77
@@ -4072,8 +4072,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 65,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.08,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.54,
           "Wins": 31,
           "Losses": 32,
           "WinRate": 49.21
@@ -4090,8 +4090,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 60,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.33,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.67,
           "Wins": 24,
           "Losses": 34,
           "WinRate": 41.38
@@ -4116,8 +4116,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 178,
-          "MirrorMatches": 62,
-          "MirrorRate": 34.83,
+          "MirrorMatches": 31,
+          "MirrorRate": 17.42,
           "Wins": 80,
           "Losses": 36,
           "WinRate": 68.97
@@ -4125,8 +4125,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 165,
-          "MirrorMatches": 58,
-          "MirrorRate": 35.15,
+          "MirrorMatches": 29,
+          "MirrorRate": 17.58,
           "Wins": 73,
           "Losses": 34,
           "WinRate": 68.22
@@ -4134,8 +4134,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 114,
-          "MirrorMatches": 28,
-          "MirrorRate": 24.56,
+          "MirrorMatches": 14,
+          "MirrorRate": 12.28,
           "Wins": 54,
           "Losses": 32,
           "WinRate": 62.79
@@ -4143,8 +4143,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 79,
-          "MirrorMatches": 18,
-          "MirrorRate": 22.78,
+          "MirrorMatches": 9,
+          "MirrorRate": 11.39,
           "Wins": 39,
           "Losses": 22,
           "WinRate": 63.93
@@ -4152,8 +4152,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 75,
-          "MirrorMatches": 8,
-          "MirrorRate": 10.67,
+          "MirrorMatches": 4,
+          "MirrorRate": 5.33,
           "Wins": 35,
           "Losses": 32,
           "WinRate": 52.24
@@ -4161,8 +4161,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 72,
-          "MirrorMatches": 8,
-          "MirrorRate": 11.11,
+          "MirrorMatches": 4,
+          "MirrorRate": 5.56,
           "Wins": 43,
           "Losses": 21,
           "WinRate": 67.19
@@ -4170,8 +4170,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 68,
-          "MirrorMatches": 4,
-          "MirrorRate": 5.88,
+          "MirrorMatches": 2,
+          "MirrorRate": 2.94,
           "Wins": 44,
           "Losses": 20,
           "WinRate": 68.75
@@ -4179,8 +4179,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 67,
-          "MirrorMatches": 10,
-          "MirrorRate": 14.93,
+          "MirrorMatches": 5,
+          "MirrorRate": 7.46,
           "Wins": 43,
           "Losses": 14,
           "WinRate": 75.44
@@ -4197,8 +4197,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 59,
-          "MirrorMatches": 8,
-          "MirrorRate": 13.56,
+          "MirrorMatches": 4,
+          "MirrorRate": 6.78,
           "Wins": 32,
           "Losses": 19,
           "WinRate": 62.75
@@ -4206,8 +4206,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 57,
-          "MirrorMatches": 2,
-          "MirrorRate": 3.51,
+          "MirrorMatches": 1,
+          "MirrorRate": 1.75,
           "Wins": 34,
           "Losses": 21,
           "WinRate": 61.82
@@ -4215,8 +4215,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 55,
-          "MirrorMatches": 6,
-          "MirrorRate": 10.91,
+          "MirrorMatches": 3,
+          "MirrorRate": 5.45,
           "Wins": 38,
           "Losses": 11,
           "WinRate": 77.55
@@ -4224,8 +4224,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 52,
-          "MirrorMatches": 6,
-          "MirrorRate": 11.54,
+          "MirrorMatches": 3,
+          "MirrorRate": 5.77,
           "Wins": 32,
           "Losses": 14,
           "WinRate": 69.57
@@ -4233,8 +4233,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 51,
-          "MirrorMatches": 6,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 3,
+          "MirrorRate": 5.88,
           "Wins": 31,
           "Losses": 14,
           "WinRate": 68.89
@@ -4242,8 +4242,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 51,
-          "MirrorMatches": 10,
-          "MirrorRate": 19.61,
+          "MirrorMatches": 5,
+          "MirrorRate": 9.8,
           "Wins": 32,
           "Losses": 9,
           "WinRate": 78.05
@@ -4251,8 +4251,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 50,
-          "MirrorMatches": 6,
-          "MirrorRate": 12,
+          "MirrorMatches": 3,
+          "MirrorRate": 6,
           "Wins": 32,
           "Losses": 12,
           "WinRate": 72.73
@@ -4260,8 +4260,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 46,
-          "MirrorMatches": 6,
-          "MirrorRate": 13.04,
+          "MirrorMatches": 3,
+          "MirrorRate": 6.52,
           "Wins": 25,
           "Losses": 15,
           "WinRate": 62.5
@@ -4269,8 +4269,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 46,
-          "MirrorMatches": 2,
-          "MirrorRate": 4.35,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.17,
           "Wins": 27,
           "Losses": 17,
           "WinRate": 61.36
@@ -4305,8 +4305,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 42,
-          "MirrorMatches": 4,
-          "MirrorRate": 9.52,
+          "MirrorMatches": 2,
+          "MirrorRate": 4.76,
           "Wins": 23,
           "Losses": 15,
           "WinRate": 60.53
@@ -4314,8 +4314,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 42,
-          "MirrorMatches": 6,
-          "MirrorRate": 14.29,
+          "MirrorMatches": 3,
+          "MirrorRate": 7.14,
           "Wins": 22,
           "Losses": 14,
           "WinRate": 61.11
@@ -4323,8 +4323,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 41,
-          "MirrorMatches": 4,
-          "MirrorRate": 9.76,
+          "MirrorMatches": 2,
+          "MirrorRate": 4.88,
           "Wins": 19,
           "Losses": 18,
           "WinRate": 51.35
@@ -4341,8 +4341,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 38,
-          "MirrorMatches": 4,
-          "MirrorRate": 10.53,
+          "MirrorMatches": 2,
+          "MirrorRate": 5.26,
           "Wins": 17,
           "Losses": 17,
           "WinRate": 50
@@ -4377,8 +4377,8 @@
         {
           "CivName": "Goths",
           "GamesPlayed": 37,
-          "MirrorMatches": 2,
-          "MirrorRate": 5.41,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.7,
           "Wins": 11,
           "Losses": 24,
           "WinRate": 31.43
@@ -4386,8 +4386,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 37,
-          "MirrorMatches": 2,
-          "MirrorRate": 5.41,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.7,
           "Wins": 23,
           "Losses": 12,
           "WinRate": 65.71
@@ -4395,8 +4395,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 36,
-          "MirrorMatches": 2,
-          "MirrorRate": 5.56,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.78,
           "Wins": 20,
           "Losses": 14,
           "WinRate": 58.82
@@ -4413,8 +4413,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 36,
-          "MirrorMatches": 2,
-          "MirrorRate": 5.56,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.78,
           "Wins": 20,
           "Losses": 14,
           "WinRate": 58.82
@@ -4422,8 +4422,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 34,
-          "MirrorMatches": 2,
-          "MirrorRate": 5.88,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.94,
           "Wins": 17,
           "Losses": 15,
           "WinRate": 53.12
@@ -4449,8 +4449,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 34,
-          "MirrorMatches": 6,
-          "MirrorRate": 17.65,
+          "MirrorMatches": 3,
+          "MirrorRate": 8.82,
           "Wins": 18,
           "Losses": 10,
           "WinRate": 64.29
@@ -4458,8 +4458,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 34,
-          "MirrorMatches": 4,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 2,
+          "MirrorRate": 5.88,
           "Wins": 19,
           "Losses": 11,
           "WinRate": 63.33
@@ -4512,8 +4512,8 @@
         {
           "CivName": "Slavs",
           "GamesPlayed": 31,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.45,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.23,
           "Wins": 15,
           "Losses": 14,
           "WinRate": 51.72
@@ -4521,8 +4521,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 29,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.9,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.45,
           "Wins": 10,
           "Losses": 17,
           "WinRate": 37.04
@@ -4548,8 +4548,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 27,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.41,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.7,
           "Wins": 11,
           "Losses": 14,
           "WinRate": 44
@@ -4557,8 +4557,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 24,
-          "MirrorMatches": 2,
-          "MirrorRate": 8.33,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.17,
           "Wins": 7,
           "Losses": 15,
           "WinRate": 31.82
@@ -4572,8 +4572,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 32,
-          "MirrorMatches": 8,
-          "MirrorRate": 25,
+          "MirrorMatches": 4,
+          "MirrorRate": 12.5,
           "Wins": 18,
           "Losses": 6,
           "WinRate": 75
@@ -4590,8 +4590,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 19,
-          "MirrorMatches": 8,
-          "MirrorRate": 42.11,
+          "MirrorMatches": 4,
+          "MirrorRate": 21.05,
           "Wins": 6,
           "Losses": 5,
           "WinRate": 54.55
@@ -4599,8 +4599,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 17,
-          "MirrorMatches": 6,
-          "MirrorRate": 35.29,
+          "MirrorMatches": 3,
+          "MirrorRate": 17.65,
           "Wins": 7,
           "Losses": 4,
           "WinRate": 63.64
@@ -4608,8 +4608,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 14,
-          "MirrorMatches": 2,
-          "MirrorRate": 14.29,
+          "MirrorMatches": 1,
+          "MirrorRate": 7.14,
           "Wins": 6,
           "Losses": 6,
           "WinRate": 50
@@ -4617,8 +4617,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 14,
-          "MirrorMatches": 2,
-          "MirrorRate": 14.29,
+          "MirrorMatches": 1,
+          "MirrorRate": 7.14,
           "Wins": 7,
           "Losses": 5,
           "WinRate": 58.33
@@ -4635,8 +4635,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 13,
-          "MirrorMatches": 2,
-          "MirrorRate": 15.38,
+          "MirrorMatches": 1,
+          "MirrorRate": 7.69,
           "Wins": 8,
           "Losses": 3,
           "WinRate": 72.73
@@ -4653,8 +4653,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 12,
-          "MirrorMatches": 4,
-          "MirrorRate": 33.33,
+          "MirrorMatches": 2,
+          "MirrorRate": 16.67,
           "Wins": 4,
           "Losses": 4,
           "WinRate": 50
@@ -4662,8 +4662,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 11,
-          "MirrorMatches": 2,
-          "MirrorRate": 18.18,
+          "MirrorMatches": 1,
+          "MirrorRate": 9.09,
           "Wins": 6,
           "Losses": 3,
           "WinRate": 66.67
@@ -4689,8 +4689,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 11,
-          "MirrorMatches": 4,
-          "MirrorRate": 36.36,
+          "MirrorMatches": 2,
+          "MirrorRate": 18.18,
           "Wins": 5,
           "Losses": 2,
           "WinRate": 71.43
@@ -4707,8 +4707,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 10,
-          "MirrorMatches": 2,
-          "MirrorRate": 20,
+          "MirrorMatches": 1,
+          "MirrorRate": 10,
           "Wins": 7,
           "Losses": 1,
           "WinRate": 87.5
@@ -4743,8 +4743,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 9,
-          "MirrorMatches": 2,
-          "MirrorRate": 22.22,
+          "MirrorMatches": 1,
+          "MirrorRate": 11.11,
           "Wins": 5,
           "Losses": 2,
           "WinRate": 71.43
@@ -4752,8 +4752,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 9,
-          "MirrorMatches": 2,
-          "MirrorRate": 22.22,
+          "MirrorMatches": 1,
+          "MirrorRate": 11.11,
           "Wins": 5,
           "Losses": 2,
           "WinRate": 71.43
@@ -4788,8 +4788,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 9,
-          "MirrorMatches": 2,
-          "MirrorRate": 22.22,
+          "MirrorMatches": 1,
+          "MirrorRate": 11.11,
           "Wins": 3,
           "Losses": 4,
           "WinRate": 42.86
@@ -4797,8 +4797,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 9,
-          "MirrorMatches": 2,
-          "MirrorRate": 22.22,
+          "MirrorMatches": 1,
+          "MirrorRate": 11.11,
           "Wins": 4,
           "Losses": 3,
           "WinRate": 57.14
@@ -4833,8 +4833,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 8,
-          "MirrorMatches": 2,
-          "MirrorRate": 25,
+          "MirrorMatches": 1,
+          "MirrorRate": 12.5,
           "Wins": 4,
           "Losses": 2,
           "WinRate": 66.67
@@ -4869,8 +4869,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 7,
-          "MirrorMatches": 2,
-          "MirrorRate": 28.57,
+          "MirrorMatches": 1,
+          "MirrorRate": 14.29,
           "Wins": 3,
           "Losses": 2,
           "WinRate": 60
@@ -4950,8 +4950,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 5,
-          "MirrorMatches": 2,
-          "MirrorRate": 40,
+          "MirrorMatches": 1,
+          "MirrorRate": 20,
           "Wins": 2,
           "Losses": 1,
           "WinRate": 66.67
@@ -5028,8 +5028,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 49,
-          "MirrorMatches": 10,
-          "MirrorRate": 20.41,
+          "MirrorMatches": 5,
+          "MirrorRate": 10.2,
           "Wins": 25,
           "Losses": 14,
           "WinRate": 64.1
@@ -5037,8 +5037,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 45,
-          "MirrorMatches": 20,
-          "MirrorRate": 44.44,
+          "MirrorMatches": 10,
+          "MirrorRate": 22.22,
           "Wins": 18,
           "Losses": 7,
           "WinRate": 72
@@ -5046,8 +5046,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 39,
-          "MirrorMatches": 4,
-          "MirrorRate": 10.26,
+          "MirrorMatches": 2,
+          "MirrorRate": 5.13,
           "Wins": 26,
           "Losses": 9,
           "WinRate": 74.29
@@ -5055,8 +5055,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 35,
-          "MirrorMatches": 10,
-          "MirrorRate": 28.57,
+          "MirrorMatches": 5,
+          "MirrorRate": 14.29,
           "Wins": 20,
           "Losses": 5,
           "WinRate": 80
@@ -5064,8 +5064,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 29,
-          "MirrorMatches": 8,
-          "MirrorRate": 27.59,
+          "MirrorMatches": 4,
+          "MirrorRate": 13.79,
           "Wins": 18,
           "Losses": 3,
           "WinRate": 85.71
@@ -5073,8 +5073,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 25,
-          "MirrorMatches": 4,
-          "MirrorRate": 16,
+          "MirrorMatches": 2,
+          "MirrorRate": 8,
           "Wins": 16,
           "Losses": 5,
           "WinRate": 76.19
@@ -5154,8 +5154,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 14,
-          "MirrorMatches": 2,
-          "MirrorRate": 14.29,
+          "MirrorMatches": 1,
+          "MirrorRate": 7.14,
           "Wins": 6,
           "Losses": 6,
           "WinRate": 50
@@ -5163,8 +5163,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 14,
-          "MirrorMatches": 2,
-          "MirrorRate": 14.29,
+          "MirrorMatches": 1,
+          "MirrorRate": 7.14,
           "Wins": 9,
           "Losses": 3,
           "WinRate": 75
@@ -5244,8 +5244,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 10,
-          "MirrorMatches": 2,
-          "MirrorRate": 20,
+          "MirrorMatches": 1,
+          "MirrorRate": 10,
           "Wins": 5,
           "Losses": 3,
           "WinRate": 62.5
@@ -5484,8 +5484,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 175,
-          "MirrorMatches": 50,
-          "MirrorRate": 28.57,
+          "MirrorMatches": 25,
+          "MirrorRate": 14.29,
           "Wins": 92,
           "Losses": 33,
           "WinRate": 73.6
@@ -5493,8 +5493,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 148,
-          "MirrorMatches": 32,
-          "MirrorRate": 21.62,
+          "MirrorMatches": 16,
+          "MirrorRate": 10.81,
           "Wins": 77,
           "Losses": 39,
           "WinRate": 66.38
@@ -5502,8 +5502,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 100,
-          "MirrorMatches": 12,
-          "MirrorRate": 12,
+          "MirrorMatches": 6,
+          "MirrorRate": 6,
           "Wins": 49,
           "Losses": 39,
           "WinRate": 55.68
@@ -5511,8 +5511,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 68,
-          "MirrorMatches": 14,
-          "MirrorRate": 20.59,
+          "MirrorMatches": 7,
+          "MirrorRate": 10.29,
           "Wins": 40,
           "Losses": 14,
           "WinRate": 74.07
@@ -5520,8 +5520,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 66,
-          "MirrorMatches": 14,
-          "MirrorRate": 21.21,
+          "MirrorMatches": 7,
+          "MirrorRate": 10.61,
           "Wins": 34,
           "Losses": 18,
           "WinRate": 65.38
@@ -5529,8 +5529,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 65,
-          "MirrorMatches": 6,
-          "MirrorRate": 9.23,
+          "MirrorMatches": 3,
+          "MirrorRate": 4.62,
           "Wins": 37,
           "Losses": 22,
           "WinRate": 62.71
@@ -5538,8 +5538,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 47,
-          "MirrorMatches": 6,
-          "MirrorRate": 12.77,
+          "MirrorMatches": 3,
+          "MirrorRate": 6.38,
           "Wins": 30,
           "Losses": 11,
           "WinRate": 73.17
@@ -5547,8 +5547,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 46,
-          "MirrorMatches": 4,
-          "MirrorRate": 8.7,
+          "MirrorMatches": 2,
+          "MirrorRate": 4.35,
           "Wins": 28,
           "Losses": 14,
           "WinRate": 66.67
@@ -5556,8 +5556,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 43,
-          "MirrorMatches": 6,
-          "MirrorRate": 13.95,
+          "MirrorMatches": 3,
+          "MirrorRate": 6.98,
           "Wins": 21,
           "Losses": 16,
           "WinRate": 56.76
@@ -5574,8 +5574,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 42,
-          "MirrorMatches": 8,
-          "MirrorRate": 19.05,
+          "MirrorMatches": 4,
+          "MirrorRate": 9.52,
           "Wins": 22,
           "Losses": 12,
           "WinRate": 64.71
@@ -5583,8 +5583,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 41,
-          "MirrorMatches": 6,
-          "MirrorRate": 14.63,
+          "MirrorMatches": 3,
+          "MirrorRate": 7.32,
           "Wins": 22,
           "Losses": 13,
           "WinRate": 62.86
@@ -5592,8 +5592,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 38,
-          "MirrorMatches": 6,
-          "MirrorRate": 15.79,
+          "MirrorMatches": 3,
+          "MirrorRate": 7.89,
           "Wins": 15,
           "Losses": 17,
           "WinRate": 46.88
@@ -5601,8 +5601,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 37,
-          "MirrorMatches": 4,
-          "MirrorRate": 10.81,
+          "MirrorMatches": 2,
+          "MirrorRate": 5.41,
           "Wins": 20,
           "Losses": 13,
           "WinRate": 60.61
@@ -5610,8 +5610,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 37,
-          "MirrorMatches": 6,
-          "MirrorRate": 16.22,
+          "MirrorMatches": 3,
+          "MirrorRate": 8.11,
           "Wins": 21,
           "Losses": 10,
           "WinRate": 67.74
@@ -5619,8 +5619,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 35,
-          "MirrorMatches": 2,
-          "MirrorRate": 5.71,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.86,
           "Wins": 20,
           "Losses": 13,
           "WinRate": 60.61
@@ -5628,8 +5628,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 33,
-          "MirrorMatches": 4,
-          "MirrorRate": 12.12,
+          "MirrorMatches": 2,
+          "MirrorRate": 6.06,
           "Wins": 20,
           "Losses": 9,
           "WinRate": 68.97
@@ -5637,8 +5637,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 32,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.25,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.12,
           "Wins": 20,
           "Losses": 10,
           "WinRate": 66.67
@@ -5664,8 +5664,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 29,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.9,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.45,
           "Wins": 16,
           "Losses": 11,
           "WinRate": 59.26
@@ -5673,8 +5673,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 29,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.9,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.45,
           "Wins": 16,
           "Losses": 11,
           "WinRate": 59.26
@@ -5682,8 +5682,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 28,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.14,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.57,
           "Wins": 14,
           "Losses": 12,
           "WinRate": 53.85
@@ -5691,8 +5691,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 28,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.14,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.57,
           "Wins": 17,
           "Losses": 9,
           "WinRate": 65.38
@@ -5790,8 +5790,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 22,
-          "MirrorMatches": 2,
-          "MirrorRate": 9.09,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.55,
           "Wins": 18,
           "Losses": 2,
           "WinRate": 90
@@ -5826,8 +5826,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 20,
-          "MirrorMatches": 2,
-          "MirrorRate": 10,
+          "MirrorMatches": 1,
+          "MirrorRate": 5,
           "Wins": 13,
           "Losses": 5,
           "WinRate": 72.22
@@ -5835,8 +5835,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 19,
-          "MirrorMatches": 2,
-          "MirrorRate": 10.53,
+          "MirrorMatches": 1,
+          "MirrorRate": 5.26,
           "Wins": 6,
           "Losses": 11,
           "WinRate": 35.29
@@ -5844,8 +5844,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 19,
-          "MirrorMatches": 2,
-          "MirrorRate": 10.53,
+          "MirrorMatches": 1,
+          "MirrorRate": 5.26,
           "Wins": 14,
           "Losses": 3,
           "WinRate": 82.35
@@ -5940,8 +5940,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 57,
-          "MirrorMatches": 28,
-          "MirrorRate": 49.12,
+          "MirrorMatches": 14,
+          "MirrorRate": 24.56,
           "Wins": 20,
           "Losses": 9,
           "WinRate": 68.97
@@ -5949,8 +5949,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 23,
-          "MirrorMatches": 6,
-          "MirrorRate": 26.09,
+          "MirrorMatches": 3,
+          "MirrorRate": 13.04,
           "Wins": 12,
           "Losses": 5,
           "WinRate": 70.59
@@ -5958,8 +5958,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 23,
-          "MirrorMatches": 10,
-          "MirrorRate": 43.48,
+          "MirrorMatches": 5,
+          "MirrorRate": 21.74,
           "Wins": 9,
           "Losses": 4,
           "WinRate": 69.23
@@ -5967,8 +5967,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 23,
-          "MirrorMatches": 8,
-          "MirrorRate": 34.78,
+          "MirrorMatches": 4,
+          "MirrorRate": 17.39,
           "Wins": 11,
           "Losses": 4,
           "WinRate": 73.33
@@ -5976,8 +5976,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 22,
-          "MirrorMatches": 4,
-          "MirrorRate": 18.18,
+          "MirrorMatches": 2,
+          "MirrorRate": 9.09,
           "Wins": 11,
           "Losses": 7,
           "WinRate": 61.11
@@ -5985,8 +5985,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 21,
-          "MirrorMatches": 4,
-          "MirrorRate": 19.05,
+          "MirrorMatches": 2,
+          "MirrorRate": 9.52,
           "Wins": 10,
           "Losses": 7,
           "WinRate": 58.82
@@ -5994,8 +5994,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 12,
-          "MirrorMatches": 2,
-          "MirrorRate": 16.67,
+          "MirrorMatches": 1,
+          "MirrorRate": 8.33,
           "Wins": 6,
           "Losses": 4,
           "WinRate": 60
@@ -6111,8 +6111,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 8,
-          "MirrorMatches": 2,
-          "MirrorRate": 25,
+          "MirrorMatches": 1,
+          "MirrorRate": 12.5,
           "Wins": 4,
           "Losses": 2,
           "WinRate": 66.67
@@ -6120,8 +6120,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 7,
-          "MirrorMatches": 2,
-          "MirrorRate": 28.57,
+          "MirrorMatches": 1,
+          "MirrorRate": 14.29,
           "Wins": 2,
           "Losses": 3,
           "WinRate": 40
@@ -6183,8 +6183,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 6,
-          "MirrorMatches": 2,
-          "MirrorRate": 33.33,
+          "MirrorMatches": 1,
+          "MirrorRate": 16.67,
           "Wins": 2,
           "Losses": 2,
           "WinRate": 50
@@ -6396,8 +6396,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 132,
-          "MirrorMatches": 64,
-          "MirrorRate": 48.48,
+          "MirrorMatches": 32,
+          "MirrorRate": 24.24,
           "Wins": 54,
           "Losses": 14,
           "WinRate": 79.41
@@ -6405,8 +6405,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 71,
-          "MirrorMatches": 26,
-          "MirrorRate": 36.62,
+          "MirrorMatches": 13,
+          "MirrorRate": 18.31,
           "Wins": 26,
           "Losses": 19,
           "WinRate": 57.78
@@ -6414,8 +6414,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 55,
-          "MirrorMatches": 20,
-          "MirrorRate": 36.36,
+          "MirrorMatches": 10,
+          "MirrorRate": 18.18,
           "Wins": 21,
           "Losses": 14,
           "WinRate": 60
@@ -6423,8 +6423,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 54,
-          "MirrorMatches": 8,
-          "MirrorRate": 14.81,
+          "MirrorMatches": 4,
+          "MirrorRate": 7.41,
           "Wins": 31,
           "Losses": 15,
           "WinRate": 67.39
@@ -6432,8 +6432,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 52,
-          "MirrorMatches": 22,
-          "MirrorRate": 42.31,
+          "MirrorMatches": 11,
+          "MirrorRate": 21.15,
           "Wins": 14,
           "Losses": 16,
           "WinRate": 46.67
@@ -6441,8 +6441,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 49,
-          "MirrorMatches": 12,
-          "MirrorRate": 24.49,
+          "MirrorMatches": 6,
+          "MirrorRate": 12.24,
           "Wins": 21,
           "Losses": 16,
           "WinRate": 56.76
@@ -6450,8 +6450,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 49,
-          "MirrorMatches": 10,
-          "MirrorRate": 20.41,
+          "MirrorMatches": 5,
+          "MirrorRate": 10.2,
           "Wins": 22,
           "Losses": 17,
           "WinRate": 56.41
@@ -6459,8 +6459,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 46,
-          "MirrorMatches": 8,
-          "MirrorRate": 17.39,
+          "MirrorMatches": 4,
+          "MirrorRate": 8.7,
           "Wins": 28,
           "Losses": 10,
           "WinRate": 73.68
@@ -6468,8 +6468,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 43,
-          "MirrorMatches": 10,
-          "MirrorRate": 23.26,
+          "MirrorMatches": 5,
+          "MirrorRate": 11.63,
           "Wins": 23,
           "Losses": 10,
           "WinRate": 69.7
@@ -6477,8 +6477,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 40,
-          "MirrorMatches": 12,
-          "MirrorRate": 30,
+          "MirrorMatches": 6,
+          "MirrorRate": 15,
           "Wins": 14,
           "Losses": 14,
           "WinRate": 50
@@ -6486,8 +6486,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 39,
-          "MirrorMatches": 2,
-          "MirrorRate": 5.13,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.56,
           "Wins": 23,
           "Losses": 14,
           "WinRate": 62.16
@@ -6504,8 +6504,8 @@
         {
           "CivName": "Incas",
           "GamesPlayed": 39,
-          "MirrorMatches": 6,
-          "MirrorRate": 15.38,
+          "MirrorMatches": 3,
+          "MirrorRate": 7.69,
           "Wins": 21,
           "Losses": 12,
           "WinRate": 63.64
@@ -6513,8 +6513,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 36,
-          "MirrorMatches": 6,
-          "MirrorRate": 16.67,
+          "MirrorMatches": 3,
+          "MirrorRate": 8.33,
           "Wins": 18,
           "Losses": 12,
           "WinRate": 60
@@ -6522,8 +6522,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 34,
-          "MirrorMatches": 4,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 2,
+          "MirrorRate": 5.88,
           "Wins": 19,
           "Losses": 11,
           "WinRate": 63.33
@@ -6531,8 +6531,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 34,
-          "MirrorMatches": 6,
-          "MirrorRate": 17.65,
+          "MirrorMatches": 3,
+          "MirrorRate": 8.82,
           "Wins": 19,
           "Losses": 9,
           "WinRate": 67.86
@@ -6540,8 +6540,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 33,
-          "MirrorMatches": 4,
-          "MirrorRate": 12.12,
+          "MirrorMatches": 2,
+          "MirrorRate": 6.06,
           "Wins": 16,
           "Losses": 13,
           "WinRate": 55.17
@@ -6549,8 +6549,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 33,
-          "MirrorMatches": 4,
-          "MirrorRate": 12.12,
+          "MirrorMatches": 2,
+          "MirrorRate": 6.06,
           "Wins": 16,
           "Losses": 13,
           "WinRate": 55.17
@@ -6558,8 +6558,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 32,
-          "MirrorMatches": 6,
-          "MirrorRate": 18.75,
+          "MirrorMatches": 3,
+          "MirrorRate": 9.38,
           "Wins": 14,
           "Losses": 12,
           "WinRate": 53.85
@@ -6567,8 +6567,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 31,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.45,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.23,
           "Wins": 13,
           "Losses": 16,
           "WinRate": 44.83
@@ -6576,8 +6576,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 30,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.67,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.33,
           "Wins": 16,
           "Losses": 12,
           "WinRate": 57.14
@@ -6585,8 +6585,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 30,
-          "MirrorMatches": 4,
-          "MirrorRate": 13.33,
+          "MirrorMatches": 2,
+          "MirrorRate": 6.67,
           "Wins": 15,
           "Losses": 11,
           "WinRate": 57.69
@@ -6594,8 +6594,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 29,
-          "MirrorMatches": 4,
-          "MirrorRate": 13.79,
+          "MirrorMatches": 2,
+          "MirrorRate": 6.9,
           "Wins": 18,
           "Losses": 7,
           "WinRate": 72
@@ -6612,8 +6612,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 28,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.14,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.57,
           "Wins": 14,
           "Losses": 12,
           "WinRate": 53.85
@@ -6657,8 +6657,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 25,
-          "MirrorMatches": 2,
-          "MirrorRate": 8,
+          "MirrorMatches": 1,
+          "MirrorRate": 4,
           "Wins": 14,
           "Losses": 9,
           "WinRate": 60.87
@@ -6666,8 +6666,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 25,
-          "MirrorMatches": 4,
-          "MirrorRate": 16,
+          "MirrorMatches": 2,
+          "MirrorRate": 8,
           "Wins": 15,
           "Losses": 6,
           "WinRate": 71.43
@@ -6675,8 +6675,8 @@
         {
           "CivName": "Slavs",
           "GamesPlayed": 25,
-          "MirrorMatches": 4,
-          "MirrorRate": 16,
+          "MirrorMatches": 2,
+          "MirrorRate": 8,
           "Wins": 12,
           "Losses": 9,
           "WinRate": 57.14
@@ -6684,8 +6684,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 24,
-          "MirrorMatches": 6,
-          "MirrorRate": 25,
+          "MirrorMatches": 3,
+          "MirrorRate": 12.5,
           "Wins": 12,
           "Losses": 6,
           "WinRate": 66.67
@@ -6693,8 +6693,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 24,
-          "MirrorMatches": 2,
-          "MirrorRate": 8.33,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.17,
           "Wins": 13,
           "Losses": 9,
           "WinRate": 59.09
@@ -6720,8 +6720,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 22,
-          "MirrorMatches": 6,
-          "MirrorRate": 27.27,
+          "MirrorMatches": 3,
+          "MirrorRate": 13.64,
           "Wins": 11,
           "Losses": 5,
           "WinRate": 68.75
@@ -6729,8 +6729,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 21,
-          "MirrorMatches": 4,
-          "MirrorRate": 19.05,
+          "MirrorMatches": 2,
+          "MirrorRate": 9.52,
           "Wins": 14,
           "Losses": 3,
           "WinRate": 82.35
@@ -6756,8 +6756,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 20,
-          "MirrorMatches": 2,
-          "MirrorRate": 10,
+          "MirrorMatches": 1,
+          "MirrorRate": 5,
           "Wins": 11,
           "Losses": 7,
           "WinRate": 61.11
@@ -6783,8 +6783,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 19,
-          "MirrorMatches": 2,
-          "MirrorRate": 10.53,
+          "MirrorMatches": 1,
+          "MirrorRate": 5.26,
           "Wins": 12,
           "Losses": 5,
           "WinRate": 70.59
@@ -6819,8 +6819,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 17,
-          "MirrorMatches": 2,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 1,
+          "MirrorRate": 5.88,
           "Wins": 6,
           "Losses": 9,
           "WinRate": 40
@@ -6852,8 +6852,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 80,
-          "MirrorMatches": 18,
-          "MirrorRate": 22.5,
+          "MirrorMatches": 9,
+          "MirrorRate": 11.25,
           "Wins": 46,
           "Losses": 16,
           "WinRate": 74.19
@@ -6861,8 +6861,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 72,
-          "MirrorMatches": 18,
-          "MirrorRate": 25,
+          "MirrorMatches": 9,
+          "MirrorRate": 12.5,
           "Wins": 35,
           "Losses": 19,
           "WinRate": 64.81
@@ -6870,8 +6870,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 53,
-          "MirrorMatches": 4,
-          "MirrorRate": 7.55,
+          "MirrorMatches": 2,
+          "MirrorRate": 3.77,
           "Wins": 34,
           "Losses": 15,
           "WinRate": 69.39
@@ -6879,8 +6879,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 43,
-          "MirrorMatches": 8,
-          "MirrorRate": 18.6,
+          "MirrorMatches": 4,
+          "MirrorRate": 9.3,
           "Wins": 21,
           "Losses": 14,
           "WinRate": 60
@@ -6888,8 +6888,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 38,
-          "MirrorMatches": 4,
-          "MirrorRate": 10.53,
+          "MirrorMatches": 2,
+          "MirrorRate": 5.26,
           "Wins": 18,
           "Losses": 16,
           "WinRate": 52.94
@@ -6897,8 +6897,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 38,
-          "MirrorMatches": 2,
-          "MirrorRate": 5.26,
+          "MirrorMatches": 1,
+          "MirrorRate": 2.63,
           "Wins": 26,
           "Losses": 10,
           "WinRate": 72.22
@@ -6906,8 +6906,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 34,
-          "MirrorMatches": 8,
-          "MirrorRate": 23.53,
+          "MirrorMatches": 4,
+          "MirrorRate": 11.76,
           "Wins": 24,
           "Losses": 2,
           "WinRate": 92.31
@@ -6915,8 +6915,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 33,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.06,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.03,
           "Wins": 20,
           "Losses": 11,
           "WinRate": 64.52
@@ -6933,8 +6933,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 30,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.67,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.33,
           "Wins": 19,
           "Losses": 9,
           "WinRate": 67.86
@@ -6942,8 +6942,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 30,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.67,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.33,
           "Wins": 17,
           "Losses": 11,
           "WinRate": 60.71
@@ -6960,8 +6960,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 28,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.14,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.57,
           "Wins": 17,
           "Losses": 9,
           "WinRate": 65.38
@@ -6969,8 +6969,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 27,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.41,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.7,
           "Wins": 16,
           "Losses": 9,
           "WinRate": 64
@@ -6978,8 +6978,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 27,
-          "MirrorMatches": 4,
-          "MirrorRate": 14.81,
+          "MirrorMatches": 2,
+          "MirrorRate": 7.41,
           "Wins": 12,
           "Losses": 11,
           "WinRate": 52.17
@@ -6987,8 +6987,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 27,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.41,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.7,
           "Wins": 17,
           "Losses": 8,
           "WinRate": 68
@@ -7005,8 +7005,8 @@
         {
           "CivName": "Britons",
           "GamesPlayed": 26,
-          "MirrorMatches": 4,
-          "MirrorRate": 15.38,
+          "MirrorMatches": 2,
+          "MirrorRate": 7.69,
           "Wins": 15,
           "Losses": 7,
           "WinRate": 68.18
@@ -7014,8 +7014,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 25,
-          "MirrorMatches": 2,
-          "MirrorRate": 8,
+          "MirrorMatches": 1,
+          "MirrorRate": 4,
           "Wins": 17,
           "Losses": 6,
           "WinRate": 73.91
@@ -7023,8 +7023,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 25,
-          "MirrorMatches": 2,
-          "MirrorRate": 8,
+          "MirrorMatches": 1,
+          "MirrorRate": 4,
           "Wins": 16,
           "Losses": 7,
           "WinRate": 69.57
@@ -7104,8 +7104,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 21,
-          "MirrorMatches": 2,
-          "MirrorRate": 9.52,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.76,
           "Wins": 9,
           "Losses": 10,
           "WinRate": 47.37
@@ -7131,8 +7131,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 21,
-          "MirrorMatches": 4,
-          "MirrorRate": 19.05,
+          "MirrorMatches": 2,
+          "MirrorRate": 9.52,
           "Wins": 10,
           "Losses": 7,
           "WinRate": 58.82
@@ -7140,8 +7140,8 @@
         {
           "CivName": "Poles",
           "GamesPlayed": 21,
-          "MirrorMatches": 2,
-          "MirrorRate": 9.52,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.76,
           "Wins": 11,
           "Losses": 8,
           "WinRate": 57.89
@@ -7248,8 +7248,8 @@
         {
           "CivName": "Romans",
           "GamesPlayed": 17,
-          "MirrorMatches": 2,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 1,
+          "MirrorRate": 5.88,
           "Wins": 9,
           "Losses": 6,
           "WinRate": 60
@@ -7257,8 +7257,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 16,
-          "MirrorMatches": 2,
-          "MirrorRate": 12.5,
+          "MirrorMatches": 1,
+          "MirrorRate": 6.25,
           "Wins": 10,
           "Losses": 4,
           "WinRate": 71.43
@@ -7308,8 +7308,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 164,
-          "MirrorMatches": 74,
-          "MirrorRate": 45.12,
+          "MirrorMatches": 37,
+          "MirrorRate": 22.56,
           "Wins": 60,
           "Losses": 30,
           "WinRate": 66.67
@@ -7317,8 +7317,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 85,
-          "MirrorMatches": 28,
-          "MirrorRate": 32.94,
+          "MirrorMatches": 14,
+          "MirrorRate": 16.47,
           "Wins": 36,
           "Losses": 21,
           "WinRate": 63.16
@@ -7326,8 +7326,8 @@
         {
           "CivName": "Burgundians",
           "GamesPlayed": 67,
-          "MirrorMatches": 36,
-          "MirrorRate": 53.73,
+          "MirrorMatches": 18,
+          "MirrorRate": 26.87,
           "Wins": 16,
           "Losses": 15,
           "WinRate": 51.61
@@ -7335,8 +7335,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 62,
-          "MirrorMatches": 14,
-          "MirrorRate": 22.58,
+          "MirrorMatches": 7,
+          "MirrorRate": 11.29,
           "Wins": 34,
           "Losses": 14,
           "WinRate": 70.83
@@ -7344,8 +7344,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 55,
-          "MirrorMatches": 16,
-          "MirrorRate": 29.09,
+          "MirrorMatches": 8,
+          "MirrorRate": 14.55,
           "Wins": 31,
           "Losses": 8,
           "WinRate": 79.49
@@ -7353,8 +7353,8 @@
         {
           "CivName": "Shu",
           "GamesPlayed": 55,
-          "MirrorMatches": 16,
-          "MirrorRate": 29.09,
+          "MirrorMatches": 8,
+          "MirrorRate": 14.55,
           "Wins": 26,
           "Losses": 13,
           "WinRate": 66.67
@@ -7362,8 +7362,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 47,
-          "MirrorMatches": 16,
-          "MirrorRate": 34.04,
+          "MirrorMatches": 8,
+          "MirrorRate": 17.02,
           "Wins": 17,
           "Losses": 14,
           "WinRate": 54.84
@@ -7371,8 +7371,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 45,
-          "MirrorMatches": 6,
-          "MirrorRate": 13.33,
+          "MirrorMatches": 3,
+          "MirrorRate": 6.67,
           "Wins": 28,
           "Losses": 11,
           "WinRate": 71.79
@@ -7380,8 +7380,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 45,
-          "MirrorMatches": 8,
-          "MirrorRate": 17.78,
+          "MirrorMatches": 4,
+          "MirrorRate": 8.89,
           "Wins": 19,
           "Losses": 18,
           "WinRate": 51.35
@@ -7389,8 +7389,8 @@
         {
           "CivName": "Vietnamese",
           "GamesPlayed": 45,
-          "MirrorMatches": 8,
-          "MirrorRate": 17.78,
+          "MirrorMatches": 4,
+          "MirrorRate": 8.89,
           "Wins": 24,
           "Losses": 13,
           "WinRate": 64.86
@@ -7398,8 +7398,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 44,
-          "MirrorMatches": 6,
-          "MirrorRate": 13.64,
+          "MirrorMatches": 3,
+          "MirrorRate": 6.82,
           "Wins": 23,
           "Losses": 15,
           "WinRate": 60.53
@@ -7407,8 +7407,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 39,
-          "MirrorMatches": 10,
-          "MirrorRate": 25.64,
+          "MirrorMatches": 5,
+          "MirrorRate": 12.82,
           "Wins": 19,
           "Losses": 10,
           "WinRate": 65.52
@@ -7416,8 +7416,8 @@
         {
           "CivName": "Wei",
           "GamesPlayed": 39,
-          "MirrorMatches": 8,
-          "MirrorRate": 20.51,
+          "MirrorMatches": 4,
+          "MirrorRate": 10.26,
           "Wins": 21,
           "Losses": 10,
           "WinRate": 67.74
@@ -7425,8 +7425,8 @@
         {
           "CivName": "Mayans",
           "GamesPlayed": 38,
-          "MirrorMatches": 12,
-          "MirrorRate": 31.58,
+          "MirrorMatches": 6,
+          "MirrorRate": 15.79,
           "Wins": 15,
           "Losses": 11,
           "WinRate": 57.69
@@ -7434,8 +7434,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 35,
-          "MirrorMatches": 4,
-          "MirrorRate": 11.43,
+          "MirrorMatches": 2,
+          "MirrorRate": 5.71,
           "Wins": 18,
           "Losses": 13,
           "WinRate": 58.06
@@ -7452,8 +7452,8 @@
         {
           "CivName": "Mongols",
           "GamesPlayed": 31,
-          "MirrorMatches": 6,
-          "MirrorRate": 19.35,
+          "MirrorMatches": 3,
+          "MirrorRate": 9.68,
           "Wins": 11,
           "Losses": 14,
           "WinRate": 44
@@ -7461,8 +7461,8 @@
         {
           "CivName": "Tatars",
           "GamesPlayed": 31,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.45,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.23,
           "Wins": 15,
           "Losses": 14,
           "WinRate": 51.72
@@ -7470,8 +7470,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 29,
-          "MirrorMatches": 4,
-          "MirrorRate": 13.79,
+          "MirrorMatches": 2,
+          "MirrorRate": 6.9,
           "Wins": 16,
           "Losses": 9,
           "WinRate": 64
@@ -7479,8 +7479,8 @@
         {
           "CivName": "Italians",
           "GamesPlayed": 29,
-          "MirrorMatches": 4,
-          "MirrorRate": 13.79,
+          "MirrorMatches": 2,
+          "MirrorRate": 6.9,
           "Wins": 16,
           "Losses": 9,
           "WinRate": 64
@@ -7488,8 +7488,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 29,
-          "MirrorMatches": 2,
-          "MirrorRate": 6.9,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.45,
           "Wins": 10,
           "Losses": 17,
           "WinRate": 37.04
@@ -7497,8 +7497,8 @@
         {
           "CivName": "Franks",
           "GamesPlayed": 28,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.14,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.57,
           "Wins": 20,
           "Losses": 6,
           "WinRate": 76.92
@@ -7506,8 +7506,8 @@
         {
           "CivName": "Hindustanis",
           "GamesPlayed": 28,
-          "MirrorMatches": 4,
-          "MirrorRate": 14.29,
+          "MirrorMatches": 2,
+          "MirrorRate": 7.14,
           "Wins": 15,
           "Losses": 9,
           "WinRate": 62.5
@@ -7515,8 +7515,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 27,
-          "MirrorMatches": 4,
-          "MirrorRate": 14.81,
+          "MirrorMatches": 2,
+          "MirrorRate": 7.41,
           "Wins": 10,
           "Losses": 13,
           "WinRate": 43.48
@@ -7524,8 +7524,8 @@
         {
           "CivName": "Turks",
           "GamesPlayed": 26,
-          "MirrorMatches": 2,
-          "MirrorRate": 7.69,
+          "MirrorMatches": 1,
+          "MirrorRate": 3.85,
           "Wins": 16,
           "Losses": 8,
           "WinRate": 66.67
@@ -7551,8 +7551,8 @@
         {
           "CivName": "Lithuanians",
           "GamesPlayed": 25,
-          "MirrorMatches": 2,
-          "MirrorRate": 8,
+          "MirrorMatches": 1,
+          "MirrorRate": 4,
           "Wins": 11,
           "Losses": 12,
           "WinRate": 47.83
@@ -7560,8 +7560,8 @@
         {
           "CivName": "Spanish",
           "GamesPlayed": 25,
-          "MirrorMatches": 4,
-          "MirrorRate": 16,
+          "MirrorMatches": 2,
+          "MirrorRate": 8,
           "Wins": 12,
           "Losses": 9,
           "WinRate": 57.14
@@ -7569,8 +7569,8 @@
         {
           "CivName": "Burmese",
           "GamesPlayed": 24,
-          "MirrorMatches": 6,
-          "MirrorRate": 25,
+          "MirrorMatches": 3,
+          "MirrorRate": 12.5,
           "Wins": 7,
           "Losses": 11,
           "WinRate": 38.89
@@ -7578,8 +7578,8 @@
         {
           "CivName": "Goths",
           "GamesPlayed": 24,
-          "MirrorMatches": 4,
-          "MirrorRate": 16.67,
+          "MirrorMatches": 2,
+          "MirrorRate": 8.33,
           "Wins": 12,
           "Losses": 8,
           "WinRate": 60
@@ -7587,8 +7587,8 @@
         {
           "CivName": "Portuguese",
           "GamesPlayed": 24,
-          "MirrorMatches": 6,
-          "MirrorRate": 25,
+          "MirrorMatches": 3,
+          "MirrorRate": 12.5,
           "Wins": 7,
           "Losses": 11,
           "WinRate": 38.89
@@ -7605,8 +7605,8 @@
         {
           "CivName": "Bohemians",
           "GamesPlayed": 23,
-          "MirrorMatches": 6,
-          "MirrorRate": 26.09,
+          "MirrorMatches": 3,
+          "MirrorRate": 13.04,
           "Wins": 9,
           "Losses": 8,
           "WinRate": 52.94
@@ -7623,8 +7623,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 23,
-          "MirrorMatches": 2,
-          "MirrorRate": 8.7,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.35,
           "Wins": 13,
           "Losses": 8,
           "WinRate": 61.9
@@ -7632,8 +7632,8 @@
         {
           "CivName": "Vikings",
           "GamesPlayed": 23,
-          "MirrorMatches": 4,
-          "MirrorRate": 17.39,
+          "MirrorMatches": 2,
+          "MirrorRate": 8.7,
           "Wins": 15,
           "Losses": 4,
           "WinRate": 78.95
@@ -7641,8 +7641,8 @@
         {
           "CivName": "Bengalis",
           "GamesPlayed": 21,
-          "MirrorMatches": 4,
-          "MirrorRate": 19.05,
+          "MirrorMatches": 2,
+          "MirrorRate": 9.52,
           "Wins": 11,
           "Losses": 6,
           "WinRate": 64.71
@@ -7650,8 +7650,8 @@
         {
           "CivName": "Chinese",
           "GamesPlayed": 21,
-          "MirrorMatches": 2,
-          "MirrorRate": 9.52,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.76,
           "Wins": 11,
           "Losses": 8,
           "WinRate": 57.89
@@ -7659,8 +7659,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 21,
-          "MirrorMatches": 4,
-          "MirrorRate": 19.05,
+          "MirrorMatches": 2,
+          "MirrorRate": 9.52,
           "Wins": 11,
           "Losses": 6,
           "WinRate": 64.71
@@ -7668,8 +7668,8 @@
         {
           "CivName": "Persians",
           "GamesPlayed": 21,
-          "MirrorMatches": 2,
-          "MirrorRate": 9.52,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.76,
           "Wins": 10,
           "Losses": 9,
           "WinRate": 52.63
@@ -7677,8 +7677,8 @@
         {
           "CivName": "Wu",
           "GamesPlayed": 21,
-          "MirrorMatches": 2,
-          "MirrorRate": 9.52,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.76,
           "Wins": 9,
           "Losses": 10,
           "WinRate": 47.37
@@ -7686,8 +7686,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 20,
-          "MirrorMatches": 4,
-          "MirrorRate": 20,
+          "MirrorMatches": 2,
+          "MirrorRate": 10,
           "Wins": 14,
           "Losses": 2,
           "WinRate": 87.5
@@ -7695,8 +7695,8 @@
         {
           "CivName": "Berbers",
           "GamesPlayed": 20,
-          "MirrorMatches": 2,
-          "MirrorRate": 10,
+          "MirrorMatches": 1,
+          "MirrorRate": 5,
           "Wins": 8,
           "Losses": 10,
           "WinRate": 44.44
@@ -7713,8 +7713,8 @@
         {
           "CivName": "Malians",
           "GamesPlayed": 20,
-          "MirrorMatches": 4,
-          "MirrorRate": 20,
+          "MirrorMatches": 2,
+          "MirrorRate": 10,
           "Wins": 10,
           "Losses": 6,
           "WinRate": 62.5
@@ -7740,8 +7740,8 @@
         {
           "CivName": "Japanese",
           "GamesPlayed": 17,
-          "MirrorMatches": 2,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 1,
+          "MirrorRate": 5.88,
           "Wins": 8,
           "Losses": 7,
           "WinRate": 53.33
@@ -7749,8 +7749,8 @@
         {
           "CivName": "Sicilians",
           "GamesPlayed": 17,
-          "MirrorMatches": 2,
-          "MirrorRate": 11.76,
+          "MirrorMatches": 1,
+          "MirrorRate": 5.88,
           "Wins": 11,
           "Losses": 4,
           "WinRate": 73.33
@@ -7764,8 +7764,8 @@
         {
           "CivName": "Saracens",
           "GamesPlayed": 70,
-          "MirrorMatches": 22,
-          "MirrorRate": 31.43,
+          "MirrorMatches": 11,
+          "MirrorRate": 15.71,
           "Wins": 34,
           "Losses": 14,
           "WinRate": 70.83
@@ -7773,8 +7773,8 @@
         {
           "CivName": "Khitans",
           "GamesPlayed": 47,
-          "MirrorMatches": 14,
-          "MirrorRate": 29.79,
+          "MirrorMatches": 7,
+          "MirrorRate": 14.89,
           "Wins": 22,
           "Losses": 11,
           "WinRate": 66.67
@@ -7782,8 +7782,8 @@
         {
           "CivName": "Huns",
           "GamesPlayed": 38,
-          "MirrorMatches": 4,
-          "MirrorRate": 10.53,
+          "MirrorMatches": 2,
+          "MirrorRate": 5.26,
           "Wins": 24,
           "Losses": 10,
           "WinRate": 70.59
@@ -7791,8 +7791,8 @@
         {
           "CivName": "Byzantines",
           "GamesPlayed": 30,
-          "MirrorMatches": 4,
-          "MirrorRate": 13.33,
+          "MirrorMatches": 2,
+          "MirrorRate": 6.67,
           "Wins": 16,
           "Losses": 10,
           "WinRate": 61.54
@@ -7800,8 +7800,8 @@
         {
           "CivName": "Jurchens",
           "GamesPlayed": 26,
-          "MirrorMatches": 8,
-          "MirrorRate": 30.77,
+          "MirrorMatches": 4,
+          "MirrorRate": 15.38,
           "Wins": 8,
           "Losses": 10,
           "WinRate": 44.44
@@ -7809,8 +7809,8 @@
         {
           "CivName": "Khmer",
           "GamesPlayed": 25,
-          "MirrorMatches": 4,
-          "MirrorRate": 16,
+          "MirrorMatches": 2,
+          "MirrorRate": 8,
           "Wins": 9,
           "Losses": 12,
           "WinRate": 42.86
@@ -7818,8 +7818,8 @@
         {
           "CivName": "Koreans",
           "GamesPlayed": 24,
-          "MirrorMatches": 2,
-          "MirrorRate": 8.33,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.17,
           "Wins": 18,
           "Losses": 4,
           "WinRate": 81.82
@@ -7827,8 +7827,8 @@
         {
           "CivName": "Magyars",
           "GamesPlayed": 24,
-          "MirrorMatches": 2,
-          "MirrorRate": 8.33,
+          "MirrorMatches": 1,
+          "MirrorRate": 4.17,
           "Wins": 13,
           "Losses": 9,
           "WinRate": 59.09
@@ -7836,8 +7836,8 @@
         {
           "CivName": "Ethiopians",
           "GamesPlayed": 20,
-          "MirrorMatches": 2,
-          "MirrorRate": 10,
+          "MirrorMatches": 1,
+          "MirrorRate": 5,
           "Wins": 11,
           "Losses": 7,
           "WinRate": 61.11
@@ -7845,8 +7845,8 @@
         {
           "CivName": "Armenians",
           "GamesPlayed": 19,
-          "MirrorMatches": 4,
-          "MirrorRate": 21.05,
+          "MirrorMatches": 2,
+          "MirrorRate": 10.53,
           "Wins": 8,
           "Losses": 7,
           "WinRate": 53.33
@@ -7854,8 +7854,8 @@
         {
           "CivName": "Aztecs",
           "GamesPlayed": 18,
-          "MirrorMatches": 2,
-          "MirrorRate": 11.11,
+          "MirrorMatches": 1,
+          "MirrorRate": 5.56,
           "Wins": 9,
           "Losses": 7,
           "WinRate": 56.25
@@ -7872,8 +7872,8 @@
         {
           "CivName": "Celts",
           "GamesPlayed": 16,
-          "MirrorMatches": 2,
-          "MirrorRate": 12.5,
+          "MirrorMatches": 1,
+          "MirrorRate": 6.25,
           "Wins": 6,
           "Losses": 8,
           "WinRate": 42.86
@@ -7881,8 +7881,8 @@
         {
           "CivName": "Georgians",
           "GamesPlayed": 16,
-          "MirrorMatches": 2,
-          "MirrorRate": 12.5,
+          "MirrorMatches": 1,
+          "MirrorRate": 6.25,
           "Wins": 9,
           "Losses": 5,
           "WinRate": 64.29
@@ -7917,8 +7917,8 @@
         {
           "CivName": "Cumans",
           "GamesPlayed": 14,
-          "MirrorMatches": 2,
-          "MirrorRate": 14.29,
+          "MirrorMatches": 1,
+          "MirrorRate": 7.14,
           "Wins": 6,
           "Losses": 6,
           "WinRate": 50
@@ -7980,8 +7980,8 @@
         {
           "CivName": "Dravidians",
           "GamesPlayed": 12,
-          "MirrorMatches": 2,
-          "MirrorRate": 16.67,
+          "MirrorMatches": 1,
+          "MirrorRate": 8.33,
           "Wins": 4,
           "Losses": 6,
           "WinRate": 40
@@ -7989,8 +7989,8 @@
         {
           "CivName": "Gurjaras",
           "GamesPlayed": 12,
-          "MirrorMatches": 2,
-          "MirrorRate": 16.67,
+          "MirrorMatches": 1,
+          "MirrorRate": 8.33,
           "Wins": 6,
           "Losses": 4,
           "WinRate": 60
@@ -8025,8 +8025,8 @@
         {
           "CivName": "Bulgarians",
           "GamesPlayed": 11,
-          "MirrorMatches": 2,
-          "MirrorRate": 18.18,
+          "MirrorMatches": 1,
+          "MirrorRate": 9.09,
           "Wins": 7,
           "Losses": 2,
           "WinRate": 77.78
@@ -8106,8 +8106,8 @@
         {
           "CivName": "Malay",
           "GamesPlayed": 9,
-          "MirrorMatches": 2,
-          "MirrorRate": 22.22,
+          "MirrorMatches": 1,
+          "MirrorRate": 11.11,
           "Wins": 3,
           "Losses": 4,
           "WinRate": 42.86
@@ -8115,8 +8115,8 @@
         {
           "CivName": "Teutons",
           "GamesPlayed": 9,
-          "MirrorMatches": 2,
-          "MirrorRate": 22.22,
+          "MirrorMatches": 1,
+          "MirrorRate": 11.11,
           "Wins": 4,
           "Losses": 3,
           "WinRate": 57.14
