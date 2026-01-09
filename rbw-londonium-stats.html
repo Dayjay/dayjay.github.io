@@ -382,17 +382,24 @@
     let modalSortColumn = 1; // Default sort by games played
     let modalSortDirection = 'desc';
 
-    // Load data
-    fetch('aoe2-tournament-data.json')
-        .then(response => response.json())
+    // Load data - CHANGE THIS if you renamed the JSON file
+    fetch('rbw-londonium-stats-data.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
+            console.log('Data loaded successfully:', data);
             tournamentData = data;
             displayStats();
             displayMaps();
         })
         .catch(error => {
             console.error('Error loading data:', error);
-            document.getElementById('mapContent').innerHTML = '<div class="loading">Error loading data</div>';
+            const errorMsg = `Error loading data: ${error.message}. Make sure the JSON file exists in the same directory.`;
+            document.getElementById('mapContent').innerHTML = `<div class="loading" style="color: red;">${errorMsg}</div>`;
         });
 
     function displayStats() {
