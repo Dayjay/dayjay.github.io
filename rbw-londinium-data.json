@@ -1,5 +1,5 @@
 {
-  "GeneratedAt": "2026-01-09T13:38:42.9484312Z",
+  "GeneratedAt": "2026-01-09T15:04:49.2751196Z",
   "TotalMatches": 36258,
   "TotalPlayers": 6816,
   "MapStats": [
@@ -9,115 +9,143 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 742,
+          "GamesPlayed": 940,
           "Wins": 450,
           "Losses": 292,
           "WinRate": 60.65
         },
         {
           "CivName": "Khitans",
-          "GamesPlayed": 451,
+          "GamesPlayed": 549,
           "Wins": 258,
           "Losses": 193,
           "WinRate": 57.21
         },
         {
           "CivName": "Saracens",
-          "GamesPlayed": 377,
+          "GamesPlayed": 439,
           "Wins": 214,
           "Losses": 163,
           "WinRate": 56.76
         },
         {
           "CivName": "Franks",
-          "GamesPlayed": 362,
+          "GamesPlayed": 392,
           "Wins": 166,
           "Losses": 196,
           "WinRate": 45.86
         },
         {
           "CivName": "Burgundians",
-          "GamesPlayed": 334,
+          "GamesPlayed": 362,
           "Wins": 186,
           "Losses": 148,
           "WinRate": 55.69
         },
         {
           "CivName": "Mongols",
-          "GamesPlayed": 327,
+          "GamesPlayed": 353,
           "Wins": 165,
           "Losses": 162,
           "WinRate": 50.46
         },
         {
           "CivName": "Vietnamese",
-          "GamesPlayed": 305,
+          "GamesPlayed": 331,
           "Wins": 152,
           "Losses": 153,
           "WinRate": 49.84
         },
         {
           "CivName": "Huns",
-          "GamesPlayed": 298,
+          "GamesPlayed": 324,
           "Wins": 159,
           "Losses": 139,
           "WinRate": 53.36
         },
         {
-          "CivName": "Persians",
-          "GamesPlayed": 295,
-          "Wins": 154,
-          "Losses": 141,
-          "WinRate": 52.2
-        },
-        {
           "CivName": "Byzantines",
-          "GamesPlayed": 275,
+          "GamesPlayed": 305,
           "Wins": 137,
           "Losses": 138,
           "WinRate": 49.82
         },
         {
+          "CivName": "Persians",
+          "GamesPlayed": 301,
+          "Wins": 154,
+          "Losses": 141,
+          "WinRate": 52.2
+        },
+        {
           "CivName": "Ethiopians",
-          "GamesPlayed": 262,
+          "GamesPlayed": 282,
           "Wins": 144,
           "Losses": 118,
           "WinRate": 54.96
         },
         {
           "CivName": "Cumans",
-          "GamesPlayed": 244,
+          "GamesPlayed": 268,
           "Wins": 108,
           "Losses": 136,
           "WinRate": 44.26
         },
         {
-          "CivName": "Teutons",
-          "GamesPlayed": 240,
-          "Wins": 107,
-          "Losses": 133,
-          "WinRate": 44.58
-        },
-        {
           "CivName": "Tatars",
-          "GamesPlayed": 237,
+          "GamesPlayed": 255,
           "Wins": 120,
           "Losses": 117,
           "WinRate": 50.63
         },
         {
+          "CivName": "Teutons",
+          "GamesPlayed": 254,
+          "Wins": 107,
+          "Losses": 133,
+          "WinRate": 44.58
+        },
+        {
           "CivName": "Khmer",
-          "GamesPlayed": 233,
+          "GamesPlayed": 247,
           "Wins": 107,
           "Losses": 126,
           "WinRate": 45.92
         },
         {
           "CivName": "Jurchens",
-          "GamesPlayed": 232,
+          "GamesPlayed": 246,
           "Wins": 108,
           "Losses": 124,
           "WinRate": 46.55
+        },
+        {
+          "CivName": "Incas",
+          "GamesPlayed": 236,
+          "Wins": 108,
+          "Losses": 112,
+          "WinRate": 49.09
+        },
+        {
+          "CivName": "Spanish",
+          "GamesPlayed": 234,
+          "Wins": 95,
+          "Losses": 119,
+          "WinRate": 44.39
+        },
+        {
+          "CivName": "Bulgarians",
+          "GamesPlayed": 232,
+          "Wins": 94,
+          "Losses": 124,
+          "WinRate": 43.12
+        },
+        {
+          "CivName": "Armenians",
+          "GamesPlayed": 225,
+          "Wins": 110,
+          "Losses": 89,
+          "WinRate": 55.28
         },
         {
           "CivName": "Sicilians",
@@ -127,172 +155,151 @@
           "WinRate": 44.39
         },
         {
-          "CivName": "Incas",
-          "GamesPlayed": 220,
-          "Wins": 108,
-          "Losses": 112,
-          "WinRate": 49.09
-        },
-        {
-          "CivName": "Bulgarians",
-          "GamesPlayed": 218,
-          "Wins": 94,
-          "Losses": 124,
-          "WinRate": 43.12
-        },
-        {
           "CivName": "Britons",
-          "GamesPlayed": 215,
+          "GamesPlayed": 221,
           "Wins": 91,
           "Losses": 124,
           "WinRate": 42.33
         },
         {
-          "CivName": "Spanish",
-          "GamesPlayed": 214,
-          "Wins": 95,
-          "Losses": 119,
-          "WinRate": 44.39
-        },
-        {
           "CivName": "Wei",
-          "GamesPlayed": 201,
+          "GamesPlayed": 219,
           "Wins": 107,
           "Losses": 94,
           "WinRate": 53.23
         },
         {
           "CivName": "Portuguese",
-          "GamesPlayed": 200,
+          "GamesPlayed": 218,
           "Wins": 102,
           "Losses": 98,
           "WinRate": 51
         },
         {
-          "CivName": "Armenians",
-          "GamesPlayed": 199,
-          "Wins": 110,
-          "Losses": 89,
-          "WinRate": 55.28
+          "CivName": "Koreans",
+          "GamesPlayed": 217,
+          "Wins": 101,
+          "Losses": 88,
+          "WinRate": 53.44
         },
         {
           "CivName": "Romans",
-          "GamesPlayed": 197,
+          "GamesPlayed": 217,
           "Wins": 94,
           "Losses": 103,
           "WinRate": 47.72
         },
         {
           "CivName": "Aztecs",
-          "GamesPlayed": 193,
+          "GamesPlayed": 207,
           "Wins": 100,
           "Losses": 93,
           "WinRate": 51.81
         },
         {
-          "CivName": "Hindustanis",
-          "GamesPlayed": 189,
-          "Wins": 91,
-          "Losses": 98,
-          "WinRate": 48.15
-        },
-        {
-          "CivName": "Koreans",
-          "GamesPlayed": 189,
-          "Wins": 101,
-          "Losses": 88,
-          "WinRate": 53.44
-        },
-        {
-          "CivName": "Turks",
-          "GamesPlayed": 185,
-          "Wins": 94,
-          "Losses": 91,
-          "WinRate": 50.81
-        },
-        {
           "CivName": "Vikings",
-          "GamesPlayed": 183,
+          "GamesPlayed": 199,
           "Wins": 95,
           "Losses": 88,
           "WinRate": 51.91
         },
         {
+          "CivName": "Turks",
+          "GamesPlayed": 195,
+          "Wins": 94,
+          "Losses": 91,
+          "WinRate": 50.81
+        },
+        {
           "CivName": "Mayans",
-          "GamesPlayed": 182,
+          "GamesPlayed": 192,
           "Wins": 97,
           "Losses": 85,
           "WinRate": 53.3
         },
         {
+          "CivName": "Hindustanis",
+          "GamesPlayed": 191,
+          "Wins": 91,
+          "Losses": 98,
+          "WinRate": 48.15
+        },
+        {
           "CivName": "Georgians",
-          "GamesPlayed": 174,
+          "GamesPlayed": 186,
           "Wins": 93,
           "Losses": 81,
           "WinRate": 53.45
         },
         {
-          "CivName": "Berbers",
-          "GamesPlayed": 170,
-          "Wins": 87,
-          "Losses": 83,
-          "WinRate": 51.18
-        },
-        {
           "CivName": "Japanese",
-          "GamesPlayed": 169,
+          "GamesPlayed": 177,
           "Wins": 66,
           "Losses": 103,
           "WinRate": 39.05
         },
         {
+          "CivName": "Berbers",
+          "GamesPlayed": 176,
+          "Wins": 87,
+          "Losses": 83,
+          "WinRate": 51.18
+        },
+        {
           "CivName": "Goths",
-          "GamesPlayed": 168,
+          "GamesPlayed": 176,
           "Wins": 64,
           "Losses": 104,
           "WinRate": 38.1
         },
         {
-          "CivName": "Malians",
-          "GamesPlayed": 164,
-          "Wins": 79,
-          "Losses": 85,
-          "WinRate": 48.17
-        },
-        {
-          "CivName": "Poles",
-          "GamesPlayed": 163,
-          "Wins": 83,
-          "Losses": 80,
-          "WinRate": 50.92
-        },
-        {
-          "CivName": "Bohemians",
-          "GamesPlayed": 161,
-          "Wins": 75,
-          "Losses": 86,
-          "WinRate": 46.58
-        },
-        {
           "CivName": "Celts",
-          "GamesPlayed": 160,
+          "GamesPlayed": 172,
           "Wins": 69,
           "Losses": 91,
           "WinRate": 43.12
         },
         {
           "CivName": "Italians",
-          "GamesPlayed": 159,
+          "GamesPlayed": 167,
           "Wins": 80,
           "Losses": 79,
           "WinRate": 50.31
         },
         {
           "CivName": "Lithuanians",
-          "GamesPlayed": 157,
+          "GamesPlayed": 167,
           "Wins": 92,
           "Losses": 65,
           "WinRate": 58.6
+        },
+        {
+          "CivName": "Malians",
+          "GamesPlayed": 166,
+          "Wins": 79,
+          "Losses": 85,
+          "WinRate": 48.17
+        },
+        {
+          "CivName": "Bohemians",
+          "GamesPlayed": 165,
+          "Wins": 75,
+          "Losses": 86,
+          "WinRate": 46.58
+        },
+        {
+          "CivName": "Poles",
+          "GamesPlayed": 165,
+          "Wins": 83,
+          "Losses": 80,
+          "WinRate": 50.92
+        },
+        {
+          "CivName": "Malay",
+          "GamesPlayed": 159,
+          "Wins": 69,
+          "Losses": 82,
+          "WinRate": 45.7
         },
         {
           "CivName": "Chinese",
@@ -302,18 +309,18 @@
           "WinRate": 38.56
         },
         {
-          "CivName": "Malay",
-          "GamesPlayed": 151,
-          "Wins": 69,
-          "Losses": 82,
-          "WinRate": 45.7
-        },
-        {
           "CivName": "Slavs",
-          "GamesPlayed": 147,
+          "GamesPlayed": 153,
           "Wins": 65,
           "Losses": 82,
           "WinRate": 44.22
+        },
+        {
+          "CivName": "Burmese",
+          "GamesPlayed": 143,
+          "Wins": 55,
+          "Losses": 80,
+          "WinRate": 40.74
         },
         {
           "CivName": "Dravidians",
@@ -323,36 +330,29 @@
           "WinRate": 47.14
         },
         {
-          "CivName": "Burmese",
-          "GamesPlayed": 135,
-          "Wins": 55,
-          "Losses": 80,
-          "WinRate": 40.74
-        },
-        {
           "CivName": "Shu",
-          "GamesPlayed": 124,
+          "GamesPlayed": 136,
           "Wins": 53,
           "Losses": 71,
           "WinRate": 42.74
         },
         {
           "CivName": "Bengalis",
-          "GamesPlayed": 122,
+          "GamesPlayed": 132,
           "Wins": 51,
           "Losses": 71,
           "WinRate": 41.8
         },
         {
           "CivName": "Gurjaras",
-          "GamesPlayed": 113,
+          "GamesPlayed": 123,
           "Wins": 52,
           "Losses": 61,
           "WinRate": 46.02
         },
         {
           "CivName": "Wu",
-          "GamesPlayed": 112,
+          "GamesPlayed": 122,
           "Wins": 61,
           "Losses": 51,
           "WinRate": 54.46
@@ -365,38 +365,52 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 204,
+          "GamesPlayed": 224,
           "Wins": 111,
           "Losses": 93,
           "WinRate": 54.41
         },
         {
           "CivName": "Franks",
-          "GamesPlayed": 172,
+          "GamesPlayed": 180,
           "Wins": 78,
           "Losses": 94,
           "WinRate": 45.35
         },
         {
           "CivName": "Mongols",
-          "GamesPlayed": 152,
+          "GamesPlayed": 160,
           "Wins": 78,
           "Losses": 74,
           "WinRate": 51.32
         },
         {
+          "CivName": "Khitans",
+          "GamesPlayed": 135,
+          "Wins": 85,
+          "Losses": 38,
+          "WinRate": 69.11
+        },
+        {
           "CivName": "Persians",
-          "GamesPlayed": 127,
+          "GamesPlayed": 135,
           "Wins": 66,
           "Losses": 61,
           "WinRate": 51.97
         },
         {
-          "CivName": "Khitans",
-          "GamesPlayed": 123,
-          "Wins": 85,
-          "Losses": 38,
-          "WinRate": 69.11
+          "CivName": "Cumans",
+          "GamesPlayed": 125,
+          "Wins": 62,
+          "Losses": 51,
+          "WinRate": 54.87
+        },
+        {
+          "CivName": "Burgundians",
+          "GamesPlayed": 124,
+          "Wins": 62,
+          "Losses": 52,
+          "WinRate": 54.39
         },
         {
           "CivName": "Byzantines",
@@ -406,67 +420,74 @@
           "WinRate": 45.08
         },
         {
-          "CivName": "Saracens",
-          "GamesPlayed": 115,
-          "Wins": 64,
-          "Losses": 51,
-          "WinRate": 55.65
-        },
-        {
           "CivName": "Spanish",
-          "GamesPlayed": 115,
+          "GamesPlayed": 121,
           "Wins": 44,
           "Losses": 71,
           "WinRate": 38.26
         },
         {
-          "CivName": "Burgundians",
-          "GamesPlayed": 114,
-          "Wins": 62,
-          "Losses": 52,
-          "WinRate": 54.39
-        },
-        {
-          "CivName": "Cumans",
-          "GamesPlayed": 113,
-          "Wins": 62,
+          "CivName": "Saracens",
+          "GamesPlayed": 119,
+          "Wins": 64,
           "Losses": 51,
-          "WinRate": 54.87
-        },
-        {
-          "CivName": "Huns",
-          "GamesPlayed": 109,
-          "Wins": 56,
-          "Losses": 53,
-          "WinRate": 51.38
+          "WinRate": 55.65
         },
         {
           "CivName": "Japanese",
-          "GamesPlayed": 108,
+          "GamesPlayed": 116,
           "Wins": 57,
           "Losses": 51,
           "WinRate": 52.78
         },
         {
+          "CivName": "Huns",
+          "GamesPlayed": 113,
+          "Wins": 56,
+          "Losses": 53,
+          "WinRate": 51.38
+        },
+        {
+          "CivName": "Khmer",
+          "GamesPlayed": 112,
+          "Wins": 40,
+          "Losses": 56,
+          "WinRate": 41.67
+        },
+        {
+          "CivName": "Tatars",
+          "GamesPlayed": 110,
+          "Wins": 63,
+          "Losses": 37,
+          "WinRate": 63
+        },
+        {
           "CivName": "Ethiopians",
-          "GamesPlayed": 104,
+          "GamesPlayed": 108,
           "Wins": 52,
           "Losses": 52,
           "WinRate": 50
         },
         {
+          "CivName": "Britons",
+          "GamesPlayed": 106,
+          "Wins": 45,
+          "Losses": 51,
+          "WinRate": 46.88
+        },
+        {
           "CivName": "Aztecs",
-          "GamesPlayed": 100,
+          "GamesPlayed": 102,
           "Wins": 47,
           "Losses": 53,
           "WinRate": 47
         },
         {
-          "CivName": "Tatars",
+          "CivName": "Armenians",
           "GamesPlayed": 100,
-          "Wins": 63,
-          "Losses": 37,
-          "WinRate": 63
+          "Wins": 47,
+          "Losses": 43,
+          "WinRate": 52.22
         },
         {
           "CivName": "Teutons",
@@ -476,60 +497,67 @@
           "WinRate": 40
         },
         {
-          "CivName": "Turks",
-          "GamesPlayed": 97,
-          "Wins": 48,
-          "Losses": 49,
-          "WinRate": 49.48
-        },
-        {
-          "CivName": "Britons",
-          "GamesPlayed": 96,
-          "Wins": 45,
-          "Losses": 51,
-          "WinRate": 46.88
-        },
-        {
-          "CivName": "Khmer",
-          "GamesPlayed": 96,
-          "Wins": 40,
-          "Losses": 56,
-          "WinRate": 41.67
-        },
-        {
           "CivName": "Vietnamese",
-          "GamesPlayed": 96,
+          "GamesPlayed": 100,
           "Wins": 50,
           "Losses": 46,
           "WinRate": 52.08
         },
         {
+          "CivName": "Turks",
+          "GamesPlayed": 99,
+          "Wins": 48,
+          "Losses": 49,
+          "WinRate": 49.48
+        },
+        {
+          "CivName": "Portuguese",
+          "GamesPlayed": 97,
+          "Wins": 41,
+          "Losses": 50,
+          "WinRate": 45.05
+        },
+        {
           "CivName": "Incas",
-          "GamesPlayed": 94,
+          "GamesPlayed": 96,
           "Wins": 59,
           "Losses": 35,
           "WinRate": 62.77
         },
         {
           "CivName": "Sicilians",
-          "GamesPlayed": 94,
+          "GamesPlayed": 96,
           "Wins": 48,
           "Losses": 46,
           "WinRate": 51.06
         },
         {
-          "CivName": "Portuguese",
-          "GamesPlayed": 91,
-          "Wins": 41,
-          "Losses": 50,
-          "WinRate": 45.05
+          "CivName": "Koreans",
+          "GamesPlayed": 93,
+          "Wins": 47,
+          "Losses": 38,
+          "WinRate": 55.29
         },
         {
-          "CivName": "Armenians",
+          "CivName": "Malay",
+          "GamesPlayed": 92,
+          "Wins": 38,
+          "Losses": 48,
+          "WinRate": 44.19
+        },
+        {
+          "CivName": "Dravidians",
           "GamesPlayed": 90,
-          "Wins": 47,
-          "Losses": 43,
-          "WinRate": 52.22
+          "Wins": 45,
+          "Losses": 37,
+          "WinRate": 54.88
+        },
+        {
+          "CivName": "Romans",
+          "GamesPlayed": 90,
+          "Wins": 41,
+          "Losses": 45,
+          "WinRate": 47.67
         },
         {
           "CivName": "Bulgarians",
@@ -539,43 +567,15 @@
           "WinRate": 48.84
         },
         {
-          "CivName": "Malay",
-          "GamesPlayed": 86,
-          "Wins": 38,
-          "Losses": 48,
-          "WinRate": 44.19
-        },
-        {
-          "CivName": "Romans",
-          "GamesPlayed": 86,
-          "Wins": 41,
-          "Losses": 45,
-          "WinRate": 47.67
-        },
-        {
-          "CivName": "Koreans",
-          "GamesPlayed": 85,
-          "Wins": 47,
-          "Losses": 38,
-          "WinRate": 55.29
-        },
-        {
-          "CivName": "Dravidians",
-          "GamesPlayed": 82,
-          "Wins": 45,
-          "Losses": 37,
-          "WinRate": 54.88
-        },
-        {
           "CivName": "Italians",
-          "GamesPlayed": 80,
+          "GamesPlayed": 86,
           "Wins": 37,
           "Losses": 43,
           "WinRate": 46.25
         },
         {
           "CivName": "Goths",
-          "GamesPlayed": 79,
+          "GamesPlayed": 81,
           "Wins": 33,
           "Losses": 46,
           "WinRate": 41.77
@@ -589,17 +589,31 @@
         },
         {
           "CivName": "Berbers",
-          "GamesPlayed": 75,
+          "GamesPlayed": 77,
           "Wins": 39,
           "Losses": 36,
           "WinRate": 52
         },
         {
+          "CivName": "Gurjaras",
+          "GamesPlayed": 75,
+          "Wins": 37,
+          "Losses": 32,
+          "WinRate": 53.62
+        },
+        {
           "CivName": "Wu",
-          "GamesPlayed": 70,
+          "GamesPlayed": 72,
           "Wins": 37,
           "Losses": 33,
           "WinRate": 52.86
+        },
+        {
+          "CivName": "Chinese",
+          "GamesPlayed": 71,
+          "Wins": 26,
+          "Losses": 41,
+          "WinRate": 38.81
         },
         {
           "CivName": "Georgians",
@@ -609,57 +623,43 @@
           "WinRate": 46.38
         },
         {
-          "CivName": "Gurjaras",
-          "GamesPlayed": 69,
-          "Wins": 37,
-          "Losses": 32,
-          "WinRate": 53.62
-        },
-        {
-          "CivName": "Chinese",
-          "GamesPlayed": 67,
-          "Wins": 26,
-          "Losses": 41,
-          "WinRate": 38.81
-        },
-        {
           "CivName": "Celts",
-          "GamesPlayed": 65,
+          "GamesPlayed": 67,
           "Wins": 22,
           "Losses": 43,
           "WinRate": 33.85
         },
         {
           "CivName": "Mayans",
-          "GamesPlayed": 62,
+          "GamesPlayed": 66,
           "Wins": 37,
           "Losses": 25,
           "WinRate": 59.68
         },
         {
+          "CivName": "Hindustanis",
+          "GamesPlayed": 63,
+          "Wins": 25,
+          "Losses": 32,
+          "WinRate": 43.86
+        },
+        {
           "CivName": "Lithuanians",
-          "GamesPlayed": 61,
+          "GamesPlayed": 63,
           "Wins": 26,
           "Losses": 35,
           "WinRate": 42.62
         },
         {
           "CivName": "Poles",
-          "GamesPlayed": 59,
+          "GamesPlayed": 61,
           "Wins": 23,
           "Losses": 36,
           "WinRate": 38.98
         },
         {
-          "CivName": "Hindustanis",
-          "GamesPlayed": 57,
-          "Wins": 25,
-          "Losses": 32,
-          "WinRate": 43.86
-        },
-        {
           "CivName": "Malians",
-          "GamesPlayed": 54,
+          "GamesPlayed": 56,
           "Wins": 32,
           "Losses": 22,
           "WinRate": 59.26
@@ -672,6 +672,13 @@
           "WinRate": 55.56
         },
         {
+          "CivName": "Wei",
+          "GamesPlayed": 54,
+          "Wins": 21,
+          "Losses": 31,
+          "WinRate": 40.38
+        },
+        {
           "CivName": "Burmese",
           "GamesPlayed": 53,
           "Wins": 22,
@@ -679,36 +686,29 @@
           "WinRate": 41.51
         },
         {
-          "CivName": "Wei",
-          "GamesPlayed": 52,
-          "Wins": 21,
-          "Losses": 31,
-          "WinRate": 40.38
-        },
-        {
           "CivName": "Bohemians",
-          "GamesPlayed": 50,
+          "GamesPlayed": 52,
           "Wins": 20,
           "Losses": 30,
           "WinRate": 40
         },
         {
           "CivName": "Jurchens",
-          "GamesPlayed": 48,
+          "GamesPlayed": 50,
           "Wins": 28,
           "Losses": 20,
           "WinRate": 58.33
         },
         {
           "CivName": "Bengalis",
-          "GamesPlayed": 45,
+          "GamesPlayed": 49,
           "Wins": 23,
           "Losses": 22,
           "WinRate": 51.11
         },
         {
           "CivName": "Shu",
-          "GamesPlayed": 38,
+          "GamesPlayed": 40,
           "Wins": 18,
           "Losses": 20,
           "WinRate": 47.37
@@ -721,129 +721,157 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 352,
+          "GamesPlayed": 384,
           "Wins": 191,
           "Losses": 161,
           "WinRate": 54.26
         },
         {
           "CivName": "Burgundians",
-          "GamesPlayed": 278,
+          "GamesPlayed": 316,
           "Wins": 159,
           "Losses": 119,
           "WinRate": 57.19
         },
         {
           "CivName": "Mongols",
-          "GamesPlayed": 239,
+          "GamesPlayed": 257,
           "Wins": 109,
           "Losses": 130,
           "WinRate": 45.61
         },
         {
           "CivName": "Saracens",
-          "GamesPlayed": 239,
+          "GamesPlayed": 249,
           "Wins": 135,
           "Losses": 104,
           "WinRate": 56.49
         },
         {
           "CivName": "Italians",
-          "GamesPlayed": 227,
+          "GamesPlayed": 241,
           "Wins": 112,
           "Losses": 115,
           "WinRate": 49.34
         },
         {
+          "CivName": "Romans",
+          "GamesPlayed": 237,
+          "Wins": 103,
+          "Losses": 88,
+          "WinRate": 53.93
+        },
+        {
           "CivName": "Byzantines",
-          "GamesPlayed": 217,
+          "GamesPlayed": 229,
           "Wins": 127,
           "Losses": 90,
           "WinRate": 58.53
         },
         {
           "CivName": "Huns",
-          "GamesPlayed": 215,
+          "GamesPlayed": 227,
           "Wins": 108,
           "Losses": 107,
           "WinRate": 50.23
         },
         {
-          "CivName": "Franks",
-          "GamesPlayed": 209,
-          "Wins": 104,
-          "Losses": 105,
-          "WinRate": 49.76
-        },
-        {
-          "CivName": "Teutons",
-          "GamesPlayed": 206,
-          "Wins": 98,
-          "Losses": 108,
-          "WinRate": 47.57
-        },
-        {
-          "CivName": "Khmer",
-          "GamesPlayed": 205,
-          "Wins": 91,
-          "Losses": 114,
-          "WinRate": 44.39
-        },
-        {
           "CivName": "Turks",
-          "GamesPlayed": 198,
+          "GamesPlayed": 222,
           "Wins": 108,
           "Losses": 90,
           "WinRate": 54.55
         },
         {
+          "CivName": "Franks",
+          "GamesPlayed": 221,
+          "Wins": 104,
+          "Losses": 105,
+          "WinRate": 49.76
+        },
+        {
+          "CivName": "Khmer",
+          "GamesPlayed": 221,
+          "Wins": 91,
+          "Losses": 114,
+          "WinRate": 44.39
+        },
+        {
+          "CivName": "Teutons",
+          "GamesPlayed": 218,
+          "Wins": 98,
+          "Losses": 108,
+          "WinRate": 47.57
+        },
+        {
           "CivName": "Britons",
-          "GamesPlayed": 192,
+          "GamesPlayed": 214,
           "Wins": 86,
           "Losses": 106,
           "WinRate": 44.79
         },
         {
-          "CivName": "Romans",
-          "GamesPlayed": 191,
-          "Wins": 103,
-          "Losses": 88,
-          "WinRate": 53.93
+          "CivName": "Koreans",
+          "GamesPlayed": 208,
+          "Wins": 111,
+          "Losses": 69,
+          "WinRate": 61.67
         },
         {
           "CivName": "Khitans",
-          "GamesPlayed": 186,
+          "GamesPlayed": 202,
           "Wins": 104,
           "Losses": 82,
           "WinRate": 55.91
         },
         {
           "CivName": "Persians",
-          "GamesPlayed": 186,
+          "GamesPlayed": 192,
           "Wins": 76,
           "Losses": 110,
           "WinRate": 40.86
         },
         {
-          "CivName": "Koreans",
-          "GamesPlayed": 180,
-          "Wins": 111,
-          "Losses": 69,
-          "WinRate": 61.67
+          "CivName": "Wei",
+          "GamesPlayed": 189,
+          "Wins": 88,
+          "Losses": 79,
+          "WinRate": 52.69
         },
         {
           "CivName": "Cumans",
-          "GamesPlayed": 174,
+          "GamesPlayed": 186,
           "Wins": 77,
           "Losses": 97,
           "WinRate": 44.25
         },
         {
           "CivName": "Spanish",
-          "GamesPlayed": 169,
+          "GamesPlayed": 177,
           "Wins": 74,
           "Losses": 95,
           "WinRate": 43.79
+        },
+        {
+          "CivName": "Bulgarians",
+          "GamesPlayed": 171,
+          "Wins": 77,
+          "Losses": 82,
+          "WinRate": 48.43
+        },
+        {
+          "CivName": "Vietnamese",
+          "GamesPlayed": 171,
+          "Wins": 76,
+          "Losses": 79,
+          "WinRate": 49.03
+        },
+        {
+          "CivName": "Vikings",
+          "GamesPlayed": 170,
+          "Wins": 87,
+          "Losses": 75,
+          "WinRate": 53.7
         },
         {
           "CivName": "Sicilians",
@@ -853,102 +881,88 @@
           "WinRate": 49.4
         },
         {
-          "CivName": "Wei",
-          "GamesPlayed": 167,
-          "Wins": 88,
-          "Losses": 79,
-          "WinRate": 52.69
-        },
-        {
-          "CivName": "Vikings",
-          "GamesPlayed": 162,
-          "Wins": 87,
-          "Losses": 75,
-          "WinRate": 53.7
-        },
-        {
-          "CivName": "Bulgarians",
-          "GamesPlayed": 159,
-          "Wins": 77,
-          "Losses": 82,
-          "WinRate": 48.43
-        },
-        {
           "CivName": "Japanese",
-          "GamesPlayed": 158,
+          "GamesPlayed": 164,
           "Wins": 70,
           "Losses": 88,
           "WinRate": 44.3
         },
         {
-          "CivName": "Vietnamese",
-          "GamesPlayed": 155,
-          "Wins": 76,
-          "Losses": 79,
-          "WinRate": 49.03
+          "CivName": "Dravidians",
+          "GamesPlayed": 163,
+          "Wins": 89,
+          "Losses": 54,
+          "WinRate": 62.24
         },
         {
           "CivName": "Bohemians",
-          "GamesPlayed": 154,
+          "GamesPlayed": 160,
           "Wins": 85,
           "Losses": 69,
           "WinRate": 55.19
         },
         {
           "CivName": "Ethiopians",
-          "GamesPlayed": 152,
+          "GamesPlayed": 156,
           "Wins": 77,
           "Losses": 75,
           "WinRate": 50.66
         },
         {
           "CivName": "Portuguese",
-          "GamesPlayed": 147,
+          "GamesPlayed": 151,
           "Wins": 62,
           "Losses": 85,
           "WinRate": 42.18
         },
         {
-          "CivName": "Dravidians",
-          "GamesPlayed": 143,
-          "Wins": 89,
-          "Losses": 54,
-          "WinRate": 62.24
-        },
-        {
           "CivName": "Malay",
-          "GamesPlayed": 142,
+          "GamesPlayed": 146,
           "Wins": 65,
           "Losses": 77,
           "WinRate": 45.77
         },
         {
           "CivName": "Armenians",
-          "GamesPlayed": 132,
+          "GamesPlayed": 142,
           "Wins": 61,
           "Losses": 71,
           "WinRate": 46.21
         },
         {
           "CivName": "Aztecs",
-          "GamesPlayed": 131,
+          "GamesPlayed": 133,
           "Wins": 59,
           "Losses": 72,
           "WinRate": 45.04
         },
         {
           "CivName": "Goths",
-          "GamesPlayed": 124,
+          "GamesPlayed": 130,
           "Wins": 54,
           "Losses": 70,
           "WinRate": 43.55
         },
         {
           "CivName": "Incas",
-          "GamesPlayed": 119,
+          "GamesPlayed": 125,
           "Wins": 69,
           "Losses": 50,
           "WinRate": 57.98
+        },
+        {
+          "CivName": "Wu",
+          "GamesPlayed": 120,
+          "Wins": 68,
+          "Losses": 40,
+          "WinRate": 62.96
+        },
+        {
+          "CivName": "Lithuanians",
+          "GamesPlayed": 118,
+          "Wins": 50,
+          "Losses": 62,
+          "WinRate": 44.64
         },
         {
           "CivName": "Poles",
@@ -958,11 +972,11 @@
           "WinRate": 46.09
         },
         {
-          "CivName": "Lithuanians",
+          "CivName": "Malians",
           "GamesPlayed": 112,
-          "Wins": 50,
-          "Losses": 62,
-          "WinRate": 44.64
+          "Wins": 51,
+          "Losses": 55,
+          "WinRate": 48.11
         },
         {
           "CivName": "Mayans",
@@ -973,59 +987,59 @@
         },
         {
           "CivName": "Jurchens",
-          "GamesPlayed": 108,
+          "GamesPlayed": 110,
           "Wins": 54,
           "Losses": 54,
           "WinRate": 50
         },
         {
-          "CivName": "Wu",
-          "GamesPlayed": 108,
-          "Wins": 68,
-          "Losses": 40,
-          "WinRate": 62.96
-        },
-        {
-          "CivName": "Malians",
-          "GamesPlayed": 106,
-          "Wins": 51,
-          "Losses": 55,
-          "WinRate": 48.11
+          "CivName": "Hindustanis",
+          "GamesPlayed": 109,
+          "Wins": 53,
+          "Losses": 48,
+          "WinRate": 52.48
         },
         {
           "CivName": "Berbers",
-          "GamesPlayed": 104,
+          "GamesPlayed": 106,
           "Wins": 51,
           "Losses": 53,
           "WinRate": 49.04
         },
         {
           "CivName": "Chinese",
-          "GamesPlayed": 101,
+          "GamesPlayed": 105,
           "Wins": 42,
           "Losses": 59,
           "WinRate": 41.58
         },
         {
-          "CivName": "Hindustanis",
-          "GamesPlayed": 101,
-          "Wins": 53,
-          "Losses": 48,
-          "WinRate": 52.48
-        },
-        {
           "CivName": "Celts",
-          "GamesPlayed": 93,
+          "GamesPlayed": 97,
           "Wins": 43,
           "Losses": 50,
           "WinRate": 46.24
         },
         {
           "CivName": "Shu",
-          "GamesPlayed": 93,
+          "GamesPlayed": 95,
           "Wins": 54,
           "Losses": 39,
           "WinRate": 58.06
+        },
+        {
+          "CivName": "Tatars",
+          "GamesPlayed": 95,
+          "Wins": 43,
+          "Losses": 46,
+          "WinRate": 48.31
+        },
+        {
+          "CivName": "Georgians",
+          "GamesPlayed": 91,
+          "Wins": 39,
+          "Losses": 46,
+          "WinRate": 45.88
         },
         {
           "CivName": "Slavs",
@@ -1035,25 +1049,18 @@
           "WinRate": 32.97
         },
         {
-          "CivName": "Tatars",
-          "GamesPlayed": 89,
-          "Wins": 43,
-          "Losses": 46,
-          "WinRate": 48.31
-        },
-        {
-          "CivName": "Georgians",
-          "GamesPlayed": 85,
-          "Wins": 39,
-          "Losses": 46,
-          "WinRate": 45.88
-        },
-        {
           "CivName": "Bengalis",
-          "GamesPlayed": 70,
+          "GamesPlayed": 78,
           "Wins": 37,
           "Losses": 33,
           "WinRate": 52.86
+        },
+        {
+          "CivName": "Burmese",
+          "GamesPlayed": 65,
+          "Wins": 26,
+          "Losses": 33,
+          "WinRate": 44.07
         },
         {
           "CivName": "Gurjaras",
@@ -1061,13 +1068,6 @@
           "Wins": 25,
           "Losses": 37,
           "WinRate": 40.32
-        },
-        {
-          "CivName": "Burmese",
-          "GamesPlayed": 59,
-          "Wins": 26,
-          "Losses": 33,
-          "WinRate": 44.07
         }
       ]
     },
@@ -1077,206 +1077,213 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 424,
+          "GamesPlayed": 490,
           "Wins": 217,
           "Losses": 207,
           "WinRate": 51.18
         },
         {
           "CivName": "Franks",
-          "GamesPlayed": 401,
+          "GamesPlayed": 445,
           "Wins": 215,
           "Losses": 186,
           "WinRate": 53.62
         },
         {
           "CivName": "Portuguese",
-          "GamesPlayed": 329,
+          "GamesPlayed": 403,
           "Wins": 199,
           "Losses": 130,
           "WinRate": 60.49
         },
         {
+          "CivName": "Saracens",
+          "GamesPlayed": 369,
+          "Wins": 175,
+          "Losses": 136,
+          "WinRate": 56.27
+        },
+        {
           "CivName": "Mongols",
-          "GamesPlayed": 325,
+          "GamesPlayed": 361,
           "Wins": 172,
           "Losses": 153,
           "WinRate": 52.92
         },
         {
           "CivName": "Khitans",
-          "GamesPlayed": 319,
+          "GamesPlayed": 351,
           "Wins": 158,
           "Losses": 161,
           "WinRate": 49.53
         },
         {
-          "CivName": "Saracens",
-          "GamesPlayed": 311,
-          "Wins": 175,
-          "Losses": 136,
-          "WinRate": 56.27
-        },
-        {
           "CivName": "Burgundians",
-          "GamesPlayed": 269,
+          "GamesPlayed": 307,
           "Wins": 132,
           "Losses": 137,
           "WinRate": 49.07
         },
         {
           "CivName": "Huns",
-          "GamesPlayed": 267,
+          "GamesPlayed": 283,
           "Wins": 133,
           "Losses": 134,
           "WinRate": 49.81
         },
         {
           "CivName": "Vietnamese",
-          "GamesPlayed": 232,
+          "GamesPlayed": 252,
           "Wins": 116,
           "Losses": 116,
           "WinRate": 50
         },
         {
           "CivName": "Lithuanians",
-          "GamesPlayed": 224,
+          "GamesPlayed": 238,
           "Wins": 114,
           "Losses": 110,
           "WinRate": 50.89
         },
         {
+          "CivName": "Jurchens",
+          "GamesPlayed": 234,
+          "Wins": 123,
+          "Losses": 87,
+          "WinRate": 58.57
+        },
+        {
           "CivName": "Ethiopians",
-          "GamesPlayed": 215,
+          "GamesPlayed": 225,
           "Wins": 108,
           "Losses": 107,
           "WinRate": 50.23
         },
         {
           "CivName": "Persians",
-          "GamesPlayed": 215,
+          "GamesPlayed": 225,
           "Wins": 105,
           "Losses": 110,
           "WinRate": 48.84
         },
         {
-          "CivName": "Jurchens",
-          "GamesPlayed": 210,
-          "Wins": 123,
-          "Losses": 87,
-          "WinRate": 58.57
-        },
-        {
           "CivName": "Spanish",
-          "GamesPlayed": 210,
+          "GamesPlayed": 218,
           "Wins": 102,
           "Losses": 108,
           "WinRate": 48.57
         },
         {
           "CivName": "Incas",
-          "GamesPlayed": 195,
+          "GamesPlayed": 213,
           "Wins": 110,
           "Losses": 85,
           "WinRate": 56.41
         },
         {
-          "CivName": "Cumans",
-          "GamesPlayed": 190,
-          "Wins": 82,
-          "Losses": 108,
-          "WinRate": 43.16
-        },
-        {
-          "CivName": "Teutons",
-          "GamesPlayed": 187,
-          "Wins": 69,
-          "Losses": 118,
-          "WinRate": 36.9
-        },
-        {
-          "CivName": "Byzantines",
-          "GamesPlayed": 186,
-          "Wins": 89,
-          "Losses": 97,
-          "WinRate": 47.85
-        },
-        {
-          "CivName": "Armenians",
-          "GamesPlayed": 180,
-          "Wins": 97,
-          "Losses": 83,
-          "WinRate": 53.89
-        },
-        {
           "CivName": "Koreans",
-          "GamesPlayed": 179,
+          "GamesPlayed": 207,
           "Wins": 94,
           "Losses": 85,
           "WinRate": 52.51
         },
         {
+          "CivName": "Cumans",
+          "GamesPlayed": 198,
+          "Wins": 82,
+          "Losses": 108,
+          "WinRate": 43.16
+        },
+        {
+          "CivName": "Byzantines",
+          "GamesPlayed": 196,
+          "Wins": 89,
+          "Losses": 97,
+          "WinRate": 47.85
+        },
+        {
+          "CivName": "Teutons",
+          "GamesPlayed": 193,
+          "Wins": 69,
+          "Losses": 118,
+          "WinRate": 36.9
+        },
+        {
+          "CivName": "Armenians",
+          "GamesPlayed": 186,
+          "Wins": 97,
+          "Losses": 83,
+          "WinRate": 53.89
+        },
+        {
+          "CivName": "Aztecs",
+          "GamesPlayed": 185,
+          "Wins": 85,
+          "Losses": 80,
+          "WinRate": 51.52
+        },
+        {
           "CivName": "Romans",
-          "GamesPlayed": 174,
+          "GamesPlayed": 184,
           "Wins": 90,
           "Losses": 84,
           "WinRate": 51.72
         },
         {
           "CivName": "Bulgarians",
-          "GamesPlayed": 168,
+          "GamesPlayed": 172,
           "Wins": 74,
           "Losses": 94,
           "WinRate": 44.05
         },
         {
-          "CivName": "Aztecs",
-          "GamesPlayed": 165,
-          "Wins": 85,
-          "Losses": 80,
-          "WinRate": 51.52
-        },
-        {
-          "CivName": "Britons",
-          "GamesPlayed": 165,
-          "Wins": 67,
-          "Losses": 98,
-          "WinRate": 40.61
-        },
-        {
           "CivName": "Khmer",
-          "GamesPlayed": 162,
+          "GamesPlayed": 170,
           "Wins": 66,
           "Losses": 96,
           "WinRate": 40.74
         },
         {
+          "CivName": "Britons",
+          "GamesPlayed": 169,
+          "Wins": 67,
+          "Losses": 98,
+          "WinRate": 40.61
+        },
+        {
           "CivName": "Georgians",
-          "GamesPlayed": 156,
+          "GamesPlayed": 164,
           "Wins": 77,
           "Losses": 79,
           "WinRate": 49.36
         },
         {
-          "CivName": "Sicilians",
-          "GamesPlayed": 153,
-          "Wins": 82,
-          "Losses": 71,
-          "WinRate": 53.59
-        },
-        {
           "CivName": "Hindustanis",
-          "GamesPlayed": 145,
+          "GamesPlayed": 159,
           "Wins": 77,
           "Losses": 68,
           "WinRate": 53.1
         },
         {
+          "CivName": "Sicilians",
+          "GamesPlayed": 155,
+          "Wins": 82,
+          "Losses": 71,
+          "WinRate": 53.59
+        },
+        {
           "CivName": "Turks",
-          "GamesPlayed": 144,
+          "GamesPlayed": 150,
           "Wins": 72,
           "Losses": 72,
           "WinRate": 50
+        },
+        {
+          "CivName": "Berbers",
+          "GamesPlayed": 146,
+          "Wins": 73,
+          "Losses": 63,
+          "WinRate": 53.68
         },
         {
           "CivName": "Japanese",
@@ -1286,141 +1293,134 @@
           "WinRate": 42.55
         },
         {
-          "CivName": "Berbers",
-          "GamesPlayed": 136,
-          "Wins": 73,
-          "Losses": 63,
-          "WinRate": 53.68
-        },
-        {
           "CivName": "Malians",
-          "GamesPlayed": 132,
+          "GamesPlayed": 138,
           "Wins": 68,
           "Losses": 64,
           "WinRate": 51.52
         },
         {
           "CivName": "Goths",
-          "GamesPlayed": 130,
+          "GamesPlayed": 136,
           "Wins": 53,
           "Losses": 77,
           "WinRate": 40.77
         },
         {
-          "CivName": "Mayans",
-          "GamesPlayed": 130,
-          "Wins": 70,
-          "Losses": 60,
-          "WinRate": 53.85
-        },
-        {
           "CivName": "Italians",
-          "GamesPlayed": 127,
+          "GamesPlayed": 135,
           "Wins": 52,
           "Losses": 75,
           "WinRate": 40.94
         },
         {
+          "CivName": "Mayans",
+          "GamesPlayed": 132,
+          "Wins": 70,
+          "Losses": 60,
+          "WinRate": 53.85
+        },
+        {
           "CivName": "Wei",
-          "GamesPlayed": 125,
+          "GamesPlayed": 129,
           "Wins": 70,
           "Losses": 55,
           "WinRate": 56
         },
         {
           "CivName": "Vikings",
-          "GamesPlayed": 123,
+          "GamesPlayed": 127,
           "Wins": 61,
           "Losses": 62,
           "WinRate": 49.59
         },
         {
           "CivName": "Tatars",
-          "GamesPlayed": 122,
+          "GamesPlayed": 126,
           "Wins": 63,
           "Losses": 59,
           "WinRate": 51.64
         },
         {
           "CivName": "Celts",
-          "GamesPlayed": 121,
+          "GamesPlayed": 125,
           "Wins": 45,
           "Losses": 76,
           "WinRate": 37.19
         },
         {
           "CivName": "Chinese",
-          "GamesPlayed": 118,
+          "GamesPlayed": 122,
           "Wins": 52,
           "Losses": 66,
           "WinRate": 44.07
         },
         {
-          "CivName": "Bohemians",
-          "GamesPlayed": 115,
-          "Wins": 49,
-          "Losses": 66,
-          "WinRate": 42.61
-        },
-        {
-          "CivName": "Poles",
-          "GamesPlayed": 115,
-          "Wins": 53,
-          "Losses": 62,
-          "WinRate": 46.09
-        },
-        {
           "CivName": "Gurjaras",
-          "GamesPlayed": 111,
+          "GamesPlayed": 121,
           "Wins": 47,
           "Losses": 64,
           "WinRate": 42.34
         },
         {
+          "CivName": "Poles",
+          "GamesPlayed": 119,
+          "Wins": 53,
+          "Losses": 62,
+          "WinRate": 46.09
+        },
+        {
+          "CivName": "Bohemians",
+          "GamesPlayed": 117,
+          "Wins": 49,
+          "Losses": 66,
+          "WinRate": 42.61
+        },
+        {
           "CivName": "Wu",
-          "GamesPlayed": 109,
+          "GamesPlayed": 117,
           "Wins": 62,
           "Losses": 47,
           "WinRate": 56.88
         },
         {
           "CivName": "Slavs",
-          "GamesPlayed": 108,
+          "GamesPlayed": 114,
           "Wins": 59,
           "Losses": 49,
           "WinRate": 54.63
         },
         {
           "CivName": "Malay",
-          "GamesPlayed": 106,
+          "GamesPlayed": 110,
           "Wins": 45,
           "Losses": 61,
           "WinRate": 42.45
         },
         {
           "CivName": "Burmese",
-          "GamesPlayed": 102,
+          "GamesPlayed": 108,
           "Wins": 49,
           "Losses": 53,
           "WinRate": 48.04
         },
         {
           "CivName": "Dravidians",
-          "GamesPlayed": 102,
+          "GamesPlayed": 108,
           "Wins": 58,
           "Losses": 44,
           "WinRate": 56.86
         },
         {
           "CivName": "Bengalis",
-          "GamesPlayed": 99,
+          "GamesPlayed": 103,
           "Wins": 51,
           "Losses": 48,
           "WinRate": 51.52
         },
         {
           "CivName": "Shu",
-          "GamesPlayed": 94,
+          "GamesPlayed": 96,
           "Wins": 43,
           "Losses": 51,
           "WinRate": 45.74
@@ -1433,115 +1433,143 @@
       "CivStats": [
         {
           "CivName": "Italians",
-          "GamesPlayed": 197,
+          "GamesPlayed": 217,
           "Wins": 106,
           "Losses": 91,
           "WinRate": 53.81
         },
         {
-          "CivName": "Magyars",
-          "GamesPlayed": 190,
-          "Wins": 109,
-          "Losses": 81,
-          "WinRate": 57.37
-        },
-        {
-          "CivName": "Saracens",
-          "GamesPlayed": 177,
-          "Wins": 79,
-          "Losses": 98,
-          "WinRate": 44.63
-        },
-        {
-          "CivName": "Byzantines",
-          "GamesPlayed": 175,
-          "Wins": 90,
-          "Losses": 85,
-          "WinRate": 51.43
-        },
-        {
-          "CivName": "Dravidians",
-          "GamesPlayed": 168,
-          "Wins": 100,
-          "Losses": 68,
-          "WinRate": 59.52
-        },
-        {
           "CivName": "Burgundians",
-          "GamesPlayed": 167,
+          "GamesPlayed": 215,
           "Wins": 82,
           "Losses": 85,
           "WinRate": 49.1
         },
         {
+          "CivName": "Magyars",
+          "GamesPlayed": 210,
+          "Wins": 109,
+          "Losses": 81,
+          "WinRate": 57.37
+        },
+        {
+          "CivName": "Byzantines",
+          "GamesPlayed": 197,
+          "Wins": 90,
+          "Losses": 85,
+          "WinRate": 51.43
+        },
+        {
+          "CivName": "Saracens",
+          "GamesPlayed": 195,
+          "Wins": 79,
+          "Losses": 98,
+          "WinRate": 44.63
+        },
+        {
+          "CivName": "Dravidians",
+          "GamesPlayed": 192,
+          "Wins": 100,
+          "Losses": 68,
+          "WinRate": 59.52
+        },
+        {
           "CivName": "Vikings",
-          "GamesPlayed": 162,
+          "GamesPlayed": 172,
           "Wins": 85,
           "Losses": 77,
           "WinRate": 52.47
         },
         {
-          "CivName": "Franks",
-          "GamesPlayed": 158,
-          "Wins": 77,
-          "Losses": 81,
-          "WinRate": 48.73
-        },
-        {
           "CivName": "Spanish",
-          "GamesPlayed": 153,
+          "GamesPlayed": 171,
           "Wins": 61,
           "Losses": 92,
           "WinRate": 39.87
         },
         {
+          "CivName": "Franks",
+          "GamesPlayed": 164,
+          "Wins": 77,
+          "Losses": 81,
+          "WinRate": 48.73
+        },
+        {
           "CivName": "Wu",
-          "GamesPlayed": 140,
+          "GamesPlayed": 156,
           "Wins": 86,
           "Losses": 54,
           "WinRate": 61.43
         },
         {
+          "CivName": "Koreans",
+          "GamesPlayed": 145,
+          "Wins": 59,
+          "Losses": 60,
+          "WinRate": 49.58
+        },
+        {
           "CivName": "Portuguese",
-          "GamesPlayed": 134,
+          "GamesPlayed": 140,
           "Wins": 72,
           "Losses": 62,
           "WinRate": 53.73
         },
         {
           "CivName": "Cumans",
-          "GamesPlayed": 128,
+          "GamesPlayed": 132,
           "Wins": 66,
           "Losses": 62,
           "WinRate": 51.56
         },
         {
-          "CivName": "Khmer",
-          "GamesPlayed": 125,
-          "Wins": 48,
-          "Losses": 77,
-          "WinRate": 38.4
-        },
-        {
           "CivName": "Persians",
-          "GamesPlayed": 124,
+          "GamesPlayed": 132,
           "Wins": 69,
           "Losses": 55,
           "WinRate": 55.65
         },
         {
+          "CivName": "Khmer",
+          "GamesPlayed": 131,
+          "Wins": 48,
+          "Losses": 77,
+          "WinRate": 38.4
+        },
+        {
           "CivName": "Britons",
-          "GamesPlayed": 119,
+          "GamesPlayed": 121,
           "Wins": 47,
           "Losses": 72,
           "WinRate": 39.5
         },
         {
-          "CivName": "Koreans",
-          "GamesPlayed": 119,
-          "Wins": 59,
-          "Losses": 60,
-          "WinRate": 49.58
+          "CivName": "Teutons",
+          "GamesPlayed": 121,
+          "Wins": 50,
+          "Losses": 61,
+          "WinRate": 45.05
+        },
+        {
+          "CivName": "Mongols",
+          "GamesPlayed": 120,
+          "Wins": 51,
+          "Losses": 63,
+          "WinRate": 44.74
+        },
+        {
+          "CivName": "Armenians",
+          "GamesPlayed": 116,
+          "Wins": 58,
+          "Losses": 52,
+          "WinRate": 52.73
+        },
+        {
+          "CivName": "Incas",
+          "GamesPlayed": 116,
+          "Wins": 56,
+          "Losses": 54,
+          "WinRate": 50.91
         },
         {
           "CivName": "Sicilians",
@@ -1551,102 +1579,81 @@
           "WinRate": 48.28
         },
         {
-          "CivName": "Mongols",
-          "GamesPlayed": 114,
-          "Wins": 51,
-          "Losses": 63,
-          "WinRate": 44.74
-        },
-        {
-          "CivName": "Teutons",
-          "GamesPlayed": 111,
-          "Wins": 50,
-          "Losses": 61,
-          "WinRate": 45.05
-        },
-        {
-          "CivName": "Armenians",
-          "GamesPlayed": 110,
-          "Wins": 58,
-          "Losses": 52,
-          "WinRate": 52.73
-        },
-        {
-          "CivName": "Incas",
-          "GamesPlayed": 110,
-          "Wins": 56,
-          "Losses": 54,
-          "WinRate": 50.91
-        },
-        {
-          "CivName": "Japanese",
-          "GamesPlayed": 109,
-          "Wins": 51,
-          "Losses": 58,
-          "WinRate": 46.79
-        },
-        {
-          "CivName": "Romans",
-          "GamesPlayed": 108,
-          "Wins": 65,
-          "Losses": 43,
-          "WinRate": 60.19
-        },
-        {
           "CivName": "Huns",
-          "GamesPlayed": 107,
+          "GamesPlayed": 113,
           "Wins": 37,
           "Losses": 70,
           "WinRate": 34.58
         },
         {
           "CivName": "Khitans",
-          "GamesPlayed": 104,
+          "GamesPlayed": 112,
           "Wins": 60,
           "Losses": 44,
           "WinRate": 57.69
         },
         {
+          "CivName": "Japanese",
+          "GamesPlayed": 111,
+          "Wins": 51,
+          "Losses": 58,
+          "WinRate": 46.79
+        },
+        {
+          "CivName": "Romans",
+          "GamesPlayed": 110,
+          "Wins": 65,
+          "Losses": 43,
+          "WinRate": 60.19
+        },
+        {
           "CivName": "Vietnamese",
-          "GamesPlayed": 101,
+          "GamesPlayed": 105,
           "Wins": 48,
           "Losses": 53,
           "WinRate": 47.52
         },
         {
-          "CivName": "Ethiopians",
-          "GamesPlayed": 95,
-          "Wins": 51,
-          "Losses": 44,
-          "WinRate": 53.68
-        },
-        {
           "CivName": "Malay",
-          "GamesPlayed": 91,
+          "GamesPlayed": 101,
           "Wins": 43,
           "Losses": 48,
           "WinRate": 47.25
         },
         {
+          "CivName": "Ethiopians",
+          "GamesPlayed": 97,
+          "Wins": 51,
+          "Losses": 44,
+          "WinRate": 53.68
+        },
+        {
           "CivName": "Celts",
-          "GamesPlayed": 85,
+          "GamesPlayed": 89,
           "Wins": 36,
           "Losses": 49,
           "WinRate": 42.35
         },
         {
           "CivName": "Bulgarians",
-          "GamesPlayed": 82,
+          "GamesPlayed": 88,
           "Wins": 42,
           "Losses": 40,
           "WinRate": 51.22
         },
         {
           "CivName": "Turks",
-          "GamesPlayed": 79,
+          "GamesPlayed": 83,
           "Wins": 37,
           "Losses": 42,
           "WinRate": 46.84
+        },
+        {
+          "CivName": "Berbers",
+          "GamesPlayed": 81,
+          "Wins": 44,
+          "Losses": 31,
+          "WinRate": 58.67
         },
         {
           "CivName": "Malians",
@@ -1656,6 +1663,13 @@
           "WinRate": 52.56
         },
         {
+          "CivName": "Poles",
+          "GamesPlayed": 78,
+          "Wins": 38,
+          "Losses": 38,
+          "WinRate": 50
+        },
+        {
           "CivName": "Chinese",
           "GamesPlayed": 76,
           "Wins": 35,
@@ -1663,29 +1677,22 @@
           "WinRate": 46.05
         },
         {
-          "CivName": "Poles",
-          "GamesPlayed": 76,
-          "Wins": 38,
-          "Losses": 38,
-          "WinRate": 50
-        },
-        {
-          "CivName": "Berbers",
-          "GamesPlayed": 75,
-          "Wins": 44,
-          "Losses": 31,
-          "WinRate": 58.67
-        },
-        {
           "CivName": "Aztecs",
-          "GamesPlayed": 71,
+          "GamesPlayed": 75,
           "Wins": 39,
           "Losses": 32,
           "WinRate": 54.93
         },
         {
+          "CivName": "Lithuanians",
+          "GamesPlayed": 74,
+          "Wins": 39,
+          "Losses": 29,
+          "WinRate": 57.35
+        },
+        {
           "CivName": "Wei",
-          "GamesPlayed": 71,
+          "GamesPlayed": 73,
           "Wins": 40,
           "Losses": 31,
           "WinRate": 56.34
@@ -1698,29 +1705,22 @@
           "WinRate": 34.78
         },
         {
-          "CivName": "Lithuanians",
-          "GamesPlayed": 68,
-          "Wins": 39,
-          "Losses": 29,
-          "WinRate": 57.35
-        },
-        {
           "CivName": "Bengalis",
-          "GamesPlayed": 62,
+          "GamesPlayed": 66,
           "Wins": 33,
           "Losses": 29,
           "WinRate": 53.23
         },
         {
           "CivName": "Mayans",
-          "GamesPlayed": 59,
+          "GamesPlayed": 65,
           "Wins": 33,
           "Losses": 26,
           "WinRate": 55.93
         },
         {
           "CivName": "Bohemians",
-          "GamesPlayed": 58,
+          "GamesPlayed": 60,
           "Wins": 30,
           "Losses": 28,
           "WinRate": 51.72
@@ -1731,6 +1731,13 @@
           "Wins": 24,
           "Losses": 30,
           "WinRate": 44.44
+        },
+        {
+          "CivName": "Shu",
+          "GamesPlayed": 52,
+          "Wins": 26,
+          "Losses": 24,
+          "WinRate": 52
         },
         {
           "CivName": "Burmese",
@@ -1752,13 +1759,6 @@
           "Wins": 18,
           "Losses": 32,
           "WinRate": 36
-        },
-        {
-          "CivName": "Shu",
-          "GamesPlayed": 50,
-          "Wins": 26,
-          "Losses": 24,
-          "WinRate": 52
         },
         {
           "CivName": "Gurjaras",
@@ -1789,308 +1789,308 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 342,
+          "GamesPlayed": 398,
           "Wins": 192,
           "Losses": 150,
           "WinRate": 56.14
         },
         {
-          "CivName": "Mongols",
-          "GamesPlayed": 298,
-          "Wins": 142,
-          "Losses": 156,
-          "WinRate": 47.65
-        },
-        {
           "CivName": "Burgundians",
-          "GamesPlayed": 289,
+          "GamesPlayed": 381,
           "Wins": 176,
           "Losses": 113,
           "WinRate": 60.9
         },
         {
+          "CivName": "Mongols",
+          "GamesPlayed": 354,
+          "Wins": 142,
+          "Losses": 156,
+          "WinRate": 47.65
+        },
+        {
           "CivName": "Khitans",
-          "GamesPlayed": 222,
+          "GamesPlayed": 262,
           "Wins": 118,
           "Losses": 104,
           "WinRate": 53.15
         },
         {
           "CivName": "Saracens",
-          "GamesPlayed": 197,
+          "GamesPlayed": 221,
           "Wins": 111,
           "Losses": 86,
           "WinRate": 56.35
         },
         {
           "CivName": "Tatars",
-          "GamesPlayed": 191,
+          "GamesPlayed": 207,
           "Wins": 101,
           "Losses": 90,
           "WinRate": 52.88
         },
         {
           "CivName": "Franks",
-          "GamesPlayed": 190,
+          "GamesPlayed": 206,
           "Wins": 96,
           "Losses": 94,
           "WinRate": 50.53
         },
         {
+          "CivName": "Spanish",
+          "GamesPlayed": 204,
+          "Wins": 75,
+          "Losses": 91,
+          "WinRate": 45.18
+        },
+        {
           "CivName": "Persians",
-          "GamesPlayed": 187,
+          "GamesPlayed": 201,
           "Wins": 81,
           "Losses": 106,
           "WinRate": 43.32
         },
         {
-          "CivName": "Huns",
-          "GamesPlayed": 179,
-          "Wins": 100,
-          "Losses": 79,
-          "WinRate": 55.87
-        },
-        {
           "CivName": "Byzantines",
-          "GamesPlayed": 175,
+          "GamesPlayed": 199,
           "Wins": 86,
           "Losses": 89,
           "WinRate": 49.14
         },
         {
           "CivName": "Incas",
-          "GamesPlayed": 175,
+          "GamesPlayed": 195,
           "Wins": 102,
           "Losses": 73,
           "WinRate": 58.29
         },
         {
+          "CivName": "Huns",
+          "GamesPlayed": 191,
+          "Wins": 100,
+          "Losses": 79,
+          "WinRate": 55.87
+        },
+        {
+          "CivName": "Vietnamese",
+          "GamesPlayed": 187,
+          "Wins": 89,
+          "Losses": 80,
+          "WinRate": 52.66
+        },
+        {
           "CivName": "Romans",
-          "GamesPlayed": 170,
+          "GamesPlayed": 182,
           "Wins": 84,
           "Losses": 86,
           "WinRate": 49.41
         },
         {
           "CivName": "Bulgarians",
-          "GamesPlayed": 169,
+          "GamesPlayed": 181,
           "Wins": 77,
           "Losses": 92,
           "WinRate": 45.56
         },
         {
-          "CivName": "Vietnamese",
-          "GamesPlayed": 169,
-          "Wins": 89,
-          "Losses": 80,
-          "WinRate": 52.66
-        },
-        {
-          "CivName": "Cumans",
-          "GamesPlayed": 166,
-          "Wins": 67,
-          "Losses": 99,
-          "WinRate": 40.36
-        },
-        {
-          "CivName": "Spanish",
-          "GamesPlayed": 166,
-          "Wins": 75,
-          "Losses": 91,
-          "WinRate": 45.18
-        },
-        {
-          "CivName": "Teutons",
-          "GamesPlayed": 166,
-          "Wins": 59,
-          "Losses": 107,
-          "WinRate": 35.54
-        },
-        {
           "CivName": "Ethiopians",
-          "GamesPlayed": 160,
+          "GamesPlayed": 178,
           "Wins": 80,
           "Losses": 80,
           "WinRate": 50
         },
         {
+          "CivName": "Teutons",
+          "GamesPlayed": 178,
+          "Wins": 59,
+          "Losses": 107,
+          "WinRate": 35.54
+        },
+        {
           "CivName": "Khmer",
-          "GamesPlayed": 160,
+          "GamesPlayed": 176,
           "Wins": 75,
           "Losses": 85,
           "WinRate": 46.88
         },
         {
-          "CivName": "Koreans",
-          "GamesPlayed": 159,
-          "Wins": 89,
-          "Losses": 70,
-          "WinRate": 55.97
-        },
-        {
           "CivName": "Britons",
-          "GamesPlayed": 154,
+          "GamesPlayed": 168,
           "Wins": 73,
           "Losses": 81,
           "WinRate": 47.4
         },
         {
+          "CivName": "Cumans",
+          "GamesPlayed": 168,
+          "Wins": 67,
+          "Losses": 99,
+          "WinRate": 40.36
+        },
+        {
+          "CivName": "Koreans",
+          "GamesPlayed": 167,
+          "Wins": 89,
+          "Losses": 70,
+          "WinRate": 55.97
+        },
+        {
           "CivName": "Georgians",
-          "GamesPlayed": 143,
+          "GamesPlayed": 151,
           "Wins": 89,
           "Losses": 54,
           "WinRate": 62.24
         },
         {
-          "CivName": "Sicilians",
-          "GamesPlayed": 143,
-          "Wins": 55,
-          "Losses": 88,
-          "WinRate": 38.46
-        },
-        {
           "CivName": "Aztecs",
-          "GamesPlayed": 137,
+          "GamesPlayed": 149,
           "Wins": 70,
           "Losses": 67,
           "WinRate": 51.09
         },
         {
+          "CivName": "Sicilians",
+          "GamesPlayed": 145,
+          "Wins": 55,
+          "Losses": 88,
+          "WinRate": 38.46
+        },
+        {
+          "CivName": "Jurchens",
+          "GamesPlayed": 144,
+          "Wins": 69,
+          "Losses": 55,
+          "WinRate": 55.65
+        },
+        {
           "CivName": "Portuguese",
-          "GamesPlayed": 126,
+          "GamesPlayed": 142,
           "Wins": 58,
           "Losses": 68,
           "WinRate": 46.03
         },
         {
           "CivName": "Armenians",
-          "GamesPlayed": 125,
+          "GamesPlayed": 139,
           "Wins": 69,
           "Losses": 56,
           "WinRate": 55.2
         },
         {
-          "CivName": "Japanese",
-          "GamesPlayed": 124,
-          "Wins": 55,
-          "Losses": 69,
-          "WinRate": 44.35
-        },
-        {
-          "CivName": "Jurchens",
-          "GamesPlayed": 124,
-          "Wins": 69,
-          "Losses": 55,
-          "WinRate": 55.65
-        },
-        {
           "CivName": "Hindustanis",
-          "GamesPlayed": 123,
+          "GamesPlayed": 129,
           "Wins": 56,
           "Losses": 67,
           "WinRate": 45.53
         },
         {
+          "CivName": "Mayans",
+          "GamesPlayed": 127,
+          "Wins": 59,
+          "Losses": 54,
+          "WinRate": 52.21
+        },
+        {
+          "CivName": "Japanese",
+          "GamesPlayed": 126,
+          "Wins": 55,
+          "Losses": 69,
+          "WinRate": 44.35
+        },
+        {
           "CivName": "Lithuanians",
-          "GamesPlayed": 121,
+          "GamesPlayed": 123,
           "Wins": 72,
           "Losses": 49,
           "WinRate": 59.5
         },
         {
           "CivName": "Goths",
-          "GamesPlayed": 120,
+          "GamesPlayed": 122,
           "Wins": 45,
           "Losses": 75,
           "WinRate": 37.5
         },
         {
           "CivName": "Vikings",
-          "GamesPlayed": 120,
+          "GamesPlayed": 122,
           "Wins": 68,
           "Losses": 52,
           "WinRate": 56.67
         },
         {
-          "CivName": "Bohemians",
-          "GamesPlayed": 115,
-          "Wins": 58,
-          "Losses": 57,
-          "WinRate": 50.43
-        },
-        {
-          "CivName": "Turks",
-          "GamesPlayed": 114,
-          "Wins": 49,
-          "Losses": 65,
-          "WinRate": 42.98
-        },
-        {
-          "CivName": "Mayans",
-          "GamesPlayed": 113,
-          "Wins": 59,
-          "Losses": 54,
-          "WinRate": 52.21
-        },
-        {
           "CivName": "Malay",
-          "GamesPlayed": 112,
+          "GamesPlayed": 120,
           "Wins": 48,
           "Losses": 64,
           "WinRate": 42.86
         },
         {
+          "CivName": "Turks",
+          "GamesPlayed": 120,
+          "Wins": 49,
+          "Losses": 65,
+          "WinRate": 42.98
+        },
+        {
+          "CivName": "Bohemians",
+          "GamesPlayed": 117,
+          "Wins": 58,
+          "Losses": 57,
+          "WinRate": 50.43
+        },
+        {
           "CivName": "Wei",
-          "GamesPlayed": 107,
+          "GamesPlayed": 111,
           "Wins": 61,
           "Losses": 46,
           "WinRate": 57.01
         },
         {
           "CivName": "Wu",
-          "GamesPlayed": 104,
+          "GamesPlayed": 110,
           "Wins": 52,
           "Losses": 52,
           "WinRate": 50
         },
         {
           "CivName": "Celts",
-          "GamesPlayed": 103,
+          "GamesPlayed": 109,
           "Wins": 48,
           "Losses": 55,
           "WinRate": 46.6
         },
         {
-          "CivName": "Slavs",
-          "GamesPlayed": 101,
-          "Wins": 47,
-          "Losses": 54,
-          "WinRate": 46.53
-        },
-        {
           "CivName": "Berbers",
-          "GamesPlayed": 100,
+          "GamesPlayed": 108,
           "Wins": 53,
           "Losses": 47,
           "WinRate": 53
         },
         {
+          "CivName": "Slavs",
+          "GamesPlayed": 107,
+          "Wins": 47,
+          "Losses": 54,
+          "WinRate": 46.53
+        },
+        {
           "CivName": "Poles",
-          "GamesPlayed": 100,
+          "GamesPlayed": 104,
           "Wins": 42,
           "Losses": 58,
           "WinRate": 42
         },
         {
           "CivName": "Italians",
-          "GamesPlayed": 98,
+          "GamesPlayed": 102,
           "Wins": 45,
           "Losses": 53,
           "WinRate": 45.92
         },
         {
           "CivName": "Malians",
-          "GamesPlayed": 95,
+          "GamesPlayed": 99,
           "Wins": 50,
           "Losses": 45,
           "WinRate": 52.63
@@ -2103,18 +2103,32 @@
           "WinRate": 34.09
         },
         {
+          "CivName": "Dravidians",
+          "GamesPlayed": 88,
+          "Wins": 41,
+          "Losses": 35,
+          "WinRate": 53.95
+        },
+        {
           "CivName": "Gurjaras",
-          "GamesPlayed": 85,
+          "GamesPlayed": 87,
           "Wins": 42,
           "Losses": 43,
           "WinRate": 49.41
         },
         {
-          "CivName": "Dravidians",
-          "GamesPlayed": 76,
-          "Wins": 41,
-          "Losses": 35,
-          "WinRate": 53.95
+          "CivName": "Shu",
+          "GamesPlayed": 75,
+          "Wins": 44,
+          "Losses": 29,
+          "WinRate": 60.27
+        },
+        {
+          "CivName": "Bengalis",
+          "GamesPlayed": 73,
+          "Wins": 31,
+          "Losses": 38,
+          "WinRate": 44.93
         },
         {
           "CivName": "Burmese",
@@ -2122,20 +2136,6 @@
           "Wins": 29,
           "Losses": 44,
           "WinRate": 39.73
-        },
-        {
-          "CivName": "Shu",
-          "GamesPlayed": 73,
-          "Wins": 44,
-          "Losses": 29,
-          "WinRate": 60.27
-        },
-        {
-          "CivName": "Bengalis",
-          "GamesPlayed": 69,
-          "Wins": 31,
-          "Losses": 38,
-          "WinRate": 44.93
         }
       ]
     },
@@ -2145,283 +2145,304 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 465,
+          "GamesPlayed": 535,
           "Wins": 274,
           "Losses": 191,
           "WinRate": 58.92
         },
         {
           "CivName": "Saracens",
-          "GamesPlayed": 287,
+          "GamesPlayed": 329,
           "Wins": 156,
           "Losses": 131,
           "WinRate": 54.36
         },
         {
-          "CivName": "Burgundians",
-          "GamesPlayed": 256,
-          "Wins": 135,
-          "Losses": 121,
-          "WinRate": 52.73
-        },
-        {
-          "CivName": "Franks",
-          "GamesPlayed": 253,
-          "Wins": 126,
-          "Losses": 127,
-          "WinRate": 49.8
-        },
-        {
           "CivName": "Khitans",
-          "GamesPlayed": 251,
+          "GamesPlayed": 305,
           "Wins": 144,
           "Losses": 107,
           "WinRate": 57.37
         },
         {
-          "CivName": "Vietnamese",
-          "GamesPlayed": 226,
+          "CivName": "Franks",
+          "GamesPlayed": 289,
           "Wins": 126,
-          "Losses": 100,
-          "WinRate": 55.75
+          "Losses": 127,
+          "WinRate": 49.8
+        },
+        {
+          "CivName": "Burgundians",
+          "GamesPlayed": 266,
+          "Wins": 135,
+          "Losses": 121,
+          "WinRate": 52.73
         },
         {
           "CivName": "Britons",
-          "GamesPlayed": 219,
+          "GamesPlayed": 241,
           "Wins": 95,
           "Losses": 124,
           "WinRate": 43.38
         },
         {
+          "CivName": "Vietnamese",
+          "GamesPlayed": 240,
+          "Wins": 126,
+          "Losses": 100,
+          "WinRate": 55.75
+        },
+        {
           "CivName": "Mongols",
-          "GamesPlayed": 214,
+          "GamesPlayed": 238,
           "Wins": 97,
           "Losses": 117,
           "WinRate": 45.33
         },
         {
           "CivName": "Huns",
-          "GamesPlayed": 195,
+          "GamesPlayed": 221,
           "Wins": 106,
           "Losses": 89,
           "WinRate": 54.36
         },
         {
-          "CivName": "Cumans",
-          "GamesPlayed": 193,
-          "Wins": 85,
-          "Losses": 108,
-          "WinRate": 44.04
-        },
-        {
           "CivName": "Bulgarians",
-          "GamesPlayed": 191,
+          "GamesPlayed": 211,
           "Wins": 105,
           "Losses": 86,
           "WinRate": 54.97
         },
         {
-          "CivName": "Khmer",
-          "GamesPlayed": 191,
-          "Wins": 97,
-          "Losses": 94,
-          "WinRate": 50.79
-        },
-        {
-          "CivName": "Persians",
-          "GamesPlayed": 187,
-          "Wins": 93,
-          "Losses": 94,
-          "WinRate": 49.73
-        },
-        {
-          "CivName": "Ethiopians",
-          "GamesPlayed": 186,
-          "Wins": 95,
-          "Losses": 91,
-          "WinRate": 51.08
-        },
-        {
-          "CivName": "Lithuanians",
-          "GamesPlayed": 184,
-          "Wins": 91,
-          "Losses": 93,
-          "WinRate": 49.46
-        },
-        {
-          "CivName": "Byzantines",
-          "GamesPlayed": 183,
-          "Wins": 100,
-          "Losses": 83,
-          "WinRate": 54.64
-        },
-        {
-          "CivName": "Teutons",
-          "GamesPlayed": 178,
-          "Wins": 83,
-          "Losses": 95,
-          "WinRate": 46.63
-        },
-        {
-          "CivName": "Spanish",
-          "GamesPlayed": 177,
-          "Wins": 78,
-          "Losses": 99,
-          "WinRate": 44.07
+          "CivName": "Cumans",
+          "GamesPlayed": 205,
+          "Wins": 85,
+          "Losses": 108,
+          "WinRate": 44.04
         },
         {
           "CivName": "Koreans",
-          "GamesPlayed": 175,
+          "GamesPlayed": 201,
           "Wins": 100,
           "Losses": 75,
           "WinRate": 57.14
         },
         {
+          "CivName": "Persians",
+          "GamesPlayed": 201,
+          "Wins": 93,
+          "Losses": 94,
+          "WinRate": 49.73
+        },
+        {
+          "CivName": "Lithuanians",
+          "GamesPlayed": 200,
+          "Wins": 91,
+          "Losses": 93,
+          "WinRate": 49.46
+        },
+        {
+          "CivName": "Khmer",
+          "GamesPlayed": 199,
+          "Wins": 97,
+          "Losses": 94,
+          "WinRate": 50.79
+        },
+        {
+          "CivName": "Ethiopians",
+          "GamesPlayed": 198,
+          "Wins": 95,
+          "Losses": 91,
+          "WinRate": 51.08
+        },
+        {
+          "CivName": "Byzantines",
+          "GamesPlayed": 191,
+          "Wins": 100,
+          "Losses": 83,
+          "WinRate": 54.64
+        },
+        {
           "CivName": "Romans",
-          "GamesPlayed": 173,
+          "GamesPlayed": 191,
           "Wins": 91,
           "Losses": 82,
           "WinRate": 52.6
         },
         {
+          "CivName": "Spanish",
+          "GamesPlayed": 191,
+          "Wins": 78,
+          "Losses": 99,
+          "WinRate": 44.07
+        },
+        {
+          "CivName": "Teutons",
+          "GamesPlayed": 190,
+          "Wins": 83,
+          "Losses": 95,
+          "WinRate": 46.63
+        },
+        {
           "CivName": "Aztecs",
-          "GamesPlayed": 172,
+          "GamesPlayed": 182,
           "Wins": 87,
           "Losses": 85,
           "WinRate": 50.58
         },
         {
           "CivName": "Incas",
-          "GamesPlayed": 172,
+          "GamesPlayed": 174,
           "Wins": 87,
           "Losses": 85,
           "WinRate": 50.58
         },
         {
-          "CivName": "Hindustanis",
-          "GamesPlayed": 163,
-          "Wins": 75,
-          "Losses": 88,
-          "WinRate": 46.01
-        },
-        {
-          "CivName": "Turks",
-          "GamesPlayed": 162,
-          "Wins": 76,
-          "Losses": 86,
-          "WinRate": 46.91
-        },
-        {
-          "CivName": "Armenians",
-          "GamesPlayed": 160,
-          "Wins": 80,
-          "Losses": 80,
-          "WinRate": 50
-        },
-        {
           "CivName": "Sicilians",
-          "GamesPlayed": 154,
+          "GamesPlayed": 174,
           "Wins": 66,
           "Losses": 88,
           "WinRate": 42.86
         },
         {
+          "CivName": "Turks",
+          "GamesPlayed": 174,
+          "Wins": 76,
+          "Losses": 86,
+          "WinRate": 46.91
+        },
+        {
+          "CivName": "Hindustanis",
+          "GamesPlayed": 171,
+          "Wins": 75,
+          "Losses": 88,
+          "WinRate": 46.01
+        },
+        {
+          "CivName": "Armenians",
+          "GamesPlayed": 170,
+          "Wins": 80,
+          "Losses": 80,
+          "WinRate": 50
+        },
+        {
           "CivName": "Jurchens",
-          "GamesPlayed": 145,
+          "GamesPlayed": 157,
           "Wins": 71,
           "Losses": 74,
           "WinRate": 48.97
         },
         {
+          "CivName": "Vikings",
+          "GamesPlayed": 152,
+          "Wins": 58,
+          "Losses": 74,
+          "WinRate": 43.94
+        },
+        {
           "CivName": "Slavs",
-          "GamesPlayed": 143,
+          "GamesPlayed": 151,
           "Wins": 70,
           "Losses": 73,
           "WinRate": 48.95
         },
         {
           "CivName": "Portuguese",
-          "GamesPlayed": 142,
+          "GamesPlayed": 148,
           "Wins": 64,
           "Losses": 78,
           "WinRate": 45.07
         },
         {
           "CivName": "Berbers",
-          "GamesPlayed": 138,
+          "GamesPlayed": 144,
           "Wins": 71,
           "Losses": 67,
           "WinRate": 51.45
         },
         {
           "CivName": "Japanese",
-          "GamesPlayed": 137,
+          "GamesPlayed": 143,
           "Wins": 53,
           "Losses": 84,
           "WinRate": 38.69
         },
         {
-          "CivName": "Italians",
-          "GamesPlayed": 135,
-          "Wins": 51,
-          "Losses": 84,
-          "WinRate": 37.78
-        },
-        {
-          "CivName": "Celts",
-          "GamesPlayed": 132,
-          "Wins": 60,
-          "Losses": 72,
-          "WinRate": 45.45
-        },
-        {
           "CivName": "Georgians",
-          "GamesPlayed": 132,
+          "GamesPlayed": 142,
           "Wins": 68,
           "Losses": 64,
           "WinRate": 51.52
         },
         {
-          "CivName": "Vikings",
-          "GamesPlayed": 132,
-          "Wins": 58,
-          "Losses": 74,
-          "WinRate": 43.94
-        },
-        {
           "CivName": "Mayans",
-          "GamesPlayed": 131,
+          "GamesPlayed": 139,
           "Wins": 59,
           "Losses": 72,
           "WinRate": 45.04
         },
         {
+          "CivName": "Celts",
+          "GamesPlayed": 138,
+          "Wins": 60,
+          "Losses": 72,
+          "WinRate": 45.45
+        },
+        {
+          "CivName": "Italians",
+          "GamesPlayed": 137,
+          "Wins": 51,
+          "Losses": 84,
+          "WinRate": 37.78
+        },
+        {
           "CivName": "Poles",
-          "GamesPlayed": 115,
+          "GamesPlayed": 121,
           "Wins": 45,
           "Losses": 70,
           "WinRate": 39.13
         },
         {
           "CivName": "Bohemians",
-          "GamesPlayed": 114,
+          "GamesPlayed": 120,
           "Wins": 54,
           "Losses": 60,
           "WinRate": 47.37
         },
         {
+          "CivName": "Tatars",
+          "GamesPlayed": 119,
+          "Wins": 67,
+          "Losses": 46,
+          "WinRate": 59.29
+        },
+        {
           "CivName": "Wei",
-          "GamesPlayed": 114,
+          "GamesPlayed": 118,
           "Wins": 66,
           "Losses": 48,
           "WinRate": 57.89
         },
         {
-          "CivName": "Tatars",
-          "GamesPlayed": 113,
-          "Wins": 67,
+          "CivName": "Dravidians",
+          "GamesPlayed": 115,
+          "Wins": 55,
+          "Losses": 52,
+          "WinRate": 51.4
+        },
+        {
+          "CivName": "Malians",
+          "GamesPlayed": 112,
+          "Wins": 55,
+          "Losses": 53,
+          "WinRate": 50.93
+        },
+        {
+          "CivName": "Shu",
+          "GamesPlayed": 110,
+          "Wins": 60,
           "Losses": 46,
-          "WinRate": 59.29
+          "WinRate": 56.6
         },
         {
           "CivName": "Goths",
@@ -2431,32 +2452,11 @@
           "WinRate": 44.95
         },
         {
-          "CivName": "Malians",
-          "GamesPlayed": 108,
-          "Wins": 55,
-          "Losses": 53,
-          "WinRate": 50.93
-        },
-        {
           "CivName": "Chinese",
           "GamesPlayed": 107,
           "Wins": 42,
           "Losses": 65,
           "WinRate": 39.25
-        },
-        {
-          "CivName": "Dravidians",
-          "GamesPlayed": 107,
-          "Wins": 55,
-          "Losses": 52,
-          "WinRate": 51.4
-        },
-        {
-          "CivName": "Shu",
-          "GamesPlayed": 106,
-          "Wins": 60,
-          "Losses": 46,
-          "WinRate": 56.6
         },
         {
           "CivName": "Wu",
@@ -2467,28 +2467,28 @@
         },
         {
           "CivName": "Malay",
-          "GamesPlayed": 97,
+          "GamesPlayed": 99,
           "Wins": 47,
           "Losses": 50,
           "WinRate": 48.45
         },
         {
           "CivName": "Bengalis",
-          "GamesPlayed": 85,
+          "GamesPlayed": 89,
           "Wins": 40,
           "Losses": 45,
           "WinRate": 47.06
         },
         {
           "CivName": "Gurjaras",
-          "GamesPlayed": 79,
+          "GamesPlayed": 81,
           "Wins": 35,
           "Losses": 44,
           "WinRate": 44.3
         },
         {
           "CivName": "Burmese",
-          "GamesPlayed": 74,
+          "GamesPlayed": 78,
           "Wins": 38,
           "Losses": 36,
           "WinRate": 51.35
@@ -2501,353 +2501,353 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 429,
+          "GamesPlayed": 487,
           "Wins": 241,
           "Losses": 188,
           "WinRate": 56.18
         },
         {
           "CivName": "Khitans",
-          "GamesPlayed": 364,
+          "GamesPlayed": 468,
           "Wins": 227,
           "Losses": 137,
           "WinRate": 62.36
         },
         {
           "CivName": "Burgundians",
-          "GamesPlayed": 278,
+          "GamesPlayed": 344,
           "Wins": 148,
           "Losses": 130,
           "WinRate": 53.24
         },
         {
           "CivName": "Huns",
-          "GamesPlayed": 249,
+          "GamesPlayed": 275,
           "Wins": 130,
           "Losses": 119,
           "WinRate": 52.21
         },
         {
           "CivName": "Mongols",
-          "GamesPlayed": 248,
+          "GamesPlayed": 270,
           "Wins": 111,
           "Losses": 137,
           "WinRate": 44.76
         },
         {
-          "CivName": "Vietnamese",
-          "GamesPlayed": 237,
-          "Wins": 119,
-          "Losses": 118,
-          "WinRate": 50.21
-        },
-        {
-          "CivName": "Franks",
-          "GamesPlayed": 234,
-          "Wins": 127,
-          "Losses": 107,
-          "WinRate": 54.27
-        },
-        {
           "CivName": "Saracens",
-          "GamesPlayed": 232,
+          "GamesPlayed": 270,
           "Wins": 136,
           "Losses": 96,
           "WinRate": 58.62
         },
         {
+          "CivName": "Vietnamese",
+          "GamesPlayed": 261,
+          "Wins": 119,
+          "Losses": 118,
+          "WinRate": 50.21
+        },
+        {
           "CivName": "Byzantines",
-          "GamesPlayed": 225,
+          "GamesPlayed": 255,
           "Wins": 114,
           "Losses": 111,
           "WinRate": 50.67
         },
         {
+          "CivName": "Franks",
+          "GamesPlayed": 244,
+          "Wins": 127,
+          "Losses": 107,
+          "WinRate": 54.27
+        },
+        {
           "CivName": "Spanish",
-          "GamesPlayed": 213,
+          "GamesPlayed": 229,
           "Wins": 92,
           "Losses": 121,
           "WinRate": 43.19
         },
         {
           "CivName": "Incas",
-          "GamesPlayed": 212,
+          "GamesPlayed": 228,
           "Wins": 108,
           "Losses": 104,
           "WinRate": 50.94
         },
         {
           "CivName": "Ethiopians",
-          "GamesPlayed": 209,
+          "GamesPlayed": 225,
           "Wins": 106,
           "Losses": 103,
           "WinRate": 50.72
         },
         {
           "CivName": "Persians",
-          "GamesPlayed": 203,
+          "GamesPlayed": 225,
           "Wins": 85,
           "Losses": 118,
           "WinRate": 41.87
         },
         {
-          "CivName": "Britons",
-          "GamesPlayed": 198,
-          "Wins": 86,
-          "Losses": 112,
-          "WinRate": 43.43
-        },
-        {
           "CivName": "Teutons",
-          "GamesPlayed": 196,
+          "GamesPlayed": 210,
           "Wins": 70,
           "Losses": 126,
           "WinRate": 35.71
         },
         {
+          "CivName": "Britons",
+          "GamesPlayed": 204,
+          "Wins": 86,
+          "Losses": 112,
+          "WinRate": 43.43
+        },
+        {
           "CivName": "Koreans",
-          "GamesPlayed": 182,
+          "GamesPlayed": 196,
           "Wins": 90,
           "Losses": 92,
           "WinRate": 49.45
         },
         {
-          "CivName": "Romans",
-          "GamesPlayed": 178,
-          "Wins": 95,
-          "Losses": 83,
-          "WinRate": 53.37
-        },
-        {
           "CivName": "Wei",
-          "GamesPlayed": 176,
+          "GamesPlayed": 194,
           "Wins": 100,
           "Losses": 76,
           "WinRate": 56.82
         },
         {
+          "CivName": "Romans",
+          "GamesPlayed": 186,
+          "Wins": 95,
+          "Losses": 83,
+          "WinRate": 53.37
+        },
+        {
           "CivName": "Portuguese",
-          "GamesPlayed": 168,
+          "GamesPlayed": 182,
           "Wins": 78,
           "Losses": 90,
           "WinRate": 46.43
         },
         {
-          "CivName": "Cumans",
-          "GamesPlayed": 164,
-          "Wins": 84,
-          "Losses": 80,
-          "WinRate": 51.22
-        },
-        {
-          "CivName": "Khmer",
-          "GamesPlayed": 164,
-          "Wins": 75,
-          "Losses": 89,
-          "WinRate": 45.73
-        },
-        {
           "CivName": "Turks",
-          "GamesPlayed": 164,
+          "GamesPlayed": 180,
           "Wins": 81,
           "Losses": 83,
           "WinRate": 49.39
         },
         {
+          "CivName": "Cumans",
+          "GamesPlayed": 178,
+          "Wins": 84,
+          "Losses": 80,
+          "WinRate": 51.22
+        },
+        {
           "CivName": "Jurchens",
-          "GamesPlayed": 160,
+          "GamesPlayed": 174,
           "Wins": 86,
           "Losses": 74,
           "WinRate": 53.75
         },
         {
+          "CivName": "Khmer",
+          "GamesPlayed": 174,
+          "Wins": 75,
+          "Losses": 89,
+          "WinRate": 45.73
+        },
+        {
+          "CivName": "Bulgarians",
+          "GamesPlayed": 170,
+          "Wins": 67,
+          "Losses": 83,
+          "WinRate": 44.67
+        },
+        {
           "CivName": "Lithuanians",
-          "GamesPlayed": 158,
+          "GamesPlayed": 166,
           "Wins": 60,
           "Losses": 98,
           "WinRate": 37.97
         },
         {
           "CivName": "Italians",
-          "GamesPlayed": 155,
+          "GamesPlayed": 161,
           "Wins": 73,
           "Losses": 82,
           "WinRate": 47.1
         },
         {
-          "CivName": "Bulgarians",
-          "GamesPlayed": 150,
-          "Wins": 67,
-          "Losses": 83,
-          "WinRate": 44.67
-        },
-        {
           "CivName": "Sicilians",
-          "GamesPlayed": 147,
+          "GamesPlayed": 153,
           "Wins": 76,
           "Losses": 71,
           "WinRate": 51.7
         },
         {
           "CivName": "Japanese",
-          "GamesPlayed": 145,
+          "GamesPlayed": 151,
           "Wins": 59,
           "Losses": 86,
           "WinRate": 40.69
         },
         {
-          "CivName": "Aztecs",
-          "GamesPlayed": 142,
-          "Wins": 79,
-          "Losses": 63,
-          "WinRate": 55.63
-        },
-        {
           "CivName": "Georgians",
-          "GamesPlayed": 141,
-          "Wins": 76,
-          "Losses": 65,
-          "WinRate": 53.9
-        },
-        {
-          "CivName": "Vikings",
-          "GamesPlayed": 141,
+          "GamesPlayed": 149,
           "Wins": 76,
           "Losses": 65,
           "WinRate": 53.9
         },
         {
           "CivName": "Armenians",
-          "GamesPlayed": 139,
+          "GamesPlayed": 145,
           "Wins": 78,
           "Losses": 61,
           "WinRate": 56.12
         },
         {
+          "CivName": "Vikings",
+          "GamesPlayed": 145,
+          "Wins": 76,
+          "Losses": 65,
+          "WinRate": 53.9
+        },
+        {
+          "CivName": "Aztecs",
+          "GamesPlayed": 144,
+          "Wins": 79,
+          "Losses": 63,
+          "WinRate": 55.63
+        },
+        {
           "CivName": "Goths",
-          "GamesPlayed": 134,
+          "GamesPlayed": 140,
           "Wins": 61,
           "Losses": 73,
           "WinRate": 45.52
         },
         {
+          "CivName": "Celts",
+          "GamesPlayed": 139,
+          "Wins": 58,
+          "Losses": 65,
+          "WinRate": 47.15
+        },
+        {
           "CivName": "Malay",
-          "GamesPlayed": 131,
+          "GamesPlayed": 139,
           "Wins": 58,
           "Losses": 73,
           "WinRate": 44.27
         },
         {
           "CivName": "Hindustanis",
-          "GamesPlayed": 125,
+          "GamesPlayed": 137,
           "Wins": 67,
           "Losses": 58,
           "WinRate": 53.6
         },
         {
-          "CivName": "Tatars",
-          "GamesPlayed": 125,
-          "Wins": 66,
-          "Losses": 59,
-          "WinRate": 52.8
-        },
-        {
-          "CivName": "Berbers",
-          "GamesPlayed": 124,
-          "Wins": 61,
-          "Losses": 63,
-          "WinRate": 49.19
-        },
-        {
-          "CivName": "Celts",
-          "GamesPlayed": 123,
-          "Wins": 58,
-          "Losses": 65,
-          "WinRate": 47.15
-        },
-        {
           "CivName": "Poles",
-          "GamesPlayed": 123,
+          "GamesPlayed": 133,
           "Wins": 50,
           "Losses": 73,
           "WinRate": 40.65
         },
         {
-          "CivName": "Chinese",
-          "GamesPlayed": 122,
-          "Wins": 55,
-          "Losses": 67,
-          "WinRate": 45.08
-        },
-        {
           "CivName": "Mayans",
-          "GamesPlayed": 116,
+          "GamesPlayed": 132,
           "Wins": 61,
           "Losses": 55,
           "WinRate": 52.59
         },
         {
-          "CivName": "Gurjaras",
-          "GamesPlayed": 113,
-          "Wins": 54,
-          "Losses": 59,
-          "WinRate": 47.79
+          "CivName": "Berbers",
+          "GamesPlayed": 130,
+          "Wins": 61,
+          "Losses": 63,
+          "WinRate": 49.19
+        },
+        {
+          "CivName": "Chinese",
+          "GamesPlayed": 128,
+          "Wins": 55,
+          "Losses": 67,
+          "WinRate": 45.08
         },
         {
           "CivName": "Shu",
-          "GamesPlayed": 112,
+          "GamesPlayed": 128,
           "Wins": 68,
           "Losses": 44,
           "WinRate": 60.71
         },
         {
-          "CivName": "Slavs",
-          "GamesPlayed": 109,
-          "Wins": 51,
-          "Losses": 58,
-          "WinRate": 46.79
+          "CivName": "Tatars",
+          "GamesPlayed": 127,
+          "Wins": 66,
+          "Losses": 59,
+          "WinRate": 52.8
+        },
+        {
+          "CivName": "Gurjaras",
+          "GamesPlayed": 117,
+          "Wins": 54,
+          "Losses": 59,
+          "WinRate": 47.79
         },
         {
           "CivName": "Bohemians",
-          "GamesPlayed": 108,
+          "GamesPlayed": 116,
           "Wins": 59,
           "Losses": 49,
           "WinRate": 54.63
         },
         {
-          "CivName": "Dravidians",
-          "GamesPlayed": 100,
-          "Wins": 52,
-          "Losses": 48,
-          "WinRate": 52
+          "CivName": "Slavs",
+          "GamesPlayed": 115,
+          "Wins": 51,
+          "Losses": 58,
+          "WinRate": 46.79
         },
         {
           "CivName": "Malians",
-          "GamesPlayed": 98,
+          "GamesPlayed": 106,
           "Wins": 45,
           "Losses": 53,
           "WinRate": 45.92
         },
         {
+          "CivName": "Dravidians",
+          "GamesPlayed": 102,
+          "Wins": 52,
+          "Losses": 48,
+          "WinRate": 52
+        },
+        {
           "CivName": "Wu",
-          "GamesPlayed": 88,
+          "GamesPlayed": 100,
           "Wins": 38,
           "Losses": 50,
           "WinRate": 43.18
         },
         {
-          "CivName": "Bengalis",
-          "GamesPlayed": 81,
-          "Wins": 32,
-          "Losses": 49,
-          "WinRate": 39.51
-        },
-        {
           "CivName": "Burmese",
-          "GamesPlayed": 81,
+          "GamesPlayed": 89,
           "Wins": 38,
           "Losses": 43,
           "WinRate": 46.91
+        },
+        {
+          "CivName": "Bengalis",
+          "GamesPlayed": 87,
+          "Wins": 32,
+          "Losses": 49,
+          "WinRate": 39.51
         }
       ]
     },
@@ -2857,108 +2857,122 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 349,
+          "GamesPlayed": 401,
           "Wins": 204,
           "Losses": 145,
           "WinRate": 58.45
         },
         {
-          "CivName": "Mongols",
-          "GamesPlayed": 201,
-          "Wins": 92,
-          "Losses": 109,
-          "WinRate": 45.77
-        },
-        {
-          "CivName": "Burgundians",
-          "GamesPlayed": 200,
-          "Wins": 116,
-          "Losses": 84,
-          "WinRate": 58
-        },
-        {
           "CivName": "Saracens",
-          "GamesPlayed": 197,
+          "GamesPlayed": 239,
           "Wins": 119,
           "Losses": 78,
           "WinRate": 60.41
         },
         {
           "CivName": "Khitans",
-          "GamesPlayed": 196,
+          "GamesPlayed": 220,
           "Wins": 107,
           "Losses": 89,
           "WinRate": 54.59
         },
         {
+          "CivName": "Mongols",
+          "GamesPlayed": 219,
+          "Wins": 92,
+          "Losses": 109,
+          "WinRate": 45.77
+        },
+        {
+          "CivName": "Burgundians",
+          "GamesPlayed": 218,
+          "Wins": 116,
+          "Losses": 84,
+          "WinRate": 58
+        },
+        {
           "CivName": "Franks",
-          "GamesPlayed": 194,
+          "GamesPlayed": 210,
           "Wins": 81,
           "Losses": 113,
           "WinRate": 41.75
         },
         {
           "CivName": "Khmer",
-          "GamesPlayed": 183,
+          "GamesPlayed": 201,
           "Wins": 89,
           "Losses": 94,
           "WinRate": 48.63
         },
         {
           "CivName": "Byzantines",
-          "GamesPlayed": 181,
+          "GamesPlayed": 193,
           "Wins": 99,
           "Losses": 82,
           "WinRate": 54.7
         },
         {
-          "CivName": "Cumans",
-          "GamesPlayed": 169,
-          "Wins": 78,
-          "Losses": 91,
-          "WinRate": 46.15
-        },
-        {
           "CivName": "Huns",
-          "GamesPlayed": 164,
+          "GamesPlayed": 182,
           "Wins": 88,
           "Losses": 76,
           "WinRate": 53.66
         },
         {
+          "CivName": "Cumans",
+          "GamesPlayed": 181,
+          "Wins": 78,
+          "Losses": 91,
+          "WinRate": 46.15
+        },
+        {
           "CivName": "Ethiopians",
-          "GamesPlayed": 160,
+          "GamesPlayed": 176,
           "Wins": 88,
           "Losses": 72,
           "WinRate": 55
         },
         {
           "CivName": "Vietnamese",
-          "GamesPlayed": 145,
+          "GamesPlayed": 153,
           "Wins": 66,
           "Losses": 79,
           "WinRate": 45.52
         },
         {
           "CivName": "Spanish",
-          "GamesPlayed": 144,
+          "GamesPlayed": 148,
           "Wins": 68,
           "Losses": 76,
           "WinRate": 47.22
         },
         {
           "CivName": "Persians",
-          "GamesPlayed": 136,
+          "GamesPlayed": 140,
           "Wins": 72,
           "Losses": 64,
           "WinRate": 52.94
         },
         {
           "CivName": "Teutons",
-          "GamesPlayed": 134,
+          "GamesPlayed": 140,
           "Wins": 52,
           "Losses": 82,
           "WinRate": 38.81
+        },
+        {
+          "CivName": "Koreans",
+          "GamesPlayed": 139,
+          "Wins": 70,
+          "Losses": 61,
+          "WinRate": 53.44
+        },
+        {
+          "CivName": "Britons",
+          "GamesPlayed": 137,
+          "Wins": 62,
+          "Losses": 65,
+          "WinRate": 48.82
         },
         {
           "CivName": "Portuguese",
@@ -2968,102 +2982,102 @@
           "WinRate": 40.6
         },
         {
-          "CivName": "Koreans",
-          "GamesPlayed": 131,
-          "Wins": 70,
-          "Losses": 61,
-          "WinRate": 53.44
-        },
-        {
-          "CivName": "Britons",
-          "GamesPlayed": 127,
-          "Wins": 62,
-          "Losses": 65,
-          "WinRate": 48.82
-        },
-        {
           "CivName": "Japanese",
-          "GamesPlayed": 123,
+          "GamesPlayed": 131,
           "Wins": 45,
           "Losses": 78,
           "WinRate": 36.59
         },
         {
-          "CivName": "Sicilians",
-          "GamesPlayed": 120,
-          "Wins": 49,
-          "Losses": 71,
-          "WinRate": 40.83
-        },
-        {
           "CivName": "Incas",
-          "GamesPlayed": 119,
+          "GamesPlayed": 127,
           "Wins": 64,
           "Losses": 55,
           "WinRate": 53.78
         },
         {
-          "CivName": "Romans",
-          "GamesPlayed": 112,
-          "Wins": 45,
-          "Losses": 67,
-          "WinRate": 40.18
-        },
-        {
-          "CivName": "Armenians",
-          "GamesPlayed": 111,
-          "Wins": 53,
-          "Losses": 58,
-          "WinRate": 47.75
-        },
-        {
           "CivName": "Aztecs",
-          "GamesPlayed": 110,
+          "GamesPlayed": 122,
           "Wins": 57,
           "Losses": 53,
           "WinRate": 51.82
         },
         {
-          "CivName": "Jurchens",
-          "GamesPlayed": 110,
-          "Wins": 50,
-          "Losses": 60,
-          "WinRate": 45.45
+          "CivName": "Sicilians",
+          "GamesPlayed": 122,
+          "Wins": 49,
+          "Losses": 71,
+          "WinRate": 40.83
         },
         {
-          "CivName": "Bulgarians",
-          "GamesPlayed": 109,
+          "CivName": "Armenians",
+          "GamesPlayed": 119,
           "Wins": 53,
-          "Losses": 56,
-          "WinRate": 48.62
+          "Losses": 58,
+          "WinRate": 47.75
         },
         {
           "CivName": "Georgians",
-          "GamesPlayed": 109,
+          "GamesPlayed": 119,
           "Wins": 59,
           "Losses": 50,
           "WinRate": 54.13
         },
         {
-          "CivName": "Hindustanis",
-          "GamesPlayed": 106,
-          "Wins": 59,
-          "Losses": 47,
-          "WinRate": 55.66
+          "CivName": "Jurchens",
+          "GamesPlayed": 118,
+          "Wins": 50,
+          "Losses": 60,
+          "WinRate": 45.45
+        },
+        {
+          "CivName": "Romans",
+          "GamesPlayed": 118,
+          "Wins": 45,
+          "Losses": 67,
+          "WinRate": 40.18
+        },
+        {
+          "CivName": "Bulgarians",
+          "GamesPlayed": 117,
+          "Wins": 53,
+          "Losses": 56,
+          "WinRate": 48.62
         },
         {
           "CivName": "Mayans",
-          "GamesPlayed": 102,
+          "GamesPlayed": 110,
           "Wins": 50,
           "Losses": 52,
           "WinRate": 49.02
         },
         {
+          "CivName": "Hindustanis",
+          "GamesPlayed": 108,
+          "Wins": 59,
+          "Losses": 47,
+          "WinRate": 55.66
+        },
+        {
           "CivName": "Vikings",
-          "GamesPlayed": 99,
+          "GamesPlayed": 105,
           "Wins": 57,
           "Losses": 42,
           "WinRate": 57.58
+        },
+        {
+          "CivName": "Celts",
+          "GamesPlayed": 99,
+          "Wins": 38,
+          "Losses": 53,
+          "WinRate": 41.76
+        },
+        {
+          "CivName": "Wei",
+          "GamesPlayed": 98,
+          "Wins": 52,
+          "Losses": 36,
+          "WinRate": 59.09
         },
         {
           "CivName": "Goths",
@@ -3074,59 +3088,52 @@
         },
         {
           "CivName": "Italians",
-          "GamesPlayed": 94,
+          "GamesPlayed": 96,
           "Wins": 51,
           "Losses": 43,
           "WinRate": 54.26
         },
         {
-          "CivName": "Celts",
-          "GamesPlayed": 91,
-          "Wins": 38,
-          "Losses": 53,
-          "WinRate": 41.76
-        },
-        {
           "CivName": "Poles",
-          "GamesPlayed": 89,
+          "GamesPlayed": 93,
           "Wins": 48,
           "Losses": 41,
           "WinRate": 53.93
         },
         {
           "CivName": "Turks",
-          "GamesPlayed": 89,
+          "GamesPlayed": 91,
           "Wins": 36,
           "Losses": 53,
           "WinRate": 40.45
         },
         {
-          "CivName": "Wei",
-          "GamesPlayed": 88,
-          "Wins": 52,
-          "Losses": 36,
-          "WinRate": 59.09
-        },
-        {
           "CivName": "Lithuanians",
-          "GamesPlayed": 84,
+          "GamesPlayed": 90,
           "Wins": 40,
           "Losses": 44,
           "WinRate": 47.62
         },
         {
           "CivName": "Bohemians",
-          "GamesPlayed": 82,
+          "GamesPlayed": 84,
           "Wins": 36,
           "Losses": 46,
           "WinRate": 43.9
         },
         {
           "CivName": "Malay",
-          "GamesPlayed": 81,
+          "GamesPlayed": 83,
           "Wins": 40,
           "Losses": 41,
           "WinRate": 49.38
+        },
+        {
+          "CivName": "Malians",
+          "GamesPlayed": 81,
+          "Wins": 37,
+          "Losses": 38,
+          "WinRate": 49.33
         },
         {
           "CivName": "Berbers",
@@ -3136,25 +3143,18 @@
           "WinRate": 58.23
         },
         {
-          "CivName": "Chinese",
-          "GamesPlayed": 77,
-          "Wins": 31,
-          "Losses": 46,
-          "WinRate": 40.26
-        },
-        {
           "CivName": "Tatars",
-          "GamesPlayed": 77,
+          "GamesPlayed": 79,
           "Wins": 36,
           "Losses": 41,
           "WinRate": 46.75
         },
         {
-          "CivName": "Malians",
-          "GamesPlayed": 75,
-          "Wins": 37,
-          "Losses": 38,
-          "WinRate": 49.33
+          "CivName": "Chinese",
+          "GamesPlayed": 77,
+          "Wins": 31,
+          "Losses": 46,
+          "WinRate": 40.26
         },
         {
           "CivName": "Bengalis",
@@ -3172,10 +3172,17 @@
         },
         {
           "CivName": "Dravidians",
-          "GamesPlayed": 65,
+          "GamesPlayed": 67,
           "Wins": 33,
           "Losses": 32,
           "WinRate": 50.77
+        },
+        {
+          "CivName": "Gurjaras",
+          "GamesPlayed": 65,
+          "Wins": 31,
+          "Losses": 32,
+          "WinRate": 49.21
         },
         {
           "CivName": "Slavs",
@@ -3185,15 +3192,8 @@
           "WinRate": 66.15
         },
         {
-          "CivName": "Gurjaras",
-          "GamesPlayed": 63,
-          "Wins": 31,
-          "Losses": 32,
-          "WinRate": 49.21
-        },
-        {
           "CivName": "Shu",
-          "GamesPlayed": 58,
+          "GamesPlayed": 60,
           "Wins": 24,
           "Losses": 34,
           "WinRate": 41.38
@@ -3215,52 +3215,59 @@
       "CivStats": [
         {
           "CivName": "Magyars",
-          "GamesPlayed": 116,
+          "GamesPlayed": 178,
           "Wins": 80,
           "Losses": 36,
           "WinRate": 68.97
         },
         {
           "CivName": "Khitans",
-          "GamesPlayed": 107,
+          "GamesPlayed": 165,
           "Wins": 73,
           "Losses": 34,
           "WinRate": 68.22
         },
         {
           "CivName": "Saracens",
-          "GamesPlayed": 86,
+          "GamesPlayed": 114,
           "Wins": 54,
           "Losses": 32,
           "WinRate": 62.79
         },
         {
+          "CivName": "Byzantines",
+          "GamesPlayed": 79,
+          "Wins": 39,
+          "Losses": 22,
+          "WinRate": 63.93
+        },
+        {
           "CivName": "Jurchens",
-          "GamesPlayed": 67,
+          "GamesPlayed": 75,
           "Wins": 35,
           "Losses": 32,
           "WinRate": 52.24
         },
         {
-          "CivName": "Huns",
-          "GamesPlayed": 64,
-          "Wins": 44,
-          "Losses": 20,
-          "WinRate": 68.75
-        },
-        {
           "CivName": "Wei",
-          "GamesPlayed": 64,
+          "GamesPlayed": 72,
           "Wins": 43,
           "Losses": 21,
           "WinRate": 67.19
         },
         {
-          "CivName": "Byzantines",
-          "GamesPlayed": 61,
-          "Wins": 39,
-          "Losses": 22,
-          "WinRate": 63.93
+          "CivName": "Huns",
+          "GamesPlayed": 68,
+          "Wins": 44,
+          "Losses": 20,
+          "WinRate": 68.75
+        },
+        {
+          "CivName": "Armenians",
+          "GamesPlayed": 67,
+          "Wins": 43,
+          "Losses": 14,
+          "WinRate": 75.44
         },
         {
           "CivName": "Burgundians",
@@ -3270,46 +3277,67 @@
           "WinRate": 81.36
         },
         {
-          "CivName": "Armenians",
-          "GamesPlayed": 57,
-          "Wins": 43,
-          "Losses": 14,
-          "WinRate": 75.44
-        },
-        {
-          "CivName": "Vietnamese",
-          "GamesPlayed": 55,
-          "Wins": 34,
-          "Losses": 21,
-          "WinRate": 61.82
-        },
-        {
           "CivName": "Celts",
-          "GamesPlayed": 51,
+          "GamesPlayed": 59,
           "Wins": 32,
           "Losses": 19,
           "WinRate": 62.75
         },
         {
+          "CivName": "Vietnamese",
+          "GamesPlayed": 57,
+          "Wins": 34,
+          "Losses": 21,
+          "WinRate": 61.82
+        },
+        {
           "CivName": "Ethiopians",
-          "GamesPlayed": 49,
+          "GamesPlayed": 55,
           "Wins": 38,
           "Losses": 11,
           "WinRate": 77.55
         },
         {
           "CivName": "Mayans",
-          "GamesPlayed": 46,
+          "GamesPlayed": 52,
           "Wins": 32,
           "Losses": 14,
           "WinRate": 69.57
         },
         {
           "CivName": "Franks",
-          "GamesPlayed": 45,
+          "GamesPlayed": 51,
           "Wins": 31,
           "Losses": 14,
           "WinRate": 68.89
+        },
+        {
+          "CivName": "Mongols",
+          "GamesPlayed": 51,
+          "Wins": 32,
+          "Losses": 9,
+          "WinRate": 78.05
+        },
+        {
+          "CivName": "Portuguese",
+          "GamesPlayed": 50,
+          "Wins": 32,
+          "Losses": 12,
+          "WinRate": 72.73
+        },
+        {
+          "CivName": "Aztecs",
+          "GamesPlayed": 46,
+          "Wins": 25,
+          "Losses": 15,
+          "WinRate": 62.5
+        },
+        {
+          "CivName": "Vikings",
+          "GamesPlayed": 46,
+          "Wins": 27,
+          "Losses": 17,
+          "WinRate": 61.36
         },
         {
           "CivName": "Teutons",
@@ -3319,21 +3347,7 @@
           "WinRate": 60
         },
         {
-          "CivName": "Portuguese",
-          "GamesPlayed": 44,
-          "Wins": 32,
-          "Losses": 12,
-          "WinRate": 72.73
-        },
-        {
           "CivName": "Turks",
-          "GamesPlayed": 44,
-          "Wins": 27,
-          "Losses": 17,
-          "WinRate": 61.36
-        },
-        {
-          "CivName": "Vikings",
           "GamesPlayed": 44,
           "Wins": 27,
           "Losses": 17,
@@ -3347,18 +3361,25 @@
           "WinRate": 72.09
         },
         {
-          "CivName": "Mongols",
-          "GamesPlayed": 41,
-          "Wins": 32,
-          "Losses": 9,
-          "WinRate": 78.05
+          "CivName": "Georgians",
+          "GamesPlayed": 42,
+          "Wins": 23,
+          "Losses": 15,
+          "WinRate": 60.53
         },
         {
-          "CivName": "Aztecs",
-          "GamesPlayed": 40,
-          "Wins": 25,
-          "Losses": 15,
-          "WinRate": 62.5
+          "CivName": "Koreans",
+          "GamesPlayed": 42,
+          "Wins": 22,
+          "Losses": 14,
+          "WinRate": 61.11
+        },
+        {
+          "CivName": "Incas",
+          "GamesPlayed": 41,
+          "Wins": 19,
+          "Losses": 18,
+          "WinRate": 51.35
         },
         {
           "CivName": "Bulgarians",
@@ -3368,11 +3389,11 @@
           "WinRate": 57.89
         },
         {
-          "CivName": "Georgians",
+          "CivName": "Italians",
           "GamesPlayed": 38,
-          "Wins": 23,
-          "Losses": 15,
-          "WinRate": 60.53
+          "Wins": 17,
+          "Losses": 17,
+          "WinRate": 50
         },
         {
           "CivName": "Lithuanians",
@@ -3396,18 +3417,25 @@
           "WinRate": 54.05
         },
         {
-          "CivName": "Incas",
+          "CivName": "Goths",
           "GamesPlayed": 37,
-          "Wins": 19,
-          "Losses": 18,
-          "WinRate": 51.35
+          "Wins": 11,
+          "Losses": 24,
+          "WinRate": 31.43
         },
         {
-          "CivName": "Koreans",
+          "CivName": "Tatars",
+          "GamesPlayed": 37,
+          "Wins": 23,
+          "Losses": 12,
+          "WinRate": 65.71
+        },
+        {
+          "CivName": "Malay",
           "GamesPlayed": 36,
-          "Wins": 22,
+          "Wins": 20,
           "Losses": 14,
-          "WinRate": 61.11
+          "WinRate": 58.82
         },
         {
           "CivName": "Sicilians",
@@ -3417,18 +3445,18 @@
           "WinRate": 55.56
         },
         {
-          "CivName": "Goths",
-          "GamesPlayed": 35,
-          "Wins": 11,
-          "Losses": 24,
-          "WinRate": 31.43
+          "CivName": "Spanish",
+          "GamesPlayed": 36,
+          "Wins": 20,
+          "Losses": 14,
+          "WinRate": 58.82
         },
         {
-          "CivName": "Tatars",
-          "GamesPlayed": 35,
-          "Wins": 23,
-          "Losses": 12,
-          "WinRate": 65.71
+          "CivName": "Burmese",
+          "GamesPlayed": 34,
+          "Wins": 17,
+          "Losses": 15,
+          "WinRate": 53.12
         },
         {
           "CivName": "Dravidians",
@@ -3438,20 +3466,6 @@
           "WinRate": 64.71
         },
         {
-          "CivName": "Italians",
-          "GamesPlayed": 34,
-          "Wins": 17,
-          "Losses": 17,
-          "WinRate": 50
-        },
-        {
-          "CivName": "Malay",
-          "GamesPlayed": 34,
-          "Wins": 20,
-          "Losses": 14,
-          "WinRate": 58.82
-        },
-        {
           "CivName": "Malians",
           "GamesPlayed": 34,
           "Wins": 21,
@@ -3459,11 +3473,18 @@
           "WinRate": 61.76
         },
         {
-          "CivName": "Spanish",
+          "CivName": "Shu",
           "GamesPlayed": 34,
-          "Wins": 20,
-          "Losses": 14,
-          "WinRate": 58.82
+          "Wins": 18,
+          "Losses": 10,
+          "WinRate": 64.29
+        },
+        {
+          "CivName": "Wu",
+          "GamesPlayed": 34,
+          "Wins": 19,
+          "Losses": 11,
+          "WinRate": 63.33
         },
         {
           "CivName": "Berbers",
@@ -3494,13 +3515,6 @@
           "WinRate": 57.58
         },
         {
-          "CivName": "Burmese",
-          "GamesPlayed": 32,
-          "Wins": 17,
-          "Losses": 15,
-          "WinRate": 53.12
-        },
-        {
           "CivName": "Romans",
           "GamesPlayed": 32,
           "Wins": 19,
@@ -3508,18 +3522,18 @@
           "WinRate": 59.38
         },
         {
-          "CivName": "Wu",
-          "GamesPlayed": 30,
-          "Wins": 19,
-          "Losses": 11,
-          "WinRate": 63.33
-        },
-        {
           "CivName": "Slavs",
-          "GamesPlayed": 29,
+          "GamesPlayed": 31,
           "Wins": 15,
           "Losses": 14,
           "WinRate": 51.72
+        },
+        {
+          "CivName": "Japanese",
+          "GamesPlayed": 29,
+          "Wins": 10,
+          "Losses": 17,
+          "WinRate": 37.04
         },
         {
           "CivName": "Britons",
@@ -3536,29 +3550,15 @@
           "WinRate": 57.14
         },
         {
-          "CivName": "Shu",
-          "GamesPlayed": 28,
-          "Wins": 18,
-          "Losses": 10,
-          "WinRate": 64.29
-        },
-        {
-          "CivName": "Japanese",
-          "GamesPlayed": 27,
-          "Wins": 10,
-          "Losses": 17,
-          "WinRate": 37.04
-        },
-        {
           "CivName": "Bengalis",
-          "GamesPlayed": 25,
+          "GamesPlayed": 27,
           "Wins": 11,
           "Losses": 14,
           "WinRate": 44
         },
         {
           "CivName": "Khmer",
-          "GamesPlayed": 22,
+          "GamesPlayed": 24,
           "Wins": 7,
           "Losses": 15,
           "WinRate": 31.82
@@ -3571,7 +3571,7 @@
       "CivStats": [
         {
           "CivName": "Khitans",
-          "GamesPlayed": 24,
+          "GamesPlayed": 32,
           "Wins": 18,
           "Losses": 6,
           "WinRate": 75
@@ -3584,11 +3584,46 @@
           "WinRate": 80
         },
         {
+          "CivName": "Khmer",
+          "GamesPlayed": 19,
+          "Wins": 6,
+          "Losses": 5,
+          "WinRate": 54.55
+        },
+        {
+          "CivName": "Burgundians",
+          "GamesPlayed": 17,
+          "Wins": 7,
+          "Losses": 4,
+          "WinRate": 63.64
+        },
+        {
+          "CivName": "Magyars",
+          "GamesPlayed": 14,
+          "Wins": 6,
+          "Losses": 6,
+          "WinRate": 50
+        },
+        {
+          "CivName": "Wu",
+          "GamesPlayed": 14,
+          "Wins": 7,
+          "Losses": 5,
+          "WinRate": 58.33
+        },
+        {
           "CivName": "Armenians",
           "GamesPlayed": 13,
           "Wins": 6,
           "Losses": 7,
           "WinRate": 46.15
+        },
+        {
+          "CivName": "Italians",
+          "GamesPlayed": 13,
+          "Wins": 8,
+          "Losses": 3,
+          "WinRate": 72.73
         },
         {
           "CivName": "Persians",
@@ -3598,32 +3633,18 @@
           "WinRate": 61.54
         },
         {
-          "CivName": "Magyars",
+          "CivName": "Mongols",
           "GamesPlayed": 12,
-          "Wins": 6,
-          "Losses": 6,
+          "Wins": 4,
+          "Losses": 4,
           "WinRate": 50
         },
         {
-          "CivName": "Wu",
-          "GamesPlayed": 12,
-          "Wins": 7,
-          "Losses": 5,
-          "WinRate": 58.33
-        },
-        {
-          "CivName": "Burgundians",
+          "CivName": "Dravidians",
           "GamesPlayed": 11,
-          "Wins": 7,
-          "Losses": 4,
-          "WinRate": 63.64
-        },
-        {
-          "CivName": "Italians",
-          "GamesPlayed": 11,
-          "Wins": 8,
+          "Wins": 6,
           "Losses": 3,
-          "WinRate": 72.73
+          "WinRate": 66.67
         },
         {
           "CivName": "Jurchens",
@@ -3633,13 +3654,6 @@
           "WinRate": 27.27
         },
         {
-          "CivName": "Khmer",
-          "GamesPlayed": 11,
-          "Wins": 6,
-          "Losses": 5,
-          "WinRate": 54.55
-        },
-        {
           "CivName": "Saracens",
           "GamesPlayed": 11,
           "Wins": 7,
@@ -3647,11 +3661,25 @@
           "WinRate": 63.64
         },
         {
+          "CivName": "Tatars",
+          "GamesPlayed": 11,
+          "Wins": 5,
+          "Losses": 2,
+          "WinRate": 71.43
+        },
+        {
           "CivName": "Wei",
           "GamesPlayed": 11,
           "Wins": 4,
           "Losses": 7,
           "WinRate": 36.36
+        },
+        {
+          "CivName": "Britons",
+          "GamesPlayed": 10,
+          "Wins": 7,
+          "Losses": 1,
+          "WinRate": 87.5
         },
         {
           "CivName": "Georgians",
@@ -3675,14 +3703,21 @@
           "WinRate": 80
         },
         {
-          "CivName": "Cumans",
+          "CivName": "Bengalis",
           "GamesPlayed": 9,
-          "Wins": 6,
-          "Losses": 3,
-          "WinRate": 66.67
+          "Wins": 5,
+          "Losses": 2,
+          "WinRate": 71.43
         },
         {
-          "CivName": "Dravidians",
+          "CivName": "Bohemians",
+          "GamesPlayed": 9,
+          "Wins": 5,
+          "Losses": 2,
+          "WinRate": 71.43
+        },
+        {
+          "CivName": "Cumans",
           "GamesPlayed": 9,
           "Wins": 6,
           "Losses": 3,
@@ -3703,11 +3738,18 @@
           "WinRate": 55.56
         },
         {
-          "CivName": "Britons",
-          "GamesPlayed": 8,
-          "Wins": 7,
-          "Losses": 1,
-          "WinRate": 87.5
+          "CivName": "Portuguese",
+          "GamesPlayed": 9,
+          "Wins": 3,
+          "Losses": 4,
+          "WinRate": 42.86
+        },
+        {
+          "CivName": "Romans",
+          "GamesPlayed": 9,
+          "Wins": 4,
+          "Losses": 3,
+          "WinRate": 57.14
         },
         {
           "CivName": "Byzantines",
@@ -3731,14 +3773,14 @@
           "WinRate": 50
         },
         {
-          "CivName": "Incas",
+          "CivName": "Hindustanis",
           "GamesPlayed": 8,
           "Wins": 4,
-          "Losses": 4,
-          "WinRate": 50
+          "Losses": 2,
+          "WinRate": 66.67
         },
         {
-          "CivName": "Mongols",
+          "CivName": "Incas",
           "GamesPlayed": 8,
           "Wins": 4,
           "Losses": 4,
@@ -3752,13 +3794,6 @@
           "WinRate": 25
         },
         {
-          "CivName": "Bengalis",
-          "GamesPlayed": 7,
-          "Wins": 5,
-          "Losses": 2,
-          "WinRate": 71.43
-        },
-        {
           "CivName": "Berbers",
           "GamesPlayed": 7,
           "Wins": 5,
@@ -3766,32 +3801,11 @@
           "WinRate": 71.43
         },
         {
-          "CivName": "Bohemians",
-          "GamesPlayed": 7,
-          "Wins": 5,
-          "Losses": 2,
-          "WinRate": 71.43
-        },
-        {
-          "CivName": "Portuguese",
+          "CivName": "Mayans",
           "GamesPlayed": 7,
           "Wins": 3,
-          "Losses": 4,
-          "WinRate": 42.86
-        },
-        {
-          "CivName": "Romans",
-          "GamesPlayed": 7,
-          "Wins": 4,
-          "Losses": 3,
-          "WinRate": 57.14
-        },
-        {
-          "CivName": "Tatars",
-          "GamesPlayed": 7,
-          "Wins": 5,
           "Losses": 2,
-          "WinRate": 71.43
+          "WinRate": 60
         },
         {
           "CivName": "Teutons",
@@ -3822,13 +3836,6 @@
           "WinRate": 50
         },
         {
-          "CivName": "Hindustanis",
-          "GamesPlayed": 6,
-          "Wins": 4,
-          "Losses": 2,
-          "WinRate": 66.67
-        },
-        {
           "CivName": "Lithuanians",
           "GamesPlayed": 6,
           "Wins": 4,
@@ -3857,18 +3864,18 @@
           "WinRate": 60
         },
         {
+          "CivName": "Celts",
+          "GamesPlayed": 5,
+          "Wins": 2,
+          "Losses": 1,
+          "WinRate": 66.67
+        },
+        {
           "CivName": "Malians",
           "GamesPlayed": 5,
           "Wins": 4,
           "Losses": 1,
           "WinRate": 80
-        },
-        {
-          "CivName": "Mayans",
-          "GamesPlayed": 5,
-          "Wins": 3,
-          "Losses": 2,
-          "WinRate": 60
         },
         {
           "CivName": "Poles",
@@ -3906,13 +3913,6 @@
           "WinRate": 25
         },
         {
-          "CivName": "Celts",
-          "GamesPlayed": 3,
-          "Wins": 2,
-          "Losses": 1,
-          "WinRate": 66.67
-        },
-        {
           "CivName": "Japanese",
           "GamesPlayed": 2,
           "Wins": 0,
@@ -3927,45 +3927,45 @@
       "CivStats": [
         {
           "CivName": "Burgundians",
-          "GamesPlayed": 39,
+          "GamesPlayed": 49,
           "Wins": 25,
           "Losses": 14,
           "WinRate": 64.1
         },
         {
+          "CivName": "Romans",
+          "GamesPlayed": 45,
+          "Wins": 18,
+          "Losses": 7,
+          "WinRate": 72
+        },
+        {
           "CivName": "Turks",
-          "GamesPlayed": 35,
+          "GamesPlayed": 39,
           "Wins": 26,
           "Losses": 9,
           "WinRate": 74.29
         },
         {
           "CivName": "Dravidians",
-          "GamesPlayed": 25,
+          "GamesPlayed": 35,
           "Wins": 20,
           "Losses": 5,
           "WinRate": 80
         },
         {
-          "CivName": "Romans",
-          "GamesPlayed": 25,
-          "Wins": 18,
-          "Losses": 7,
-          "WinRate": 72
-        },
-        {
-          "CivName": "Khitans",
-          "GamesPlayed": 21,
-          "Wins": 16,
-          "Losses": 5,
-          "WinRate": 76.19
-        },
-        {
           "CivName": "Koreans",
-          "GamesPlayed": 21,
+          "GamesPlayed": 29,
           "Wins": 18,
           "Losses": 3,
           "WinRate": 85.71
+        },
+        {
+          "CivName": "Khitans",
+          "GamesPlayed": 25,
+          "Wins": 16,
+          "Losses": 5,
+          "WinRate": 76.19
         },
         {
           "CivName": "Huns",
@@ -4024,6 +4024,20 @@
           "WinRate": 64.29
         },
         {
+          "CivName": "Japanese",
+          "GamesPlayed": 14,
+          "Wins": 6,
+          "Losses": 6,
+          "WinRate": 50
+        },
+        {
+          "CivName": "Magyars",
+          "GamesPlayed": 14,
+          "Wins": 9,
+          "Losses": 3,
+          "WinRate": 75
+        },
+        {
           "CivName": "Mongols",
           "GamesPlayed": 14,
           "Wins": 6,
@@ -4045,25 +4059,11 @@
           "WinRate": 75
         },
         {
-          "CivName": "Japanese",
-          "GamesPlayed": 12,
-          "Wins": 6,
-          "Losses": 6,
-          "WinRate": 50
-        },
-        {
           "CivName": "Jurchens",
           "GamesPlayed": 12,
           "Wins": 5,
           "Losses": 7,
           "WinRate": 41.67
-        },
-        {
-          "CivName": "Magyars",
-          "GamesPlayed": 12,
-          "Wins": 9,
-          "Losses": 3,
-          "WinRate": 75
         },
         {
           "CivName": "Bulgarians",
@@ -4092,6 +4092,13 @@
           "Wins": 7,
           "Losses": 3,
           "WinRate": 70
+        },
+        {
+          "CivName": "Spanish",
+          "GamesPlayed": 10,
+          "Wins": 5,
+          "Losses": 3,
+          "WinRate": 62.5
         },
         {
           "CivName": "Aztecs",
@@ -4155,13 +4162,6 @@
           "Wins": 4,
           "Losses": 4,
           "WinRate": 50
-        },
-        {
-          "CivName": "Spanish",
-          "GamesPlayed": 8,
-          "Wins": 5,
-          "Losses": 3,
-          "WinRate": 62.5
         },
         {
           "CivName": "Teutons",
@@ -4283,45 +4283,66 @@
       "CivStats": [
         {
           "CivName": "Portuguese",
-          "GamesPlayed": 125,
+          "GamesPlayed": 175,
           "Wins": 92,
           "Losses": 33,
           "WinRate": 73.6
         },
         {
           "CivName": "Saracens",
-          "GamesPlayed": 116,
+          "GamesPlayed": 148,
           "Wins": 77,
           "Losses": 39,
           "WinRate": 66.38
         },
         {
           "CivName": "Burgundians",
-          "GamesPlayed": 88,
+          "GamesPlayed": 100,
           "Wins": 49,
           "Losses": 39,
           "WinRate": 55.68
         },
         {
-          "CivName": "Khitans",
-          "GamesPlayed": 59,
-          "Wins": 37,
-          "Losses": 22,
-          "WinRate": 62.71
-        },
-        {
           "CivName": "Jurchens",
-          "GamesPlayed": 54,
+          "GamesPlayed": 68,
           "Wins": 40,
           "Losses": 14,
           "WinRate": 74.07
         },
         {
           "CivName": "Koreans",
-          "GamesPlayed": 52,
+          "GamesPlayed": 66,
           "Wins": 34,
           "Losses": 18,
           "WinRate": 65.38
+        },
+        {
+          "CivName": "Khitans",
+          "GamesPlayed": 65,
+          "Wins": 37,
+          "Losses": 22,
+          "WinRate": 62.71
+        },
+        {
+          "CivName": "Franks",
+          "GamesPlayed": 47,
+          "Wins": 30,
+          "Losses": 11,
+          "WinRate": 73.17
+        },
+        {
+          "CivName": "Magyars",
+          "GamesPlayed": 46,
+          "Wins": 28,
+          "Losses": 14,
+          "WinRate": 66.67
+        },
+        {
+          "CivName": "Ethiopians",
+          "GamesPlayed": 43,
+          "Wins": 21,
+          "Losses": 16,
+          "WinRate": 56.76
         },
         {
           "CivName": "Mongols",
@@ -4331,53 +4352,60 @@
           "WinRate": 69.77
         },
         {
-          "CivName": "Magyars",
-          "GamesPlayed": 42,
-          "Wins": 28,
-          "Losses": 14,
-          "WinRate": 66.67
-        },
-        {
-          "CivName": "Franks",
-          "GamesPlayed": 41,
-          "Wins": 30,
-          "Losses": 11,
-          "WinRate": 73.17
-        },
-        {
-          "CivName": "Ethiopians",
-          "GamesPlayed": 37,
-          "Wins": 21,
-          "Losses": 16,
-          "WinRate": 56.76
-        },
-        {
-          "CivName": "Huns",
-          "GamesPlayed": 35,
-          "Wins": 22,
-          "Losses": 13,
-          "WinRate": 62.86
-        },
-        {
           "CivName": "Aztecs",
-          "GamesPlayed": 34,
+          "GamesPlayed": 42,
           "Wins": 22,
           "Losses": 12,
           "WinRate": 64.71
         },
         {
-          "CivName": "Berbers",
-          "GamesPlayed": 33,
+          "CivName": "Huns",
+          "GamesPlayed": 41,
+          "Wins": 22,
+          "Losses": 13,
+          "WinRate": 62.86
+        },
+        {
+          "CivName": "Gurjaras",
+          "GamesPlayed": 38,
+          "Wins": 15,
+          "Losses": 17,
+          "WinRate": 46.88
+        },
+        {
+          "CivName": "Georgians",
+          "GamesPlayed": 37,
           "Wins": 20,
           "Losses": 13,
           "WinRate": 60.61
         },
         {
-          "CivName": "Georgians",
-          "GamesPlayed": 33,
+          "CivName": "Romans",
+          "GamesPlayed": 37,
+          "Wins": 21,
+          "Losses": 10,
+          "WinRate": 67.74
+        },
+        {
+          "CivName": "Berbers",
+          "GamesPlayed": 35,
           "Wins": 20,
           "Losses": 13,
           "WinRate": 60.61
+        },
+        {
+          "CivName": "Wu",
+          "GamesPlayed": 33,
+          "Wins": 20,
+          "Losses": 9,
+          "WinRate": 68.97
+        },
+        {
+          "CivName": "Armenians",
+          "GamesPlayed": 32,
+          "Wins": 20,
+          "Losses": 10,
+          "WinRate": 66.67
         },
         {
           "CivName": "Byzantines",
@@ -4387,13 +4415,6 @@
           "WinRate": 65.62
         },
         {
-          "CivName": "Gurjaras",
-          "GamesPlayed": 32,
-          "Wins": 15,
-          "Losses": 17,
-          "WinRate": 46.88
-        },
-        {
           "CivName": "Celts",
           "GamesPlayed": 31,
           "Wins": 10,
@@ -4401,25 +4422,32 @@
           "WinRate": 32.26
         },
         {
-          "CivName": "Romans",
-          "GamesPlayed": 31,
-          "Wins": 21,
-          "Losses": 10,
-          "WinRate": 67.74
-        },
-        {
-          "CivName": "Armenians",
-          "GamesPlayed": 30,
-          "Wins": 20,
-          "Losses": 10,
-          "WinRate": 66.67
-        },
-        {
-          "CivName": "Wu",
+          "CivName": "Incas",
           "GamesPlayed": 29,
-          "Wins": 20,
+          "Wins": 16,
+          "Losses": 11,
+          "WinRate": 59.26
+        },
+        {
+          "CivName": "Spanish",
+          "GamesPlayed": 29,
+          "Wins": 16,
+          "Losses": 11,
+          "WinRate": 59.26
+        },
+        {
+          "CivName": "Burmese",
+          "GamesPlayed": 28,
+          "Wins": 14,
+          "Losses": 12,
+          "WinRate": 53.85
+        },
+        {
+          "CivName": "Vietnamese",
+          "GamesPlayed": 28,
+          "Wins": 17,
           "Losses": 9,
-          "WinRate": 68.97
+          "WinRate": 65.38
         },
         {
           "CivName": "Wei",
@@ -4427,27 +4455,6 @@
           "Wins": 19,
           "Losses": 9,
           "WinRate": 67.86
-        },
-        {
-          "CivName": "Incas",
-          "GamesPlayed": 27,
-          "Wins": 16,
-          "Losses": 11,
-          "WinRate": 59.26
-        },
-        {
-          "CivName": "Spanish",
-          "GamesPlayed": 27,
-          "Wins": 16,
-          "Losses": 11,
-          "WinRate": 59.26
-        },
-        {
-          "CivName": "Burmese",
-          "GamesPlayed": 26,
-          "Wins": 14,
-          "Losses": 12,
-          "WinRate": 53.85
         },
         {
           "CivName": "Hindustanis",
@@ -4465,13 +4472,6 @@
         },
         {
           "CivName": "Teutons",
-          "GamesPlayed": 26,
-          "Wins": 17,
-          "Losses": 9,
-          "WinRate": 65.38
-        },
-        {
-          "CivName": "Vietnamese",
           "GamesPlayed": 26,
           "Wins": 17,
           "Losses": 9,
@@ -4520,6 +4520,13 @@
           "WinRate": 63.64
         },
         {
+          "CivName": "Turks",
+          "GamesPlayed": 22,
+          "Wins": 18,
+          "Losses": 2,
+          "WinRate": 90
+        },
+        {
           "CivName": "Chinese",
           "GamesPlayed": 20,
           "Wins": 13,
@@ -4541,11 +4548,25 @@
           "WinRate": 50
         },
         {
-          "CivName": "Turks",
+          "CivName": "Tatars",
           "GamesPlayed": 20,
-          "Wins": 18,
-          "Losses": 2,
-          "WinRate": 90
+          "Wins": 13,
+          "Losses": 5,
+          "WinRate": 72.22
+        },
+        {
+          "CivName": "Britons",
+          "GamesPlayed": 19,
+          "Wins": 6,
+          "Losses": 11,
+          "WinRate": 35.29
+        },
+        {
+          "CivName": "Dravidians",
+          "GamesPlayed": 19,
+          "Wins": 14,
+          "Losses": 3,
+          "WinRate": 82.35
         },
         {
           "CivName": "Italians",
@@ -4567,27 +4588,6 @@
           "Wins": 11,
           "Losses": 7,
           "WinRate": 61.11
-        },
-        {
-          "CivName": "Tatars",
-          "GamesPlayed": 18,
-          "Wins": 13,
-          "Losses": 5,
-          "WinRate": 72.22
-        },
-        {
-          "CivName": "Britons",
-          "GamesPlayed": 17,
-          "Wins": 6,
-          "Losses": 11,
-          "WinRate": 35.29
-        },
-        {
-          "CivName": "Dravidians",
-          "GamesPlayed": 17,
-          "Wins": 14,
-          "Losses": 3,
-          "WinRate": 82.35
         },
         {
           "CivName": "Khmer",
@@ -4639,45 +4639,52 @@
       "CivStats": [
         {
           "CivName": "Burgundians",
-          "GamesPlayed": 29,
+          "GamesPlayed": 57,
           "Wins": 20,
           "Losses": 9,
           "WinRate": 68.97
         },
         {
-          "CivName": "Bengalis",
-          "GamesPlayed": 18,
-          "Wins": 11,
-          "Losses": 7,
-          "WinRate": 61.11
-        },
-        {
           "CivName": "Byzantines",
-          "GamesPlayed": 17,
+          "GamesPlayed": 23,
           "Wins": 12,
           "Losses": 5,
           "WinRate": 70.59
         },
         {
-          "CivName": "Dravidians",
-          "GamesPlayed": 17,
-          "Wins": 10,
-          "Losses": 7,
-          "WinRate": 58.82
+          "CivName": "Koreans",
+          "GamesPlayed": 23,
+          "Wins": 9,
+          "Losses": 4,
+          "WinRate": 69.23
         },
         {
           "CivName": "Wu",
-          "GamesPlayed": 15,
+          "GamesPlayed": 23,
           "Wins": 11,
           "Losses": 4,
           "WinRate": 73.33
         },
         {
-          "CivName": "Koreans",
-          "GamesPlayed": 13,
-          "Wins": 9,
+          "CivName": "Bengalis",
+          "GamesPlayed": 22,
+          "Wins": 11,
+          "Losses": 7,
+          "WinRate": 61.11
+        },
+        {
+          "CivName": "Dravidians",
+          "GamesPlayed": 21,
+          "Wins": 10,
+          "Losses": 7,
+          "WinRate": 58.82
+        },
+        {
+          "CivName": "Huns",
+          "GamesPlayed": 12,
+          "Wins": 6,
           "Losses": 4,
-          "WinRate": 69.23
+          "WinRate": 60
         },
         {
           "CivName": "Aztecs",
@@ -4688,13 +4695,6 @@
         },
         {
           "CivName": "Georgians",
-          "GamesPlayed": 10,
-          "Wins": 6,
-          "Losses": 4,
-          "WinRate": 60
-        },
-        {
-          "CivName": "Huns",
           "GamesPlayed": 10,
           "Wins": 6,
           "Losses": 4,
@@ -4771,6 +4771,20 @@
           "WinRate": 62.5
         },
         {
+          "CivName": "Malay",
+          "GamesPlayed": 8,
+          "Wins": 4,
+          "Losses": 2,
+          "WinRate": 66.67
+        },
+        {
+          "CivName": "Bulgarians",
+          "GamesPlayed": 7,
+          "Wins": 2,
+          "Losses": 3,
+          "WinRate": 40
+        },
+        {
           "CivName": "Chinese",
           "GamesPlayed": 7,
           "Wins": 5,
@@ -4813,11 +4827,11 @@
           "WinRate": 50
         },
         {
-          "CivName": "Malay",
+          "CivName": "Khmer",
           "GamesPlayed": 6,
-          "Wins": 4,
+          "Wins": 2,
           "Losses": 2,
-          "WinRate": 66.67
+          "WinRate": 50
         },
         {
           "CivName": "Portuguese",
@@ -4846,13 +4860,6 @@
           "Wins": 6,
           "Losses": 0,
           "WinRate": 100
-        },
-        {
-          "CivName": "Bulgarians",
-          "GamesPlayed": 5,
-          "Wins": 2,
-          "Losses": 3,
-          "WinRate": 40
         },
         {
           "CivName": "Burmese",
@@ -4909,13 +4916,6 @@
           "Wins": 1,
           "Losses": 3,
           "WinRate": 25
-        },
-        {
-          "CivName": "Khmer",
-          "GamesPlayed": 4,
-          "Wins": 2,
-          "Losses": 2,
-          "WinRate": 50
         },
         {
           "CivName": "Mongols",
@@ -4995,24 +4995,80 @@
       "CivStats": [
         {
           "CivName": "Burgundians",
-          "GamesPlayed": 68,
+          "GamesPlayed": 132,
           "Wins": 54,
           "Losses": 14,
           "WinRate": 79.41
         },
         {
+          "CivName": "Khitans",
+          "GamesPlayed": 71,
+          "Wins": 26,
+          "Losses": 19,
+          "WinRate": 57.78
+        },
+        {
+          "CivName": "Byzantines",
+          "GamesPlayed": 55,
+          "Wins": 21,
+          "Losses": 14,
+          "WinRate": 60
+        },
+        {
           "CivName": "Saracens",
-          "GamesPlayed": 46,
+          "GamesPlayed": 54,
           "Wins": 31,
           "Losses": 15,
           "WinRate": 67.39
         },
         {
-          "CivName": "Khitans",
-          "GamesPlayed": 45,
-          "Wins": 26,
-          "Losses": 19,
-          "WinRate": 57.78
+          "CivName": "Spanish",
+          "GamesPlayed": 52,
+          "Wins": 14,
+          "Losses": 16,
+          "WinRate": 46.67
+        },
+        {
+          "CivName": "Ethiopians",
+          "GamesPlayed": 49,
+          "Wins": 21,
+          "Losses": 16,
+          "WinRate": 56.76
+        },
+        {
+          "CivName": "Mongols",
+          "GamesPlayed": 49,
+          "Wins": 22,
+          "Losses": 17,
+          "WinRate": 56.41
+        },
+        {
+          "CivName": "Magyars",
+          "GamesPlayed": 46,
+          "Wins": 28,
+          "Losses": 10,
+          "WinRate": 73.68
+        },
+        {
+          "CivName": "Jurchens",
+          "GamesPlayed": 43,
+          "Wins": 23,
+          "Losses": 10,
+          "WinRate": 69.7
+        },
+        {
+          "CivName": "Dravidians",
+          "GamesPlayed": 40,
+          "Wins": 14,
+          "Losses": 14,
+          "WinRate": 50
+        },
+        {
+          "CivName": "Bulgarians",
+          "GamesPlayed": 39,
+          "Wins": 23,
+          "Losses": 14,
+          "WinRate": 62.16
         },
         {
           "CivName": "Georgians",
@@ -5022,95 +5078,81 @@
           "WinRate": 79.49
         },
         {
-          "CivName": "Mongols",
-          "GamesPlayed": 39,
-          "Wins": 22,
-          "Losses": 17,
-          "WinRate": 56.41
-        },
-        {
-          "CivName": "Magyars",
-          "GamesPlayed": 38,
-          "Wins": 28,
-          "Losses": 10,
-          "WinRate": 73.68
-        },
-        {
-          "CivName": "Bulgarians",
-          "GamesPlayed": 37,
-          "Wins": 23,
-          "Losses": 14,
-          "WinRate": 62.16
-        },
-        {
-          "CivName": "Ethiopians",
-          "GamesPlayed": 37,
-          "Wins": 21,
-          "Losses": 16,
-          "WinRate": 56.76
-        },
-        {
-          "CivName": "Byzantines",
-          "GamesPlayed": 35,
-          "Wins": 21,
-          "Losses": 14,
-          "WinRate": 60
-        },
-        {
           "CivName": "Incas",
-          "GamesPlayed": 33,
+          "GamesPlayed": 39,
           "Wins": 21,
           "Losses": 12,
           "WinRate": 63.64
         },
         {
-          "CivName": "Jurchens",
-          "GamesPlayed": 33,
-          "Wins": 23,
-          "Losses": 10,
-          "WinRate": 69.7
-        },
-        {
-          "CivName": "Armenians",
-          "GamesPlayed": 30,
-          "Wins": 19,
-          "Losses": 11,
-          "WinRate": 63.33
-        },
-        {
-          "CivName": "Spanish",
-          "GamesPlayed": 30,
-          "Wins": 14,
-          "Losses": 16,
-          "WinRate": 46.67
-        },
-        {
           "CivName": "Tatars",
-          "GamesPlayed": 30,
+          "GamesPlayed": 36,
           "Wins": 18,
           "Losses": 12,
           "WinRate": 60
         },
         {
-          "CivName": "Khmer",
-          "GamesPlayed": 29,
-          "Wins": 13,
-          "Losses": 16,
-          "WinRate": 44.83
+          "CivName": "Armenians",
+          "GamesPlayed": 34,
+          "Wins": 19,
+          "Losses": 11,
+          "WinRate": 63.33
+        },
+        {
+          "CivName": "Vietnamese",
+          "GamesPlayed": 34,
+          "Wins": 19,
+          "Losses": 9,
+          "WinRate": 67.86
         },
         {
           "CivName": "Persians",
-          "GamesPlayed": 29,
+          "GamesPlayed": 33,
           "Wins": 16,
           "Losses": 13,
           "WinRate": 55.17
         },
         {
           "CivName": "Romans",
-          "GamesPlayed": 29,
+          "GamesPlayed": 33,
           "Wins": 16,
           "Losses": 13,
           "WinRate": 55.17
+        },
+        {
+          "CivName": "Portuguese",
+          "GamesPlayed": 32,
+          "Wins": 14,
+          "Losses": 12,
+          "WinRate": 53.85
+        },
+        {
+          "CivName": "Khmer",
+          "GamesPlayed": 31,
+          "Wins": 13,
+          "Losses": 16,
+          "WinRate": 44.83
+        },
+        {
+          "CivName": "Britons",
+          "GamesPlayed": 30,
+          "Wins": 16,
+          "Losses": 12,
+          "WinRate": 57.14
+        },
+        {
+          "CivName": "Turks",
+          "GamesPlayed": 30,
+          "Wins": 15,
+          "Losses": 11,
+          "WinRate": 57.69
+        },
+        {
+          "CivName": "Malians",
+          "GamesPlayed": 29,
+          "Wins": 18,
+          "Losses": 7,
+          "WinRate": 72
         },
         {
           "CivName": "Bohemians",
@@ -5120,29 +5162,8 @@
           "WinRate": 64.29
         },
         {
-          "CivName": "Britons",
-          "GamesPlayed": 28,
-          "Wins": 16,
-          "Losses": 12,
-          "WinRate": 57.14
-        },
-        {
-          "CivName": "Dravidians",
-          "GamesPlayed": 28,
-          "Wins": 14,
-          "Losses": 14,
-          "WinRate": 50
-        },
-        {
-          "CivName": "Vietnamese",
-          "GamesPlayed": 28,
-          "Wins": 19,
-          "Losses": 9,
-          "WinRate": 67.86
-        },
-        {
           "CivName": "Celts",
-          "GamesPlayed": 26,
+          "GamesPlayed": 28,
           "Wins": 14,
           "Losses": 12,
           "WinRate": 53.85
@@ -5169,20 +5190,6 @@
           "WinRate": 73.08
         },
         {
-          "CivName": "Portuguese",
-          "GamesPlayed": 26,
-          "Wins": 14,
-          "Losses": 12,
-          "WinRate": 53.85
-        },
-        {
-          "CivName": "Turks",
-          "GamesPlayed": 26,
-          "Wins": 15,
-          "Losses": 11,
-          "WinRate": 57.69
-        },
-        {
           "CivName": "Vikings",
           "GamesPlayed": 26,
           "Wins": 22,
@@ -5190,18 +5197,39 @@
           "WinRate": 84.62
         },
         {
-          "CivName": "Malians",
-          "GamesPlayed": 25,
-          "Wins": 18,
-          "Losses": 7,
-          "WinRate": 72
-        },
-        {
           "CivName": "Aztecs",
-          "GamesPlayed": 23,
+          "GamesPlayed": 25,
           "Wins": 14,
           "Losses": 9,
           "WinRate": 60.87
+        },
+        {
+          "CivName": "Huns",
+          "GamesPlayed": 25,
+          "Wins": 15,
+          "Losses": 6,
+          "WinRate": 71.43
+        },
+        {
+          "CivName": "Slavs",
+          "GamesPlayed": 25,
+          "Wins": 12,
+          "Losses": 9,
+          "WinRate": 57.14
+        },
+        {
+          "CivName": "Mayans",
+          "GamesPlayed": 24,
+          "Wins": 12,
+          "Losses": 6,
+          "WinRate": 66.67
+        },
+        {
+          "CivName": "Wei",
+          "GamesPlayed": 24,
+          "Wins": 13,
+          "Losses": 9,
+          "WinRate": 59.09
         },
         {
           "CivName": "Japanese",
@@ -5218,11 +5246,18 @@
           "WinRate": 36.36
         },
         {
-          "CivName": "Wei",
+          "CivName": "Wu",
           "GamesPlayed": 22,
-          "Wins": 13,
-          "Losses": 9,
-          "WinRate": 59.09
+          "Wins": 11,
+          "Losses": 5,
+          "WinRate": 68.75
+        },
+        {
+          "CivName": "Berbers",
+          "GamesPlayed": 21,
+          "Wins": 14,
+          "Losses": 3,
+          "WinRate": 82.35
         },
         {
           "CivName": "Chinese",
@@ -5232,13 +5267,6 @@
           "WinRate": 52.38
         },
         {
-          "CivName": "Huns",
-          "GamesPlayed": 21,
-          "Wins": 15,
-          "Losses": 6,
-          "WinRate": 71.43
-        },
-        {
           "CivName": "Poles",
           "GamesPlayed": 21,
           "Wins": 11,
@@ -5246,11 +5274,11 @@
           "WinRate": 52.38
         },
         {
-          "CivName": "Slavs",
-          "GamesPlayed": 21,
-          "Wins": 12,
-          "Losses": 9,
-          "WinRate": 57.14
+          "CivName": "Italians",
+          "GamesPlayed": 20,
+          "Wins": 11,
+          "Losses": 7,
+          "WinRate": 61.11
         },
         {
           "CivName": "Lithuanians",
@@ -5267,14 +5295,14 @@
           "WinRate": 42.11
         },
         {
-          "CivName": "Burmese",
-          "GamesPlayed": 18,
-          "Wins": 11,
-          "Losses": 7,
-          "WinRate": 61.11
+          "CivName": "Shu",
+          "GamesPlayed": 19,
+          "Wins": 12,
+          "Losses": 5,
+          "WinRate": 70.59
         },
         {
-          "CivName": "Italians",
+          "CivName": "Burmese",
           "GamesPlayed": 18,
           "Wins": 11,
           "Losses": 7,
@@ -5288,13 +5316,6 @@
           "WinRate": 38.89
         },
         {
-          "CivName": "Mayans",
-          "GamesPlayed": 18,
-          "Wins": 12,
-          "Losses": 6,
-          "WinRate": 66.67
-        },
-        {
           "CivName": "Sicilians",
           "GamesPlayed": 18,
           "Wins": 9,
@@ -5302,18 +5323,11 @@
           "WinRate": 50
         },
         {
-          "CivName": "Berbers",
+          "CivName": "Gurjaras",
           "GamesPlayed": 17,
-          "Wins": 14,
-          "Losses": 3,
-          "WinRate": 82.35
-        },
-        {
-          "CivName": "Shu",
-          "GamesPlayed": 17,
-          "Wins": 12,
-          "Losses": 5,
-          "WinRate": 70.59
+          "Wins": 6,
+          "Losses": 9,
+          "WinRate": 40
         },
         {
           "CivName": "Teutons",
@@ -5321,20 +5335,6 @@
           "Wins": 8,
           "Losses": 8,
           "WinRate": 50
-        },
-        {
-          "CivName": "Wu",
-          "GamesPlayed": 16,
-          "Wins": 11,
-          "Losses": 5,
-          "WinRate": 68.75
-        },
-        {
-          "CivName": "Gurjaras",
-          "GamesPlayed": 15,
-          "Wins": 6,
-          "Losses": 9,
-          "WinRate": 40
         },
         {
           "CivName": "Bengalis",
@@ -5351,49 +5351,56 @@
       "CivStats": [
         {
           "CivName": "Saracens",
-          "GamesPlayed": 62,
+          "GamesPlayed": 80,
           "Wins": 46,
           "Losses": 16,
           "WinRate": 74.19
         },
         {
           "CivName": "Khitans",
-          "GamesPlayed": 54,
+          "GamesPlayed": 72,
           "Wins": 35,
           "Losses": 19,
           "WinRate": 64.81
         },
         {
           "CivName": "Magyars",
-          "GamesPlayed": 49,
+          "GamesPlayed": 53,
           "Wins": 34,
           "Losses": 15,
           "WinRate": 69.39
         },
         {
-          "CivName": "Vietnamese",
-          "GamesPlayed": 36,
-          "Wins": 26,
-          "Losses": 10,
-          "WinRate": 72.22
-        },
-        {
           "CivName": "Jurchens",
-          "GamesPlayed": 35,
+          "GamesPlayed": 43,
           "Wins": 21,
           "Losses": 14,
           "WinRate": 60
         },
         {
           "CivName": "Bulgarians",
-          "GamesPlayed": 34,
+          "GamesPlayed": 38,
           "Wins": 18,
           "Losses": 16,
           "WinRate": 52.94
         },
         {
+          "CivName": "Vietnamese",
+          "GamesPlayed": 38,
+          "Wins": 26,
+          "Losses": 10,
+          "WinRate": 72.22
+        },
+        {
+          "CivName": "Koreans",
+          "GamesPlayed": 34,
+          "Wins": 24,
+          "Losses": 2,
+          "WinRate": 92.31
+        },
+        {
           "CivName": "Armenians",
-          "GamesPlayed": 31,
+          "GamesPlayed": 33,
           "Wins": 20,
           "Losses": 11,
           "WinRate": 64.52
@@ -5406,6 +5413,20 @@
           "WinRate": 70.97
         },
         {
+          "CivName": "Huns",
+          "GamesPlayed": 30,
+          "Wins": 19,
+          "Losses": 9,
+          "WinRate": 67.86
+        },
+        {
+          "CivName": "Lithuanians",
+          "GamesPlayed": 30,
+          "Wins": 17,
+          "Losses": 11,
+          "WinRate": 60.71
+        },
+        {
           "CivName": "Ethiopians",
           "GamesPlayed": 29,
           "Wins": 22,
@@ -5413,18 +5434,32 @@
           "WinRate": 75.86
         },
         {
-          "CivName": "Huns",
-          "GamesPlayed": 28,
-          "Wins": 19,
-          "Losses": 9,
-          "WinRate": 67.86
-        },
-        {
-          "CivName": "Lithuanians",
+          "CivName": "Dravidians",
           "GamesPlayed": 28,
           "Wins": 17,
+          "Losses": 9,
+          "WinRate": 65.38
+        },
+        {
+          "CivName": "Portuguese",
+          "GamesPlayed": 27,
+          "Wins": 16,
+          "Losses": 9,
+          "WinRate": 64
+        },
+        {
+          "CivName": "Vikings",
+          "GamesPlayed": 27,
+          "Wins": 12,
           "Losses": 11,
-          "WinRate": 60.71
+          "WinRate": 52.17
+        },
+        {
+          "CivName": "Wei",
+          "GamesPlayed": 27,
+          "Wins": 17,
+          "Losses": 8,
+          "WinRate": 68
         },
         {
           "CivName": "Aztecs",
@@ -5434,32 +5469,25 @@
           "WinRate": 65.38
         },
         {
-          "CivName": "Dravidians",
+          "CivName": "Britons",
           "GamesPlayed": 26,
+          "Wins": 15,
+          "Losses": 7,
+          "WinRate": 68.18
+        },
+        {
+          "CivName": "Cumans",
+          "GamesPlayed": 25,
           "Wins": 17,
-          "Losses": 9,
-          "WinRate": 65.38
+          "Losses": 6,
+          "WinRate": 73.91
         },
         {
-          "CivName": "Koreans",
-          "GamesPlayed": 26,
-          "Wins": 24,
-          "Losses": 2,
-          "WinRate": 92.31
-        },
-        {
-          "CivName": "Portuguese",
+          "CivName": "Shu",
           "GamesPlayed": 25,
           "Wins": 16,
-          "Losses": 9,
-          "WinRate": 64
-        },
-        {
-          "CivName": "Wei",
-          "GamesPlayed": 25,
-          "Wins": 17,
-          "Losses": 8,
-          "WinRate": 68
+          "Losses": 7,
+          "WinRate": 69.57
         },
         {
           "CivName": "Persians",
@@ -5476,39 +5504,11 @@
           "WinRate": 56.52
         },
         {
-          "CivName": "Cumans",
-          "GamesPlayed": 23,
-          "Wins": 17,
-          "Losses": 6,
-          "WinRate": 73.91
-        },
-        {
           "CivName": "Khmer",
           "GamesPlayed": 23,
           "Wins": 15,
           "Losses": 8,
           "WinRate": 65.22
-        },
-        {
-          "CivName": "Shu",
-          "GamesPlayed": 23,
-          "Wins": 16,
-          "Losses": 7,
-          "WinRate": 69.57
-        },
-        {
-          "CivName": "Vikings",
-          "GamesPlayed": 23,
-          "Wins": 12,
-          "Losses": 11,
-          "WinRate": 52.17
-        },
-        {
-          "CivName": "Britons",
-          "GamesPlayed": 22,
-          "Wins": 15,
-          "Losses": 7,
-          "WinRate": 68.18
         },
         {
           "CivName": "Celts",
@@ -5546,6 +5546,13 @@
           "WinRate": 40.91
         },
         {
+          "CivName": "Burmese",
+          "GamesPlayed": 21,
+          "Wins": 9,
+          "Losses": 10,
+          "WinRate": 47.37
+        },
+        {
           "CivName": "Franks",
           "GamesPlayed": 21,
           "Wins": 16,
@@ -5558,6 +5565,20 @@
           "Wins": 15,
           "Losses": 6,
           "WinRate": 71.43
+        },
+        {
+          "CivName": "Hindustanis",
+          "GamesPlayed": 21,
+          "Wins": 10,
+          "Losses": 7,
+          "WinRate": 58.82
+        },
+        {
+          "CivName": "Poles",
+          "GamesPlayed": 21,
+          "Wins": 11,
+          "Losses": 8,
+          "WinRate": 57.89
         },
         {
           "CivName": "Spanish",
@@ -5588,13 +5609,6 @@
           "WinRate": 65
         },
         {
-          "CivName": "Burmese",
-          "GamesPlayed": 19,
-          "Wins": 9,
-          "Losses": 10,
-          "WinRate": 47.37
-        },
-        {
           "CivName": "Gurjaras",
           "GamesPlayed": 19,
           "Wins": 10,
@@ -5607,13 +5621,6 @@
           "Wins": 7,
           "Losses": 12,
           "WinRate": 36.84
-        },
-        {
-          "CivName": "Poles",
-          "GamesPlayed": 19,
-          "Wins": 11,
-          "Losses": 8,
-          "WinRate": 57.89
         },
         {
           "CivName": "Slavs",
@@ -5651,11 +5658,18 @@
           "WinRate": 66.67
         },
         {
-          "CivName": "Hindustanis",
+          "CivName": "Romans",
           "GamesPlayed": 17,
+          "Wins": 9,
+          "Losses": 6,
+          "WinRate": 60
+        },
+        {
+          "CivName": "Bengalis",
+          "GamesPlayed": 16,
           "Wins": 10,
-          "Losses": 7,
-          "WinRate": 58.82
+          "Losses": 4,
+          "WinRate": 71.43
         },
         {
           "CivName": "Bohemians",
@@ -5665,25 +5679,11 @@
           "WinRate": 56.25
         },
         {
-          "CivName": "Romans",
-          "GamesPlayed": 15,
-          "Wins": 9,
-          "Losses": 6,
-          "WinRate": 60
-        },
-        {
           "CivName": "Sicilians",
           "GamesPlayed": 15,
           "Wins": 5,
           "Losses": 10,
           "WinRate": 33.33
-        },
-        {
-          "CivName": "Bengalis",
-          "GamesPlayed": 14,
-          "Wins": 10,
-          "Losses": 4,
-          "WinRate": 71.43
         },
         {
           "CivName": "Chinese",
@@ -5707,66 +5707,108 @@
       "CivStats": [
         {
           "CivName": "Khitans",
-          "GamesPlayed": 90,
+          "GamesPlayed": 164,
           "Wins": 60,
           "Losses": 30,
           "WinRate": 66.67
         },
         {
           "CivName": "Saracens",
-          "GamesPlayed": 57,
+          "GamesPlayed": 85,
           "Wins": 36,
           "Losses": 21,
           "WinRate": 63.16
         },
         {
+          "CivName": "Burgundians",
+          "GamesPlayed": 67,
+          "Wins": 16,
+          "Losses": 15,
+          "WinRate": 51.61
+        },
+        {
           "CivName": "Magyars",
-          "GamesPlayed": 48,
+          "GamesPlayed": 62,
           "Wins": 34,
           "Losses": 14,
           "WinRate": 70.83
         },
         {
-          "CivName": "Bulgarians",
-          "GamesPlayed": 39,
-          "Wins": 28,
-          "Losses": 11,
-          "WinRate": 71.79
-        },
-        {
           "CivName": "Huns",
-          "GamesPlayed": 39,
+          "GamesPlayed": 55,
           "Wins": 31,
           "Losses": 8,
           "WinRate": 79.49
         },
         {
           "CivName": "Shu",
-          "GamesPlayed": 39,
+          "GamesPlayed": 55,
           "Wins": 26,
           "Losses": 13,
           "WinRate": 66.67
         },
         {
-          "CivName": "Koreans",
-          "GamesPlayed": 38,
-          "Wins": 23,
-          "Losses": 15,
-          "WinRate": 60.53
+          "CivName": "Byzantines",
+          "GamesPlayed": 47,
+          "Wins": 17,
+          "Losses": 14,
+          "WinRate": 54.84
+        },
+        {
+          "CivName": "Bulgarians",
+          "GamesPlayed": 45,
+          "Wins": 28,
+          "Losses": 11,
+          "WinRate": 71.79
         },
         {
           "CivName": "Jurchens",
-          "GamesPlayed": 37,
+          "GamesPlayed": 45,
           "Wins": 19,
           "Losses": 18,
           "WinRate": 51.35
         },
         {
           "CivName": "Vietnamese",
-          "GamesPlayed": 37,
+          "GamesPlayed": 45,
           "Wins": 24,
           "Losses": 13,
           "WinRate": 64.86
+        },
+        {
+          "CivName": "Koreans",
+          "GamesPlayed": 44,
+          "Wins": 23,
+          "Losses": 15,
+          "WinRate": 60.53
+        },
+        {
+          "CivName": "Celts",
+          "GamesPlayed": 39,
+          "Wins": 19,
+          "Losses": 10,
+          "WinRate": 65.52
+        },
+        {
+          "CivName": "Wei",
+          "GamesPlayed": 39,
+          "Wins": 21,
+          "Losses": 10,
+          "WinRate": 67.74
+        },
+        {
+          "CivName": "Mayans",
+          "GamesPlayed": 38,
+          "Wins": 15,
+          "Losses": 11,
+          "WinRate": 57.69
+        },
+        {
+          "CivName": "Ethiopians",
+          "GamesPlayed": 35,
+          "Wins": 18,
+          "Losses": 13,
+          "WinRate": 58.06
         },
         {
           "CivName": "Incas",
@@ -5776,67 +5818,67 @@
           "WinRate": 65.62
         },
         {
-          "CivName": "Burgundians",
+          "CivName": "Mongols",
           "GamesPlayed": 31,
-          "Wins": 16,
-          "Losses": 15,
-          "WinRate": 51.61
-        },
-        {
-          "CivName": "Byzantines",
-          "GamesPlayed": 31,
-          "Wins": 17,
+          "Wins": 11,
           "Losses": 14,
-          "WinRate": 54.84
-        },
-        {
-          "CivName": "Ethiopians",
-          "GamesPlayed": 31,
-          "Wins": 18,
-          "Losses": 13,
-          "WinRate": 58.06
-        },
-        {
-          "CivName": "Wei",
-          "GamesPlayed": 31,
-          "Wins": 21,
-          "Losses": 10,
-          "WinRate": 67.74
-        },
-        {
-          "CivName": "Celts",
-          "GamesPlayed": 29,
-          "Wins": 19,
-          "Losses": 10,
-          "WinRate": 65.52
+          "WinRate": 44
         },
         {
           "CivName": "Tatars",
-          "GamesPlayed": 29,
+          "GamesPlayed": 31,
           "Wins": 15,
           "Losses": 14,
           "WinRate": 51.72
         },
         {
+          "CivName": "Georgians",
+          "GamesPlayed": 29,
+          "Wins": 16,
+          "Losses": 9,
+          "WinRate": 64
+        },
+        {
+          "CivName": "Italians",
+          "GamesPlayed": 29,
+          "Wins": 16,
+          "Losses": 9,
+          "WinRate": 64
+        },
+        {
           "CivName": "Teutons",
-          "GamesPlayed": 27,
+          "GamesPlayed": 29,
           "Wins": 10,
           "Losses": 17,
           "WinRate": 37.04
         },
         {
           "CivName": "Franks",
-          "GamesPlayed": 26,
+          "GamesPlayed": 28,
           "Wins": 20,
           "Losses": 6,
           "WinRate": 76.92
         },
         {
-          "CivName": "Mayans",
-          "GamesPlayed": 26,
+          "CivName": "Hindustanis",
+          "GamesPlayed": 28,
           "Wins": 15,
-          "Losses": 11,
-          "WinRate": 57.69
+          "Losses": 9,
+          "WinRate": 62.5
+        },
+        {
+          "CivName": "Gurjaras",
+          "GamesPlayed": 27,
+          "Wins": 10,
+          "Losses": 13,
+          "WinRate": 43.48
+        },
+        {
+          "CivName": "Turks",
+          "GamesPlayed": 26,
+          "Wins": 16,
+          "Losses": 8,
+          "WinRate": 66.67
         },
         {
           "CivName": "Aztecs",
@@ -5853,32 +5895,39 @@
           "WinRate": 48
         },
         {
-          "CivName": "Georgians",
-          "GamesPlayed": 25,
-          "Wins": 16,
-          "Losses": 9,
-          "WinRate": 64
-        },
-        {
-          "CivName": "Italians",
-          "GamesPlayed": 25,
-          "Wins": 16,
-          "Losses": 9,
-          "WinRate": 64
-        },
-        {
-          "CivName": "Mongols",
+          "CivName": "Lithuanians",
           "GamesPlayed": 25,
           "Wins": 11,
-          "Losses": 14,
-          "WinRate": 44
+          "Losses": 12,
+          "WinRate": 47.83
         },
         {
-          "CivName": "Hindustanis",
-          "GamesPlayed": 24,
-          "Wins": 15,
+          "CivName": "Spanish",
+          "GamesPlayed": 25,
+          "Wins": 12,
           "Losses": 9,
-          "WinRate": 62.5
+          "WinRate": 57.14
+        },
+        {
+          "CivName": "Burmese",
+          "GamesPlayed": 24,
+          "Wins": 7,
+          "Losses": 11,
+          "WinRate": 38.89
+        },
+        {
+          "CivName": "Goths",
+          "GamesPlayed": 24,
+          "Wins": 12,
+          "Losses": 8,
+          "WinRate": 60
+        },
+        {
+          "CivName": "Portuguese",
+          "GamesPlayed": 24,
+          "Wins": 7,
+          "Losses": 11,
+          "WinRate": 38.89
         },
         {
           "CivName": "Romans",
@@ -5888,11 +5937,11 @@
           "WinRate": 62.5
         },
         {
-          "CivName": "Turks",
-          "GamesPlayed": 24,
-          "Wins": 16,
+          "CivName": "Bohemians",
+          "GamesPlayed": 23,
+          "Wins": 9,
           "Losses": 8,
-          "WinRate": 66.67
+          "WinRate": 52.94
         },
         {
           "CivName": "Cumans",
@@ -5902,39 +5951,67 @@
           "WinRate": 69.57
         },
         {
-          "CivName": "Gurjaras",
-          "GamesPlayed": 23,
-          "Wins": 10,
-          "Losses": 13,
-          "WinRate": 43.48
-        },
-        {
-          "CivName": "Lithuanians",
-          "GamesPlayed": 23,
-          "Wins": 11,
-          "Losses": 12,
-          "WinRate": 47.83
-        },
-        {
           "CivName": "Dravidians",
-          "GamesPlayed": 21,
+          "GamesPlayed": 23,
           "Wins": 13,
           "Losses": 8,
           "WinRate": 61.9
         },
         {
-          "CivName": "Spanish",
-          "GamesPlayed": 21,
-          "Wins": 12,
-          "Losses": 9,
-          "WinRate": 57.14
+          "CivName": "Vikings",
+          "GamesPlayed": 23,
+          "Wins": 15,
+          "Losses": 4,
+          "WinRate": 78.95
         },
         {
-          "CivName": "Goths",
-          "GamesPlayed": 20,
-          "Wins": 12,
+          "CivName": "Bengalis",
+          "GamesPlayed": 21,
+          "Wins": 11,
+          "Losses": 6,
+          "WinRate": 64.71
+        },
+        {
+          "CivName": "Chinese",
+          "GamesPlayed": 21,
+          "Wins": 11,
           "Losses": 8,
-          "WinRate": 60
+          "WinRate": 57.89
+        },
+        {
+          "CivName": "Malay",
+          "GamesPlayed": 21,
+          "Wins": 11,
+          "Losses": 6,
+          "WinRate": 64.71
+        },
+        {
+          "CivName": "Persians",
+          "GamesPlayed": 21,
+          "Wins": 10,
+          "Losses": 9,
+          "WinRate": 52.63
+        },
+        {
+          "CivName": "Wu",
+          "GamesPlayed": 21,
+          "Wins": 9,
+          "Losses": 10,
+          "WinRate": 47.37
+        },
+        {
+          "CivName": "Armenians",
+          "GamesPlayed": 20,
+          "Wins": 14,
+          "Losses": 2,
+          "WinRate": 87.5
+        },
+        {
+          "CivName": "Berbers",
+          "GamesPlayed": 20,
+          "Wins": 8,
+          "Losses": 10,
+          "WinRate": 44.44
         },
         {
           "CivName": "Khmer",
@@ -5944,60 +6021,18 @@
           "WinRate": 40
         },
         {
+          "CivName": "Malians",
+          "GamesPlayed": 20,
+          "Wins": 10,
+          "Losses": 6,
+          "WinRate": 62.5
+        },
+        {
           "CivName": "Poles",
           "GamesPlayed": 20,
           "Wins": 12,
           "Losses": 8,
           "WinRate": 60
-        },
-        {
-          "CivName": "Chinese",
-          "GamesPlayed": 19,
-          "Wins": 11,
-          "Losses": 8,
-          "WinRate": 57.89
-        },
-        {
-          "CivName": "Persians",
-          "GamesPlayed": 19,
-          "Wins": 10,
-          "Losses": 9,
-          "WinRate": 52.63
-        },
-        {
-          "CivName": "Vikings",
-          "GamesPlayed": 19,
-          "Wins": 15,
-          "Losses": 4,
-          "WinRate": 78.95
-        },
-        {
-          "CivName": "Wu",
-          "GamesPlayed": 19,
-          "Wins": 9,
-          "Losses": 10,
-          "WinRate": 47.37
-        },
-        {
-          "CivName": "Berbers",
-          "GamesPlayed": 18,
-          "Wins": 8,
-          "Losses": 10,
-          "WinRate": 44.44
-        },
-        {
-          "CivName": "Burmese",
-          "GamesPlayed": 18,
-          "Wins": 7,
-          "Losses": 11,
-          "WinRate": 38.89
-        },
-        {
-          "CivName": "Portuguese",
-          "GamesPlayed": 18,
-          "Wins": 7,
-          "Losses": 11,
-          "WinRate": 38.89
         },
         {
           "CivName": "Slavs",
@@ -6007,50 +6042,15 @@
           "WinRate": 38.89
         },
         {
-          "CivName": "Bengalis",
-          "GamesPlayed": 17,
-          "Wins": 11,
-          "Losses": 6,
-          "WinRate": 64.71
-        },
-        {
-          "CivName": "Bohemians",
-          "GamesPlayed": 17,
-          "Wins": 9,
-          "Losses": 8,
-          "WinRate": 52.94
-        },
-        {
-          "CivName": "Malay",
-          "GamesPlayed": 17,
-          "Wins": 11,
-          "Losses": 6,
-          "WinRate": 64.71
-        },
-        {
-          "CivName": "Armenians",
-          "GamesPlayed": 16,
-          "Wins": 14,
-          "Losses": 2,
-          "WinRate": 87.5
-        },
-        {
-          "CivName": "Malians",
-          "GamesPlayed": 16,
-          "Wins": 10,
-          "Losses": 6,
-          "WinRate": 62.5
-        },
-        {
           "CivName": "Japanese",
-          "GamesPlayed": 15,
+          "GamesPlayed": 17,
           "Wins": 8,
           "Losses": 7,
           "WinRate": 53.33
         },
         {
           "CivName": "Sicilians",
-          "GamesPlayed": 15,
+          "GamesPlayed": 17,
           "Wins": 11,
           "Losses": 4,
           "WinRate": 73.33
@@ -6063,52 +6063,80 @@
       "CivStats": [
         {
           "CivName": "Saracens",
-          "GamesPlayed": 48,
+          "GamesPlayed": 70,
           "Wins": 34,
           "Losses": 14,
           "WinRate": 70.83
         },
         {
-          "CivName": "Huns",
-          "GamesPlayed": 34,
-          "Wins": 24,
-          "Losses": 10,
-          "WinRate": 70.59
-        },
-        {
           "CivName": "Khitans",
-          "GamesPlayed": 33,
+          "GamesPlayed": 47,
           "Wins": 22,
           "Losses": 11,
           "WinRate": 66.67
         },
         {
+          "CivName": "Huns",
+          "GamesPlayed": 38,
+          "Wins": 24,
+          "Losses": 10,
+          "WinRate": 70.59
+        },
+        {
           "CivName": "Byzantines",
-          "GamesPlayed": 26,
+          "GamesPlayed": 30,
           "Wins": 16,
           "Losses": 10,
           "WinRate": 61.54
         },
         {
+          "CivName": "Jurchens",
+          "GamesPlayed": 26,
+          "Wins": 8,
+          "Losses": 10,
+          "WinRate": 44.44
+        },
+        {
+          "CivName": "Khmer",
+          "GamesPlayed": 25,
+          "Wins": 9,
+          "Losses": 12,
+          "WinRate": 42.86
+        },
+        {
           "CivName": "Koreans",
-          "GamesPlayed": 22,
+          "GamesPlayed": 24,
           "Wins": 18,
           "Losses": 4,
           "WinRate": 81.82
         },
         {
           "CivName": "Magyars",
-          "GamesPlayed": 22,
+          "GamesPlayed": 24,
           "Wins": 13,
           "Losses": 9,
           "WinRate": 59.09
         },
         {
-          "CivName": "Khmer",
-          "GamesPlayed": 21,
+          "CivName": "Ethiopians",
+          "GamesPlayed": 20,
+          "Wins": 11,
+          "Losses": 7,
+          "WinRate": 61.11
+        },
+        {
+          "CivName": "Armenians",
+          "GamesPlayed": 19,
+          "Wins": 8,
+          "Losses": 7,
+          "WinRate": 53.33
+        },
+        {
+          "CivName": "Aztecs",
+          "GamesPlayed": 18,
           "Wins": 9,
-          "Losses": 12,
-          "WinRate": 42.86
+          "Losses": 7,
+          "WinRate": 56.25
         },
         {
           "CivName": "Burgundians",
@@ -6118,25 +6146,18 @@
           "WinRate": 77.78
         },
         {
-          "CivName": "Ethiopians",
-          "GamesPlayed": 18,
-          "Wins": 11,
-          "Losses": 7,
-          "WinRate": 61.11
+          "CivName": "Celts",
+          "GamesPlayed": 16,
+          "Wins": 6,
+          "Losses": 8,
+          "WinRate": 42.86
         },
         {
-          "CivName": "Jurchens",
-          "GamesPlayed": 18,
-          "Wins": 8,
-          "Losses": 10,
-          "WinRate": 44.44
-        },
-        {
-          "CivName": "Aztecs",
+          "CivName": "Georgians",
           "GamesPlayed": 16,
           "Wins": 9,
-          "Losses": 7,
-          "WinRate": 56.25
+          "Losses": 5,
+          "WinRate": 64.29
         },
         {
           "CivName": "Wei",
@@ -6144,13 +6165,6 @@
           "Wins": 12,
           "Losses": 4,
           "WinRate": 75
-        },
-        {
-          "CivName": "Armenians",
-          "GamesPlayed": 15,
-          "Wins": 8,
-          "Losses": 7,
-          "WinRate": 53.33
         },
         {
           "CivName": "Incas",
@@ -6167,18 +6181,11 @@
           "WinRate": 53.33
         },
         {
-          "CivName": "Celts",
+          "CivName": "Cumans",
           "GamesPlayed": 14,
           "Wins": 6,
-          "Losses": 8,
-          "WinRate": 42.86
-        },
-        {
-          "CivName": "Georgians",
-          "GamesPlayed": 14,
-          "Wins": 9,
-          "Losses": 5,
-          "WinRate": 64.29
+          "Losses": 6,
+          "WinRate": 50
         },
         {
           "CivName": "Hindustanis",
@@ -6223,11 +6230,18 @@
           "WinRate": 50
         },
         {
-          "CivName": "Cumans",
+          "CivName": "Dravidians",
+          "GamesPlayed": 12,
+          "Wins": 4,
+          "Losses": 6,
+          "WinRate": 40
+        },
+        {
+          "CivName": "Gurjaras",
           "GamesPlayed": 12,
           "Wins": 6,
-          "Losses": 6,
-          "WinRate": 50
+          "Losses": 4,
+          "WinRate": 60
         },
         {
           "CivName": "Vietnamese",
@@ -6249,6 +6263,13 @@
           "Wins": 8,
           "Losses": 3,
           "WinRate": 72.73
+        },
+        {
+          "CivName": "Bulgarians",
+          "GamesPlayed": 11,
+          "Wins": 7,
+          "Losses": 2,
+          "WinRate": 77.78
         },
         {
           "CivName": "Goths",
@@ -6286,20 +6307,6 @@
           "WinRate": 54.55
         },
         {
-          "CivName": "Dravidians",
-          "GamesPlayed": 10,
-          "Wins": 4,
-          "Losses": 6,
-          "WinRate": 40
-        },
-        {
-          "CivName": "Gurjaras",
-          "GamesPlayed": 10,
-          "Wins": 6,
-          "Losses": 4,
-          "WinRate": 60
-        },
-        {
           "CivName": "Japanese",
           "GamesPlayed": 10,
           "Wins": 5,
@@ -6321,11 +6328,18 @@
           "WinRate": 55.56
         },
         {
-          "CivName": "Bulgarians",
+          "CivName": "Malay",
           "GamesPlayed": 9,
-          "Wins": 7,
-          "Losses": 2,
-          "WinRate": 77.78
+          "Wins": 3,
+          "Losses": 4,
+          "WinRate": 42.86
+        },
+        {
+          "CivName": "Teutons",
+          "GamesPlayed": 9,
+          "Wins": 4,
+          "Losses": 3,
+          "WinRate": 57.14
         },
         {
           "CivName": "Berbers",
@@ -6356,13 +6370,6 @@
           "WinRate": 57.14
         },
         {
-          "CivName": "Malay",
-          "GamesPlayed": 7,
-          "Wins": 3,
-          "Losses": 4,
-          "WinRate": 42.86
-        },
-        {
           "CivName": "Spanish",
           "GamesPlayed": 7,
           "Wins": 3,
@@ -6371,13 +6378,6 @@
         },
         {
           "CivName": "Tatars",
-          "GamesPlayed": 7,
-          "Wins": 4,
-          "Losses": 3,
-          "WinRate": 57.14
-        },
-        {
-          "CivName": "Teutons",
           "GamesPlayed": 7,
           "Wins": 4,
           "Losses": 3,
