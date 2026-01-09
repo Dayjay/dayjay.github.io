@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AoE2 Tournament Statistics - Jan 2-18, 2026</title>
+    <title>Red Bull Wololo Legacy - Tournament Statistics</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: linear-gradient(135deg, #1a1d4d 0%, #1e2870 50%, #1a1d4d 100%);
             color: #333;
             padding: 20px;
             min-height: 100vh;
@@ -24,25 +24,29 @@
             margin: 0 auto;
             background: white;
             border-radius: 10px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 40px rgba(221, 18, 52, 0.3);
             overflow: hidden;
         }
 
         header {
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            background: linear-gradient(135deg, #1a1d4d 0%, #1e2870 100%);
             color: white;
             padding: 30px;
             text-align: center;
+            border-bottom: 4px solid #DD1234;
         }
 
         h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
+            color: #FFFFFF;
+            text-shadow: 0 0 10px rgba(221, 18, 52, 0.5);
         }
 
         .subtitle {
             font-size: 1.1em;
             opacity: 0.9;
+            color: #FDB913;
         }
 
         .stats-overview {
@@ -60,13 +64,14 @@
         .stat-value {
             font-size: 2em;
             font-weight: bold;
-            color: #2c3e50;
+            color: #DD1234;
         }
 
         .stat-label {
             font-size: 0.9em;
-            color: #6c757d;
+            color: #1a1d4d;
             margin-top: 5px;
+            font-weight: 600;
         }
 
         .controls {
@@ -121,7 +126,7 @@
         }
 
         input:checked + .slider {
-            background-color: #2196F3;
+            background-color: #DD1234;
         }
 
         input:checked + .slider:before {
@@ -140,18 +145,20 @@
         }
 
         .map-header {
-            background: #34495e;
+            background: linear-gradient(135deg, #1a1d4d 0%, #1e2870 100%);
             color: white;
             padding: 15px 20px;
             font-size: 1.3em;
             font-weight: bold;
+            border-left: 5px solid #DD1234;
         }
 
         .map-info {
             padding: 10px 20px;
-            background: #ecf0f1;
+            background: #f8f9fa;
             font-size: 0.9em;
             color: #555;
+            border-left: 5px solid #FDB913;
         }
 
         table {
@@ -224,17 +231,18 @@
         .show-more-btn {
             width: 100%;
             padding: 15px;
-            background: #3498db;
+            background: linear-gradient(135deg, #DD1234 0%, #c01030 100%);
             color: white;
             border: none;
             cursor: pointer;
             font-size: 1em;
             font-weight: 600;
-            transition: background 0.3s;
+            transition: all 0.3s;
         }
 
         .show-more-btn:hover {
-            background: #2980b9;
+            background: linear-gradient(135deg, #c01030 0%, #a00c28 100%);
+            box-shadow: 0 4px 8px rgba(221, 18, 52, 0.3);
         }
 
         /* Modal styles */
@@ -263,12 +271,13 @@
         }
 
         .modal-header {
-            background: #34495e;
+            background: linear-gradient(135deg, #1a1d4d 0%, #1e2870 100%);
             color: white;
             padding: 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            border-bottom: 4px solid #DD1234;
         }
 
         .modal-header h2 {
@@ -313,7 +322,7 @@
 <body>
 <div class="container">
     <header>
-        <h1>🏆 AoE2 Tournament Statistics</h1>
+        <h1>🏆 Red Bull Wololo - Legacy Tournament</h1>
         <p class="subtitle">January 2-18, 2026</p>
     </header>
 
@@ -379,10 +388,11 @@
 <script>
     let tournamentData = null;
     let currentModalData = [];
-    let modalSortColumn = 1; // Default sort by games played
+    let modalSortColumn = 1;
     let modalSortDirection = 'desc';
+    let mapTableSortStates = {}; // Track sort state for each map
 
-    // Load data - CHANGE THIS if you renamed the JSON file
+    // Load data
     fetch('rbw-londonium-data.json')
         .then(response => {
             if (!response.ok) {
@@ -434,6 +444,7 @@
     function createMapSection(map) {
         const section = document.createElement('div');
         section.className = 'map-section';
+        section.dataset.mapName = map.MapName;
 
         const header = document.createElement('div');
         header.className = 'map-header';
@@ -445,9 +456,14 @@
         info.textContent = `${map.TotalGames} matches played`;
         section.appendChild(info);
 
+        // Initialize sort state for this map
+        if (!mapTableSortStates[map.MapName]) {
+            mapTableSortStates[map.MapName] = { column: 1, direction: 'desc' };
+        }
+
         // Show top 5 civs
         const top5 = map.CivStats.slice(0, 5);
-        const table = createCivTable(top5, map.MapName);
+        const table = createCivTable(top5, map);
         section.appendChild(table);
 
         // Show more button if there are more than 5 civs
@@ -462,36 +478,116 @@
         return section;
     }
 
-    function createCivTable(civs, mapName) {
+    function createCivTable(civs, map) {
         const table = document.createElement('table');
+        table.dataset.mapName = map.MapName;
 
         const thead = document.createElement('thead');
-        thead.innerHTML = `
-                <tr>
-                    <th>Civilization</th>
-                    <th>Games Played</th>
-                    <th>Wins</th>
-                    <th>Losses</th>
-                    <th>Win Rate</th>
-                </tr>
-            `;
+        const headerRow = document.createElement('tr');
+        const headers = ['Civilization', 'Games Played', 'Wins', 'Losses', 'Win Rate'];
+
+        headers.forEach((headerText, index) => {
+            const th = document.createElement('th');
+            th.textContent = headerText;
+            th.className = 'sortable';
+            th.onclick = () => sortMainTable(map, index);
+            headerRow.appendChild(th);
+        });
+
+        thead.appendChild(headerRow);
         table.appendChild(thead);
 
         const tbody = document.createElement('tbody');
         civs.forEach(civ => {
             const tr = document.createElement('tr');
             tr.innerHTML = `
-                    <td class="civ-name">${civ.CivName}</td>
-                    <td>${civ.GamesPlayed}</td>
-                    <td>${civ.Wins}</td>
-                    <td>${civ.Losses}</td>
-                    <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
-                `;
+                <td class="civ-name">${civ.CivName}</td>
+                <td>${civ.GamesPlayed}</td>
+                <td>${civ.Wins}</td>
+                <td>${civ.Losses}</td>
+                <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
+            `;
             tbody.appendChild(tr);
         });
         table.appendChild(tbody);
 
+        // Update sort indicators
+        updateMainTableSortIndicators(table, mapTableSortStates[map.MapName].column);
+
         return table;
+    }
+
+    function sortMainTable(map, column) {
+        const state = mapTableSortStates[map.MapName];
+
+        // Toggle direction if same column
+        if (state.column === column) {
+            state.direction = state.direction === 'asc' ? 'desc' : 'asc';
+        } else {
+            state.column = column;
+            state.direction = 'desc';
+        }
+
+        // Sort the data
+        const sortedCivs = [...map.CivStats].sort((a, b) => {
+            let valA, valB;
+
+            switch(column) {
+                case 0: valA = a.CivName; valB = b.CivName; break;
+                case 1: valA = a.GamesPlayed; valB = b.GamesPlayed; break;
+                case 2: valA = a.Wins; valB = b.Wins; break;
+                case 3: valA = a.Losses; valB = b.Losses; break;
+                case 4: valA = a.WinRate; valB = b.WinRate; break;
+            }
+
+            if (typeof valA === 'string') {
+                return state.direction === 'asc'
+                    ? valA.localeCompare(valB)
+                    : valB.localeCompare(valA);
+            } else {
+                return state.direction === 'asc'
+                    ? valA - valB
+                    : valB - valA;
+            }
+        });
+
+        // Update the table
+        const section = document.querySelector(`.map-section[data-map-name="${map.MapName}"]`);
+        const table = section.querySelector('table');
+        const tbody = table.querySelector('tbody');
+        tbody.innerHTML = '';
+
+        const top5 = sortedCivs.slice(0, 5);
+        top5.forEach(civ => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td class="civ-name">${civ.CivName}</td>
+                <td>${civ.GamesPlayed}</td>
+                <td>${civ.Wins}</td>
+                <td>${civ.Losses}</td>
+                <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
+            `;
+            tbody.appendChild(tr);
+        });
+
+        // Update map.CivStats to keep sorted order
+        map.CivStats = sortedCivs;
+
+        // Update sort indicators
+        updateMainTableSortIndicators(table, column);
+    }
+
+    function updateMainTableSortIndicators(table, column) {
+        const mapName = table.dataset.mapName;
+        const state = mapTableSortStates[mapName];
+        const headers = table.querySelectorAll('th');
+
+        headers.forEach((th, index) => {
+            th.classList.remove('sort-asc', 'sort-desc');
+            if (index === column) {
+                th.classList.add(state.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+            }
+        });
     }
 
     function getWinRateClass(winRate) {
@@ -504,7 +600,7 @@
         currentModalData = [...map.CivStats];
         document.getElementById('modalTitle').textContent = `${map.MapName} - All Civilizations`;
 
-        modalSortColumn = 1; // Reset to games played
+        modalSortColumn = 1;
         modalSortDirection = 'desc';
         sortModalTable(1);
 
@@ -512,7 +608,6 @@
     }
 
     function sortModalTable(column) {
-        // Toggle direction if same column
         if (modalSortColumn === column) {
             modalSortDirection = modalSortDirection === 'asc' ? 'desc' : 'asc';
         } else {
@@ -520,31 +615,15 @@
             modalSortDirection = 'desc';
         }
 
-        // Sort data
         currentModalData.sort((a, b) => {
             let valA, valB;
 
             switch(column) {
-                case 0: // Civilization name
-                    valA = a.CivName;
-                    valB = b.CivName;
-                    break;
-                case 1: // Games played
-                    valA = a.GamesPlayed;
-                    valB = b.GamesPlayed;
-                    break;
-                case 2: // Wins
-                    valA = a.Wins;
-                    valB = b.Wins;
-                    break;
-                case 3: // Losses
-                    valA = a.Losses;
-                    valB = b.Losses;
-                    break;
-                case 4: // Win rate
-                    valA = a.WinRate;
-                    valB = b.WinRate;
-                    break;
+                case 0: valA = a.CivName; valB = b.CivName; break;
+                case 1: valA = a.GamesPlayed; valB = b.GamesPlayed; break;
+                case 2: valA = a.Wins; valB = b.Wins; break;
+                case 3: valA = a.Losses; valB = b.Losses; break;
+                case 4: valA = a.WinRate; valB = b.WinRate; break;
             }
 
             if (typeof valA === 'string') {
@@ -559,7 +638,7 @@
         });
 
         updateModalTable();
-        updateSortIndicators(column);
+        updateModalSortIndicators(column);
     }
 
     function updateModalTable() {
@@ -569,17 +648,17 @@
         currentModalData.forEach(civ => {
             const tr = document.createElement('tr');
             tr.innerHTML = `
-                    <td class="civ-name">${civ.CivName}</td>
-                    <td>${civ.GamesPlayed}</td>
-                    <td>${civ.Wins}</td>
-                    <td>${civ.Losses}</td>
-                    <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
-                `;
+                <td class="civ-name">${civ.CivName}</td>
+                <td>${civ.GamesPlayed}</td>
+                <td>${civ.Wins}</td>
+                <td>${civ.Losses}</td>
+                <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
+            `;
             tbody.appendChild(tr);
         });
     }
 
-    function updateSortIndicators(column) {
+    function updateModalSortIndicators(column) {
         const headers = document.querySelectorAll('#modalTable th');
         headers.forEach((th, index) => {
             th.classList.remove('sort-asc', 'sort-desc');
@@ -593,7 +672,6 @@
         document.getElementById('civModal').style.display = 'none';
     }
 
-    // Close modal when clicking outside
     window.onclick = function(event) {
         const modal = document.getElementById('civModal');
         if (event.target === modal) {
@@ -601,7 +679,6 @@
         }
     }
 
-    // Filter toggle
     document.getElementById('playerFilter').addEventListener('change', displayMaps);
 </script>
 </body>
