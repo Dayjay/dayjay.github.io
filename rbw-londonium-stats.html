@@ -366,10 +366,6 @@
             <div class="stat-value" id="totalPlayers">-</div>
             <div class="stat-label">Total Players</div>
         </div>
-        <div class="stat-box">
-            <div class="stat-value" id="lastUpdated">-</div>
-            <div class="stat-label">Last Updated</div>
-        </div>
     </div>
 
     <div class="controls">
@@ -387,7 +383,7 @@
     </div>
 
     <footer>
-        Generated on <span id="footerDate">-</span> |
+        Generated on <span id="footerDate">-</span>
         <div class="disclaimer">
             This website was created under "<a href="https://www.xbox.com/en-us/developers/rules">Microsoft's "Game Content Usage Rules</a>" using assets from Age of Empires II and Age of Empires II: Definitive Edition and it is not endorsed by or affiliated with Microsoft. Age of Empires II: Definitive Edition © Microsoft Corporation.
         </div>
@@ -462,7 +458,6 @@
 
         const date = new Date(tournamentData.GeneratedAt);
 
-        document.getElementById('lastUpdated').textContent = date.toLocaleString();
         document.getElementById('footerDate').textContent = date.toLocaleString();
     }
 
