@@ -151,6 +151,16 @@
             font-size: 1.3em;
             font-weight: bold;
             border-left: 5px solid #DD1234;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .map-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            object-fit: cover;
         }
 
         .map-info {
@@ -210,6 +220,16 @@
 
         .civ-name {
             font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .civ-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 3px;
+            object-fit: cover;
         }
 
         .winrate {
@@ -311,6 +331,17 @@
             font-size: 0.9em;
         }
 
+        .disclaimer {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #dee2e6;
+            font-size: 0.8em;
+            color: #999;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         .loading {
             text-align: center;
             padding: 40px;
@@ -357,6 +388,9 @@
 
     <footer>
         Generated on <span id="footerDate">-</span> | Data source: aoe2companion.com
+        <div class="disclaimer">
+            This website was created under Microsoft's "Game Content Usage Rules" using assets from Age of Empires II and Age of Empires II: Definitive Edition and it is not endorsed by or affiliated with Microsoft. Age of Empires II: Definitive Edition © Microsoft Corporation.
+        </div>
     </footer>
 </div>
 
@@ -390,7 +424,19 @@
     let currentModalData = [];
     let modalSortColumn = 1;
     let modalSortDirection = 'desc';
-    let mapTableSortStates = {}; // Track sort state for each map
+    let mapTableSortStates = {};
+    let originalMapData = {}; // Store original unsorted data
+
+    const CIV_ICON_BASE = 'https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/';
+    const MAP_ICON_BASE = 'https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/maps/ingame/';
+
+    // Helper to convert map name to camelCase for icon URL
+    function mapNameToCamelCase(mapName) {
+        return mapName.split(' ').map((word, index) => {
+            if (index === 0) return word;
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        }).join('');
+    }
 
     // Load data
     fetch('rbw-londonium-data.json')
@@ -403,6 +449,15 @@
         .then(data => {
             console.log('Data loaded successfully:', data);
             tournamentData = data;
+
+            // Store original data for each map
+            tournamentData.MapStats.forEach(map => {
+                originalMapData[map.MapName] = [...map.CivStats];
+            });
+            tournamentData.MapStatsTop200.forEach(map => {
+                originalMapData[map.MapName + '_top200'] = [...map.CivStats];
+            });
+
             displayStats();
             displayMaps();
         })
@@ -448,7 +503,17 @@
 
         const header = document.createElement('div');
         header.className = 'map-header';
-        header.textContent = map.MapName;
+
+        // Add map icon
+        const mapIcon = document.createElement('img');
+        mapIcon.className = 'map-icon';
+        const mapIconName = mapNameToCamelCase(map.MapName);
+        mapIcon.src = MAP_ICON_BASE + mapIconName + '.png';
+        mapIcon.alt = map.MapName;
+        mapIcon.onerror = function() { this.style.display = 'none'; };
+
+        header.appendChild(mapIcon);
+        header.appendChild(document.createTextNode(map.MapName));
         section.appendChild(header);
 
         const info = document.createElement('div');
@@ -501,7 +566,12 @@
         civs.forEach(civ => {
             const tr = document.createElement('tr');
             tr.innerHTML = `
-                <td class="civ-name">${civ.CivName}</td>
+                <td>
+                    <div class="civ-name">
+                        <img class="civ-icon" src="${CIV_ICON_BASE}${civ.CivName}.png" alt="${civ.CivName}" onerror="this.style.display='none'">
+                        <span>${civ.CivName}</span>
+                    </div>
+                </td>
                 <td>${civ.GamesPlayed}</td>
                 <td>${civ.Wins}</td>
                 <td>${civ.Losses}</td>
@@ -561,7 +631,12 @@
         top5.forEach(civ => {
             const tr = document.createElement('tr');
             tr.innerHTML = `
-                <td class="civ-name">${civ.CivName}</td>
+                <td>
+                    <div class="civ-name">
+                        <img class="civ-icon" src="${CIV_ICON_BASE}${civ.CivName}.png" alt="${civ.CivName}" onerror="this.style.display='none'">
+                        <span>${civ.CivName}</span>
+                    </div>
+                </td>
                 <td>${civ.GamesPlayed}</td>
                 <td>${civ.Wins}</td>
                 <td>${civ.Losses}</td>
@@ -597,9 +672,14 @@
     }
 
     function showAllCivs(map) {
-        currentModalData = [...map.CivStats];
+        // Use original data to avoid sorting conflicts
+        const isTop200 = document.getElementById('playerFilter').checked;
+        const originalKey = map.MapName + (isTop200 ? '_top200' : '');
+        currentModalData = [...(originalMapData[originalKey] || map.CivStats)];
+
         document.getElementById('modalTitle').textContent = `${map.MapName} - All Civilizations`;
 
+        // Reset to default sort (games played, descending)
         modalSortColumn = 1;
         modalSortDirection = 'desc';
         sortModalTable(1);
@@ -648,7 +728,12 @@
         currentModalData.forEach(civ => {
             const tr = document.createElement('tr');
             tr.innerHTML = `
-                <td class="civ-name">${civ.CivName}</td>
+                <td>
+                    <div class="civ-name">
+                        <img class="civ-icon" src="${CIV_ICON_BASE}${civ.CivName}.png" alt="${civ.CivName}" onerror="this.style.display='none'">
+                        <span>${civ.CivName}</span>
+                    </div>
+                </td>
                 <td>${civ.GamesPlayed}</td>
                 <td>${civ.Wins}</td>
                 <td>${civ.Losses}</td>
