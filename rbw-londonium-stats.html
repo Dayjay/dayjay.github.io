@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AoE2 Tournament Statistics - Jan 2-18, 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #333;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .stats-overview {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #dee2e6;
+        }
+
+        .stat-box {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        .controls {
+            padding: 20px;
+            background: #fff;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .filter-toggle {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 60px;
+            height: 30px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 30px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 22px;
+            width: 22px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(30px);
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .map-section {
+            margin-bottom: 40px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .map-header {
+            background: #34495e;
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .map-info {
+            padding: 10px 20px;
+            background: #ecf0f1;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #f8f9fa;
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th:hover {
+            background: #e9ecef;
+        }
+
+        th.sortable::after {
+            content: ' ⇅';
+            opacity: 0.5;
+        }
+
+        th.sort-asc::after {
+            content: ' ▲';
+            opacity: 1;
+        }
+
+        th.sort-desc::after {
+            content: ' ▼';
+            opacity: 1;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .civ-name {
+            font-weight: 500;
+        }
+
+        .winrate {
+            font-weight: bold;
+        }
+
+        .winrate.high {
+            color: #28a745;
+        }
+
+        .winrate.medium {
+            color: #ffc107;
+        }
+
+        .winrate.low {
+            color: #dc3545;
+        }
+
+        .show-more-btn {
+            width: 100%;
+            padding: 15px;
+            background: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .show-more-btn:hover {
+            background: #2980b9;
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 50px auto;
+            padding: 0;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 1000px;
+            max-height: 80vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-header {
+            background: #34495e;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .close {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        .close:hover {
+            opacity: 0.7;
+        }
+
+        .modal-body {
+            padding: 20px;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>🏆 AoE2 Tournament Statistics</h1>
+        <p class="subtitle">January 2-18, 2026</p>
+    </header>
+
+    <div class="stats-overview">
+        <div class="stat-box">
+            <div class="stat-value" id="totalMatches">-</div>
+            <div class="stat-label">Total Matches</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="totalPlayers">-</div>
+            <div class="stat-label">Total Players</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value" id="lastUpdated">-</div>
+            <div class="stat-label">Last Updated</div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="filter-toggle">
+            <label for="playerFilter">Show Top 200 Players Only</label>
+            <label class="toggle-switch">
+                <input type="checkbox" id="playerFilter">
+                <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+
+    <div class="content" id="mapContent">
+        <div class="loading">Loading tournament data...</div>
+    </div>
+
+    <footer>
+        Generated on <span id="footerDate">-</span> | Data source: aoe2companion.com
+    </footer>
+</div>
+
+<!-- Modal for all civilizations -->
+<div id="civModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="modalTitle">All Civilizations</h2>
+            <button class="close" onclick="closeModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <table id="modalTable">
+                <thead>
+                <tr>
+                    <th class="sortable" onclick="sortModalTable(0)">Civilization</th>
+                    <th class="sortable" onclick="sortModalTable(1)">Games Played</th>
+                    <th class="sortable" onclick="sortModalTable(2)">Wins</th>
+                    <th class="sortable" onclick="sortModalTable(3)">Losses</th>
+                    <th class="sortable" onclick="sortModalTable(4)">Win Rate</th>
+                </tr>
+                </thead>
+                <tbody id="modalTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    let tournamentData = null;
+    let currentModalData = [];
+    let modalSortColumn = 1; // Default sort by games played
+    let modalSortDirection = 'desc';
+
+    // Load data
+    fetch('aoe2-tournament-data.json')
+        .then(response => response.json())
+        .then(data => {
+            tournamentData = data;
+            displayStats();
+            displayMaps();
+        })
+        .catch(error => {
+            console.error('Error loading data:', error);
+            document.getElementById('mapContent').innerHTML = '<div class="loading">Error loading data</div>';
+        });
+
+    function displayStats() {
+        document.getElementById('totalMatches').textContent = tournamentData.TotalMatches.toLocaleString();
+        document.getElementById('totalPlayers').textContent = tournamentData.TotalPlayers.toLocaleString();
+
+        const date = new Date(tournamentData.GeneratedAt);
+        const formattedDate = date.toLocaleDateString('en-US', {
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        document.getElementById('lastUpdated').textContent = formattedDate;
+        document.getElementById('footerDate').textContent = date.toLocaleString();
+    }
+
+    function displayMaps() {
+        const isTop200 = document.getElementById('playerFilter').checked;
+        const mapStats = isTop200 ? tournamentData.MapStatsTop200 : tournamentData.MapStats;
+
+        const content = document.getElementById('mapContent');
+        content.innerHTML = '';
+
+        mapStats.forEach(map => {
+            const mapSection = createMapSection(map);
+            content.appendChild(mapSection);
+        });
+    }
+
+    function createMapSection(map) {
+        const section = document.createElement('div');
+        section.className = 'map-section';
+
+        const header = document.createElement('div');
+        header.className = 'map-header';
+        header.textContent = map.MapName;
+        section.appendChild(header);
+
+        const info = document.createElement('div');
+        info.className = 'map-info';
+        info.textContent = `${map.TotalGames} matches played`;
+        section.appendChild(info);
+
+        // Show top 5 civs
+        const top5 = map.CivStats.slice(0, 5);
+        const table = createCivTable(top5, map.MapName);
+        section.appendChild(table);
+
+        // Show more button if there are more than 5 civs
+        if (map.CivStats.length > 5) {
+            const btn = document.createElement('button');
+            btn.className = 'show-more-btn';
+            btn.textContent = `Show All ${map.CivStats.length} Civilizations`;
+            btn.onclick = () => showAllCivs(map);
+            section.appendChild(btn);
+        }
+
+        return section;
+    }
+
+    function createCivTable(civs, mapName) {
+        const table = document.createElement('table');
+
+        const thead = document.createElement('thead');
+        thead.innerHTML = `
+                <tr>
+                    <th>Civilization</th>
+                    <th>Games Played</th>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Win Rate</th>
+                </tr>
+            `;
+        table.appendChild(thead);
+
+        const tbody = document.createElement('tbody');
+        civs.forEach(civ => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                    <td class="civ-name">${civ.CivName}</td>
+                    <td>${civ.GamesPlayed}</td>
+                    <td>${civ.Wins}</td>
+                    <td>${civ.Losses}</td>
+                    <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
+                `;
+            tbody.appendChild(tr);
+        });
+        table.appendChild(tbody);
+
+        return table;
+    }
+
+    function getWinRateClass(winRate) {
+        if (winRate >= 55) return 'high';
+        if (winRate >= 45) return 'medium';
+        return 'low';
+    }
+
+    function showAllCivs(map) {
+        currentModalData = [...map.CivStats];
+        document.getElementById('modalTitle').textContent = `${map.MapName} - All Civilizations`;
+
+        modalSortColumn = 1; // Reset to games played
+        modalSortDirection = 'desc';
+        sortModalTable(1);
+
+        document.getElementById('civModal').style.display = 'block';
+    }
+
+    function sortModalTable(column) {
+        // Toggle direction if same column
+        if (modalSortColumn === column) {
+            modalSortDirection = modalSortDirection === 'asc' ? 'desc' : 'asc';
+        } else {
+            modalSortColumn = column;
+            modalSortDirection = 'desc';
+        }
+
+        // Sort data
+        currentModalData.sort((a, b) => {
+            let valA, valB;
+
+            switch(column) {
+                case 0: // Civilization name
+                    valA = a.CivName;
+                    valB = b.CivName;
+                    break;
+                case 1: // Games played
+                    valA = a.GamesPlayed;
+                    valB = b.GamesPlayed;
+                    break;
+                case 2: // Wins
+                    valA = a.Wins;
+                    valB = b.Wins;
+                    break;
+                case 3: // Losses
+                    valA = a.Losses;
+                    valB = b.Losses;
+                    break;
+                case 4: // Win rate
+                    valA = a.WinRate;
+                    valB = b.WinRate;
+                    break;
+            }
+
+            if (typeof valA === 'string') {
+                return modalSortDirection === 'asc'
+                    ? valA.localeCompare(valB)
+                    : valB.localeCompare(valA);
+            } else {
+                return modalSortDirection === 'asc'
+                    ? valA - valB
+                    : valB - valA;
+            }
+        });
+
+        updateModalTable();
+        updateSortIndicators(column);
+    }
+
+    function updateModalTable() {
+        const tbody = document.getElementById('modalTableBody');
+        tbody.innerHTML = '';
+
+        currentModalData.forEach(civ => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                    <td class="civ-name">${civ.CivName}</td>
+                    <td>${civ.GamesPlayed}</td>
+                    <td>${civ.Wins}</td>
+                    <td>${civ.Losses}</td>
+                    <td class="winrate ${getWinRateClass(civ.WinRate)}">${civ.WinRate.toFixed(2)}%</td>
+                `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    function updateSortIndicators(column) {
+        const headers = document.querySelectorAll('#modalTable th');
+        headers.forEach((th, index) => {
+            th.classList.remove('sort-asc', 'sort-desc');
+            if (index === column) {
+                th.classList.add(modalSortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
+            }
+        });
+    }
+
+    function closeModal() {
+        document.getElementById('civModal').style.display = 'none';
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        const modal = document.getElementById('civModal');
+        if (event.target === modal) {
+            closeModal();
+        }
+    }
+
+    // Filter toggle
+    document.getElementById('playerFilter').addEventListener('change', displayMaps);
+</script>
+</body>
+</html>
