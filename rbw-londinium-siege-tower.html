@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull Wololo: Londinium Ladder Siege Tower Finder</title>
+    <style>
+        * {
+            margin:  0;
+            padding: 0;
+            box-sizing:  border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e2870;
+            color: #ffffff;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+        }
+
+        a {
+            color: #fdb913;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background:  #16213e;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        
+        th {
+            background: #0f3460;
+            color: #FFFFFF;
+            padding: 15px 10px;
+            text-align:  left;
+            font-weight:  600;
+            border-bottom: 2px solid #d31133;
+            position: sticky;
+            top: 0;
+        }
+        
+        td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #2a2a4e;
+        }
+        
+        tr:hover {
+            background: #1f2f50;
+        }
+        
+        .match-id {
+            font-weight: bold;
+            color: #4fc3f7;
+            font-family: 'Courier New', monospace;
+        }
+        
+        . player-name {
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .civ {
+            color: #aaa;
+            font-size: 0.9em;
+        }
+        
+        .siege-count {
+            font-weight: bold;
+            color: #ff6b6b;
+            text-align: center;
+        }
+        
+        .time {
+            font-family: 'Courier New', monospace;
+            color: #81c784;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        
+        .confirmed {
+            text-align: center;
+            font-size: 1.3em;
+        }
+        
+        .download {
+            text-align: center;
+        }
+        
+        .download a {
+            color: #4fc3f7;
+            text-decoration: none;
+            font-size: 1.5em;
+            display: inline-block;
+        }
+               
+        .no-towers {
+            color: #666;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            th, td {
+                padding: 8px 5px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+    <script defer data-domain="dayjay.github.io" src="https://plausible.dayjay.de/js/script.js"></script>
+</head>
+<body>
+    <h1>Red Bull Wololo: Londinium Ladder Siege Tower Finder</h1>
+    
+    <div class="disclaimer" style="max-width: 1400px; margin: 0 auto 20px auto; background: #2a2a4e; padding:  15px 20px; border-radius: 8px; border-left: 4px solid #FFD700;">
+        <p style="margin-bottom: 8px; color: #ffa726; font-weight: 600;">⚠️ Important Notes:</p>
+        <ul style="margin-left: 20px; line-height: 1.6;">
+            <li>Only Siege Towers <strong>queued</strong> are tracked.  Unqueuing is not detected - towers may not have been built or could have been deleted.</li>
+            <li>Data tracks approximately the <strong>Top 200 players</strong> of the day based on peak rating.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Match ID</th>
+                    <th>Player 1</th>
+                    <th>Civ</th>
+                    <th># Towers</th>
+                    <th>First Tower Time</th>
+                    <th>Player 2</th>
+                    <th>Civ</th>
+                    <th># Towers</th>
+                    <th>First Tower Time</th>
+                    <th>Rec</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="match-id"><a href="https://www.aoe2companion.com/players/10710012/matches/448127080" target="_blank">448127080</a></td>
+                    <td class="player-name">_LY_抖音肥龙</td>
+                    <td class="civ"><img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Spanish.png" style="width: 14px; height: 14px;"> Spanish</td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:40:44</td>
+                    <td class="player-name">TAG_MbL_</td>
+                    <td class="civ"><img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Spanish.png" style="width: 14px; height: 14px;"> Spanish</td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+                    
+                    <td class="download"><a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448127080.aoe2record" target="_blank">💾</a></td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/281038/matches/448139014" target="_blank">448139014</a>
+                    </td>
+                    <td class="player-name">Ezio</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Malay.png" style="width: 14px; height: 14px;"> Malay
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:22:09</td>
+                    <td class="player-name">Rorschach (MB)</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Bulgarians.png" style="width: 14px; height: 14px;"> Bulgarians
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448139014.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/1224481/matches/448159718" target="_blank">448159718</a>
+                    </td>
+                    <td class="player-name">KASVA</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Persians.png" style="width: 14px; height: 14px;"> Persians
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+                    <td class="player-name">wR.Prisma09</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Khitans.png" style="width: 14px; height: 14px;"> Khitans
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:17:29</td>
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448159718.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/582058/matches/448165857" target="_blank">448165857</a>
+                    </td>
+
+                    <td class="player-name">Hearttt</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Burgundians.png" style="width: 14px; height: 14px;"> Burgundians
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">_LY_抖音肥龙</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Koreans.png" style="width: 14px; height: 14px;"> Koreans
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:17:47</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448165857.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/2444511/matches/448182882" target="_blank">448182882</a>
+                    </td>
+
+                    <td class="player-name">Gabi</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Spanish.png" style="width: 14px; height: 14px;"> Spanish
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">HOANG</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Celts.png" style="width: 14px; height: 14px;"> Celts
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:19:25</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448182882.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/310739/matches/448187434" target="_blank">448187434</a>
+                    </td>
+
+                    <td class="player-name">1</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Armenians.png" style="width: 14px; height: 14px;"> Armenians
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers"></td>
+
+                    <td class="player-name">HOANG</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Vietnamese.png" style="width: 14px; height: 14px;"> Vietnamese
+                    </td>
+                    <td class="siege-count">3</td>
+                    <td class="time">0:15:17</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448187434.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/2593750/matches/448208194" target="_blank">448208194</a>
+                    </td>
+
+                    <td class="player-name">_TieuQuy</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Bulgarians.png" style="width: 14px; height: 14px;"> Bulgarians
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">aly</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Koreans.png" style="width: 14px; height: 14px;"> Koreans
+                    </td>
+                    <td class="siege-count">4</td>
+                    <td class="time">0:09:34</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448208194.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/453821/matches/448236150" target="_blank">448236150</a>
+                    </td>
+
+                    <td class="player-name">Macluffy</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Mayans.png" style="width: 14px; height: 14px;"> Mayans
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">_LY_lyx</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Byzantines.png" style="width: 14px; height: 14px;"> Byzantines
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:44:28</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448236150.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/209118/matches/448246635" target="_blank">448246635</a>
+                    </td>
+
+                    <td class="player-name">TAG_Sora Kuma</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Wei.png" style="width: 14px; height: 14px;"> Wei
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:20:16</td>
+
+                    <td class="player-name">Oni.Lewis</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Wei.png" style="width: 14px; height: 14px;"> Wei
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448246635.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/2800609/matches/448247528" target="_blank">448247528</a>
+                    </td>
+
+                    <td class="player-name">Valle</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Turks.png" style="width: 14px; height: 14px;"> Turks
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">Whocl</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Romans.png" style="width: 14px; height: 14px;"> Romans
+                    </td>
+                    <td class="siege-count">2</td>
+                    <td class="time">0:10:32</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448247528.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/238236/matches/448249969" target="_blank">448249969</a>
+                    </td>
+
+                    <td class="player-name">fishing ship</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Franks.png" style="width: 14px; height: 14px;"> Franks
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">LuongQuangDang</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Koreans.png" style="width: 14px; height: 14px;"> Koreans
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:15:59</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448249969.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/3022245/matches/448253032" target="_blank">448253032</a>
+                    </td>
+
+                    <td class="player-name">dKr</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Franks.png" style="width: 14px; height: 14px;"> Franks
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:08:37</td>
+
+                    <td class="player-name">Gabi</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Wei.png" style="width: 14px; height: 14px;"> Wei
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448253032.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/4378222/matches/448260617" target="_blank">448260617</a>
+                    </td>
+
+                    <td class="player-name">Mighty Space Fruit</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Koreans.png" style="width: 14px; height: 14px;"> Koreans
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">Lucipher</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Malians.png" style="width: 14px; height: 14px;"> Malians
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:17:33</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448260617.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/6881795/matches/448267294" target="_blank">448267294</a>
+                    </td>
+
+                    <td class="player-name">无殇</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Romans.png" style="width: 14px; height: 14px;"> Romans
+                    </td>
+                    <td class="siege-count">2</td>
+                    <td class="time">0:19:52</td>
+
+                    <td class="player-name">FirebirD</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Hindustanis.png" style="width: 14px; height: 14px;"> Hindustanis
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448267294.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/389416/matches/448280163" target="_blank">448280163</a>
+                    </td>
+
+                    <td class="player-name">rain</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Magyars.png" style="width: 14px; height: 14px;"> Magyars
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">那傢伙竟然敢無視燈</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Armenians.png" style="width: 14px; height: 14px;"> Armenians
+                    </td>
+                    <td class="siege-count">3</td>
+                    <td class="time">0:14:13</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448280163.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/220114/matches/448286330" target="_blank">448286330</a>
+                    </td>
+
+                    <td class="player-name">rosso</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Koreans.png" style="width: 14px; height: 14px;"> Koreans
+                    </td>
+                    <td class="siege-count">2</td>
+                    <td class="time">0:19:07</td>
+
+                    <td class="player-name">MerlinAoE</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Shu.png" style="width: 14px; height: 14px;"> Shu
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448286330.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/14725904/matches/448289596" target="_blank">448289596</a>
+                    </td>
+
+                    <td class="player-name">OS+ | Sziky</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Chinese.png" style="width: 14px; height: 14px;"> Chinese
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:20:07</td>
+
+                    <td class="player-name">_LY_抖音灵魂导师</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Teutons.png" style="width: 14px; height: 14px;"> Teutons
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448289596.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/663341/matches/448294210" target="_blank">448294210</a>
+                    </td>
+
+                    <td class="player-name">Kubiasty</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Koreans.png" style="width: 14px; height: 14px;"> Koreans
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:09:39</td>
+
+                    <td class="player-name">CapitánOnce</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Portuguese.png" style="width: 14px; height: 14px;"> Portuguese
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448294210.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/4378222/matches/448296379" target="_blank">448296379</a>
+                    </td>
+
+                    <td class="player-name">Mighty Space Fruit</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Jurchens.png" style="width: 14px; height: 14px;"> Jurchens
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    <td class="player-name">Kubiasty</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Koreans.png" style="width: 14px; height: 14px;"> Koreans
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:12:26</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448296379.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/22414257/matches/448300097" target="_blank">448300097</a>
+                    </td>
+
+                    <td class="player-name">stephug</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Saracens.png" style="width: 14px; height: 14px;"> Saracens
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:11:25</td>
+
+                    <td class="player-name">Alneryus</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Teutons.png" style="width: 14px; height: 14px;"> Teutons
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448300097.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="match-id">
+                        <a href="https://www.aoe2companion.com/players/5462150/matches/448306907" target="_blank">448306907</a>
+                    </td>
+
+                    <td class="player-name">guramata</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Malians.png" style="width: 14px; height: 14px;"> Malians
+                    </td>
+                    <td class="siege-count">1</td>
+                    <td class="time">0:16:23</td>
+
+                    <td class="player-name">我你她这那 什么时候</td>
+                    <td class="civ">
+                        <img src="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/civs/Tatars.png" style="width: 14px; height: 14px;"> Tatars
+                    </td>
+                    <td class="no-towers">0</td>
+                    <td class="no-towers">-</td>
+
+                    
+                    <td class="download">
+                        <a href="https://ljdejjmgsxsvxpepdafe.supabase.co/storage/v1/object/public/recs/AgeIIDE_Replay_448306907.aoe2record" target="_blank">💾</a>
+                    </td>
+                </tr>
+
+                               
+            </tbody>
+        </table>
+    </div>
+
+<footer style="max-width: 1400px; margin: 40px auto 20px auto; padding: 20px; border-top: 2px solid #ffffff; text-align: center; color: #888; font-size: 0.9em; line-height: 1.8;">
+        <p style="margin-bottom: 15px; color: #ffffff;">Generated on 15.1.2026, 11:00:00</p>
+        <hr style="border: none; border-top: 1px solid #2a2a4e; margin: 15px 0;">
+        <p style="font-size: 0.85em;">This website was created under <a href="https://www.xbox.com/en-us/developers/rules" target="_blank">Microsoft's "Game Content Usage Rules"</a> using assets from Age of Empires II and Age of Empires II:  Definitive Edition and it is not endorsed by or affiliated with Microsoft.</p>
+        <p style="font-size:  0.85em; margin-top: 5px;">Age of Empires II: Definitive Edition © Microsoft Corporation.</p>
+    </footer>
+
+</body>
+</html>
