@@ -1,5 +1,5 @@
 {
-  "GeneratedAt": "2026-01-16T17:33:22.1911543Z",
+  "GeneratedAt": "2026-01-16T17:41:19.6214668Z",
   "TotalMatches": 66902,
   "TotalPlayers": 9321,
   "MapStats": [
@@ -14549,5 +14549,79 @@
         }
       ]
     }
-  ]
+  ],
+  "DailyStats": [
+    {
+      "Date": "2026-01-02T00:00:00Z",
+      "UniquePlayers": 1291,
+      "TotalMatches": 2914
+    },
+    {
+      "Date": "2026-01-03T00:00:00Z",
+      "UniquePlayers": 2500,
+      "TotalMatches": 6666
+    },
+    {
+      "Date": "2026-01-04T00:00:00Z",
+      "UniquePlayers": 2496,
+      "TotalMatches": 6039
+    },
+    {
+      "Date": "2026-01-05T00:00:00Z",
+      "UniquePlayers": 2243,
+      "TotalMatches": 5405
+    },
+    {
+      "Date": "2026-01-06T00:00:00Z",
+      "UniquePlayers": 2248,
+      "TotalMatches": 5503
+    },
+    {
+      "Date": "2026-01-07T00:00:00Z",
+      "UniquePlayers": 2196,
+      "TotalMatches": 5030
+    },
+    {
+      "Date": "2026-01-08T00:00:00Z",
+      "UniquePlayers": 2142,
+      "TotalMatches": 4753
+    },
+    {
+      "Date": "2026-01-09T00:00:00Z",
+      "UniquePlayers": 2210,
+      "TotalMatches": 4733
+    },
+    {
+      "Date": "2026-01-10T00:00:00Z",
+      "UniquePlayers": 2248,
+      "TotalMatches": 5065
+    },
+    {
+      "Date": "2026-01-11T00:00:00Z",
+      "UniquePlayers": 2192,
+      "TotalMatches": 4993
+    },
+    {
+      "Date": "2026-01-12T00:00:00Z",
+      "UniquePlayers": 1919,
+      "TotalMatches": 4067
+    },
+    {
+      "Date": "2026-01-13T00:00:00Z",
+      "UniquePlayers": 1876,
+      "TotalMatches": 3940
+    },
+    {
+      "Date": "2026-01-14T00:00:00Z",
+      "UniquePlayers": 1833,
+      "TotalMatches": 3779
+    },
+    {
+      "Date": "2026-01-15T00:00:00Z",
+      "UniquePlayers": 1849,
+      "TotalMatches": 4015
+    }
+  ],
+  "TotalGamesTop200": 13135,
+  "TotalMirrorMatches": 5632
 }
