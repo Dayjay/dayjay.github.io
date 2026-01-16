@@ -238,11 +238,6 @@
             font-size: 0.9em;
         }
 
-        .top200-wr {
-            font-weight: bold;
-            color: #1a1d4d;
-        }
-
         .winrate {
             font-weight: bold;
         }
@@ -595,7 +590,7 @@
 
             // Add Top 200 WR column only when Top 200 filter is active
             const top200HTML = isTop200
-                ? `<td class="top200-wr ${getWinRateClass(civ.Top200WinRate)}">${civ.Top200WinRate.toFixed(2)}%</td>`
+                ? `<td class="winrate ${getWinRateClass(civ.Top200WinRate)}">${civ.Top200WinRate.toFixed(2)}%</td>`
                 : '';
 
             tr.innerHTML = baseHTML + top200HTML;
@@ -714,7 +709,7 @@
             `;
 
             const top200HTML = isTop200
-                ? `<td class="top200-wr ${getWinRateClass(civ.Top200WinRate)}">${civ.Top200WinRate.toFixed(2)}%</td>`
+                ? `<td class="winrate ${getWinRateClass(civ.Top200WinRate)}">${civ.Top200WinRate.toFixed(2)}%</td>`
                 : '';
 
             tr.innerHTML = baseHTML + top200HTML;
